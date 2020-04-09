@@ -1,8 +1,10 @@
 <script>
   import insertTextAtCursor from "insert-text-at-cursor";
   import { onMount } from "svelte";
-  import syllableParser from "./syllableParser.js";
-  import cuneiformsGenerator from "./cuneiformsGenerator.js";
+  import syllableParser from "./utils/syllableParser.js";
+  import cuneiformsGenerator from "./utils/cuneiformsGenerator.js";
+  import dictionarySearch from "./utils/dictionarySearch.js";
+  import stressMarker from "./utils/stressMarker.js";
   import store from "./store.js";
 
   let newLinesPos = [];
@@ -53,7 +55,6 @@
       });
     }
     const words = text.split(/\s/g);
-    //store.updateWords(words);
     // parses syllables
     parsedSyllables = words.map((word, index) => syllableParser(word, index));
     // generates cuneiforms
@@ -63,6 +64,46 @@
     }));
     store.updateSyllables(parsedSyllables);
     store.updateCuneiforms(cuneiforms);
+    // search words in dictionary
+    words.forEach(word => {
+      const searchWords = dictionarySearch(word);
+      if (searchWords.entry) {
+        if (
+          !$store.suggestions.filter(
+            sugg => sugg.word === searchWords.word && sugg.type === "dictionary"
+          ).length
+        ) {
+          store.addSuggestion({
+            word: searchWords.word,
+            text: `<span>${searchWords.word}</span><br/><span class="cuneiform-sign">${searchWords.entry.cuneiform.sign}</span>`,
+            type: "dictionary"
+          });
+        }
+      }
+    });
+    // cleans up suggestions that are not in the text anymore
+    $store.suggestions.map(sugg => {
+      if (sugg.type === "dictionary" && !words.includes(sugg.word)) {
+        store.removeSuggestion(sugg.word, "dictionary");
+      }
+    });
+    // creates stress markers for words
+    const stressedWords = Object.keys($store.words).map(word =>
+      stressMarker(word, $store.words[word])
+    );
+    store.updateStressedWords(stressedWords);
+  };
+
+  const displayStress = word => {
+    if (word.stressPosition === undefined) return "---";
+
+    return (
+      word.word.slice(0, word.stressPosition) +
+      "<strong><u>" +
+      word.word[word.stressPosition] +
+      "</u></strong>" +
+      word.word.slice(word.stressPosition + 1)
+    );
   };
 
   onMount(() => {
@@ -106,6 +147,7 @@ itti ṭuppātim šaṭrātim šuati
     white-space: nowrap;
     transition: 0.4s;
   }
+
   .cuneiform-word:hover {
     border: solid 2px orange;
   }
@@ -120,10 +162,12 @@ itti ṭuppātim šaṭrātim šuati
       on:input={processInput}
       value={$store.input}
       placeholder="Type your text here" />
-    <div class="tabs is-toggle is-centered is-small">
+    <div class="tabs is-toggle is-centered is-small ">
       <ul>
         {#each charCorrespondences as chars}
-          <li on:click={() => insertTextAtCursor(textareaRef, chars.char)}>
+          <li
+            class="has-background-white"
+            on:click={() => insertTextAtCursor(textareaRef, chars.char)}>
             <a href="#">
               {chars.char}
               <span class="latin-code is-size-7">({chars.corr})</span>
@@ -139,7 +183,9 @@ itti ṭuppātim šaṭrātim šuati
             <tbody>
               {#each $store.suggestions as sugg}
                 <tr>
-                  <td>{sugg.text}</td>
+                  <td class="is-size-7">
+                    {@html sugg.text}
+                  </td>
                 </tr>
               {:else}
                 <tr>
@@ -155,8 +201,12 @@ itti ṭuppātim šaṭrātim šuati
               <span
                 class="cuneiform-sign cuneiform-word is-size-4"
                 data-word={word}
-                on:mouseover={() => store.addSuggestion({ text: word })}
-                on:mouseout={() => store.removeSuggestion(word)}>
+                on:mouseover={() => store.addSuggestion({
+                    word,
+                    text: `<span style="border: solid 2px orange;padding:2px 5px;border-radius: 10px">${word}</span>`,
+                    type: 'hover'
+                  })}
+                on:mouseout={() => store.removeSuggestion(word, 'hover')}>
                 {#each $store.words[word].cuneiforms as symbol}
                   <span class="has-tooltip-top" data-tooltip={symbol.syllable}>
                     {#each symbol.cuneiforms as cuneiform}
@@ -171,6 +221,17 @@ itti ṭuppātim šaṭrātim šuati
             {:else}Ø{/if}
           {:else}Cuneiform Rendering{/each}
         </div>
+      </div>
+    </div>
+    <div class="box">
+      <h3 class="subtitle">Stress:</h3>
+      <div>
+        {#each $store.stressedWords as word, index}
+          <span>
+            {@html displayStress(word).trim()}
+          </span>
+          {#if index < $store.stressedWords.length - 1}-&nbsp;{/if}
+        {:else}No input{/each}
       </div>
     </div>
     <div class="box">

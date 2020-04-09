@@ -5,6 +5,7 @@ const store = () => {
     input: "",
     words: {},
     suggestions: [],
+    stressedWords: [],
   });
 
   return {
@@ -43,14 +44,22 @@ const store = () => {
     addSuggestion: (sugg) => {
       update((currentStore) => ({
         ...currentStore,
-        suggestions: [...currentStore.suggestions, sugg],
+        suggestions:
+          sugg.type === "hover"
+            ? [sugg, ...currentStore.suggestions]
+            : [...currentStore.suggestions, sugg],
       }));
     },
-    removeSuggestion: (sugg) => {
+    removeSuggestion: (sugg, type) => {
       update((currentStore) => ({
         ...currentStore,
-        suggestions: currentStore.suggestions.filter((el) => el.text !== sugg),
+        suggestions: currentStore.suggestions.filter(
+          (el) => el.word !== sugg || el.type !== type
+        ),
       }));
+    },
+    updateStressedWords: (words) => {
+      update((currentStore) => ({ ...currentStore, stressedWords: words }));
     },
   };
 };

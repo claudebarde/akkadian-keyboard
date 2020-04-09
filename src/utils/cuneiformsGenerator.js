@@ -1,4 +1,4 @@
-import syllabary from "./syllabary.json";
+import syllabary from "../databases/syllabary.json";
 
 const longVowels = ["ā", "ē", "ī", "ū", "â", "ê", "î", "û"];
 const shortVowels = ["a", "e", "i", "u"];

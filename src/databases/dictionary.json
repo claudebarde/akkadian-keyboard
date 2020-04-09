@@ -1,0 +1,18 @@
+{
+  "m": {
+    "mātum": {
+      "category": "noun",
+      "cuneiform": {
+        "sign": "𒆳",
+        "utf8": "121B3",
+        "meaning": ["country", "land"]
+      }
+    }
+  },
+  "š": {
+    "šarrum": {
+      "category": "noun",
+      "cuneiform": { "sign": "𒈗", "utf8": "12217", "meaning": ["king"] }
+    }
+  }
+}
