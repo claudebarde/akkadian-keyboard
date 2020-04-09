@@ -5,13 +5,10 @@
   import cuneiformsGenerator from "./cuneiformsGenerator.js";
   import store from "./store.js";
 
-  let info = [];
-  let suggestions = [];
   let newLinesPos = [];
-  let result, textareaRef;
+  let textareaRef;
 
   $: if ($store.input.length === 0) {
-    info = [];
     newLinesPos = [];
   }
 
@@ -66,15 +63,6 @@
     }));
     store.updateSyllables(parsedSyllables);
     store.updateCuneiforms(cuneiforms);
-    console.log($store);
-
-    /*info = parsedSyllables.map((el, index) => ({
-      ...el,
-      cuneiformBreakDown: cuneiforms[index]
-        .map(el => el.cuneiformBreakDown)
-        .flat(Infinity),
-      cuneiforms: cuneiforms[index].map(el => el.cuneiforms).flat(Infinity)
-    }));*/
   };
 
   onMount(() => {
@@ -149,7 +137,7 @@ itti ṭuppātim šaṭrātim šuati
         <div class="column is-one-fifth">
           <table class="table">
             <tbody>
-              {#each suggestions as sugg}
+              {#each $store.suggestions as sugg}
                 <tr>
                   <td>{sugg.text}</td>
                 </tr>
@@ -167,8 +155,8 @@ itti ṭuppātim šaṭrātim šuati
               <span
                 class="cuneiform-sign cuneiform-word is-size-4"
                 data-word={word}
-                on:mouseover={() => (suggestions = [...suggestions, { text: word }])}
-                on:mouseout={() => (suggestions = suggestions.filter(el => el.text !== word))}>
+                on:mouseover={() => store.addSuggestion({ text: word })}
+                on:mouseout={() => store.removeSuggestion(word)}>
                 {#each $store.words[word].cuneiforms as symbol}
                   <span class="has-tooltip-top" data-tooltip={symbol.syllable}>
                     {#each symbol.cuneiforms as cuneiform}
@@ -209,7 +197,7 @@ itti ṭuppātim šaṭrātim šuati
                   </td>
                 </tr>
                 <tr>
-                  <td>Cuneiform Break Down</td>
+                  <td>Cuneiform Breakdown</td>
                   <td>
                     {$store.words[word].syllables === 'ERROR' ? 'ERROR' : $store.words[
                           word
