@@ -3,14 +3,16 @@
   import { onMount } from "svelte";
   import syllableParser from "./syllableParser.js";
   import cuneiformsGenerator from "./cuneiformsGenerator.js";
+  import store from "./store.js";
 
-  let input = "";
   let info = [];
   let suggestions = [];
-  let result, textareaRef, parsedSyllables, cuneiforms;
+  let newLinesPos = [];
+  let result, textareaRef;
 
-  $: if (input.length === 0) {
+  $: if ($store.input.length === 0) {
     info = [];
+    newLinesPos = [];
   }
 
   let charCorrespondences = [
@@ -29,6 +31,7 @@
   ];
 
   const processInput = event => {
+    let parsedSyllables, cuneiforms;
     let text = event.target.value;
     // replaces unformated values
     charCorrespondences.forEach(pair => {
@@ -36,24 +39,42 @@
       text = text.toLowerCase().replace(regex, pair.char);
     });
     // updates input
-    input = text;
+    store.updateInput(text);
+    // removes all punctuation
+    text = text.trim().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    // calculates new lines positions in textarea to insert <br> in cuneiforms rendering
+    const lines = text.split(/[\r\n]/);
+    newLinesPos = [];
+    if (lines.length > 1) {
+      // found new line(s)
+      lines.forEach(str => {
+        const lastPos = str.split(/ +/g).length;
+        newLinesPos =
+          newLinesPos.length === 0
+            ? [lastPos]
+            : [...newLinesPos, lastPos + newLinesPos[newLinesPos.length - 1]];
+      });
+    }
+    const words = text.split(/\s/g);
+    //store.updateWords(words);
     // parses syllables
-    parsedSyllables = text
-      .trim()
-      .split(/\s/g)
-      .map(word => syllableParser(word));
+    parsedSyllables = words.map((word, index) => syllableParser(word, index));
     // generates cuneiforms
-    cuneiforms = parsedSyllables.map(syllables =>
-      cuneiformsGenerator(syllables.syllables)
-    );
+    cuneiforms = parsedSyllables.map(syllables => ({
+      word: syllables.word,
+      cuneiforms: cuneiformsGenerator(syllables.syllables)
+    }));
+    store.updateSyllables(parsedSyllables);
+    store.updateCuneiforms(cuneiforms);
+    console.log($store);
 
-    info = parsedSyllables.map((el, index) => ({
+    /*info = parsedSyllables.map((el, index) => ({
       ...el,
       cuneiformBreakDown: cuneiforms[index]
         .map(el => el.cuneiformBreakDown)
         .flat(Infinity),
       cuneiforms: cuneiforms[index].map(el => el.cuneiforms).flat(Infinity)
-    }));
+    }));*/
   };
 
   onMount(() => {
@@ -86,14 +107,15 @@ itti ṭuppātim šaṭrātim šuati
   }
 
   .cuneiforms {
-    overflow-wrap: break-word;
     min-height: 80px;
+    line-height: 2 !important;
   }
 
   .cuneiform-word {
-    padding: 5px 2px;
-    border: solid 2px white;
+    padding: 0px;
+    border: solid 2px transparent;
     border-radius: 10px;
+    white-space: nowrap;
     transition: 0.4s;
   }
   .cuneiform-word:hover {
@@ -108,7 +130,7 @@ itti ṭuppātim šaṭrātim šuati
       class="input"
       id="textarea-input"
       on:input={processInput}
-      value={input}
+      value={$store.input}
       placeholder="Type your text here" />
     <div class="tabs is-toggle is-centered is-small">
       <ul>
@@ -122,7 +144,7 @@ itti ṭuppātim šaṭrātim šuati
         {/each}
       </ul>
     </div>
-    <div class="box cuneiforms">
+    <div class="box">
       <div class="columns">
         <div class="column is-one-fifth">
           <table class="table">
@@ -139,22 +161,25 @@ itti ṭuppātim šaṭrātim šuati
             </tbody>
           </table>
         </div>
-        <div class="column is-four-fifths">
-          {#each info as el}
-            {#if el.syllables !== 'ERROR'}
+        <div class="column is-four-fifths cuneiforms">
+          {#each Object.keys($store.words) as word}
+            {#if $store.words[word].syllables !== 'ERROR'}
               <span
                 class="cuneiform-sign cuneiform-word is-size-4"
-                data-word={el.word}
-                on:mouseover={() => (suggestions = [...suggestions, { text: el.word }])}
-                on:mouseout={() => (suggestions = suggestions.filter(el => el.text === el.word))}>
-                {#each el.cuneiforms as symbol, index}
-                  <span
-                    class="has-tooltip-top"
-                    data-tooltip={el.cuneiformBreakDown[index]}>
-                    {symbol.sign}
+                data-word={word}
+                on:mouseover={() => (suggestions = [...suggestions, { text: word }])}
+                on:mouseout={() => (suggestions = suggestions.filter(el => el.text !== word))}>
+                {#each $store.words[word].cuneiforms as symbol}
+                  <span class="has-tooltip-top" data-tooltip={symbol.syllable}>
+                    {#each symbol.cuneiforms as cuneiform}
+                      {cuneiform.sign}
+                    {/each}
                   </span>
                 {:else}Ø{/each}
               </span>
+              {#if newLinesPos.includes($store.words[word].position)}
+                <br />
+              {/if}
             {:else}Ø{/if}
           {:else}Cuneiform Rendering{/each}
         </div>
@@ -163,7 +188,7 @@ itti ṭuppātim šaṭrātim šuati
     <div class="box">
       <h3 class="subtitle">Information:</h3>
       <div class="columns is-multiline">
-        {#each info as el}
+        {#each Object.keys($store.words) as word}
           <div class="column is-half">
             <table
               class="table is-bordered is-striped is-narrow is-hoverable
@@ -171,22 +196,26 @@ itti ṭuppātim šaṭrātim šuati
               <tbody>
                 <tr>
                   <td>Word</td>
-                  <td>{el.word}</td>
+                  <td>{word}</td>
                 </tr>
                 <tr>
                   <td>Syllable Count</td>
-                  <td>{el.syllableCount}</td>
+                  <td>{$store.words[word].syllableCount}</td>
                 </tr>
                 <tr>
                   <td>Syllables</td>
                   <td>
-                    {el.syllables === 'ERROR' ? 'ERROR' : el.syllables.join('/')}
+                    {$store.words[word].syllables === 'ERROR' ? 'ERROR' : $store.words[word].syllables.join('/')}
                   </td>
                 </tr>
                 <tr>
                   <td>Cuneiform Break Down</td>
                   <td>
-                    {el.syllables === 'ERROR' ? 'ERROR' : el.cuneiformBreakDown.join('-')}
+                    {$store.words[word].syllables === 'ERROR' ? 'ERROR' : $store.words[
+                          word
+                        ].cuneiforms
+                          .map(symbol => symbol.cuneiformBreakDown.join('-'))
+                          .join('-')}
                   </td>
                 </tr>
               </tbody>

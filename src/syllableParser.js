@@ -46,7 +46,7 @@ const lastIndexOfCVC = (string) => {
   return lastIndexOf;
 };
 
-export default (word) => {
+export default (word, wordPos) => {
   // counts vowel to verify number of syllables
   let string = word;
   let syllables = [];
@@ -106,6 +106,7 @@ export default (word) => {
 
   return {
     word,
+    position: wordPos + 1,
     syllableCount: syllableCount(word),
     syllables: syllables.length === syllableCount(word) ? syllables : "ERROR",
   };
