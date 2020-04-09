@@ -151,8 +151,30 @@ itti ṭuppātim šaṭrātim šuati
   .cuneiform-word:hover {
     border: solid 2px orange;
   }
+
+  .top-left-corner {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  .top-right-corner {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
 </style>
 
+<div class="image is-64x64 top-left-corner">
+  <img src="logo.png" alt="logo" />
+</div>
+<div class="image is-28x28 top-right-corner">
+  <a
+    href="https://github.com/claudebarde/akkadian-keyboard"
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="github.svg" alt="github" />
+  </a>
+</div>
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
@@ -195,7 +217,7 @@ itti ṭuppātim šaṭrātim šuati
             </tbody>
           </table>
         </div>
-        <div class="column is-four-fifths cuneiforms">
+        <div class="column is-four-fifths cuneiforms has-text-left">
           {#each Object.keys($store.words) as word}
             {#if $store.words[word].syllables !== 'ERROR'}
               <span
