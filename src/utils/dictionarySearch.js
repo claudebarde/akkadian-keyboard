@@ -9,7 +9,7 @@ export default (word) => {
   if (glossary) {
     const glossaryEntry = glossary[word];
     if (glossaryEntry) {
-      return { word, entry: glossaryEntry };
+      return { word, baseForm: true, entry: glossaryEntry };
     } else {
       /*
        * CHECKS IF WORD MAY BE A NOUN
@@ -18,10 +18,21 @@ export default (word) => {
       const mimationEnding = word.slice(-2);
       const plMascEnding = word.slice(-1);
       if (["im", "am", "ān", "īn"].includes(mimationEnding)) {
+        // saves case
+        let decl =
+          mimationEnding === "im" || mimationEnding === "īn"
+            ? "genitive"
+            : "accusative";
+        // searches word
         const entry = word.slice(0, -2) + "um";
         const glossaryEntry = glossary[entry];
         if (glossaryEntry) {
-          return { word, info: `(${entry})`, entry: glossaryEntry };
+          return {
+            word,
+            baseForm: false,
+            info: { text: `(${entry})`, case: decl },
+            entry: glossaryEntry,
+          };
         } else {
           return { word, error: "Word not found" };
         }
@@ -29,7 +40,15 @@ export default (word) => {
         const entry = word.slice(0, -1) + "um";
         const glossaryEntry = glossary[entry];
         if (glossaryEntry) {
-          return { word, info: `(${entry})`, entry: glossaryEntry };
+          return {
+            word,
+            baseForm: false,
+            info: {
+              text: `(${entry})`,
+              case: plMascEnding === "ū" ? "nominative" : "genitive/accusative",
+            },
+            entry: glossaryEntry,
+          };
         } else {
           return { word, error: "Word not found" };
         }

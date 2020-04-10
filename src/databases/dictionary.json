@@ -1,8 +1,130 @@
 {
+  "a": {
+    "abum": {
+      "category": "noun",
+      "boundForm": ["abi"],
+      "gender": "masc",
+      "plural": "abbū",
+      "cuneiform": {
+        "sign": "𒀊",
+        "utf8": "1200A",
+        "meaning": ["father"]
+      }
+    },
+    "aḫum": {
+      "category": "noun",
+      "boundForm": ["aḫi"],
+      "gender": "masc",
+      "plural": "aḫḫū",
+      "cuneiform": {
+        "sign": "𒋀",
+        "utf8": "122C0",
+        "meaning": ["brother"]
+      }
+    },
+    "alpum": {
+      "category": "noun",
+      "boundForm": ["alap"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒄞",
+        "utf8": "1211E",
+        "meaning": ["ox"]
+      }
+    },
+    "amtum": {
+      "category": "noun",
+      "boundForm": ["amat"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒊩𒆳",
+        "utf8": "122A9-121B3",
+        "meaning": ["maid", "female servant"]
+      }
+    },
+    "aššatum": {
+      "category": "noun",
+      "boundForm": ["aššat"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒁮",
+        "utf8": "1206E",
+        "meaning": ["wife"]
+      }
+    },
+    "awīlum": {
+      "category": "noun",
+      "boundForm": ["awīl"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒇽",
+        "utf8": "121FD",
+        "meaning": ["man", "human being"]
+      }
+    }
+  },
+  "ā": {
+    "ālum": {
+      "category": "noun",
+      "boundForm": ["āl", "āli"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒌷𒆠",
+        "utf8": "1211E-121A0",
+        "meaning": ["city", "town"]
+      }
+    }
+  },
+  "b": {
+    "bēltum": {
+      "category": "noun",
+      "boundForm": ["bēlet"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒎏",
+        "utf8": "1238F",
+        "meaning": ["lady"]
+      }
+    },
+    "bēlum": {
+      "category": "noun",
+      "boundForm": ["bēl", "bēli"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒂗",
+        "utf8": "12097",
+        "meaning": ["lord"]
+      }
+    },
+    "bītum": {
+      "category": "noun",
+      "boundForm": ["bīt"],
+      "gender": "masc",
+      "plural": "bītātum",
+      "cuneiform": {
+        "sign": "𒂍",
+        "utf8": "1208D",
+        "meaning": ["house"]
+      }
+    }
+  },
+  "d": {
+    "dannatum": {
+      "category": "noun",
+      "boundForm": ["dannat"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒆠𒆗",
+        "utf8": "121A0-12197",
+        "meaning": ["fortress"]
+      }
+    }
+  },
   "m": {
     "mātum": {
       "category": "noun",
       "boundForm": ["māt"],
+      "gender": "fem",
       "cuneiform": {
         "sign": "𒆳",
         "utf8": "121B3",
@@ -14,6 +136,7 @@
     "šarrum": {
       "category": "noun",
       "boundForm": ["šar"],
+      "gender": "masc",
       "cuneiform": { "sign": "𒈗", "utf8": "12217", "meaning": ["king"] }
     }
   }

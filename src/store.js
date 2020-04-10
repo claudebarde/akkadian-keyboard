@@ -6,6 +6,7 @@ const store = () => {
     words: {},
     suggestions: [],
     stressedWords: [],
+    syllabogramsToSwitch: {},
   });
 
   return {
@@ -63,6 +64,15 @@ const store = () => {
     },
     updateStressedWords: (words) => {
       update((currentStore) => ({ ...currentStore, stressedWords: words }));
+    },
+    addLogogram: (logogram) => {
+      update((currentStore) => ({
+        ...currentStore,
+        syllabogramsToSwitch: {
+          ...currentStore.syllabogramsToSwitch,
+          [logogram.word]: logogram.sign,
+        },
+      }));
     },
   };
 };
