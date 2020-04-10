@@ -2,6 +2,7 @@
   "m": {
     "mātum": {
       "category": "noun",
+      "boundForm": ["māt"],
       "cuneiform": {
         "sign": "𒆳",
         "utf8": "121B3",
@@ -12,6 +13,7 @@
   "š": {
     "šarrum": {
       "category": "noun",
+      "boundForm": ["šar"],
       "cuneiform": { "sign": "𒈗", "utf8": "12217", "meaning": ["king"] }
     }
   }

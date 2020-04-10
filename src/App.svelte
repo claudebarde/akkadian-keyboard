@@ -12,6 +12,7 @@
 
   $: if ($store.input.length === 0) {
     newLinesPos = [];
+    store.resetWords();
   }
 
   let charCorrespondences = [
@@ -68,6 +69,7 @@
     words.forEach(word => {
       const searchWords = dictionarySearch(word);
       if (searchWords.entry) {
+        // prevents double entries
         if (
           !$store.suggestions.filter(
             sugg => sugg.word === searchWords.word && sugg.type === "dictionary"
@@ -75,7 +77,11 @@
         ) {
           store.addSuggestion({
             word: searchWords.word,
-            text: `<span>${searchWords.word}</span><br/><span class="cuneiform-sign">${searchWords.entry.cuneiform.sign}</span>`,
+            text: `<span>${searchWords.word}</span><br/>${
+              searchWords.info ? searchWords.info + "<br/>" : ""
+            }<span class="cuneiform-sign">${
+              searchWords.entry.cuneiform.sign
+            }</span>`,
             type: "dictionary"
           });
         }
@@ -205,9 +211,15 @@ itti ṭuppātim šaṭrātim šuati
             <tbody>
               {#each $store.suggestions as sugg}
                 <tr>
-                  <td class="is-size-7">
-                    {@html sugg.text}
-                  </td>
+                  {#if sugg.type === 'dictionary'}
+                    <td class="is-size-7" style="cursor:pointer">
+                      {@html sugg.text}
+                    </td>
+                  {:else}
+                    <td class="is-size-7">
+                      {@html sugg.text}
+                    </td>
+                  {/if}
                 </tr>
               {:else}
                 <tr>

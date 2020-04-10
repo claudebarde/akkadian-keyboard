@@ -13,6 +13,9 @@ const store = () => {
     updateInput: (input) => {
       update((currentStore) => ({ ...currentStore, input }));
     },
+    resetWords: () => {
+      update((currentStore) => ({ ...currentStore, words: {} }));
+    },
     updateSyllables: (syllables) => {
       update((currentStore) => ({
         ...currentStore,

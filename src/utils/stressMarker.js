@@ -1,3 +1,5 @@
+const vowels = ["a", "e", "i", "u", "ā", "ē", "ī", "ū", "â", "ê", "î", "û"];
+
 export default (word, info) => {
   if (info.syllables === "ERROR") return { word, stressPosition: undefined };
 
@@ -21,7 +23,7 @@ export default (word, info) => {
     if (stressedSyllable) {
       // calculates position
       let position = undefined;
-      if (["a", "e", "i", "u"].includes(stressedSyllable[0])) {
+      if (vowels.includes(stressedSyllable[0])) {
         position = word.lastIndexOf(stressedSyllable);
       } else {
         position = word.lastIndexOf(stressedSyllable) + 1;
