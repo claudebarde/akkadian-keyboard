@@ -179,12 +179,21 @@ itti ṭuppātim šaṭrātim šuati
     right: 10px;
     font-size: 0.5rem;
   }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .mobile-links div {
+    margin: 0px 5px;
+  }
 </style>
 
-<div class="image is-64x64 top-left-corner">
+<div class="image is-64x64 top-left-corner is-hidden-touch">
   <img src="logo.png" alt="logo" />
 </div>
-<div class="top-right-corner">
+<div class="top-right-corner is-hidden-touch">
   <div class="image is-28x28">
     <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSfbvc2XGv0ePLXQsrYUAVecO72dc6UYDojAC7W6cV3nVoVjGA/viewform"
@@ -202,7 +211,7 @@ itti ṭuppātim šaṭrātim šuati
     </a>
   </div>
 </div>
-<div class="bottom-right-corner">Claude Barde 2020</div>
+<div class="bottom-right-corner is-hidden-touch">Claude Barde 2020</div>
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
@@ -330,6 +339,35 @@ itti ṭuppātim šaṭrātim šuati
           <div class="column is-fullwidth has-text-centered">No info</div>
         {/each}
       </div>
+    </div>
+  </div>
+</div>
+<!-- ONLY VISIBLE ON MOBILE-->
+<div
+  class="columns is-vcentered is-hidden-desktop is-mobile"
+  style="padding:10px 0px">
+  <div class="column is-one-third">
+    <img class="image is-48x48" src="logo.png" alt="logo" />
+  </div>
+  <div class="column is-one-third has-text-centered is-size-7">
+    Claude Barde 2020
+  </div>
+  <div class="column is-one-third mobile-links">
+    <div class="image is-24x24">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfbvc2XGv0ePLXQsrYUAVecO72dc6UYDojAC7W6cV3nVoVjGA/viewform"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="mail.svg" alt="contact" />
+      </a>
+    </div>
+    <div class="image is-24x24">
+      <a
+        href="https://github.com/claudebarde/akkadian-keyboard"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="github.svg" alt="github" />
+      </a>
     </div>
   </div>
 </div>
