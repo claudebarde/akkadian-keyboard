@@ -21,7 +21,7 @@ export default (word) => {
         const entry = word.slice(0, -2) + "um";
         const glossaryEntry = glossary[entry];
         if (glossaryEntry) {
-          return { word, info: `(from ${entry})`, entry: glossaryEntry };
+          return { word, info: `(${entry})`, entry: glossaryEntry };
         } else {
           return { word, error: "Word not found" };
         }
@@ -29,7 +29,7 @@ export default (word) => {
         const entry = word.slice(0, -1) + "um";
         const glossaryEntry = glossary[entry];
         if (glossaryEntry) {
-          return { word, info: `(from ${entry})`, entry: glossaryEntry };
+          return { word, info: `(${entry})`, entry: glossaryEntry };
         } else {
           return { word, error: "Word not found" };
         }

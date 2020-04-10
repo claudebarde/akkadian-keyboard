@@ -167,20 +167,42 @@ itti ṭuppātim šaṭrātim šuati
     position: fixed;
     top: 10px;
     right: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .top-right-corner div {
+    padding: 0px 10px;
+  }
+  .bottom-right-corner {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.5rem;
   }
 </style>
 
 <div class="image is-64x64 top-left-corner">
   <img src="logo.png" alt="logo" />
 </div>
-<div class="image is-28x28 top-right-corner">
-  <a
-    href="https://github.com/claudebarde/akkadian-keyboard"
-    target="_blank"
-    rel="noopener noreferrer">
-    <img src="github.svg" alt="github" />
-  </a>
+<div class="top-right-corner">
+  <div class="image is-28x28">
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfbvc2XGv0ePLXQsrYUAVecO72dc6UYDojAC7W6cV3nVoVjGA/viewform"
+      target="_blank"
+      rel="noopener noreferrer">
+      <img src="mail.svg" alt="contact" />
+    </a>
+  </div>
+  <div class="image is-28x28">
+    <a
+      href="https://github.com/claudebarde/akkadian-keyboard"
+      target="_blank"
+      rel="noopener noreferrer">
+      <img src="github.svg" alt="github" />
+    </a>
+  </div>
 </div>
+<div class="bottom-right-corner">Claude Barde 2020</div>
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
@@ -304,7 +326,9 @@ itti ṭuppātim šaṭrātim šuati
               </tbody>
             </table>
           </div>
-        {:else}No info{/each}
+        {:else}
+          <div class="column is-fullwidth has-text-centered">No info</div>
+        {/each}
       </div>
     </div>
   </div>
