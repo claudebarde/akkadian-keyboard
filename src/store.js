@@ -48,10 +48,7 @@ const store = () => {
     addSuggestion: (sugg) => {
       update((currentStore) => ({
         ...currentStore,
-        suggestions:
-          sugg.type === "hover"
-            ? [sugg, ...currentStore.suggestions]
-            : [...currentStore.suggestions, sugg],
+        suggestions: [...currentStore.suggestions, sugg],
       }));
     },
     removeSuggestion: (sugg, type) => {
@@ -72,6 +69,9 @@ const store = () => {
           ...currentStore.syllabogramsToSwitch,
           [logogram.word]: logogram.sign,
         },
+        suggestions: [
+          ...currentStore.suggestions.filter((el) => el.word !== logogram.word),
+        ],
       }));
     },
   };

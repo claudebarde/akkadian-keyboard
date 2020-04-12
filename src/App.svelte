@@ -74,7 +74,8 @@
         if (
           !$store.suggestions.filter(
             sugg => sugg.word === searchWords.word && sugg.type === "dictionary"
-          ).length
+          ).length &&
+          !Object.keys($store.syllabogramsToSwitch).includes(word)
         ) {
           store.addSuggestion({
             ...searchWords,
@@ -88,9 +89,13 @@
         }
       }
     });
-    // cleans up suggestions that are not in the text anymore
     $store.suggestions.map(sugg => {
       if (sugg.type === "dictionary" && !words.includes(sugg.word)) {
+        // cleans up suggestions that are not in the text anymore
+        store.removeSuggestion(sugg.word, "dictionary");
+      }
+      if (Object.keys($store.syllabogramsToSwitch).includes(sugg.word)) {
+        // cleans up words that have been added to the syllabogram to switch list
         store.removeSuggestion(sugg.word, "dictionary");
       }
     });
