@@ -42,7 +42,7 @@
     // updates input
     store.updateInput(text);
     // removes all punctuation
-    text = text.trim().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+    text = text.trim().replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, "");
     // calculates new lines positions in textarea to insert <br> in cuneiforms rendering
     const lines = text.split(/[\r\n]/);
     newLinesPos = [];
@@ -240,7 +240,7 @@ itti ṭuppātim šaṭrātim šuati
                   {#if sugg.type === 'dictionary'}
                     <td
                       class="is-size-7"
-                      style="cursor:pointer"
+                      style={sugg.baseForm ? 'cursor:pointer' : 'cursor: not-allowed'}
                       on:click={() => addLogogram(sugg)}>
                       {@html sugg.text}
                     </td>
@@ -259,7 +259,11 @@ itti ṭuppātim šaṭrātim šuati
           </table>
         </div>
         <div class="column is-four-fifths cuneiforms has-text-left">
-          {#each Object.keys($store.words) as word}
+          {#each $store.input
+            .trim()
+            .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
+            .split(/\s+/)
+            .filter(el => el) as word}
             {#if $store.words[word].syllables !== 'ERROR'}
               <CuneiformWord {word} {newLinesPos} />
             {:else}Ø{/if}

@@ -118,6 +118,71 @@
         "utf8": "121A0-12197",
         "meaning": ["fortress"]
       }
+    },
+    "dayyānum": {
+      "category": "noun",
+      "boundForm": ["dayyān"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒇽𒁲𒋻",
+        "utf8": "121FD-12072-122FB",
+        "meaning": ["judge"]
+      }
+    }
+  },
+  "e": {
+    "ekallum": {
+      "category": "noun",
+      "boundForm": ["ekal"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒂍𒃲",
+        "utf8": "1208D-120F2",
+        "meaning": ["palace"]
+      }
+    },
+    "emūqum": {
+      "category": "noun",
+      "boundForm": ["emūq"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒀉",
+        "utf8": "12009",
+        "meaning": ["strength"]
+      }
+    },
+    "eqlum": {
+      "category": "noun",
+      "boundForm": ["eqel"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒀀𒊮",
+        "utf8": "12000-122AE",
+        "meaning": ["field", "terrain"]
+      }
+    },
+    "eṭlum": {
+      "category": "noun",
+      "boundForm": ["eṭel"],
+      "gender": "masc",
+      "plural": "eṭlūtum",
+      "cuneiform": {
+        "sign": "𒇽𒄨",
+        "utf8": "121FD-12128",
+        "meaning": ["young man"]
+      }
+    }
+  },
+  "ḫ": {
+    "ḫarrānum": {
+      "category": "noun",
+      "boundForm": ["ḫarrān"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒆜",
+        "utf8": "1219C",
+        "meaning": ["way", "road"]
+      }
     }
   },
   "m": {
