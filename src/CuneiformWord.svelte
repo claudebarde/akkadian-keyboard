@@ -1,7 +1,7 @@
 <script>
   import store from "./store.js";
 
-  export let word, newLinesPos;
+  export let word, newLinesPos, wordPos;
 
   let displayBadge = false;
 </script>
@@ -37,6 +37,6 @@
     {:else}Ø{/each}
   {/if}
 </span>
-{#if newLinesPos.includes($store.words[word].position)}
+{#if newLinesPos.includes(wordPos)}
   <br />
 {/if}

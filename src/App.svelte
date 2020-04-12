@@ -10,7 +10,7 @@
 
   let newLinesPos = [];
   let textareaRef;
-  let version = "1.0.4";
+  let version = "1.0.5";
 
   $: if ($store.input.length === 0) {
     newLinesPos = [];
@@ -157,6 +157,7 @@ itti ṭuppātim šaṭrātim šuati
   .cuneiforms {
     min-height: 65px;
     line-height: 2 !important;
+    margin-bottom: 20px;
   }
 
   .top-left-corner {
@@ -248,17 +249,17 @@ itti ṭuppātim šaṭrātim šuati
           .trim()
           .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
           .split(/\s+/)
-          .filter(el => el) as word}
+          .filter(el => el) as word, index}
           {#if $store.words[word].syllables !== 'ERROR'}
-            <CuneiformWord {word} {newLinesPos} />
+            <CuneiformWord {word} {newLinesPos} wordPos={index + 1} />
           {:else}Ø{/if}
         {:else}
           <span>Cuneiform Rendering</span>
         {/each}
       </div>
-      <div class="columns suggestions">
+      <div class="columns is-multiline suggestions">
         {#each $store.suggestions as sugg}
-          <div class="column is-2">
+          <div class="column is-2 is-narrow">
             {#if sugg.type === 'dictionary'}
               <span
                 class="is-size-7"
