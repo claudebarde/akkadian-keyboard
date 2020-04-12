@@ -10,6 +10,7 @@
 
   let newLinesPos = [];
   let textareaRef;
+  let version = "1.0.4";
 
   $: if ($store.input.length === 0) {
     newLinesPos = [];
@@ -154,7 +155,7 @@ itti ṭuppātim šaṭrātim šuati
   }
 
   .cuneiforms {
-    min-height: 80px;
+    min-height: 65px;
     line-height: 2 !important;
   }
 
@@ -188,6 +189,10 @@ itti ṭuppātim šaṭrātim šuati
   .mobile-links div {
     margin: 0px 5px;
   }
+
+  .suggestions {
+    border-top: solid 1px #f5f5f5;
+  }
 </style>
 
 <div class="image is-64x64 top-left-corner is-hidden-touch">
@@ -211,7 +216,9 @@ itti ṭuppātim šaṭrātim šuati
     </a>
   </div>
 </div>
-<div class="bottom-right-corner is-hidden-touch">Claude Barde 2020</div>
+<div class="bottom-right-corner is-hidden-touch">
+  v {version} - Claude Barde 2020
+</div>
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
@@ -236,46 +243,40 @@ itti ṭuppātim šaṭrātim šuati
       </ul>
     </div>
     <div class="box">
-      <div class="columns">
-        <div class="column is-one-fifth">
-          <table class="table">
-            <tbody>
-              {#each $store.suggestions as sugg}
-                <tr>
-                  {#if sugg.type === 'dictionary'}
-                    <td
-                      class="is-size-7"
-                      style={sugg.baseForm ? 'cursor:pointer' : 'cursor: not-allowed'}
-                      on:click={() => addLogogram(sugg)}>
-                      {@html sugg.text}
-                    </td>
-                  {:else}
-                    <td class="is-size-7">
-                      {@html sugg.text}
-                    </td>
-                  {/if}
-                </tr>
-              {:else}
-                <tr>
-                  <td>...</td>
-                </tr>
-              {/each}
-            </tbody>
-          </table>
-        </div>
-        <div class="column is-four-fifths cuneiforms has-text-left">
-          {#each $store.input
-            .trim()
-            .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
-            .split(/\s+/)
-            .filter(el => el) as word}
-            {#if $store.words[word].syllables !== 'ERROR'}
-              <CuneiformWord {word} {newLinesPos} />
-            {:else}Ø{/if}
-          {:else}
-            <span>Cuneiform Rendering</span>
-          {/each}
-        </div>
+      <div class="cuneiforms">
+        {#each $store.input
+          .trim()
+          .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
+          .split(/\s+/)
+          .filter(el => el) as word}
+          {#if $store.words[word].syllables !== 'ERROR'}
+            <CuneiformWord {word} {newLinesPos} />
+          {:else}Ø{/if}
+        {:else}
+          <span>Cuneiform Rendering</span>
+        {/each}
+      </div>
+      <div class="columns suggestions">
+        {#each $store.suggestions as sugg}
+          <div class="column is-2">
+            {#if sugg.type === 'dictionary'}
+              <span
+                class="is-size-7"
+                style={sugg.baseForm ? 'cursor:pointer' : 'cursor: not-allowed'}
+                on:click={() => addLogogram(sugg)}>
+                {@html sugg.text}
+              </span>
+            {:else}
+              <span class="is-size-7">
+                {@html sugg.text}
+              </span>
+            {/if}
+          </div>
+        {:else}
+          <div class="column is-12 has-text-centered is-size-7">
+            No suggestion
+          </div>
+        {/each}
       </div>
     </div>
     <div class="box">
@@ -340,7 +341,7 @@ itti ṭuppātim šaṭrātim šuati
     <img class="image is-48x48" src="logo.png" alt="logo" />
   </div>
   <div class="column is-one-third has-text-centered is-size-7">
-    Claude Barde 2020
+    v {version} - Claude Barde 2020
   </div>
   <div class="column is-one-third mobile-links">
     <div class="image is-24x24">
