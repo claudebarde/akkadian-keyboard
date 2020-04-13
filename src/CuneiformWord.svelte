@@ -18,6 +18,10 @@
   .cuneiform-word:hover {
     border: solid 2px orange;
   }
+
+  .syllable {
+    margin-right: -4px;
+  }
 </style>
 
 <span
@@ -31,7 +35,7 @@
     </span>
   {:else}
     {#each $store.words[word].cuneiforms as symbol}
-      <span class="has-tooltip-top" data-tooltip={symbol.syllable}>
+      <span class="has-tooltip-top syllable" data-tooltip={symbol.syllable}>
         {#each symbol.cuneiforms as cuneiform}{cuneiform.sign}{/each}
       </span>
     {:else}Ø{/each}
