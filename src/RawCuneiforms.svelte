@@ -4,6 +4,22 @@
 
   let rawString = "";
 
+  const copyToClipboard = async () => {
+    if (!navigator.clipboard) {
+      try {
+        document.execCommand("copy");
+      } catch (error) {
+        console.log("Unable to copy to clipboard!");
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(rawString);
+    } catch (error) {
+      console.log("Unable to copy to clipboard!");
+    }
+  };
+
   afterUpdate(() => {
     rawString = $store.input;
     for (let word in $store.words) {
@@ -36,7 +52,15 @@
 </style>
 
 {#if !!rawString}
-  <div class="rendering is-size-4">{rawString}</div>
+  <div class="rendering is-size-4">
+    <div
+      class="has-text-grey-light is-size-7"
+      style="float:right;cursor:pointer"
+      on:click={copyToClipboard}>
+      copy
+    </div>
+    {rawString}
+  </div>
 {:else}
   <div>Cuneiform Rendering</div>
 {/if}
