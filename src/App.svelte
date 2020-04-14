@@ -7,10 +7,12 @@
   import stressMarker from "./utils/stressMarker.js";
   import store from "./store.js";
   import CuneiformWord from "./CuneiformWord.svelte";
+  import RawCuneiforms from "./RawCuneiforms.svelte";
 
   let newLinesPos = [];
   let textareaRef;
-  let version = "1.0.5";
+  let selectedTab = "detailed";
+  let version = "1.1.0";
 
   $: if ($store.input.length === 0) {
     newLinesPos = [];
@@ -244,18 +246,36 @@ itti ṭuppātim šaṭrātim šuati
       </ul>
     </div>
     <div class="box">
+      <div class="tabs is-centered is-small">
+        <ul>
+          <li
+            class:is-active={selectedTab === 'detailed'}
+            on:click={() => (selectedTab = 'detailed')}>
+            <a href="#/">Detailed</a>
+          </li>
+          <li
+            class:is-active={selectedTab === 'raw'}
+            on:click={() => (selectedTab = 'raw')}>
+            <a href="#/">Raw</a>
+          </li>
+        </ul>
+      </div>
       <div class="cuneiforms">
-        {#each $store.input
-          .trim()
-          .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
-          .split(/\s+/)
-          .filter(el => el) as word, index}
-          {#if $store.words[word].syllables !== 'ERROR'}
-            <CuneiformWord {word} {newLinesPos} wordPos={index + 1} />
-          {:else}Ø{/if}
-        {:else}
-          <span>Cuneiform Rendering</span>
-        {/each}
+        {#if selectedTab === 'detailed'}
+          {#each $store.input
+            .trim()
+            .replace(/[.,\/\?#!$%\^&\*;:{}=\-_`~()]/g, '')
+            .split(/\s+/)
+            .filter(el => el) as word, index}
+            {#if $store.words[word].syllables !== 'ERROR'}
+              <CuneiformWord {word} {newLinesPos} wordPos={index + 1} />
+            {:else}Ø{/if}
+          {:else}
+            <span>Cuneiform Rendering</span>
+          {/each}
+        {:else if selectedTab === 'raw'}
+          <RawCuneiforms />
+        {/if}
       </div>
       <div class="columns is-multiline suggestions">
         {#each $store.suggestions as sugg}
