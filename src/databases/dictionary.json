@@ -183,6 +183,60 @@
         "utf8": "1219C"
       },
       "meaning": ["way", "road"]
+    },
+    "ḫurāṣum": {
+      "category": "noun",
+      "boundForm": ["ḫurāṣ"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒆬𒄀",
+        "utf8": "121AC-12100"
+      },
+      "meaning": ["gold"]
+    }
+  },
+  "i": {
+    "iltum": {
+      "category": "noun",
+      "boundForm": ["ilat"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒀭𒊩",
+        "utf8": "1202D-122A9"
+      },
+      "meaning": ["goddess"]
+    },
+    "ilum": {
+      "category": "noun",
+      "boundForm": ["il", "ili"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒀭",
+        "utf8": "1202D"
+      },
+      "meaning": ["god"]
+    },
+    "īnum": {
+      "category": "noun",
+      "boundForm": ["īn", "īni"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒅆",
+        "plural": "𒅆𒈨",
+        "utf8": "12146"
+      },
+      "meaning": ["eye"]
+    },
+    "išdum": {
+      "category": "noun",
+      "boundForm": ["išid"],
+      "gender": "masc",
+      "plural": "išdātum",
+      "cuneiform": {
+        "sign": "𒁼",
+        "utf8": "1207C"
+      },
+      "meaning": ["foundation"]
     }
   },
   "m": {

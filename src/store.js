@@ -7,6 +7,7 @@ const store = () => {
     suggestions: [],
     stressedWords: [],
     syllabogramsToSwitch: {},
+    doubleLongVowels: true,
   });
 
   return {
@@ -72,6 +73,12 @@ const store = () => {
         suggestions: [
           ...currentStore.suggestions.filter((el) => el.word !== logogram.word),
         ],
+      }));
+    },
+    updateLongVowelDisplay: () => {
+      update((currentStore) => ({
+        ...currentStore,
+        doubleLongVowels: !currentStore.doubleLongVowels,
       }));
     },
   };

@@ -110,7 +110,12 @@
   };
 
   const displayStress = word => {
-    if (word.stressPosition === undefined) return "---";
+    console.log(word);
+    if (
+      word.stressPosition === undefined ||
+      word.word.length <= word.stressPosition
+    )
+      return "---";
 
     return (
       word.word.slice(0, word.stressPosition) +
@@ -196,6 +201,10 @@ itti ṭuppātim šaṭrātim šuati
   .suggestions {
     border-top: solid 1px #f5f5f5;
   }
+
+  .options {
+    padding: 0px 0px 20px 0px;
+  }
 </style>
 
 <div class="image is-64x64 top-left-corner is-hidden-touch">
@@ -244,6 +253,20 @@ itti ṭuppātim šaṭrātim šuati
           </li>
         {/each}
       </ul>
+    </div>
+    <div class="options is-size-7">
+      <label class="checkbox">
+        <input
+          type="checkbox"
+          checked={$store.doubleLongVowels}
+          on:change={() => {
+            store.updateLongVowelDisplay();
+            document
+              .getElementById('textarea-input')
+              .dispatchEvent(new Event('input', { bubbles: true }));
+          }} />
+        Duplicate long vowels
+      </label>
     </div>
     <div class="box">
       <div class="tabs is-centered is-small">
