@@ -239,6 +239,18 @@
       "meaning": ["foundation"]
     }
   },
+  "k": {
+    "kakkum": {
+      "category": "noun",
+      "boundForm": ["kak", "kakki"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒄑𒆪",
+        "utf8": "12111"
+      },
+      "meaning": ["weapon"]
+    }
+  },
   "m": {
     "mārum": {
       "category": "noun",

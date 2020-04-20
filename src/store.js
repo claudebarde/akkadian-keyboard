@@ -8,6 +8,25 @@ const store = () => {
     stressedWords: [],
     syllabogramsToSwitch: {},
     doubleLongVowels: true,
+    consonants: [
+      "k",
+      "g",
+      "q",
+      "p",
+      "b",
+      "t",
+      "d",
+      "m",
+      "n",
+      "s",
+      "z",
+      "ṣ",
+      "š",
+      "ḫ",
+      "l",
+      "r",
+      "y",
+    ],
   });
 
   return {

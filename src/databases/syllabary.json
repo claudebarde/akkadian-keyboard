@@ -134,5 +134,9 @@
   "ar": { "sign": "𒅈", "utf8": "12148", "unique": true },
   "er": { "sign": "𒅕", "utf8": "12155", "unique": false },
   "ir": { "sign": "𒅕", "utf8": "12155", "unique": false },
-  "ur": { "sign": "𒌨", "utf8": "12328", "unique": true }
+  "ur": { "sign": "𒌨", "utf8": "12328", "unique": true },
+  "ay": "null",
+  "ey": "null",
+  "iy": "null",
+  "uy": "null"
 }
