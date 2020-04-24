@@ -246,9 +246,62 @@
       "gender": "masc",
       "cuneiform": {
         "sign": "𒄑𒆪",
-        "utf8": "12111"
+        "utf8": "12111-121AA"
       },
       "meaning": ["weapon"]
+    },
+    "kalbum": {
+      "category": "noun",
+      "boundForm": ["kalab"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒌨𒂠",
+        "utf8": "12328-120A0"
+      },
+      "meaning": ["dog"]
+    },
+    "kaspum": {
+      "category": "noun",
+      "boundForm": ["kasap"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒆬𒌓",
+        "utf8": "121AC-12313"
+      },
+      "meaning": ["silver"]
+    },
+    "kišādum": {
+      "category": "noun",
+      "boundForm": ["kišād"],
+      "gender": "masc",
+      "plural": "kišādātum",
+      "cuneiform": {
+        "sign": "𒄘",
+        "utf8": "12118"
+      },
+      "meaning": ["neck", "bank"]
+    },
+    "kussûm": {
+      "category": "noun",
+      "boundForm": ["kussi"],
+      "gender": "fem",
+      "cuneiform": {
+        "sign": "𒄑𒄖𒍝",
+        "utf8": "12111-12116-1235D"
+      },
+      "meaning": ["chair", "throne"]
+    }
+  },
+  "l": {
+    "libbum": {
+      "category": "noun",
+      "boundForm": ["libbi"],
+      "gender": "masc",
+      "cuneiform": {
+        "sign": "𒊮",
+        "utf8": "122AE"
+      },
+      "meaning": ["heart", "interior", "content"]
     }
   },
   "m": {
