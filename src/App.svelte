@@ -417,9 +417,34 @@ itti ṭuppātim šaṭrātim šuati
           </tr>
         </thead>
         <tbody>
+          <!--<tr>
+            <td style="vertical-align:middle" />
+            <td class="is-size-4 cuneiform-sign">{syllabary['a'].sign}</td>
+            <td class="is-size-4 cuneiform-sign">{syllabary['e'].sign}</td>
+            <td class="is-size-4 cuneiform-sign">{syllabary['i'].sign}</td>
+            <td class="is-size-4 cuneiform-sign">{syllabary['u'].sign}</td>
+            <td />
+            <td />
+            <td />
+            <td />
+          </tr>-->
           {@html $store.consonants
-            .map(cons => {
-              return `<tr><td style="vertical-align:middle">${cons}</td>
+            .map((cons, i) => {
+              let vowels = '';
+              if (i === 0) {
+                vowels = `<tr>
+                  <td style="vertical-align:middle" />
+                  <td class="is-size-4 cuneiform-sign">${syllabary['a'].sign}</td>
+                  <td class="is-size-4 cuneiform-sign">${syllabary['e'].sign}</td>
+                  <td class="is-size-4 cuneiform-sign">${syllabary['i'].sign}</td>
+                  <td class="is-size-4 cuneiform-sign">${syllabary['u'].sign}</td>
+                  <td />
+                  <td />
+                  <td />
+                  <td />
+                </tr>`;
+              }
+              return `${vowels}<tr><td style="vertical-align:middle">${cons}</td>
                         <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'a'].unique ? 'has-text-dark' : ''}" title="${cons + 'a'}">${syllabary[cons + 'a'].sign || 'Ø'}</td>
                         <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'e'].unique ? 'has-text-dark' : ''}" title="${cons + 'e'}">${syllabary[cons + 'e'].sign || 'Ø'}</td>
                         <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'i'].unique ? 'has-text-dark' : ''}" title="${cons + 'i'}">${syllabary[cons + 'i'].sign || 'Ø'}</td>
