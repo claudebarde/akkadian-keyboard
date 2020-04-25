@@ -20,6 +20,7 @@
     "bulma-badge": "^3.0.1",
     "bulma-tooltip": "^3.0.2",
     "insert-text-at-cursor": "^0.3.0",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "svelte-spa-router": "^2.1.0"
   }
 }

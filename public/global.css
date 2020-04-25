@@ -22,3 +22,25 @@ body {
 .cuneiform-sign {
   font-family: Akkadian !important;
 }
+
+.top-left-corner {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.top-right-corner {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.top-right-corner div {
+  padding: 0px 10px;
+}
+.bottom-right-corner {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.5rem;
+}

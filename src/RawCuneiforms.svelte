@@ -52,7 +52,7 @@
 </style>
 
 {#if !!rawString}
-  <div class="rendering is-size-4">
+  <div class="rendering is-size-4 cuneiform-sign">
     <div
       class="has-text-grey-light is-size-7"
       style="float:right;cursor:pointer"

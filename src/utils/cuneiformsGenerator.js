@@ -1,4 +1,4 @@
-import syllabary from "../databases/syllabary.json";
+import { monoconsonants as syllabary } from "../databases/syllabary.json";
 import { get } from "svelte/store";
 import store from "../store";
 
