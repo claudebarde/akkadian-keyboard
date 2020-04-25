@@ -420,14 +420,14 @@ itti ṭuppātim šaṭrātim šuati
           {@html $store.consonants
             .map(cons => {
               return `<tr><td style="vertical-align:middle">${cons}</td>
-                        <td class="is-size-4 ${!syllabary[cons + 'a'].unique ? 'has-text-dark' : ''}" title="${cons + 'a'}">${syllabary[cons + 'a'].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary[cons + 'e'].unique ? 'has-text-dark' : ''}" title="${cons + 'e'}">${syllabary[cons + 'e'].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary[cons + 'i'].unique ? 'has-text-dark' : ''}" title="${cons + 'i'}">${syllabary[cons + 'i'].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary[cons + 'u'].unique ? 'has-text-dark' : ''}" title="${cons + 'u'}">${syllabary[cons + 'u'].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary['a' + cons].unique ? 'has-text-dark' : ''}" title="${'a' + cons}">${syllabary['a' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary['e' + cons].unique ? 'has-text-dark' : ''}" title="${'e' + cons}">${syllabary['e' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary['i' + cons].unique ? 'has-text-dark' : ''}" title="${'i' + cons}">${syllabary['i' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 ${!syllabary['u' + cons].unique ? 'has-text-dark' : ''}" title="${'u' + cons}">${syllabary['u' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'a'].unique ? 'has-text-dark' : ''}" title="${cons + 'a'}">${syllabary[cons + 'a'].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'e'].unique ? 'has-text-dark' : ''}" title="${cons + 'e'}">${syllabary[cons + 'e'].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'i'].unique ? 'has-text-dark' : ''}" title="${cons + 'i'}">${syllabary[cons + 'i'].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'u'].unique ? 'has-text-dark' : ''}" title="${cons + 'u'}">${syllabary[cons + 'u'].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary['a' + cons].unique ? 'has-text-dark' : ''}" title="${'a' + cons}">${syllabary['a' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary['e' + cons].unique ? 'has-text-dark' : ''}" title="${'e' + cons}">${syllabary['e' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary['i' + cons].unique ? 'has-text-dark' : ''}" title="${'i' + cons}">${syllabary['i' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4 cuneiform-sign ${!syllabary['u' + cons].unique ? 'has-text-dark' : ''}" title="${'u' + cons}">${syllabary['u' + cons].sign || 'Ø'}</td>
                     </tr>`;
             })
             .join('')}
