@@ -1,0 +1,1838 @@
+{
+  "romanization": [{ "value": "Romanization", "cuneiform": "Cuneiform" }],
+  "a": [
+    { "value": "A", "cuneiform": "𒀀" },
+    { "value": "A2", "cuneiform": "𒀉" },
+    { "value": "A12", "cuneiform": "𒌓" },
+    { "value": "A'", "cuneiform": "𒄴" }
+  ],
+  "ab": [
+    { "value": "AB", "cuneiform": "𒀊" },
+    { "value": "AB2", "cuneiform": "𒀖" }
+  ],
+  "aba": [{ "value": "ABA", "cuneiform": "𒀊" }],
+  "abba": [
+    { "value": "ABBA", "cuneiform": "𒀊" },
+    { "value": "ABBA2", "cuneiform": "𒀋" }
+  ],
+  "abbununnu": [{ "value": "ABBUNUNNU", "cuneiform": "𒌓𒄷𒄭𒉣" }],
+  "abgal": [
+    { "value": "ABGAL", "cuneiform": "𒉣𒈨" },
+    { "value": "ABGAL2", "cuneiform": "𒉣𒈨𒅤" }
+  ],
+  "ablal": [
+    { "value": "ABLAL", "cuneiform": "𒆼" },
+    { "value": "ABLAL3", "cuneiform": "𒇦" }
+  ],
+  "abni": [{ "value": "ABNI2", "cuneiform": "𒆠𒉈" }],
+  "abrig": [
+    { "value": "ABRIG", "cuneiform": "𒉣𒈨𒁺" },
+    { "value": "ABRIG2", "cuneiform": "𒀖𒉣𒈨𒁺" }
+  ],
+  "absin": [
+    { "value": "ABSIN", "cuneiform": "𒆠𒀸𒀸" },
+    { "value": "ABSIN3", "cuneiform": "𒀳" }
+  ],
+  "abul": [{ "value": "ABUL", "cuneiform": "𒆍𒃲" }],
+  "abula": [{ "value": "ABULA", "cuneiform": "𒆍𒃲" }],
+  "abzu": [{ "value": "ABZU", "cuneiform": "𒍪𒀊" }],
+  "abzux": [{ "value": "ABZUX", "cuneiform": "𒌤" }],
+  "ad": [
+    { "value": "AD", "cuneiform": "𒀜" },
+    { "value": "AD2", "cuneiform": "𒄉" },
+    { "value": "AD3", "cuneiform": "𒇼" },
+    { "value": "AD4", "cuneiform": "𒍞" },
+    { "value": "AD5", "cuneiform": "𒌑𒄉" },
+    { "value": "AD6", "cuneiform": "𒇿" }
+  ],
+  "adx": [
+    { "value": "ADX", "cuneiform": "𒈕" },
+    { "value": "ADX", "cuneiform": "𒎉" },
+    { "value": "ADX", "cuneiform": "𒁁𒇽" },
+    { "value": "ADX", "cuneiform": "𒇽𒃵" }
+  ],
+  "adab": [{ "value": "ADAB", "cuneiform": "𒌓𒉣" }],
+  "adama": [{ "value": "ADAMA", "cuneiform": "𒁁𒈪" }],
+  "adamin": [
+    { "value": "ADAMIN", "cuneiform": "𒈓" },
+    { "value": "ADAMIN2", "cuneiform": "𒈘" },
+    { "value": "ADAMIN3", "cuneiform": "𒄒" },
+    { "value": "ADAMIN4", "cuneiform": "𒉫" },
+    { "value": "ADAMIN5", "cuneiform": "𒂛" }
+  ],
+  "adaminx": [
+    { "value": "ADAMINX", "cuneiform": "𒂜" },
+    { "value": "ADAMINX", "cuneiform": "𒇽𒇽" }
+  ],
+  "adda": [
+    { "value": "ADDA", "cuneiform": "𒇿" },
+    { "value": "ADDA2", "cuneiform": "𒇼" }
+  ],
+  "addax": [{ "value": "ADDAX", "cuneiform": "LU2 gunû UŠ2" }],
+  "addir": [{ "value": "ADDIR", "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀" }],
+  "addirx": [
+    { "value": "ADDIRX", "cuneiform": "𒄐𒉻𒋛" },
+    { "value": "ADDIRX", "cuneiform": "𒉺𒄐𒋛𒀀" },
+    { "value": "ADDIRX", "cuneiform": "𒉺𒄐𒋛𒀀𒉻" },
+    { "value": "ADDIRX", "cuneiform": "A LAK589 SI" },
+    { "value": "ADDIRX", "cuneiform": "LAK589 A SI" },
+    { "value": "ADDIRX", "cuneiform": "LAK589 PAD SI" },
+    { "value": "ADDIRX", "cuneiform": "LAK589 SI" },
+    { "value": "ADDIRX", "cuneiform": "LAK589 SI A" },
+    { "value": "ADDIRX", "cuneiform": "LAK590 SI" }
+  ],
+  "adkin": [{ "value": "ADKIN", "cuneiform": "𒋠𒇴" }],
+  "adkinx": [{ "value": "ADKINX", "cuneiform": "𒋁" }],
+  "ag": [
+    { "value": "AG", "cuneiform": "𒀝" },
+    { "value": "AG2", "cuneiform": "𒉘" }
+  ],
+  "aga": [
+    { "value": "AGA", "cuneiform": "𒂇" },
+    { "value": "AGA3", "cuneiform": "𒂆" }
+  ],
+  "agam": [{ "value": "AGAM", "cuneiform": "𒀂" }],
+  "agar": [
+    { "value": "AGAR2", "cuneiform": "𒇋" },
+    { "value": "AGAR3", "cuneiform": "𒆻" },
+    { "value": "AGAR4", "cuneiform": "𒅊" }
+  ],
+  "agargara": [{ "value": "AGARGARA", "cuneiform": "𒉩" }],
+  "agarin": [
+    { "value": "AGARIN", "cuneiform": "𒀌" },
+    { "value": "AGARIN2", "cuneiform": "𒀎" },
+    { "value": "AGARIN3", "cuneiform": "𒂼𒂆" },
+    { "value": "AGARIN4", "cuneiform": "𒂼𒋆" },
+    { "value": "AGARIN5", "cuneiform": "𒂼𒋋" }
+  ],
+  "agarinx": [
+    { "value": "AGARINX", "cuneiform": "𒀏" },
+    { "value": "AGARINX", "cuneiform": "𒇉" }
+  ],
+  "agrig": [{ "value": "AGRIG", "cuneiform": "𒅆𒁾" }],
+  "agrun": [{ "value": "AGRUN", "cuneiform": "𒂍𒉣" }],
+  "aĝ": [{ "value": "AĜ2", "cuneiform": "𒉘" }],
+  "aĝa": [{ "value": "AĜA3", "cuneiform": "𒂆" }],
+  "aĝar": [
+    { "value": "AĜAR5", "cuneiform": "𒅐" },
+    { "value": "AĜAR6", "cuneiform": "𒅎𒂂" }
+  ],
+  "aĝarin": [
+    { "value": "AĜARIN", "cuneiform": "𒀌" },
+    { "value": "AĜARIN2", "cuneiform": "𒀎" },
+    { "value": "AĜARIN3", "cuneiform": "𒂼𒂆" },
+    { "value": "AĜARIN4", "cuneiform": "𒂼𒋆" },
+    { "value": "AĜARIN5", "cuneiform": "𒂼𒋋" }
+  ],
+  "aĝarinx": [
+    { "value": "AĜARINX", "cuneiform": "𒀏" },
+    { "value": "AĜARINX", "cuneiform": "𒇉" }
+  ],
+  "aĝrig": [{ "value": "AĜRIG", "cuneiform": "𒅆𒁾" }],
+  "aḫ": [
+    { "value": "AḪ", "cuneiform": "𒄴" },
+    { "value": "AḪ3", "cuneiform": "𒌓" },
+    { "value": "AḪ6", "cuneiform": "𒌔" }
+  ],
+  "ak": [{ "value": "AK", "cuneiform": "𒀝" }],
+  "aka": [{ "value": "AKA3", "cuneiform": "𒋃" }],
+  "akan": [{ "value": "AKAN", "cuneiform": "𒁛" }],
+  "akkan": [{ "value": "AKKAN3", "cuneiform": "𒇖" }],
+  "akkil": [
+    { "value": "AKKIL", "cuneiform": "𒃰𒋺𒋛" },
+    { "value": "AKKIL2", "cuneiform": "𒀜𒆤" }
+  ],
+  "akkilx": [
+    { "value": "AKKILX", "cuneiform": "𒀜𒆪" },
+    { "value": "AKKILX", "cuneiform": "𒃰𒋺𒋛𒀀" }
+  ],
+  "aktum": [
+    { "value": "AKTUM", "cuneiform": "𒀀𒋢" },
+    { "value": "AKTUM2", "cuneiform": "𒋢𒀀" }
+  ],
+  "al": [{ "value": "AL", "cuneiform": "𒀠" }],
+  "alad": [
+    { "value": "ALAD", "cuneiform": "𒆘" },
+    { "value": "ALAD2", "cuneiform": "𒆗" }
+  ],
+  "alal": [
+    { "value": "ALAL", "cuneiform": "𒋄" },
+    { "value": "ALAL3", "cuneiform": "𒄒" },
+    { "value": "ALAL4", "cuneiform": "𒃺" }
+  ],
+  "alan": [{ "value": "ALAN", "cuneiform": "𒀩" }],
+  "algameš": [{ "value": "ALGAMEŠ", "cuneiform": "𒌓𒊩𒄸" }],
+  "alim": [{ "value": "ALIM", "cuneiform": "𒄋" }],
+  "alla": [{ "value": "ALLA", "cuneiform": "𒉄" }],
+  "alurax": [{ "value": "ALURAX", "cuneiform": "𒁃" }],
+  "am": [
+    { "value": "AM", "cuneiform": "𒄠" },
+    { "value": "AM3", "cuneiform": "𒀀𒀭" },
+    { "value": "AM6", "cuneiform": "𒀭" }
+  ],
+  "ama": [
+    { "value": "AMA", "cuneiform": "𒂼" },
+    { "value": "AMA5", "cuneiform": "𒃣" }
+  ],
+  "amagi": [
+    { "value": "AMAGI", "cuneiform": "𒈻" },
+    { "value": "AMAGI2", "cuneiform": "𒀀𒈹𒁲" },
+    { "value": "AMAGI3", "cuneiform": "𒍝𒈹𒁲" }
+  ],
+  "amagix": [{ "value": "AMAGIX", "cuneiform": "𒀀𒈹𒀀𒁲" }],
+  "amalu": [{ "value": "AMALU", "cuneiform": "𒂼𒀭𒈹" }],
+  "amalug": [{ "value": "AMALUG", "cuneiform": "𒂼𒈹" }],
+  "aman": [{ "value": "AMAN", "cuneiform": "𒉽𒉽" }],
+  "amar": [{ "value": "AMAR", "cuneiform": "𒀫" }],
+  "amaš": [{ "value": "AMAŠ", "cuneiform": "𒁦" }],
+  "ambar": [{ "value": "AMBAR", "cuneiform": "𒆹" }],
+  "amra": [{ "value": "AMRA", "cuneiform": "𒄑𒈣𒊏" }],
+  "amuš": [{ "value": "AMUŠ", "cuneiform": "𒀇" }],
+  "an": [{ "value": "AN", "cuneiform": "𒀭" }],
+  "anše": [{ "value": "ANŠE", "cuneiform": "𒀲" }],
+  "anzalub": [{ "value": "ANZALUB", "cuneiform": "𒊮𒄀" }],
+  "anzu": [{ "value": "ANZU2", "cuneiform": "𒀭𒅎𒈪" }],
+  "anzud": [
+    { "value": "ANZUD", "cuneiform": "𒀭𒅎𒂂" },
+    { "value": "ANZUD2", "cuneiform": "𒀭𒅎𒈪" }
+  ],
+  "ap": [{ "value": "AP", "cuneiform": "𒀊" }],
+  "apin": [{ "value": "APIN", "cuneiform": "𒀳" }],
+  "ar": [
+    { "value": "AR", "cuneiform": "𒅈" },
+    { "value": "AR2", "cuneiform": "𒄱" },
+    { "value": "AR3", "cuneiform": "𒄯" }
+  ],
+  "arx": [{ "value": "ARX", "cuneiform": "𒌸" }],
+  "ara": [
+    { "value": "ARA", "cuneiform": "𒊭" },
+    { "value": "ARA3", "cuneiform": "𒄯" }
+  ],
+  "arad": [
+    { "value": "ARAD", "cuneiform": "𒀴" },
+    { "value": "ARAD2", "cuneiform": "𒀵" }
+  ],
+  "araḫ": [
+    { "value": "ARAḪ3", "cuneiform": "𒃥" },
+    { "value": "ARAḪ4", "cuneiform": "𒂍𒍑𒁍𒁕" }
+  ],
+  "araḫx": [{ "value": "ARAḪX", "cuneiform": "𒍑𒁍𒁕" }],
+  "arali": [{ "value": "ARALI", "cuneiform": "𒂍𒆳𒈪" }],
+  "aralix": [{ "value": "ARALIX", "cuneiform": "𒌽" }],
+  "aratta": [{ "value": "ARATTA", "cuneiform": "𒇶" }],
+  "arattax": [{ "value": "ARATTAX", "cuneiform": "𒇴𒆳𒊒𒁕" }],
+  "argab": [{ "value": "ARGAB", "cuneiform": "𒀶" }],
+  "arḫuš": [
+    { "value": "ARḪUŠ", "cuneiform": "𒃣" },
+    { "value": "ARḪUŠ2", "cuneiform": "𒉦" }
+  ],
+  "ari": [{ "value": "ARI2", "cuneiform": "𒅂" }],
+  "arina": [{ "value": "ARINA", "cuneiform": "𒈸𒀀𒈾" }],
+  "arinax": [
+    { "value": "ARINAX", "cuneiform": "𒄿𒈕𒈾" },
+    { "value": "ARINAX", "cuneiform": "𒈕𒈾" },
+    { "value": "ARINAX", "cuneiform": "𒌫𒀀" }
+  ],
+  "arkab": [
+    { "value": "ARKAB", "cuneiform": "𒃻𒅁" },
+    { "value": "ARKAB2", "cuneiform": "𒀶" }
+  ],
+  "arkabx": [{ "value": "ARKABX", "cuneiform": "𒀶𒅁" }],
+  "as": [
+    { "value": "AS", "cuneiform": "𒊍" },
+    { "value": "AS4", "cuneiform": "𒍞" }
+  ],
+  "asal": [{ "value": "ASAL2", "cuneiform": "𒀀𒌅𒃮𒇺" }],
+  "asalx": [
+    { "value": "ASALX", "cuneiform": "𒀷" },
+    { "value": "ASALX", "cuneiform": "𒀀𒌅" },
+    { "value": "ASALX", "cuneiform": "𒀀𒌅𒃮𒋝𒃻" },
+    { "value": "ASALX", "cuneiform": "𒀀𒌅𒉪" }
+  ],
+  "asil": [
+    { "value": "ASIL", "cuneiform": "𒂰" },
+    { "value": "ASIL3", "cuneiform": "𒂢" }
+  ],
+  "asilx": [{ "value": "ASILX", "cuneiform": "𒂡" }],
+  "asila": [
+    { "value": "ASILA", "cuneiform": "𒂰" },
+    { "value": "ASILA3", "cuneiform": "𒂢" }
+  ],
+  "asilax": [{ "value": "ASILAX", "cuneiform": "𒂬" }],
+  "asilal": [
+    { "value": "ASILAL", "cuneiform": "𒂰" },
+    { "value": "ASILAL3", "cuneiform": "𒂢" },
+    { "value": "ASILAL4", "cuneiform": "𒂤" }
+  ],
+  "aslumx": [{ "value": "ASLUMX", "cuneiform": "𒀀𒈝" }],
+  "aš": [
+    { "value": "AŠ", "cuneiform": "𒀸" },
+    { "value": "AŠ2", "cuneiform": "𒀾" },
+    { "value": "AŠ3", "cuneiform": "𒐋" },
+    { "value": "AŠ5", "cuneiform": "𒋠𒇴𒋦" }
+  ],
+  "ašag": [{ "value": "AŠAG", "cuneiform": "𒃷" }],
+  "ašgab": [{ "value": "AŠGAB", "cuneiform": "𒀿" }],
+  "ašgabgalx": [{ "value": "AŠGABGALX", "cuneiform": "𒃲𒀿" }],
+  "aški": [{ "value": "AŠKI", "cuneiform": "𒍤𒆸" }],
+  "aškud": [
+    { "value": "AŠKUD", "cuneiform": "𒀾𒈽" },
+    { "value": "AŠKUD2", "cuneiform": "𒀾𒈹" }
+  ],
+  "ašlug": [{ "value": "AŠLUG", "cuneiform": "𒂍𒍑𒁍𒁕" }],
+  "ašnan": [
+    { "value": "AŠNAN", "cuneiform": "𒊺" },
+    { "value": "AŠNAN2", "cuneiform": "𒊺𒌁" }
+  ],
+  "ašša": [{ "value": "AŠŠA2", "cuneiform": "𒃰𒋺" }],
+  "ašta": [{ "value": "AŠTA", "cuneiform": "𒃰𒋺" }],
+  "ašte": [
+    { "value": "AŠTE", "cuneiform": "𒀉𒌋𒆤" },
+    { "value": "AŠTE2", "cuneiform": "𒆹" }
+  ],
+  "at": [{ "value": "AT", "cuneiform": "𒀜" }],
+  "au": [{ "value": "AU", "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀" }],
+  "aya": [
+    { "value": "AYA", "cuneiform": "𒀀𒀀" },
+    { "value": "AYA2", "cuneiform": "𒀀" },
+    { "value": "AYA4", "cuneiform": "𒆹" }
+  ],
+  "ayayax": [{ "value": "AYAYAX", "cuneiform": "𒀀𒀀𒀀" }],
+  "az": [{ "value": "AZ", "cuneiform": "𒊍" }],
+  "azadx": [{ "value": "AZADX", "cuneiform": "𒀀𒇉𒋙" }],
+  "azag": [{ "value": "AZAG", "cuneiform": "𒆬𒀭" }],
+  "azlag": [
+    { "value": "AZLAG", "cuneiform": "𒌆𒌓" },
+    { "value": "AZLAG3", "cuneiform": "𒄑𒌆𒉿𒋼𒀀𒁺" },
+    { "value": "AZLAG4", "cuneiform": "𒄑𒌆𒋼𒀀𒁺" },
+    { "value": "AZLAG5", "cuneiform": "𒄑𒌆𒉿𒋼𒀀" },
+    { "value": "AZLAG7", "cuneiform": "𒈐" }
+  ],
+  "azlaggalx": [{ "value": "AZLAGGALX", "cuneiform": "𒃲𒄑𒌆𒋼𒀀𒁺" }],
+  "azu": [{ "value": "AZU", "cuneiform": "𒍬" }],
+  "azugna": [{ "value": "AZUGNA", "cuneiform": "𒄯𒊕" }],
+  "ba": [
+    { "value": "BA", "cuneiform": "𒁀" },
+    { "value": "BA4", "cuneiform": "𒂷" },
+    { "value": "BA13", "cuneiform": "𒈨" }
+  ],
+  "babbar": [
+    { "value": "BABBAR", "cuneiform": "𒌓" },
+    { "value": "BABBAR2", "cuneiform": "𒌓𒌓" }
+  ],
+  "bad": [
+    { "value": "BAD", "cuneiform": "𒁁" },
+    { "value": "BAD3", "cuneiform": "𒂦" }
+  ],
+  "bag": [{ "value": "BAG3", "cuneiform": "𒁂" }],
+  "baḫar": [{ "value": "BAḪAR2", "cuneiform": "𒁃" }],
+  "bal": [{ "value": "BAL", "cuneiform": "𒁄" }],
+  "bala": [{ "value": "BALA", "cuneiform": "𒁄" }],
+  "balag": [{ "value": "BALAG", "cuneiform": "𒁆" }],
+  "ban": [{ "value": "BAN3", "cuneiform": "𒌉" }],
+  "banda": [{ "value": "BANDA3", "cuneiform": "𒌉" }],
+  "banšur": [{ "value": "BANŠUR", "cuneiform": "𒍎" }],
+  "bappir": [{ "value": "BAPPIR", "cuneiform": "𒋋" }],
+  "bar": [
+    { "value": "BAR", "cuneiform": "𒁇" },
+    { "value": "BAR2", "cuneiform": "𒁈" },
+    { "value": "BAR7", "cuneiform": "𒉈" }
+  ],
+  "bara": [{ "value": "BARA2", "cuneiform": "𒁈" }],
+  "bargi": [{ "value": "BARGI", "cuneiform": "𒌐" }],
+  "bazbazx": [{ "value": "BAZBAZX", "cuneiform": "𒊻" }],
+  "be": [
+    { "value": "BE", "cuneiform": "𒁁" },
+    { "value": "BE2", "cuneiform": "𒁉" },
+    { "value": "BE3", "cuneiform": "𒉌" },
+    { "value": "BE7", "cuneiform": "𒉈" }
+  ],
+  "bi": [
+    { "value": "BI", "cuneiform": "𒁉" },
+    { "value": "BI2", "cuneiform": "𒉈" }
+  ],
+  "bil": [
+    { "value": "BIL", "cuneiform": "𒉈" },
+    { "value": "BIL2", "cuneiform": "𒉋" }
+  ],
+  "bir": [
+    { "value": "BIR", "cuneiform": "𒄵" },
+    { "value": "BIR4", "cuneiform": "𒂔" },
+    { "value": "BIR5", "cuneiform": "𒉆" },
+    { "value": "BIR6", "cuneiform": "𒊶" }
+  ],
+  "bišeba": [{ "value": "BIŠEBA3", "cuneiform": "𒄡" }],
+  "bu": [{ "value": "BU", "cuneiform": "𒁍" }],
+  "bugin": [{ "value": "BUGIN", "cuneiform": "𒆹" }],
+  "bul": [{ "value": "BUL", "cuneiform": "𒇧" }],
+  "bulug": [{ "value": "BULUG", "cuneiform": "𒁑" }],
+  "bun": [{ "value": "BUN2", "cuneiform": "𒅮" }],
+  "bunin": [{ "value": "BUNIN", "cuneiform": "𒆹" }],
+  "bur": [
+    { "value": "BUR", "cuneiform": "𒁓" },
+    { "value": "BUR2", "cuneiform": "𒁔" },
+    { "value": "BUR3", "cuneiform": "𒌋" },
+    { "value": "BUR10", "cuneiform": "𒇧" },
+    { "value": "BUR12", "cuneiform": "𒁍" }
+  ],
+  "buranun": [{ "value": "BURANUN", "cuneiform": "𒌓𒄒𒉣" }],
+  "buranunx": [{ "value": "BURANUNX", "cuneiform": "𒄒𒉣" }],
+  "buranuna": [{ "value": "BURANUNA", "cuneiform": "𒌓𒄒𒉣" }],
+  "buru": [
+    { "value": "BURU4", "cuneiform": "𒉢𒁓" },
+    { "value": "BURU14", "cuneiform": "𒂙" }
+  ],
+  "da": [
+    { "value": "DA", "cuneiform": "𒁕" },
+    { "value": "DA2", "cuneiform": "𒋫" },
+    { "value": "DA3", "cuneiform": "𒆕" }
+  ],
+  "dab": [
+    { "value": "DAB", "cuneiform": "𒁳" },
+    { "value": "DAB5", "cuneiform": "𒆪" },
+    { "value": "DAB6", "cuneiform": "𒍏" }
+  ],
+  "dadag": [{ "value": "DADAG", "cuneiform": "𒌓𒌓" }],
+  "dag": [
+    { "value": "DAG", "cuneiform": "𒁖" },
+    { "value": "DAG3", "cuneiform": "𒍴" }
+  ],
+  "dagrim": [{ "value": "DAGRIM", "cuneiform": "𒇑" }],
+  "daḫ": [{ "value": "DAḪ", "cuneiform": "𒈭" }],
+  "dal": [{ "value": "DAL", "cuneiform": "𒊑" }],
+  "dalla": [{ "value": "DALLA", "cuneiform": "𒈦𒄘𒃼" }],
+  "dam": [{ "value": "DAM", "cuneiform": "𒁮" }],
+  "dan": [
+    { "value": "DAN3", "cuneiform": "𒃩" },
+    { "value": "DAN4", "cuneiform": "𒃋" }
+  ],
+  "dar": [
+    { "value": "DAR", "cuneiform": "𒁯" },
+    { "value": "DAR3", "cuneiform": "𒁰" }
+  ],
+  "dara": [
+    { "value": "DARA3", "cuneiform": "𒁰" },
+    { "value": "DARA4", "cuneiform": "𒁱" }
+  ],
+  "de": [
+    { "value": "DE2", "cuneiform": "𒌤" },
+    { "value": "DE3", "cuneiform": "𒉈" },
+    { "value": "DE6", "cuneiform": "𒁺" }
+  ],
+  "di": [
+    { "value": "DI", "cuneiform": "𒁲" },
+    { "value": "DI4", "cuneiform": "𒌉" }
+  ],
+  "dib": [{ "value": "DIB", "cuneiform": "𒁳" }],
+  "did": [{ "value": "DID", "cuneiform": "𒅎" }],
+  "didli": [{ "value": "DIDLI", "cuneiform": "𒐀" }],
+  "dig": [{ "value": "DIG", "cuneiform": "𒉌" }],
+  "diĝir": [{ "value": "DIĜIR", "cuneiform": "𒀭" }],
+  "dili": [{ "value": "DILI", "cuneiform": "𒀸" }],
+  "dilim": [{ "value": "DILIM2", "cuneiform": "𒇺" }],
+  "dilmun": [{ "value": "DILMUN", "cuneiform": "𒉌𒌇" }],
+  "dim": [
+    { "value": "DIM", "cuneiform": "𒁴" },
+    { "value": "DIM2", "cuneiform": "𒁶" }
+  ],
+  "din": [{ "value": "DIN", "cuneiform": "𒁷" }],
+  "dir": [{ "value": "DIR", "cuneiform": "𒋛𒀀" }],
+  "diš": [{ "value": "DIŠ", "cuneiform": "𒁹" }],
+  "du": [
+    { "value": "DU", "cuneiform": "𒁺" },
+    { "value": "DU2", "cuneiform": "𒌅" },
+    { "value": "DU3", "cuneiform": "𒆕" },
+    { "value": "DU5", "cuneiform": "𒂅" },
+    { "value": "DU6", "cuneiform": "𒇯" },
+    { "value": "DU7", "cuneiform": "𒌌" },
+    { "value": "DU8", "cuneiform": "𒂃" },
+    { "value": "DU11", "cuneiform": "𒅗" },
+    { "value": "DU12", "cuneiform": "𒌇" },
+    { "value": "DU17", "cuneiform": "𒉈" }
+  ],
+  "dub": [
+    { "value": "DUB", "cuneiform": "𒁾" },
+    { "value": "DUB2", "cuneiform": "𒂀" },
+    { "value": "DUB3", "cuneiform": "𒄭" }
+  ],
+  "dubur": [{ "value": "DUBUR2", "cuneiform": "𒄶" }],
+  "dug": [
+    { "value": "DUG", "cuneiform": "𒂁" },
+    { "value": "DUG3", "cuneiform": "𒄭" },
+    { "value": "DUG4", "cuneiform": "𒅗" }
+  ],
+  "dugud": [{ "value": "DUGUD", "cuneiform": "𒂂" }],
+  "duḫ": [{ "value": "DUḪ", "cuneiform": "𒂃" }],
+  "dul": [
+    { "value": "DUL", "cuneiform": "𒌋𒌆" },
+    { "value": "DUL3", "cuneiform": "𒊨" },
+    { "value": "DUL7", "cuneiform": "𒊕" }
+  ],
+  "dulx": [{ "value": "DULX", "cuneiform": "𒌨𒀀" }],
+  "dumu": [{ "value": "DUMU", "cuneiform": "𒌉" }],
+  "dun": [
+    { "value": "DUN", "cuneiform": "𒂄" },
+    { "value": "DUN3", "cuneiform": "𒂅" }
+  ],
+  "dur": [
+    { "value": "DUR", "cuneiform": "𒄙" },
+    { "value": "DUR2", "cuneiform": "𒂉" },
+    { "value": "DUR3", "cuneiform": "𒀲𒀴" },
+    { "value": "DUR7", "cuneiform": "𒁍" },
+    { "value": "DUR10", "cuneiform": "𒊿" }
+  ],
+  "duru": [
+    { "value": "DURU2", "cuneiform": "𒆪" },
+    { "value": "DURU5", "cuneiform": "𒀀" }
+  ],
+  "durun": [{ "value": "DURUN", "cuneiform": "𒂉" }],
+  "durunx": [{ "value": "DURUNX", "cuneiform": "𒆪𒆪" }],
+  "dusu": [{ "value": "DUSU2", "cuneiform": "𒀲𒅆𒂠" }],
+  "e": [
+    { "value": "E", "cuneiform": "𒂊" },
+    { "value": "E2", "cuneiform": "𒂍" },
+    { "value": "E3", "cuneiform": "𒌓𒁺" },
+    { "value": "E4", "cuneiform": "𒀀" }
+  ],
+  "ea": [{ "value": "EA", "cuneiform": "𒀀" }],
+  "ed": [
+    { "value": "ED", "cuneiform": "𒀉" },
+    { "value": "ED2", "cuneiform": "𒌓𒁺" },
+    { "value": "ED3", "cuneiform": "𒇯𒁺" }
+  ],
+  "eden": [{ "value": "EDEN", "cuneiform": "𒂔" }],
+  "edimx": [{ "value": "EDIMX", "cuneiform": "𒂔" }],
+  "edin": [{ "value": "EDIN", "cuneiform": "𒂔" }],
+  "eduru": [{ "value": "EDURU", "cuneiform": "𒀁" }],
+  "egara": [{ "value": "EGARA", "cuneiform": "𒃌" }],
+  "egir": [
+    { "value": "EGIR", "cuneiform": "𒂕" },
+    { "value": "EGIR2", "cuneiform": "𒂠" },
+    { "value": "EGIR5", "cuneiform": "𒈝" },
+    { "value": "EGIR6", "cuneiform": "𒈱" }
+  ],
+  "eĝ": [{ "value": "EĜ3", "cuneiform": "𒉘" }],
+  "eĝer": [{ "value": "EĜER", "cuneiform": "𒂕" }],
+  "eĝir": [
+    { "value": "EĜIR", "cuneiform": "𒂕" },
+    { "value": "EĜIR5", "cuneiform": "𒈝" },
+    { "value": "EĜIR6", "cuneiform": "𒈱" }
+  ],
+  "eḫ": [
+    { "value": "EḪ", "cuneiform": "𒄴" },
+    { "value": "EḪ3", "cuneiform": "𒆪𒆪" }
+  ],
+  "el": [{ "value": "EL", "cuneiform": "𒂖" }],
+  "em": [
+    { "value": "EM", "cuneiform": "𒅎" },
+    { "value": "EM3", "cuneiform": "𒉘" }
+  ],
+  "emx": [{ "value": "EMX", "cuneiform": "𒀀𒀭" }],
+  "eme": [
+    { "value": "EME", "cuneiform": "𒅴" },
+    { "value": "EME4", "cuneiform": "𒂼" },
+    { "value": "EME5", "cuneiform": "𒊩𒄸" }
+  ],
+  "emeda": [{ "value": "EMEDA", "cuneiform": "𒌝𒈨" }],
+  "emedu": [
+    { "value": "EMEDU", "cuneiform": "𒂼𒌅" },
+    { "value": "EMEDU2", "cuneiform": "𒂼𒀀𒌅" }
+  ],
+  "en": [
+    { "value": "EN", "cuneiform": "𒂗" },
+    { "value": "EN3", "cuneiform": "𒇷" },
+    { "value": "EN6", "cuneiform": "𒅔" },
+    { "value": "EN8", "cuneiform": "𒊭" }
+  ],
+  "enegir": [
+    { "value": "ENEGIR", "cuneiform": "𒅎" },
+    { "value": "ENEGIR3", "cuneiform": "𒂗𒁶𒍼" }
+  ],
+  "engar": [{ "value": "ENGAR", "cuneiform": "𒀳" }],
+  "engur": [{ "value": "ENGUR", "cuneiform": "𒇉" }],
+  "enkar": [{ "value": "ENKAR", "cuneiform": "𒂙" }],
+  "enmen": [{ "value": "ENMEN", "cuneiform": "𒆉" }],
+  "er": [
+    { "value": "ER", "cuneiform": "𒅕" },
+    { "value": "ER2", "cuneiform": "𒀀𒅆" }
+  ],
+  "erem": [{ "value": "EREM", "cuneiform": "𒂟" }],
+  "eren": [
+    { "value": "EREN", "cuneiform": "𒂞" },
+    { "value": "EREN2", "cuneiform": "𒂟" }
+  ],
+  "eri": [{ "value": "ERI", "cuneiform": "𒌷" }],
+  "erim": [
+    { "value": "ERIM", "cuneiform": "𒂟" },
+    { "value": "ERIM2", "cuneiform": "𒉈𒊒" },
+    { "value": "ERIM3", "cuneiform": "𒌿" }
+  ],
+  "erin": [
+    { "value": "ERIN", "cuneiform": "𒂞" },
+    { "value": "ERIN2", "cuneiform": "𒂟" }
+  ],
+  "erinx": [{ "value": "ERINX", "cuneiform": "𒈶" }],
+  "erina": [
+    { "value": "ERINA8", "cuneiform": "𒈷" },
+    { "value": "ERINA8", "cuneiform": "𒈸𒀀𒈾" }
+  ],
+  "es": [
+    { "value": "ES", "cuneiform": "𒁀" },
+    { "value": "ES2", "cuneiform": "𒌍" }
+  ],
+  "esag": [{ "value": "ESAG2", "cuneiform": "𒃥" }],
+  "esi": [{ "value": "ESI", "cuneiform": "𒆗" }],
+  "eš": [
+    { "value": "EŠ", "cuneiform": "𒌍" },
+    { "value": "EŠ2", "cuneiform": "𒂠" },
+    { "value": "EŠ3", "cuneiform": "𒀊" },
+    { "value": "EŠ4", "cuneiform": "𒁹" },
+    { "value": "EŠ16", "cuneiform": "𒀼" }
+  ],
+  "eše": [{ "value": "EŠE2", "cuneiform": "𒂠" }],
+  "ešemen": [
+    { "value": "EŠEMEN", "cuneiform": "𒆠𒂊𒉈𒁲" },
+    { "value": "EŠEMEN2", "cuneiform": "𒆠𒂊𒉈𒁲𒀭𒈹" }
+  ],
+  "ešgar": [{ "value": "EŠGAR", "cuneiform": "𒀾𒃼" }],
+  "eštub": [{ "value": "EŠTUB", "cuneiform": "𒄞" }],
+  "et": [{ "value": "ET", "cuneiform": "𒀉" }],
+  "ezen": [{ "value": "EZEN", "cuneiform": "𒂡" }],
+  "ezim": [{ "value": "EZIM2", "cuneiform": "𒊺𒌁" }],
+  "ezina": [
+    { "value": "EZINA2", "cuneiform": "𒊺𒌁" },
+    { "value": "EZINA3", "cuneiform": "𒌁" }
+  ],
+  "ga": [
+    { "value": "GA", "cuneiform": "𒂵" },
+    { "value": "GA14", "cuneiform": "𒅗" },
+    { "value": "GA2", "cuneiform": "𒂷" }
+  ],
+  "gab": [{ "value": "GAB", "cuneiform": "𒃮" }],
+  "gaba": [{ "value": "GABA", "cuneiform": "𒃮" }],
+  "gad": [{ "value": "GAD", "cuneiform": "𒃰" }],
+  "gada": [{ "value": "GADA", "cuneiform": "𒃰" }],
+  "gag": [{ "value": "GAG", "cuneiform": "𒆕" }],
+  "gal": [
+    { "value": "GAL", "cuneiform": "𒃲" },
+    { "value": "GAL2", "cuneiform": "𒅅" },
+    { "value": "GAL4", "cuneiform": "𒊩" },
+    { "value": "GAL5", "cuneiform": "𒋼" }
+  ],
+  "gala": [{ "value": "GALA", "cuneiform": "𒍑𒆪" }],
+  "galam": [{ "value": "GALAM", "cuneiform": "𒃴" }],
+  "galga": [{ "value": "GALGA", "cuneiform": "𒃌" }],
+  "gam": [
+    { "value": "GAM", "cuneiform": "𒃵" },
+    { "value": "GAM3", "cuneiform": "𒉽𒈿" }
+  ],
+  "gan": [
+    { "value": "GAN", "cuneiform": "𒃶" },
+    { "value": "GAN2", "cuneiform": "𒃷" }
+  ],
+  "gana": [{ "value": "GANA2", "cuneiform": "𒃷" }],
+  "ganba": [{ "value": "GANBA", "cuneiform": "𒆠𒇴" }],
+  "ganun": [{ "value": "GANUN", "cuneiform": "𒃠" }],
+  "gar": [
+    { "value": "GAR", "cuneiform": "𒃻" },
+    { "value": "GAR3", "cuneiform": "𒃼" },
+    { "value": "GAR5", "cuneiform": "𒈖" },
+    { "value": "GAR8", "cuneiform": "𒋞" }
+  ],
+  "garadin": [{ "value": "GARADIN9", "cuneiform": "𒌏" }],
+  "garadinx": [{ "value": "GARADINX", "cuneiform": "𒃱" }],
+  "garim": [{ "value": "GARIM", "cuneiform": "𒇑" }],
+  "gašam": [{ "value": "GAŠAM", "cuneiform": "𒉣𒈨𒋳" }],
+  "gašan": [{ "value": "GAŠAN", "cuneiform": "𒃽" }],
+  "gaz": [{ "value": "GAZ", "cuneiform": "𒄤" }],
+  "gazi": [{ "value": "GAZI", "cuneiform": "𒃢" }],
+  "ge": [
+    { "value": "GE", "cuneiform": "𒄀" },
+    { "value": "GE2", "cuneiform": "𒆤" },
+    { "value": "GE6", "cuneiform": "𒈪" },
+    { "value": "GE22", "cuneiform": "𒀺" },
+    { "value": "GE23", "cuneiform": "𒀹" }
+  ],
+  "gel": [{ "value": "GEL", "cuneiform": "𒄃" }],
+  "geme": [{ "value": "GEME2", "cuneiform": "𒊩𒆳" }],
+  "gen": [{ "value": "GEN6", "cuneiform": "𒄀" }],
+  "genna": [{ "value": "GENNA", "cuneiform": "𒌉𒁹" }],
+  "geš": [{ "value": "GEŠ", "cuneiform": "𒄑" }],
+  "geššim": [{ "value": "GEŠŠIM", "cuneiform": "𒄑𒋆" }],
+  "geštin": [{ "value": "GEŠTIN", "cuneiform": "𒃾" }],
+  "gi": [
+    { "value": "GI", "cuneiform": "𒄀" },
+    { "value": "GI2", "cuneiform": "𒆤" },
+    { "value": "GI4", "cuneiform": "𒄄" },
+    { "value": "GI5", "cuneiform": "𒆠" },
+    { "value": "GI6", "cuneiform": "𒈪" },
+    { "value": "GI7", "cuneiform": "𒂠" },
+    { "value": "GI16", "cuneiform": "𒄃" },
+    { "value": "GI17", "cuneiform": "𒍼" }
+  ],
+  "gib": [{ "value": "GIB", "cuneiform": "𒄃" }],
+  "gibil": [
+    { "value": "GIBIL", "cuneiform": "𒉋" },
+    { "value": "GIBIL2", "cuneiform": "𒋙𒀾" },
+    { "value": "GIBIL4", "cuneiform": "𒉈" }
+  ],
+  "gid": [{ "value": "GID2", "cuneiform": "𒁍" }],
+  "gidim": [{ "value": "GIDIM", "cuneiform": "𒄇" }],
+  "gig": [
+    { "value": "GIG", "cuneiform": "𒍼" },
+    { "value": "GIG2", "cuneiform": "𒈪" }
+  ],
+  "gigam": [{ "value": "GIGAM", "cuneiform": "𒈓" }],
+  "giggi": [{ "value": "GIGGI", "cuneiform": "𒈪" }],
+  "gigi": [{ "value": "GIGI", "cuneiform": "𒄅" }],
+  "gigir": [
+    { "value": "GIGIR", "cuneiform": "𒇀" },
+    { "value": "GIGIR2", "cuneiform": "𒇥" }
+  ],
+  "gigirx": [{ "value": "GIGIRX", "cuneiform": "𒆸𒌀" }],
+  "gil": [{ "value": "GIL", "cuneiform": "𒄃" }],
+  "gilgameš": [
+    { "value": "GILGAMEŠ", "cuneiform": "𒄑𒂆𒈦" },
+    { "value": "GILGAMEŠ2", "cuneiform": "𒄑𒉋𒂵𒈩" }
+  ],
+  "gilim": [{ "value": "GILIM", "cuneiform": "𒄃" }],
+  "gim": [{ "value": "GIM", "cuneiform": "𒁶" }],
+  "gin": [
+    { "value": "GIN", "cuneiform": "𒁺" },
+    { "value": "GIN2", "cuneiform": "𒂆" },
+    { "value": "GIN3", "cuneiform": "𒆳" },
+    { "value": "GIN4", "cuneiform": "𒍤𒆸" },
+    { "value": "GIN6", "cuneiform": "𒄀" },
+    { "value": "GIN7", "cuneiform": "𒁶" }
+  ],
+  "gir": [
+    { "value": "GIR", "cuneiform": "𒄫" },
+    { "value": "GIR2", "cuneiform": "𒄈" },
+    { "value": "GIR3", "cuneiform": "𒄊" },
+    { "value": "GIR4", "cuneiform": "𒌋𒀜" },
+    { "value": "GIR5", "cuneiform": "𒁽" },
+    { "value": "GIR6", "cuneiform": "𒁼" },
+    { "value": "GIR10", "cuneiform": "𒉈" },
+    { "value": "GIR15", "cuneiform": "𒂠" }
+  ],
+  "giraba": [{ "value": "GIRABA", "cuneiform": "𒀊𒄫" }],
+  "giri": [
+    { "value": "GIRI16", "cuneiform": "𒄌" },
+    { "value": "GIRI17", "cuneiform": "𒅗" }
+  ],
+  "gisal": [{ "value": "GISAL", "cuneiform": "𒄐" }],
+  "giš": [{ "value": "GIŠ", "cuneiform": "𒄑" }],
+  "gu": [
+    { "value": "GU", "cuneiform": "𒄖" },
+    { "value": "GU2", "cuneiform": "𒄘" },
+    { "value": "GU3", "cuneiform": "𒅗" },
+    { "value": "GU4", "cuneiform": "𒄞" },
+    { "value": "GU7", "cuneiform": "𒅥" }
+  ],
+  "gub": [
+    { "value": "GUB", "cuneiform": "𒁺" },
+    { "value": "GUB2", "cuneiform": "𒇷" }
+  ],
+  "gud": [
+    { "value": "GUD", "cuneiform": "𒄞" },
+    { "value": "GUD3", "cuneiform": "𒌑𒆠𒋧𒂵" }
+  ],
+  "gug": [
+    { "value": "GUG", "cuneiform": "𒍝𒄢" },
+    { "value": "GUG2", "cuneiform": "𒈖" }
+  ],
+  "gul": [{ "value": "GUL", "cuneiform": "𒄢" }],
+  "gum": [{ "value": "GUM", "cuneiform": "𒄣" }],
+  "gun": [{ "value": "GUN3", "cuneiform": "𒁯" }],
+  "gur": [
+    { "value": "GUR", "cuneiform": "𒄥" },
+    { "value": "GUR2", "cuneiform": "𒃵" },
+    { "value": "GUR4", "cuneiform": "𒆸" },
+    { "value": "GUR5", "cuneiform": "𒍀" },
+    { "value": "GUR7", "cuneiform": "𒄦" },
+    { "value": "GUR8", "cuneiform": "𒋽" },
+    { "value": "GUR10", "cuneiform": "𒆥" },
+    { "value": "GUR11", "cuneiform": "𒂵" },
+    { "value": "GUR17", "cuneiform": "𒄕" }
+  ],
+  "guru": [
+    { "value": "GURU5", "cuneiform": "𒍀" },
+    { "value": "GURU6", "cuneiform": "𒃸" },
+    { "value": "GURU7", "cuneiform": "𒄦" }
+  ],
+  "gurud": [
+    { "value": "GURUD", "cuneiform": "𒉩𒆠" },
+    { "value": "GURUD2", "cuneiform": "𒇽𒆠" }
+  ],
+  "gurum": [{ "value": "GURUM", "cuneiform": "𒃵" }],
+  "gurun": [
+    {
+      "value": "GURUN",
+      "cuneiform": "UŠ2 squared (four opposing 𒍗 forming a square in the middle)"
+    }
+  ],
+  "guruš": [
+    { "value": "GURUŠ", "cuneiform": "𒄨" },
+    { "value": "GURUŠ3", "cuneiform": "𒍀" }
+  ],
+  "ĝa": [{ "value": "ĜA2", "cuneiform": "𒂷" }],
+  "ĝal": [{ "value": "ĜAL2", "cuneiform": "𒅅" }],
+  "ĝar": [{ "value": "ĜAR", "cuneiform": "𒃻" }],
+  "ĝarin": [{ "value": "ĜARIN", "cuneiform": "𒇑" }],
+  "ĝarza": [
+    { "value": "ĜARZA", "cuneiform": "𒉺𒀭" },
+    { "value": "ĜARZA2", "cuneiform": "𒉺𒈗" }
+  ],
+  "ĝe": [{ "value": "ĜE26", "cuneiform": "𒂷" }],
+  "ĝen": [{ "value": "ĜEN", "cuneiform": "𒁺" }],
+  "ĝešhašhur": [{ "value": "ĜEŠHAŠHUR", "cuneiform": "𒄑𒈢" }],
+  "ĝeššim": [{ "value": "ĜEŠŠIM", "cuneiform": "𒄑𒋆" }],
+  "ĝeštin": [{ "value": "ĜEŠTIN", "cuneiform": "𒃾" }],
+  "ĝeštug": [{ "value": "ĜEŠTUG3", "cuneiform": "𒄑𒉿𒌆" }],
+  "ĝi": [
+    { "value": "ĜI6", "cuneiform": "𒈪" },
+    { "value": "ĜI25", "cuneiform": "𒂂" }
+  ],
+  "ĝidlam": [
+    { "value": "ĜIDLAM", "cuneiform": "𒊩𒍑𒁮" },
+    { "value": "ĜIDLAM2", "cuneiform": "𒍑𒁮" },
+    { "value": "ĜIDLAM3", "cuneiform": "𒍑𒊩𒁮" }
+  ],
+  "ĝidru": [{ "value": "ĜIDRU", "cuneiform": "𒉺" }],
+  "ĝir": [{ "value": "ĜIR2", "cuneiform": "𒄈" }],
+  "ĝiri": [{ "value": "ĜIRI3", "cuneiform": "𒄊" }],
+  "ĝissu": [{ "value": "ĜISSU", "cuneiform": "𒄑𒈪" }],
+  "ĝiš": [{ "value": "ĜIŠ", "cuneiform": "𒄑" }],
+  "ĝišgal": [{ "value": "ĜIŠGAL", "cuneiform": "𒍇" }],
+  "ĝiškim": [{ "value": "ĜIŠKIM", "cuneiform": "𒅆𒁾" }],
+  "ĝišnimbar": [{ "value": "ĜIŠNIMBAR", "cuneiform": "𒊷" }],
+  "ĝizzal": [{ "value": "ĜIZZAL", "cuneiform": "𒄑𒌆𒉿𒎓𒉣" }],
+  "ĝu": [{ "value": "ĜU10", "cuneiform": "𒈬" }],
+  "ĝuruš": [{ "value": "ĜURUŠ", "cuneiform": "𒆗" }],
+  "ḫa": [{ "value": "ḪA", "cuneiform": "𒄩" }],
+  "ḫabrud": [{ "value": "ḪABRUD", "cuneiform": "𒆢" }],
+  "ḫad": [{ "value": "ḪAD2", "cuneiform": "𒌓" }],
+  "ḫal": [{ "value": "ḪAL", "cuneiform": "𒄬" }],
+  "ḫar": [{ "value": "ḪAR", "cuneiform": "𒄯" }],
+  "ḫasḫur": [{ "value": "ḪASḪUR", "cuneiform": "𒈢" }],
+  "ḫaš": [
+    { "value": "ḪAŠ", "cuneiform": "𒋻" },
+    { "value": "ḪAŠ2", "cuneiform": "𒍨" },
+    { "value": "ḪAŠ4", "cuneiform": "𒍮" }
+  ],
+  "ḫe": [{ "value": "ḪE2", "cuneiform": "𒃶" }],
+  "ḫi": [{ "value": "ḪI", "cuneiform": "𒄭" }],
+  "ḫirinx": [{ "value": "ḪIRINX", "cuneiform": "𒆶" }],
+  "ḫu": [{ "value": "ḪU", "cuneiform": "𒄷" }],
+  "ḫub": [
+    { "value": "ḪUB", "cuneiform": "𒄽" },
+    { "value": "ḪUB2", "cuneiform": "𒄸" }
+  ],
+  "ḫud": [{ "value": "ḪUD2", "cuneiform": "𒌓" }],
+  "ḫuĝ": [{ "value": "ḪUĜ", "cuneiform": "𒂠" }],
+  "ḫul": [
+    { "value": "ḪUL", "cuneiform": "𒅆𒌨" },
+    { "value": "ḪUL2", "cuneiform": "𒄾" }
+  ],
+  "ḫulu": [{ "value": "ḪULU", "cuneiform": "𒅆𒌨" }],
+  "ḫuluḫ": [{ "value": "ḪULUḪ", "cuneiform": "𒈛" }],
+  "ḫum": [{ "value": "ḪUM", "cuneiform": "𒈝" }],
+  "ḫur": [{ "value": "ḪUR", "cuneiform": "𒄯" }],
+  "ḫuš": [{ "value": "ḪUŠ", "cuneiform": "𒄭𒄊" }],
+  "ḫuš(lak)": [{ "value": "ḪUŠ(LAK240)", "cuneiform": "𒍽" }],
+  "i": [
+    { "value": "I", "cuneiform": "𒄿" },
+    { "value": "I3", "cuneiform": "𒉌" }
+  ],
+  "ia": [
+    { "value": "IA", "cuneiform": "𒅀" },
+    { "value": "IA3", "cuneiform": "𒉌" }
+  ],
+  "ib": [
+    { "value": "IB", "cuneiform": "𒅁" },
+    { "value": "IB2", "cuneiform": "𒌈" }
+  ],
+  "id": [
+    { "value": "ID", "cuneiform": "𒀉" },
+    { "value": "ID2", "cuneiform": "𒀀𒇉" }
+  ],
+  "idigna": [{ "value": "IDIGNA", "cuneiform": "𒈦𒄘𒃼" }],
+  "idim": [{ "value": "IDIM", "cuneiform": "𒅂" }],
+  "ig": [{ "value": "IG", "cuneiform": "𒅅" }],
+  "igi": [{ "value": "IGI", "cuneiform": "𒅆" }],
+  "igištu": [{ "value": "IGIŠTU", "cuneiform": "𒅆𒁺" }],
+  "iĝ": [{ "value": "IĜ3", "cuneiform": "𒉘" }],
+  "iḫ": [{ "value": "IḪ", "cuneiform": "𒄴" }],
+  "il": [
+    { "value": "IL", "cuneiform": "𒅋" },
+    { "value": "IL2", "cuneiform": "𒅍" },
+    { "value": "IL3", "cuneiform": "𒀭" }
+  ],
+  "im": [
+    { "value": "IM", "cuneiform": "𒅎" },
+    { "value": "IM2", "cuneiform": "𒁽" }
+  ],
+  "imin": [{ "value": "IMIN", "cuneiform": "𒅓" }],
+  "imma": [{ "value": "IMMA3", "cuneiform": "𒅊" }],
+  "immax": [{ "value": "IMMAX", "cuneiform": "𒇋" }],
+  "immal": [{ "value": "IMMAL", "cuneiform": "𒉥" }],
+  "in": [{ "value": "IN", "cuneiform": "𒅔" }],
+  "inana": [{ "value": "INANA", "cuneiform": "𒈹" }],
+  "inanna": [{ "value": "INANNA", "cuneiform": "𒈹" }],
+  "inim": [{ "value": "INIM", "cuneiform": "𒅗" }],
+  "innin": [{ "value": "INNIN", "cuneiform": "𒈹" }],
+  "iq": [{ "value": "IQ", "cuneiform": "𒅅" }],
+  "ir": [
+    { "value": "IR", "cuneiform": "𒅕" },
+    { "value": "IR3", "cuneiform": "𒀴" },
+    { "value": "IR11", "cuneiform": "𒀵" }
+  ],
+  "iri": [
+    { "value": "IRI", "cuneiform": "𒌷" },
+    { "value": "IRI12", "cuneiform": "𒀊" }
+  ],
+  "is": [{ "value": "IS3", "cuneiform": "𒀊" }],
+  "isimu": [{ "value": "ISIMU3", "cuneiform": "𒌋𒀜" }],
+  "isimud": [{ "value": "ISIMUD4", "cuneiform": "𒉽𒅊𒉣𒈨" }],
+  "isimudx": [{ "value": "ISIMUDX", "cuneiform": "𒉽𒉣𒈨𒂡" }],
+  "isin": [{ "value": "ISIN2", "cuneiform": "𒅔" }],
+  "iš": [{ "value": "IŠ", "cuneiform": "𒅖" }],
+  "išib": [{ "value": "IŠIB", "cuneiform": "𒈨" }],
+  "išin": [{ "value": "IŠIN", "cuneiform": "𒉺𒊺" }],
+  "iškur": [{ "value": "IŠKUR", "cuneiform": "𒅎" }],
+  "it": [{ "value": "IT", "cuneiform": "𒀉" }],
+  "iti": [
+    { "value": "ITI", "cuneiform": "𒌚" },
+    { "value": "ITI7", "cuneiform": "𒌗𒀭𒋀𒆠" }
+  ],
+  "itid": [{ "value": "ITID", "cuneiform": "𒌗" }],
+  "itima": [
+    { "value": "ITIMA", "cuneiform": "𒃟" },
+    { "value": "ITIMA2", "cuneiform": "𒌖" }
+  ],
+  "iṭ": [{ "value": "IṬ", "cuneiform": "𒀉" }],
+  "iz": [{ "value": "IZ", "cuneiform": "𒄑" }],
+  "izi": [{ "value": "IZI", "cuneiform": "𒉈" }],
+  "izin": [{ "value": "IZIN", "cuneiform": "𒂡" }],
+  "ka": [
+    { "value": "KA", "cuneiform": "𒅗" },
+    { "value": "KA2", "cuneiform": "𒆍" },
+    { "value": "KA3", "cuneiform": "𒂵" },
+    { "value": "KA5", "cuneiform": "𒈜" }
+  ],
+  "kab": [{ "value": "KAB", "cuneiform": "𒆏" }],
+  "kad": [
+    { "value": "KAD2", "cuneiform": "𒆐" },
+    { "value": "KAD3", "cuneiform": "𒆑" },
+    { "value": "KAD4", "cuneiform": "𒆒" },
+    { "value": "KAD5", "cuneiform": "𒆓" }
+  ],
+  "kak": [{ "value": "KAK", "cuneiform": "𒆕" }],
+  "kal": [{ "value": "KAL", "cuneiform": "𒆗" }],
+  "kalag": [{ "value": "KALAG", "cuneiform": "𒆗" }],
+  "kalam": [{ "value": "KALAM", "cuneiform": "𒌦" }],
+  "kam": [
+    { "value": "KAM", "cuneiform": "𒄰" },
+    { "value": "KAM2", "cuneiform": "𒆚" },
+    { "value": "KAM4", "cuneiform": "𒆛" }
+  ],
+  "kan": [
+    { "value": "KAN", "cuneiform": "𒃶" },
+    { "value": "KAN4", "cuneiform": "𒆍" }
+  ],
+  "kar": [
+    { "value": "KAR", "cuneiform": "𒋼𒀀" },
+    { "value": "KAR2", "cuneiform": "𒃸" }
+  ],
+  "karkara": [{ "value": "KARKARA", "cuneiform": "𒅎" }],
+  "kaskal": [{ "value": "KASKAL", "cuneiform": "𒆜" }],
+  "kaš": [{ "value": "KAŠ4", "cuneiform": "𒁽" }],
+  "ke": [
+    { "value": "KE", "cuneiform": "𒆠" },
+    { "value": "KE2", "cuneiform": "𒄀" },
+    { "value": "KE4", "cuneiform": "𒆤" }
+  ],
+  "keš": [
+    { "value": "KEŠ2", "cuneiform": "𒆟" },
+    { "value": "KEŠ3", "cuneiform": "𒋙𒀭𒄲" }
+  ],
+  "kešda": [{ "value": "KEŠDA", "cuneiform": "𒂡" }],
+  "ki": [
+    { "value": "KI", "cuneiform": "𒆠" },
+    { "value": "KI2", "cuneiform": "𒄀" }
+  ],
+  "kibir": [{ "value": "KIBIR2", "cuneiform": "𒋙𒀾" }],
+  "kid": [
+    { "value": "KID", "cuneiform": "𒆤" },
+    { "value": "KID2", "cuneiform": "𒋺" }
+  ],
+  "kiĝ": [{ "value": "KIĜ2", "cuneiform": "𒆥" }],
+  "kim": [{ "value": "KIM3", "cuneiform": "𒁍" }],
+  "kin": [{ "value": "KIN", "cuneiform": "𒆥" }],
+  "kinda": [{ "value": "KINDA", "cuneiform": "𒃱" }],
+  "kindagal": [{ "value": "KINDAGAL2", "cuneiform": "𒃲𒌵" }],
+  "kingal": [{ "value": "KINGAL", "cuneiform": "𒃲𒌺" }],
+  "kir": [
+    { "value": "KIR4", "cuneiform": "𒅗" },
+    { "value": "KIR6", "cuneiform": "𒀘" }
+  ],
+  "kiri": [{ "value": "KIRI6", "cuneiform": "𒊬" }],
+  "kisal": [{ "value": "KISAL", "cuneiform": "𒆦" }],
+  "kisim": [{ "value": "KISIM5", "cuneiform": "𒆨" }],
+  "kislaḫ": [{ "value": "KISLAḪ", "cuneiform": "𒆠𒌓" }],
+  "kiš": [{ "value": "KIŠ", "cuneiform": "𒆧" }],
+  "kiši": [
+    { "value": "KIŠI6", "cuneiform": "𒊾" },
+    { "value": "KIŠI8", "cuneiform": "𒁞" },
+    { "value": "KIŠI16", "cuneiform": "𒌑𒄉" },
+    { "value": "KIŠI17", "cuneiform": "𒄉" }
+  ],
+  "ku": [
+    { "value": "KU", "cuneiform": "𒆪" },
+    { "value": "KU3", "cuneiform": "𒆬" },
+    { "value": "KU4", "cuneiform": "𒆭" },
+    { "value": "KU5", "cuneiform": "𒋻" },
+    { "value": "KU6", "cuneiform": "𒄩" },
+    { "value": "KU7", "cuneiform": "𒆯" }
+  ],
+  "kud": [{ "value": "KUD", "cuneiform": "𒋻" }],
+  "kug": [{ "value": "KUG", "cuneiform": "𒆬" }],
+  "kul": [{ "value": "KUL", "cuneiform": "𒆰" }],
+  "kum": [
+    { "value": "KUM", "cuneiform": "𒄣" },
+    { "value": "KUM2", "cuneiform": "𒉈" }
+  ],
+  "kun": [
+    { "value": "KUN", "cuneiform": "𒆲" },
+    { "value": "KUN4", "cuneiform": "𒄿𒇻" }
+  ],
+  "kup": [{ "value": "KUP4", "cuneiform": "𒆤" }],
+  "kur": [
+    { "value": "KUR", "cuneiform": "𒆳" },
+    { "value": "KUR2", "cuneiform": "𒉽" }
+  ],
+  "kurku": [{ "value": "KURKU2", "cuneiform": "𒅗𒀭𒉌𒋛" }],
+  "kurum": [{ "value": "KURUM7", "cuneiform": "𒅆𒂟" }],
+  "kuš": [
+    { "value": "KUŠ", "cuneiform": "𒋢" },
+    { "value": "KUŠ2", "cuneiform": "𒊨" },
+    { "value": "KUŠ3", "cuneiform": "𒌑" }
+  ],
+  "kušu": [
+    { "value": "KUŠU", "cuneiform": "𒌋𒊊" },
+    { "value": "KUŠU2", "cuneiform": "𒆵" },
+    { "value": "KUŠU4", "cuneiform": "𒊨" }
+  ],
+  "kušum": [{ "value": "KUŠUM4", "cuneiform": "𒌋𒊊" }],
+  "la": [
+    { "value": "LA", "cuneiform": "𒆷" },
+    { "value": "LA2", "cuneiform": "𒇲" }
+  ],
+  "lag": [{ "value": "LAG", "cuneiform": "𒋃" }],
+  "lagab": [{ "value": "LAGAB", "cuneiform": "𒆸" }],
+  "lagar": [
+    { "value": "LAGAR", "cuneiform": "𒇬" },
+    { "value": "LAGAR3", "cuneiform": "𒊩𒄸" }
+  ],
+  "lagaš": [{ "value": "LAGAŠ", "cuneiform": "𒉢𒁓𒆷" }],
+  "laḫ": [{ "value": "LAḪ4", "cuneiform": "𒁻" }],
+  "laḫšu": [{ "value": "LAḪŠU", "cuneiform": "𒇱" }],
+  "laḫtan": [
+    { "value": "LAḪTAN", "cuneiform": "𒉴" },
+    { "value": "LAḪTAN2", "cuneiform": "𒉶" }
+  ],
+  "lal": [
+    { "value": "LAL", "cuneiform": "𒇲" },
+    { "value": "LAL3", "cuneiform": "𒋭" }
+  ],
+  "lam": [
+    { "value": "LAM", "cuneiform": "𒇴" },
+    { "value": "LAM2", "cuneiform": "𒉈" }
+  ],
+  "lamma": [{ "value": "LAMMA", "cuneiform": "𒆗" }],
+  "le": [
+    { "value": "LE", "cuneiform": "𒇷" },
+    { "value": "LE2", "cuneiform": "𒉌" }
+  ],
+  "lem": [{ "value": "LEM4", "cuneiform": "𒉈" }],
+  "li": [
+    { "value": "LI", "cuneiform": "𒇷" },
+    { "value": "LI2", "cuneiform": "𒉌" },
+    { "value": "LI9", "cuneiform": "𒉈" }
+  ],
+  "lib": [{ "value": "LIB", "cuneiform": "𒈜" }],
+  "libir": [{ "value": "LIBIR", "cuneiform": "𒅆𒂠" }],
+  "libiš": [{ "value": "LIBIŠ", "cuneiform": "𒀚" }],
+  "lid": [
+    { "value": "LID", "cuneiform": "𒀖" },
+    { "value": "LID2", "cuneiform": "𒉌" }
+  ],
+  "ligima": [{ "value": "LIGIMA", "cuneiform": "𒅆𒌉𒌉" }],
+  "lil": [
+    { "value": "LIL", "cuneiform": "𒇸" },
+    { "value": "LIL2", "cuneiform": "𒆤" }
+  ],
+  "liliz": [{ "value": "LILIZ", "cuneiform": "𒀗" }],
+  "lim": [{ "value": "LIM", "cuneiform": "𒅆" }],
+  "limmu": [{ "value": "LIMMU2", "cuneiform": "𒇹" }],
+  "liš": [{ "value": "LIŠ", "cuneiform": "𒇺" }],
+  "lu": [
+    { "value": "LU", "cuneiform": "𒇻" },
+    { "value": "LU2", "cuneiform": "𒇽" },
+    { "value": "LU3", "cuneiform": "𒈖" }
+  ],
+  "lub": [{ "value": "LUB", "cuneiform": "𒈜" }],
+  "lug": [{ "value": "LUG", "cuneiform": "𒇻" }],
+  "lugal": [{ "value": "LUGAL", "cuneiform": "𒈗" }],
+  "lugud": [{ "value": "LUGUD3", "cuneiform": "𒈟" }],
+  "luḫ": [{ "value": "LUḪ", "cuneiform": "𒈛" }],
+  "lul": [{ "value": "LUL", "cuneiform": "𒈜" }],
+  "lum": [{ "value": "LUM", "cuneiform": "𒈝" }],
+  "lunga": [{ "value": "LUNGA3", "cuneiform": "𒋋" }],
+  "ma": [
+    { "value": "MA", "cuneiform": "𒈠" },
+    { "value": "MA2", "cuneiform": "𒈣" },
+    { "value": "MA3", "cuneiform": "𒂷" }
+  ],
+  "maḫ": [{ "value": "MAḪ", "cuneiform": "𒈤" }],
+  "mar": [{ "value": "MAR", "cuneiform": "𒈥" }],
+  "maš": [
+    { "value": "MAŠ", "cuneiform": "𒈦" },
+    { "value": "MAŠ2", "cuneiform": "𒈧" },
+    { "value": "MAŠ3", "cuneiform": "𒈦𒉺" }
+  ],
+  "mašgi": [{ "value": "MAŠGI", "cuneiform": "𒌐" }],
+  "me": [
+    { "value": "ME", "cuneiform": "𒈨" },
+    { "value": "ME3", "cuneiform": "𒀞" }
+  ],
+  "men": [
+    { "value": "MEN", "cuneiform": "𒃞" },
+    { "value": "MEN2", "cuneiform": "𒈨" }
+  ],
+  "mes": [{ "value": "MES", "cuneiform": "𒈩" }],
+  "meš": [{ "value": "MEŠ", "cuneiform": "𒎌" }],
+  "mi": [
+    { "value": "MI", "cuneiform": "𒈪" },
+    { "value": "MI2", "cuneiform": "𒊩" }
+  ],
+  "min": [
+    { "value": "MIN", "cuneiform": "𒈫" },
+    { "value": "MIN3", "cuneiform": "𒌋𒌋" }
+  ],
+  "mitum": [{ "value": "MITUM2", "cuneiform": "𒆪𒅂" }],
+  "mu": [
+    { "value": "MU", "cuneiform": "𒈬" },
+    { "value": "MU2", "cuneiform": "𒊬" }
+  ],
+  "mud": [
+    { "value": "MUD", "cuneiform": "𒄷𒄭" },
+    { "value": "MUD3", "cuneiform": "𒉯" }
+  ],
+  "mudx": [{ "value": "MUDX", "cuneiform": "(LAK449)" }],
+  "mug": [{ "value": "MUG", "cuneiform": "𒈮" }],
+  "mul": [{ "value": "MUL", "cuneiform": "𒀯" }],
+  "mun": [{ "value": "MUN", "cuneiform": "𒁵" }],
+  "munsub": [{ "value": "MUNSUB", "cuneiform": "𒈰" }],
+  "munšub": [{ "value": "MUNŠUB", "cuneiform": "𒈰" }],
+  "munu": [{ "value": "MUNU4", "cuneiform": "𒉽𒊺𒉽" }],
+  "munus": [{ "value": "MUNUS", "cuneiform": "𒊩" }],
+  "mur": [{ "value": "MUR", "cuneiform": "𒄯" }],
+  "murgu": [
+    { "value": "MURGU", "cuneiform": "𒋞" },
+    { "value": "MURGU2", "cuneiform": "𒈱" }
+  ],
+  "muru": [
+    { "value": "MURU2", "cuneiform": "𒉠" },
+    { "value": "MURU9", "cuneiform": "𒅎𒂂" }
+  ],
+  "murub": [{ "value": "MURUB4", "cuneiform": "𒉠" }],
+  "mussa": [{ "value": "MUSSA", "cuneiform": "𒊩𒍑𒁲" }],
+  "muš": [
+    { "value": "MUŠ", "cuneiform": "𒈲" },
+    { "value": "MUŠ2", "cuneiform": "𒈽" },
+    { "value": "MUŠ3", "cuneiform": "𒈹" }
+  ],
+  "mušen": [{ "value": "MUŠEN", "cuneiform": "𒄷" }],
+  "muštug": [{ "value": "MUŠTUG2", "cuneiform": "𒈬𒍑𒌆𒉿" }],
+  "na": [
+    { "value": "NA", "cuneiform": "𒈾" },
+    { "value": "NA2", "cuneiform": "𒈿" },
+    { "value": "NA4", "cuneiform": "𒎎" }
+  ],
+  "nag": [{ "value": "NAG", "cuneiform": "𒅘" }],
+  "naga": [{ "value": "NAGA", "cuneiform": "𒉀" }],
+  "nagar": [{ "value": "NAGAR", "cuneiform": "𒉄" }],
+  "nagga": [{ "value": "NAGGA", "cuneiform": "𒀭𒈾" }],
+  "naggax": [{ "value": "NAGGAX", "cuneiform": "𒀭" }],
+  "naĝ": [{ "value": "NAĜ", "cuneiform": "𒅘" }],
+  "naĝa": [
+    { "value": "NAĜA", "cuneiform": "𒉀" },
+    { "value": "NAĜA3", "cuneiform": "𒄤" },
+    { "value": "NAĜA4", "cuneiform": "𒄣" }
+  ],
+  "nam": [
+    { "value": "NAM", "cuneiform": "𒉆" },
+    { "value": "NAM2", "cuneiform": "𒉇" }
+  ],
+  "namma": [{ "value": "NAMMA", "cuneiform": "𒇉" }],
+  "nanna": [{ "value": "NANNA", "cuneiform": "𒋀𒆠" }],
+  "nanše": [{ "value": "NANŠE", "cuneiform": "𒀏" }],
+  "nar": [{ "value": "NAR", "cuneiform": "𒈜" }],
+  "ne": [
+    { "value": "NE", "cuneiform": "𒉈" },
+    { "value": "NE2", "cuneiform": "𒉌" }
+  ],
+  "ni": [
+    { "value": "NI", "cuneiform": "𒉌" },
+    { "value": "NI2", "cuneiform": "𒉎" },
+    { "value": "NI3", "cuneiform": "𒃻" },
+    { "value": "NI5", "cuneiform": "𒉈" }
+  ],
+  "nidba": [{ "value": "NIDBA2", "cuneiform": "𒉻𒈹" }],
+  "nig": [
+    { "value": "NIG", "cuneiform": "𒊩𒌨" },
+    { "value": "NIG2", "cuneiform": "𒃻" }
+  ],
+  "niga": [{ "value": "NIGA", "cuneiform": "𒊺" }],
+  "nigin": [
+    { "value": "NIGIN", "cuneiform": "𒇔" },
+    { "value": "NIGIN2", "cuneiform": "𒆸" }
+  ],
+  "niĝ": [{ "value": "NIĜ2", "cuneiform": "𒃻" }],
+  "niĝin": [{ "value": "NIĜIN2", "cuneiform": "𒆸" }],
+  "nim": [{ "value": "NIM", "cuneiform": "𒉏" }],
+  "nin": [
+    { "value": "NIN", "cuneiform": "𒎏" },
+    { "value": "NIN9", "cuneiform": "𒎐" }
+  ],
+  "nina": [{ "value": "NINA", "cuneiform": "𒀏" }],
+  "ninda": [
+    { "value": "NINDA", "cuneiform": "𒃻" },
+    { "value": "NINDA2", "cuneiform": "𒉒" }
+  ],
+  "ninna": [{ "value": "NINNA2", "cuneiform": "𒇧" }],
+  "ninni": [{ "value": "NINNI5", "cuneiform": "𒌃" }],
+  "nir": [
+    { "value": "NIR", "cuneiform": "𒉪" },
+    { "value": "NIR3", "cuneiform": "𒍝𒉏" }
+  ],
+  "nisag": [{ "value": "NISAG", "cuneiform": "𒉠" }],
+  "nita": [{ "value": "NITA", "cuneiform": "𒍑" }],
+  "nitaḫ": [{ "value": "NITAḪ2", "cuneiform": "𒀴" }],
+  "nitalam": [{ "value": "NITALAM4", "cuneiform": "𒊩𒍑" }],
+  "nu": [
+    { "value": "NU", "cuneiform": "𒉡" },
+    { "value": "NU2", "cuneiform": "𒈿" },
+    { "value": "NU11", "cuneiform": "𒉢" },
+    { "value": "NU12", "cuneiform": "𒇻" }
+  ],
+  "nud": [{ "value": "NUD", "cuneiform": "𒈿" }],
+  "num": [
+    { "value": "NUM", "cuneiform": "𒉏" },
+    { "value": "NUM2", "cuneiform": "𒈝" }
+  ],
+  "numun": [
+    { "value": "NUMUN", "cuneiform": "𒆰" },
+    { "value": "NUMUN2", "cuneiform": "𒍤𒆸" },
+    { "value": "NUMUN3", "cuneiform": "𒄴" }
+  ],
+  "nun": [{ "value": "NUN", "cuneiform": "𒉣" }],
+  "nundum": [{ "value": "NUNDUM", "cuneiform": "𒅻" }],
+  "nunuz": [{ "value": "NUNUZ", "cuneiform": "𒉭" }],
+  "pa": [
+    { "value": "PA", "cuneiform": "𒉺" },
+    { "value": "PA5", "cuneiform": "𒉽𒂊" }
+  ],
+  "pab": [{ "value": "PAB", "cuneiform": "𒉽" }],
+  "pad": [
+    { "value": "PAD", "cuneiform": "𒉻" },
+    { "value": "PAD3", "cuneiform": "𒅆𒊒" }
+  ],
+  "palil": [{ "value": "PALIL", "cuneiform": "𒅆𒁺" }],
+  "pan": [{ "value": "PAN", "cuneiform": "𒉼" }],
+  "pap": [{ "value": "PAP", "cuneiform": "𒉽" }],
+  "par": [{ "value": "PAR3", "cuneiform": "𒁖" }],
+  "pe": [{ "value": "PE", "cuneiform": "𒄫" }],
+  "pel": [
+    { "value": "PEL", "cuneiform": "𒉈" },
+    { "value": "PEL2", "cuneiform": "𒉋" }
+  ],
+  "peš": [
+    { "value": "PEŠ2", "cuneiform": "𒉾" },
+    { "value": "PEŠ3", "cuneiform": "𒈠" },
+    { "value": "PEŠ4", "cuneiform": "𒊯" },
+    { "value": "PEŠ6", "cuneiform": "𒆓" },
+    { "value": "PEŠ13", "cuneiform": "𒊴" }
+  ],
+  "pi": [
+    { "value": "PI", "cuneiform": "𒉿" },
+    { "value": "PI4", "cuneiform": "𒅗" }
+  ],
+  "pil": [{ "value": "PIL", "cuneiform": "𒉈" }],
+  "pir": [{ "value": "PIR2", "cuneiform": "𒎕" }],
+  "pirig": [{ "value": "PIRIG", "cuneiform": "𒊊" }],
+  "piriĝ": [
+    { "value": "PIRIĜ", "cuneiform": "𒊊" },
+    { "value": "PIRIĜ2", "cuneiform": "𒌓" },
+    { "value": "PIRIĜ3", "cuneiform": "𒊌" }
+  ],
+  "pisaĝ": [
+    { "value": "PISAĜ", "cuneiform": "𒂷" },
+    { "value": "PISAĜ3", "cuneiform": "𒋄" }
+  ],
+  "pisan": [{ "value": "PISAN3", "cuneiform": "𒊿" }],
+  "pu": [
+    { "value": "PU", "cuneiform": "𒁍" },
+    { "value": "PU2", "cuneiform": "𒇥" },
+    { "value": "PU3", "cuneiform": "𒅤" }
+  ],
+  "qa": [
+    { "value": "QA", "cuneiform": "𒋡" },
+    { "value": "QA2", "cuneiform": "𒂵" }
+  ],
+  "qar": [{ "value": "QAR", "cuneiform": "𒃼" }],
+  "qi": [
+    { "value": "QI2", "cuneiform": "𒆠" },
+    { "value": "QI4", "cuneiform": "𒄄" }
+  ],
+  "qum": [{ "value": "QUM", "cuneiform": "𒄣" }],
+  "ra": [
+    { "value": "RA", "cuneiform": "𒊏" },
+    { "value": "RA2", "cuneiform": "𒁺" }
+  ],
+  "rab": [{ "value": "RAB", "cuneiform": "𒊐" }],
+  "rak": [{ "value": "RAK", "cuneiform": "𒊩" }],
+  "re": [
+    { "value": "RE", "cuneiform": "𒊑" },
+    { "value": "RE2", "cuneiform": "𒌷" },
+    { "value": "RE6", "cuneiform": "𒁺" },
+    { "value": "RE7", "cuneiform": "𒁻" }
+  ],
+  "ri": [
+    { "value": "RI", "cuneiform": "𒊑" },
+    { "value": "RI2", "cuneiform": "𒌷" },
+    { "value": "RI8", "cuneiform": "𒈶" }
+  ],
+  "rib": [{ "value": "RIB", "cuneiform": "𒆗" }],
+  "rid": [{ "value": "RID", "cuneiform": "𒈩" }],
+  "rig": [{ "value": "RIG2", "cuneiform": "𒍮" }],
+  "rim": [{ "value": "RIM4", "cuneiform": "𒁽" }],
+  "rin": [{ "value": "RIN", "cuneiform": "𒆸" }],
+  "ru": [
+    { "value": "RU", "cuneiform": "𒊒" },
+    { "value": "RU6", "cuneiform": "𒂔" },
+    { "value": "RU12", "cuneiform": "𒂗" }
+  ],
+  "sa": [
+    { "value": "SA", "cuneiform": "𒊓" },
+    { "value": "SA2", "cuneiform": "𒁲" },
+    { "value": "SA6", "cuneiform": "𒊷" },
+    { "value": "SA11", "cuneiform": "𒋜" },
+    { "value": "SA12", "cuneiform": "𒊕" }
+  ],
+  "sag": [
+    { "value": "SAG", "cuneiform": "𒊕" },
+    { "value": "SAG3", "cuneiform": "𒉺" },
+    { "value": "SAG9", "cuneiform": "𒊷" }
+  ],
+  "saga": [{ "value": "SAGA11", "cuneiform": "𒆥" }],
+  "sagšu": [{ "value": "SAGŠU", "cuneiform": "𒌋𒊕" }],
+  "saĝ": [{ "value": "SAĜ", "cuneiform": "𒊕" }],
+  "saĝšu": [{ "value": "SAĜŠU", "cuneiform": "𒌋𒊕" }],
+  "saḫarx": [{ "value": "SAḪARX", "cuneiform": "𒉈" }],
+  "sal": [
+    { "value": "SAL", "cuneiform": "𒊩" },
+    { "value": "SAL4", "cuneiform": "𒋡" }
+  ],
+  "samanx": [{ "value": "SAMANX", "cuneiform": "𒂠𒁍𒂠𒉣𒂠𒌅" }],
+  "sanga": [{ "value": "SANGA2", "cuneiform": "𒊫" }],
+  "sar": [{ "value": "SAR", "cuneiform": "𒊬" }],
+  "se": [
+    { "value": "SE2", "cuneiform": "𒍣" },
+    { "value": "SE3", "cuneiform": "𒋧" },
+    { "value": "SE12", "cuneiform": "𒅊" }
+  ],
+  "sed": [{ "value": "SED", "cuneiform": "𒈻" }],
+  "si": [
+    { "value": "SI", "cuneiform": "𒋛" },
+    { "value": "SI2", "cuneiform": "𒍣" },
+    { "value": "SI11", "cuneiform": "𒋝" },
+    { "value": "SI19", "cuneiform": "𒆉" },
+    { "value": "SI23", "cuneiform": "𒄢" }
+  ],
+  "sig": [
+    { "value": "SIG", "cuneiform": "𒋝" },
+    { "value": "SIG2", "cuneiform": "𒋠" },
+    { "value": "SIG3", "cuneiform": "𒉺" },
+    { "value": "SIG4", "cuneiform": "𒋞" },
+    { "value": "SIG7", "cuneiform": "𒅊" },
+    { "value": "SIG9", "cuneiform": "𒋛" },
+    { "value": "SIG10", "cuneiform": "𒋧" },
+    { "value": "SIG17", "cuneiform": "𒄀" }
+  ],
+  "sik": [
+    { "value": "SIK", "cuneiform": "𒋝" },
+    { "value": "SIK2", "cuneiform": "𒋠" }
+  ],
+  "siki": [{ "value": "SIKI", "cuneiform": "𒋠" }],
+  "sikil": [{ "value": "SIKIL", "cuneiform": "𒂖" }],
+  "sil": [{ "value": "SIL7", "cuneiform": "𒂣" }],
+  "sila": [
+    { "value": "SILA", "cuneiform": "𒋻" },
+    { "value": "SILA3", "cuneiform": "𒋡" },
+    { "value": "SILA4", "cuneiform": "𒃢" }
+  ],
+  "silig": [{ "value": "SILIG", "cuneiform": "𒍂" }],
+  "sim": [{ "value": "SIM", "cuneiform": "𒉆" }],
+  "simx": [{ "value": "SIMX", "cuneiform": "𒍼" }],
+  "simug": [{ "value": "SIMUG", "cuneiform": "𒌣" }],
+  "sin": [{ "value": "SIN2", "cuneiform": "𒉆" }],
+  "sipad": [{ "value": "SIPAD", "cuneiform": "𒉺𒇻" }],
+  "sir": [{ "value": "SIR2", "cuneiform": "𒁍" }],
+  "sirara": [
+    { "value": "SIRARA", "cuneiform": "𒀏" },
+    { "value": "SIRARA2", "cuneiform": "𒌓𒈣𒀏𒋓" },
+    { "value": "SIRARA6", "cuneiform": "𒌓𒈣𒀏𒆠𒋳" }
+  ],
+  "sirsir": [{ "value": "SIRSIR", "cuneiform": "𒁎" }],
+  "sis": [{ "value": "SIS", "cuneiform": "𒋀" }],
+  "siskur": [{ "value": "SISKUR", "cuneiform": "𒀬" }],
+  "su": [
+    { "value": "SU", "cuneiform": "𒋢" },
+    { "value": "SU3", "cuneiform": "𒋤" },
+    { "value": "SU4", "cuneiform": "𒋜" },
+    { "value": "SU6", "cuneiform": "𒅾" },
+    { "value": "SU7", "cuneiform": "𒇭" },
+    { "value": "SU11", "cuneiform": "𒅗" },
+    { "value": "SU13", "cuneiform": "𒁍" }
+  ],
+  "sub": [
+    { "value": "SUB", "cuneiform": "𒅢" },
+    { "value": "SUB6", "cuneiform": "𒋳" }
+  ],
+  "sud": [
+    { "value": "SUD", "cuneiform": "𒋤" },
+    { "value": "SUD2", "cuneiform": "𒋥" },
+    { "value": "SUD4", "cuneiform": "𒁍" }
+  ],
+  "suen": [{ "value": "SUEN", "cuneiform": "𒂗𒍪" }],
+  "sug": [
+    { "value": "SUG", "cuneiform": "𒆹" },
+    { "value": "SUG4", "cuneiform": "𒋤" }
+  ],
+  "suḫ": [{ "value": "SUḪ3", "cuneiform": "𒄗" }],
+  "suḫub": [
+    { "value": "SUḪUB3", "cuneiform": "𒋗𒁹" },
+    { "value": "SUḪUB4", "cuneiform": "𒋗𒁲𒌍" },
+    { "value": "SUḪUB5", "cuneiform": "𒋗𒂵" }
+  ],
+  "suḫubx": [{ "value": "SUḪUBX", "cuneiform": "𒀯𒁇" }],
+  "suḫur": [{ "value": "SUḪUR", "cuneiform": "𒋦" }],
+  "suḫuš": [{ "value": "SUḪUŠ", "cuneiform": "𒁼" }],
+  "sukkal": [{ "value": "SUKKAL", "cuneiform": "𒈛" }],
+  "sukud": [{ "value": "SUKUD", "cuneiform": "𒃴" }],
+  "sum": [
+    { "value": "SUM", "cuneiform": "𒋧" },
+    { "value": "SUM2", "cuneiform": "𒍮" }
+  ],
+  "sumaš": [{ "value": "SUMAŠ", "cuneiform": "𒋨" }],
+  "sumunx": [{ "value": "SUMUNX", "cuneiform": "𒂠" }],
+  "sumur": [
+    { "value": "SUMUR", "cuneiform": "𒊨" },
+    { "value": "SUMUR2", "cuneiform": "𒋦" },
+    { "value": "SUMUR3", "cuneiform": "𒈰" }
+  ],
+  "sun": [
+    { "value": "SUN2", "cuneiform": "𒄢" },
+    { "value": "SUN5", "cuneiform": "𒁔" },
+    { "value": "SUN7", "cuneiform": "𒆗" }
+  ],
+  "sur": [
+    { "value": "SUR", "cuneiform": "𒋩" },
+    { "value": "SUR2", "cuneiform": "𒊨" },
+    { "value": "SUR3", "cuneiform": "𒄮" },
+    { "value": "SUR9", "cuneiform": "𒋪" },
+    { "value": "SUR12", "cuneiform": "𒇭" }
+  ],
+  "surungal": [{ "value": "SURUNGAL", "cuneiform": "𒌓𒉣" }],
+  "susbu": [
+    { "value": "SUSBU2", "cuneiform": "𒈽" },
+    { "value": "SUSBU3", "cuneiform": "𒈹𒁍" }
+  ],
+  "suš": [{ "value": "SUŠ2", "cuneiform": "𒉌" }],
+  "ša": [
+    { "value": "ŠA", "cuneiform": "𒊭" },
+    { "value": "ŠA3", "cuneiform": "𒊮" },
+    { "value": "ŠA4", "cuneiform": "𒁺" },
+    { "value": "ŠA6", "cuneiform": "𒊷" }
+  ],
+  "šab": [{ "value": "ŠAB6", "cuneiform": "𒊸" }],
+  "šabra": [{ "value": "ŠABRA", "cuneiform": "𒉺𒀠" }],
+  "šag": [{ "value": "ŠAG4", "cuneiform": "𒊮" }],
+  "šagan": [{ "value": "ŠAGAN", "cuneiform": "𒌋𒃶" }],
+  "šaĝan": [{ "value": "ŠAĜAN", "cuneiform": "𒌋𒃶" }],
+  "šak": [{ "value": "ŠAK", "cuneiform": "𒊕" }],
+  "šakan": [{ "value": "ŠAKAN", "cuneiform": "𒌋𒃶" }],
+  "šakir": [{ "value": "ŠAKIR", "cuneiform": "𒍀" }],
+  "šalambi": [{ "value": "ŠALAMBI", "cuneiform": "𒊮" }],
+  "šam": [{ "value": "ŠAM2", "cuneiform": "𒉛" }],
+  "šar": [
+    { "value": "ŠAR", "cuneiform": "𒊬" },
+    { "value": "ŠAR2", "cuneiform": "𒊹" }
+  ],
+  "šarx": [{ "value": "ŠARX", "cuneiform": "𒉈" }],
+  "šara": [{ "value": "ŠARA2", "cuneiform": "𒇋" }],
+  "še": [
+    { "value": "ŠE", "cuneiform": "𒊺" },
+    { "value": "ŠE3", "cuneiform": "𒂠" },
+    { "value": "ŠE10", "cuneiform": "𒆪" },
+    { "value": "ŠE22", "cuneiform": "𒂞" }
+  ],
+  "šex": [
+    { "value": "ŠEX", "cuneiform": "𒅊" },
+    { "value": "ŠEX", "cuneiform": "𒀀𒅆" }
+  ],
+  "šed": [{ "value": "ŠED6", "cuneiform": "𒆪" }],
+  "šeg": [
+    { "value": "ŠEG5", "cuneiform": "𒍋" },
+    { "value": "ŠEG9", "cuneiform": "𒊾" },
+    { "value": "ŠEG11", "cuneiform": "𒅝" }
+  ],
+  "šegx": [{ "value": "ŠEGX", "cuneiform": "𒍀" }],
+  "šeĝ": [
+    { "value": "ŠEĜ3", "cuneiform": "𒀀𒀭" },
+    { "value": "ŠEĜ6", "cuneiform": "𒉈" }
+  ],
+  "šem": [
+    { "value": "ŠEM3", "cuneiform": "𒀚" },
+    { "value": "ŠEM5", "cuneiform": "𒀎" }
+  ],
+  "šembi": [{ "value": "ŠEMBI", "cuneiform": "𒋍" }],
+  "šembulugx": [{ "value": "ŠEMBULUGX", "cuneiform": "𒋎" }],
+  "šen": [{ "value": "ŠEN", "cuneiform": "𒊿" }],
+  "šennu": [{ "value": "ŠENNU", "cuneiform": "𒂗𒈨𒀜𒆬" }],
+  "šer": [
+    { "value": "ŠER7", "cuneiform": "𒉪" },
+    { "value": "ŠER11", "cuneiform": "𒄊𒁇" }
+  ],
+  "šeš": [
+    { "value": "ŠEŠ", "cuneiform": "𒋀" },
+    { "value": "ŠEŠ2", "cuneiform": "𒋁" },
+    { "value": "ŠEŠ4", "cuneiform": "𒂞" }
+  ],
+  "šešlam": [{ "value": "ŠEŠLAM", "cuneiform": "𒋂" }],
+  "ši": [{ "value": "ŠI", "cuneiform": "𒅆" }],
+  "šid": [{ "value": "ŠID", "cuneiform": "𒋃" }],
+  "šika": [{ "value": "ŠIKA", "cuneiform": "𒆷" }],
+  "šim": [{ "value": "ŠIM", "cuneiform": "𒋆" }],
+  "šin": [{ "value": "ŠIN", "cuneiform": "𒊿" }],
+  "šinx": [{ "value": "ŠINX", "cuneiform": "𒋋" }],
+  "šinig": [{ "value": "ŠINIG", "cuneiform": "𒋒" }],
+  "šir": [{ "value": "ŠIR", "cuneiform": "𒋓" }],
+  "šita": [
+    { "value": "ŠITA", "cuneiform": "𒋖" },
+    { "value": "ŠITA3", "cuneiform": "𒋥" },
+    { "value": "ŠITA4", "cuneiform": "𒌋𒆤" }
+  ],
+  "šu": [
+    { "value": "ŠU", "cuneiform": "𒋗" },
+    { "value": "ŠU2", "cuneiform": "𒋙" },
+    { "value": "ŠU4", "cuneiform": "𒌋" }
+  ],
+  "šub": [{ "value": "ŠUB", "cuneiform": "𒊒" }],
+  "šuba": [{ "value": "ŠUBA", "cuneiform": "𒍝𒈽" }],
+  "šubtu": [
+    { "value": "ŠUBTU6", "cuneiform": "𒆝" },
+    { "value": "ŠUBTU7", "cuneiform": "𒆞" }
+  ],
+  "šubtum": [{ "value": "ŠUBTUM3", "cuneiform": "𒆜𒆸" }],
+  "šubur": [{ "value": "ŠUBUR", "cuneiform": "𒋚" }],
+  "šudx": [{ "value": "ŠUDX", "cuneiform": "𒅗" }],
+  "šudu": [{ "value": "ŠUDU2", "cuneiform": "𒆃" }],
+  "šudul": [{ "value": "ŠUDUL2", "cuneiform": "𒌋𒌆" }],
+  "šudum": [{ "value": "ŠUDUM", "cuneiform": "𒋃" }],
+  "šuḫubx": [{ "value": "ŠUḪUBX", "cuneiform": "𒁇𒀭" }],
+  "šuk": [{ "value": "ŠUK", "cuneiform": "𒉻" }],
+  "šul": [{ "value": "ŠUL", "cuneiform": "𒂄" }],
+  "šum": [
+    { "value": "ŠUM", "cuneiform": "𒋳" },
+    { "value": "ŠUM2", "cuneiform": "𒋧" }
+  ],
+  "šuš": [{ "value": "ŠUŠ2", "cuneiform": "𒋙" }],
+  "šušur": [{ "value": "ŠUŠUR2", "cuneiform": "𒀽" }],
+  "šutum": [{ "value": "ŠUTUM", "cuneiform": "𒄀𒈾𒀊𒌋𒄞" }],
+  "ṣi": [{ "value": "ṢI2", "cuneiform": "𒍣" }],
+  "ta": [{ "value": "TA", "cuneiform": "𒋫" }],
+  "tab": [{ "value": "TAB", "cuneiform": "𒋰" }],
+  "tag": [{ "value": "TAG", "cuneiform": "𒋳" }],
+  "taḫ": [{ "value": "TAḪ", "cuneiform": "𒈭" }],
+  "tak": [{ "value": "TAK4", "cuneiform": "𒋺" }],
+  "tal": [
+    { "value": "TAL", "cuneiform": "𒊑" },
+    { "value": "TAL2", "cuneiform": "𒉿" }
+  ],
+  "tar": [
+    { "value": "TAR", "cuneiform": "𒋻" },
+    { "value": "TAR2", "cuneiform": "𒁯" }
+  ],
+  "te": [
+    { "value": "TE", "cuneiform": "𒋼" },
+    { "value": "TE8", "cuneiform": "𒀉" }
+  ],
+  "ter": [{ "value": "TER", "cuneiform": "𒌁" }],
+  "ti": [
+    { "value": "TI", "cuneiform": "𒋾" },
+    { "value": "TI2", "cuneiform": "𒎗" }
+  ],
+  "tibir": [{ "value": "TIBIR", "cuneiform": "𒋳" }],
+  "tidnim": [{ "value": "TIDNIM", "cuneiform": "𒊎" }],
+  "tidnum": [{ "value": "TIDNUM", "cuneiform": "𒊎" }],
+  "tigi": [{ "value": "TIGI2", "cuneiform": "𒈜𒁆" }],
+  "til": [{ "value": "TIL", "cuneiform": "𒌀" }],
+  "tir": [{ "value": "TIR", "cuneiform": "𒌁" }],
+  "tiru": [{ "value": "TIRU", "cuneiform": "𒃲𒋼" }],
+  "tu": [
+    { "value": "TU", "cuneiform": "𒌅" },
+    { "value": "TU5", "cuneiform": "𒋗𒉀" },
+    { "value": "TU11", "cuneiform": "𒄸" },
+    { "value": "TU15", "cuneiform": "𒅎" },
+    { "value": "TU17", "cuneiform": "𒀀𒋗𒉀" }
+  ],
+  "tubax": [{ "value": "TUBAX", "cuneiform": "𒌆" }],
+  "tud": [{ "value": "TUD", "cuneiform": "𒌅" }],
+  "tug": [
+    { "value": "TUG", "cuneiform": "𒌇" },
+    { "value": "TUG2", "cuneiform": "𒌆" }
+  ],
+  "tugx": [{ "value": "TUGX", "cuneiform": "(LAK483)" }],
+  "tuḫ": [{ "value": "TUḪ", "cuneiform": "𒂃" }],
+  "tuk": [{ "value": "TUK", "cuneiform": "𒌇" }],
+  "tuku": [
+    { "value": "TUKU", "cuneiform": "𒌇" },
+    { "value": "TUKU4", "cuneiform": "𒇧" },
+    { "value": "TUKU5", "cuneiform": "𒋳" }
+  ],
+  "tukul": [{ "value": "TUKUL", "cuneiform": "𒆪" }],
+  "tukum": [{ "value": "TUKUM", "cuneiform": "𒈜𒁆𒋗𒃻𒌉𒇲" }],
+  "tukur": [
+    { "value": "TUKUR", "cuneiform": "𒆸" },
+    { "value": "TUKUR2", "cuneiform": "𒆁" },
+    { "value": "TUKUR3", "cuneiform": "𒆈" }
+  ],
+  "tum": [
+    { "value": "TUM", "cuneiform": "𒌈" },
+    { "value": "TUM2", "cuneiform": "𒁺" },
+    { "value": "TUM3", "cuneiform": "𒉐" },
+    { "value": "TUM9", "cuneiform": "𒅎" },
+    { "value": "TUM12", "cuneiform": "𒌅" }
+  ],
+  "tumu": [{ "value": "TUMU", "cuneiform": "𒅎" }],
+  "tun": [{ "value": "TUN3", "cuneiform": "𒂅" }],
+  "tur": [
+    { "value": "TUR", "cuneiform": "𒌉" },
+    { "value": "TUR3", "cuneiform": "𒉣𒇬" },
+    { "value": "TUR8", "cuneiform": "𒁍" }
+  ],
+  "tuš": [{ "value": "TUŠ", "cuneiform": "𒆪" }],
+  "tuše": [{ "value": "TUŠE", "cuneiform": "𒀀𒁺" }],
+  "u": [
+    { "value": "U", "cuneiform": "𒌋" },
+    { "value": "U2", "cuneiform": "𒌑" },
+    { "value": "U3", "cuneiform": "𒅇" },
+    { "value": "U4", "cuneiform": "𒌓" },
+    { "value": "U5", "cuneiform": "𒄷𒋛" },
+    { "value": "U6", "cuneiform": "𒅆𒂍" },
+    { "value": "U8", "cuneiform": "𒇇" },
+    { "value": "U11", "cuneiform": "𒄷" },
+    { "value": "U18", "cuneiform": "𒍇" },
+    { "value": "U19", "cuneiform": "𒌷" }
+  ],
+  "ub": [
+    { "value": "UB", "cuneiform": "𒌒" },
+    { "value": "UB2", "cuneiform": "𒂠" }
+  ],
+  "ubara": [{ "value": "UBARA", "cuneiform": "𒂬" }],
+  "ubur": [
+    { "value": "UBUR", "cuneiform": "𒁛" },
+    { "value": "UBUR2", "cuneiform": "𒁥" },
+    { "value": "UBUR3", "cuneiform": "𒁡" },
+    { "value": "UBUR4", "cuneiform": "𒁢" }
+  ],
+  "ud": [
+    { "value": "UD", "cuneiform": "𒌓" },
+    { "value": "UD5", "cuneiform": "𒍚" }
+  ],
+  "udu": [{ "value": "UDU", "cuneiform": "𒇻" }],
+  "udub": [{ "value": "UDUB", "cuneiform": "𒇛" }],
+  "udug": [{ "value": "UDUG", "cuneiform": "𒌜" }],
+  "ug": [
+    { "value": "UG", "cuneiform": "𒊌" },
+    { "value": "UG5", "cuneiform": "𒂦" }
+  ],
+  "ugax": [{ "value": "UGAX", "cuneiform": "𒌑𒉀" }],
+  "ugarx": [{ "value": "UGARX", "cuneiform": "𒅊" }],
+  "ugnim": [{ "value": "UGNIM", "cuneiform": "𒆠𒋢𒇻𒂠𒃻" }],
+  "ugu": [{ "value": "UGU", "cuneiform": "𒌋𒅗" }],
+  "ugula": [{ "value": "UGULA", "cuneiform": "𒉺" }],
+  "ugur": [{ "value": "UGUR2", "cuneiform": "𒅊" }],
+  "uĝ": [{ "value": "UĜ3", "cuneiform": "𒌦" }],
+  "uḫ": [
+    { "value": "UḪ", "cuneiform": "𒄴" },
+    { "value": "UḪ2", "cuneiform": "𒌔" },
+    { "value": "UḪ3", "cuneiform": "𒆵" }
+  ],
+  "ukkin": [{ "value": "UKKIN", "cuneiform": "𒌺" }],
+  "uku": [{ "value": "UKU3", "cuneiform": "𒌦" }],
+  "ukur": [{ "value": "UKUR3", "cuneiform": "𒇳𒁺" }],
+  "ul": [{ "value": "UL", "cuneiform": "𒌌" }],
+  "ulu": [{ "value": "ULU3", "cuneiform": "𒍇" }],
+  "ulušin": [{ "value": "ULUŠIN3", "cuneiform": "𒀾𒀭" }],
+  "um": [{ "value": "UM", "cuneiform": "𒌝" }],
+  "umaḫ": [{ "value": "UMAḪ", "cuneiform": "𒇦" }],
+  "umbin": [{ "value": "UMBIN", "cuneiform": "𒌢" }],
+  "umbisaĝ": [
+    { "value": "UMBISAĜ", "cuneiform": "𒋃" },
+    { "value": "UMBISAĜ2", "cuneiform": "𒋄" }
+  ],
+  "ummux": [{ "value": "UMMUX", "cuneiform": "𒂔𒇲𒀀" }],
+  "ummud": [{ "value": "UMMUD", "cuneiform": "𒀀𒂔𒇲" }],
+  "umum": [{ "value": "UMUM", "cuneiform": "𒌣" }],
+  "umun": [
+    { "value": "UMUN2", "cuneiform": "𒌣" },
+    { "value": "UMUN3", "cuneiform": "𒄴" }
+  ],
+  "un": [
+    { "value": "UN", "cuneiform": "𒌦" },
+    { "value": "UN4", "cuneiform": "𒂬" }
+  ],
+  "unken": [{ "value": "UNKEN", "cuneiform": "𒌺" }],
+  "unu": [
+    { "value": "UNU2", "cuneiform": "𒋼𒀕" },
+    { "value": "UNU6", "cuneiform": "𒋼𒀊" }
+  ],
+  "unug": [{ "value": "UNUG", "cuneiform": "𒀕" }],
+  "uq": [{ "value": "UQ", "cuneiform": "𒊌" }],
+  "ur": [
+    { "value": "UR", "cuneiform": "𒌨" },
+    { "value": "UR2", "cuneiform": "𒌫" },
+    { "value": "UR3", "cuneiform": "𒃡" },
+    { "value": "UR4", "cuneiform": "𒌴" },
+    { "value": "UR5", "cuneiform": "𒄯" },
+    { "value": "UR11", "cuneiform": "𒀳" }
+  ],
+  "uri": [
+    { "value": "URI", "cuneiform": "𒌵" },
+    { "value": "URI3", "cuneiform": "𒌶" },
+    { "value": "URI4", "cuneiform": "𒅂" }
+  ],
+  "urin": [{ "value": "URIN", "cuneiform": "𒌶" }],
+  "uru": [
+    { "value": "URU", "cuneiform": "𒌷" },
+    { "value": "URU3", "cuneiform": "𒌶" },
+    { "value": "URU4", "cuneiform": "𒀳" },
+    { "value": "URU5", "cuneiform": "𒋽" },
+    { "value": "URU17", "cuneiform": "𒍇" }
+  ],
+  "urud": [{ "value": "URUD", "cuneiform": "𒍏" }],
+  "uruda": [{ "value": "URUDA", "cuneiform": "𒍏" }],
+  "urudu": [{ "value": "URUDU", "cuneiform": "𒍏" }],
+  "us": [
+    { "value": "US", "cuneiform": "𒊻" },
+    { "value": "US2", "cuneiform": "𒍑" }
+  ],
+  "usagx": [{ "value": "USAGX", "cuneiform": "𒉭𒀖𒆷" }],
+  "usan": [
+    { "value": "USAN2", "cuneiform": "𒄝" },
+    { "value": "USAN3", "cuneiform": "𒉮" }
+  ],
+  "usanx": [{ "value": "USANX", "cuneiform": "𒄙" }],
+  "uš": [
+    { "value": "UŠ", "cuneiform": "𒍑" },
+    { "value": "UŠ2", "cuneiform": "𒍗" },
+    { "value": "UŠ8", "cuneiform": "𒀳" },
+    { "value": "UŠ11", "cuneiform": "𒅜" }
+  ],
+  "ušx": [{ "value": "UŠX", "cuneiform": "𒍖" }],
+  "ušumx": [{ "value": "UŠUMX", "cuneiform": "𒍘" }],
+  "ut": [{ "value": "UT", "cuneiform": "𒌓" }],
+  "uttu": [{ "value": "UTTU", "cuneiform": "𒋸" }],
+  "utua": [
+    { "value": "UTUA", "cuneiform": "𒁭" },
+    { "value": "UTUA2", "cuneiform": "𒁦" }
+  ],
+  "utuki": [{ "value": "UTUKI", "cuneiform": "𒍙" }],
+  "utul": [
+    { "value": "UTUL5", "cuneiform": "𒁟" },
+    { "value": "UTUL10", "cuneiform": "𒀖𒇻" }
+  ],
+  "uz": [
+    { "value": "UZ", "cuneiform": "𒊻" },
+    { "value": "UZ3", "cuneiform": "𒍚" }
+  ],
+  "uzu": [{ "value": "UZU", "cuneiform": "𒍜" }],
+  "uzugx": [{ "value": "UZUGX", "cuneiform": "𒅗𒌑" }],
+  "wa": [{ "value": "WA", "cuneiform": "𒉿" }],
+  "we": [{ "value": "WE", "cuneiform": "𒉿" }],
+  "wi": [{ "value": "WI", "cuneiform": "𒉿" }],
+  "za": [
+    { "value": "ZA", "cuneiform": "𒍝" },
+    { "value": "ZA3", "cuneiform": "𒍠" }
+  ],
+  "zabalam": [{ "value": "ZABALAM", "cuneiform": "𒍝𒈽𒀕" }],
+  "zabar": [{ "value": "ZABAR", "cuneiform": "𒌓𒅗𒁇" }],
+  "zadim": [{ "value": "ZADIM", "cuneiform": "𒈯" }],
+  "zag": [{ "value": "ZAG", "cuneiform": "𒍠" }],
+  "zaḫ": [
+    { "value": "ZAḪ", "cuneiform": "𒉈" },
+    { "value": "ZAḪ3", "cuneiform": "𒀄" }
+  ],
+  "zak": [{ "value": "ZAK", "cuneiform": "𒍠" }],
+  "zal": [{ "value": "ZAL", "cuneiform": "𒉌" }],
+  "zalag": [{ "value": "ZALAG2", "cuneiform": "𒂟" }],
+  "zamx": [{ "value": "ZAMX", "cuneiform": "𒍡" }],
+  "zamug": [{ "value": "ZAMUG", "cuneiform": "𒁾" }],
+  "zar": [
+    { "value": "ZAR", "cuneiform": "𒇡" },
+    { "value": "ZAR2", "cuneiform": "𒉌" }
+  ],
+  "ze": [
+    { "value": "ZE", "cuneiform": "𒍣" },
+    { "value": "ZE2", "cuneiform": "𒍢" }
+  ],
+  "zi": [
+    { "value": "ZI", "cuneiform": "𒍣" },
+    { "value": "ZI2", "cuneiform": "𒍢" },
+    { "value": "ZI3", "cuneiform": "𒍥" },
+    { "value": "ZI8", "cuneiform": "𒆗" }
+  ],
+  "zib": [
+    { "value": "ZIB", "cuneiform": "𒍦" },
+    { "value": "ZIB2", "cuneiform": "𒍨" }
+  ],
+  "zid": [{ "value": "ZID", "cuneiform": "𒍣" }],
+  "zig": [
+    { "value": "ZIG", "cuneiform": "𒍨" },
+    { "value": "ZIG3", "cuneiform": "𒍣" }
+  ],
+  "zik": [{ "value": "ZIK", "cuneiform": "𒍨" }],
+  "zil": [
+    { "value": "ZIL", "cuneiform": "𒉣" },
+    { "value": "ZIL2", "cuneiform": "𒋳" }
+  ],
+  "zimbir": [{ "value": "ZIMBIR", "cuneiform": "𒌓𒄒𒉣" }],
+  "ziz": [{ "value": "ZIZ2", "cuneiform": "𒍩" }],
+  "zu": [
+    { "value": "ZU", "cuneiform": "𒍪" },
+    { "value": "ZU2", "cuneiform": "𒅗" },
+    { "value": "ZU5", "cuneiform": "𒍫" }
+  ],
+  "zub": [{ "value": "ZUB", "cuneiform": "𒉽𒈿" }],
+  "zubi": [{ "value": "ZUBI", "cuneiform": "𒉽𒈿" }],
+  "zubud": [{ "value": "ZUBUD", "cuneiform": "𒄪" }],
+  "zubur": [{ "value": "ZUBUR", "cuneiform": "𒍭" }],
+  "zuḫ": [{ "value": "ZUḪ", "cuneiform": "𒅗" }],
+  "zulumḫi": [{ "value": "ZULUMḪI", "cuneiform": "𒋠𒋤" }],
+  "zum": [{ "value": "ZUM", "cuneiform": "𒍮" }],
+  "zur": [{ "value": "ZUR", "cuneiform": "𒀫" }]
+}

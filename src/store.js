@@ -40,6 +40,7 @@ const store = () => {
       { char: "ê", corr: "4" },
       { char: "î", corr: "7" },
       { char: "û", corr: "8" },
+      { char: "ĝ", corr: "gh" },
     ],
     version: "2.0.0",
   });

@@ -2,6 +2,7 @@
   import store from "../store.js";
   import { monoconsonants as syllabary } from "../databases/syllabary.json";
   import { biconsonants } from "../databases/syllabary.json";
+  import sumerianCuneiforms from "../databases/sumerianCuneiforms.json";
 
   let cuneiformSuggestions = [];
   let input = "";
@@ -9,30 +10,50 @@
   let selectedCuneiform = 0;
 
   const processInput = event => {
-    let text = event.target.value;
+    cuneiformSuggestions = [];
+    let text = event.target.value.toLowerCase();
     // replaces unformated values
     $store.charCorrespondences.forEach(pair => {
       const regex = new RegExp(`${pair.corr}`, "g");
       text = text.toLowerCase().replace(regex, pair.char);
     });
     input = text;
-    if (syllabary[input]) {
-      cuneiformSuggestions = [syllabary[input].sign];
-    } else {
-      cuneiformSuggestions = [];
+    // checks first if the input is in the syllabary
+    if (syllabary[text]) {
+      cuneiformSuggestions = [{ sign: syllabary[text].sign, value: text }];
+    }
+    // checks then if the input appears in the Sumerian cuneiforms
+    if (sumerianCuneiforms[text]) {
+      sumerianCuneiforms[text].forEach(el => {
+        if (
+          cuneiformSuggestions.filter(
+            cun => cun.value.toLowerCase() === el.value.toLowerCase()
+          ).length === 0
+        ) {
+          cuneiformSuggestions.push({
+            sign: el.cuneiform,
+            value: el.value
+          });
+        }
+      });
     }
   };
 
   const transformInput = event => {
     if (event.key == "Enter") {
       // on Enter
-      cuneiforms += cuneiformSuggestions[0];
+      cuneiforms += cuneiformSuggestions[0].sign;
       input = "";
       cuneiformSuggestions = [];
-    } else if (event.key === "Backspace") {
-      // on Backspace
-      console.log("Backspace");
+      selectedCuneiform = 0;
     }
+  };
+
+  const insertCuneiform = sign => {
+    cuneiforms += sign;
+    input = "";
+    cuneiformSuggestions = [];
+    selectedCuneiform = 0;
   };
 </script>
 
@@ -78,24 +99,32 @@
       </div>
     </div>
     <div class="box cuneiform-input">
-      <div class="buttons">
-        {#each cuneiformSuggestions as sugg, index}
-          <button
-            class="button is-medium cuneiform-sign"
-            class:is-focused={selectedCuneiform === index}
-            on:click={() => (selectedCuneiform = index)}>
-            {sugg}
-          </button>
-        {:else}
-          <button class="button is-medium is-static">No text</button>
-        {/each}
-      </div>
       <input
+        id="text-input"
         type="text"
         class="input is-large"
         on:input={processInput}
         on:keydown={transformInput}
         value={input} />
+      <br />
+      <br />
+      <div class="buttons">
+        {#each cuneiformSuggestions as sugg, index}
+          <button
+            class="button is-medium cuneiform-sign"
+            class:is-focused={selectedCuneiform === index}
+            on:click={() => {
+              selectedCuneiform = index;
+              insertCuneiform(sugg.sign);
+              document.getElementById('text-input').focus();
+            }}>
+            <span>{sugg.sign}</span>
+            <span class="is-size-7">({sugg.value.toUpperCase()})</span>
+          </button>
+        {:else}
+          <button class="button is-medium is-static">No text</button>
+        {/each}
+      </div>
     </div>
   </div>
 </div>
