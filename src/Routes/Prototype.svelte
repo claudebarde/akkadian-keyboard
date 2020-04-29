@@ -1,19 +1,22 @@
 <script>
+  import { onMount } from "svelte";
   import store from "../store.js";
   import { monoconsonants as syllabary } from "../databases/syllabary.json";
   import { biconsonants } from "../databases/syllabary.json";
   import sumerianCuneiforms from "../databases/sumerianCuneiforms.json";
+  import dictionary from "../databases/dictionary.json";
 
   let cuneiformSuggestions = [];
   let input = "";
   let cuneiforms = "";
   let selectedCuneiform = 0;
+  let charCorrespondences;
 
   const processInput = event => {
     cuneiformSuggestions = [];
     let text = event.target.value.toLowerCase();
     // replaces unformated values
-    $store.charCorrespondences.forEach(pair => {
+    charCorrespondences.forEach(pair => {
       const regex = new RegExp(`${pair.corr}`, "g");
       text = text.toLowerCase().replace(regex, pair.char);
     });
@@ -36,16 +39,42 @@
           });
         }
       });
+    } else if (/[a-z]+[0-9]+/.test(text)) {
+      // checks if the input is not a sign with a number
+      const entry = text.replace(/[0-9]+/, "");
+      sumerianCuneiforms[entry].forEach(el => {
+        if (el.value.toLowerCase() === text) {
+          cuneiformSuggestions.push({
+            sign: el.cuneiform,
+            value: el.value
+          });
+        }
+      });
+    } else if (
+      dictionary.hasOwnProperty(text[0]) &&
+      dictionary[text[0]].hasOwnProperty(text)
+    ) {
+      cuneiformSuggestions.push({
+        sign: dictionary[text[0]][text].cuneiform.sign,
+        value: text
+      });
     }
   };
 
   const transformInput = event => {
-    if (event.key == "Enter") {
+    if (event.key === "Enter") {
       // on Enter
-      cuneiforms += cuneiformSuggestions[0].sign;
+      cuneiforms += cuneiformSuggestions[selectedCuneiform].sign;
       input = "";
       cuneiformSuggestions = [];
       selectedCuneiform = 0;
+    } else if (event.key === "ArrowLeft" && selectedCuneiform > 0) {
+      selectedCuneiform--;
+    } else if (
+      event.key === "ArrowRight" &&
+      selectedCuneiform < cuneiformSuggestions.length - 1
+    ) {
+      selectedCuneiform++;
     }
   };
 
@@ -55,12 +84,22 @@
     cuneiformSuggestions = [];
     selectedCuneiform = 0;
   };
+
+  onMount(() => {
+    charCorrespondences = $store.charCorrespondences.filter(
+      corr => !["â", "ê", "î", "û"].includes(corr.char)
+    );
+  });
 </script>
 
 <style>
   .cuneiform-box {
     height: 300px;
-    overflow: auto;
+  }
+
+  .cuneiform-rendering {
+    width: 100%;
+    height: 80%;
   }
 </style>
 
@@ -94,9 +133,9 @@
     <h3 class="subtitle">Prototype</h3>
     <div class="box cuneiform-box">
       <h4 class="title is-4">Cuneiforms</h4>
-      <div class="cuneiform-rendering cuneiform-sign is-size-4 has-text-left">
-        {cuneiforms}
-      </div>
+      <textarea
+        class="textarea cuneiform-rendering cuneiform-sign is-size-4"
+        bind:value={cuneiforms} />
     </div>
     <div class="box cuneiform-input">
       <input
