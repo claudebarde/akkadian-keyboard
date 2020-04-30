@@ -167,6 +167,9 @@ itti ṭuppātim šaṭrātim šuati
 
   .options {
     padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .information {
@@ -254,6 +257,15 @@ itti ṭuppātim šaṭrātim šuati
           }} />
         Duplicate long vowels
       </label>
+      <label class="checkbox">
+        <input
+          type="checkbox"
+          checked={$store.interpunct}
+          on:change={() => {
+            store.updateInterpunct();
+          }} />
+        Middle point
+      </label>
     </div>
     <div class="box">
       <div class="tabs is-centered is-small">
@@ -279,6 +291,9 @@ itti ṭuppātim šaṭrātim šuati
             .filter(el => el) as word, index}
             {#if $store.words[word].syllables !== 'ERROR'}
               <CuneiformWord {word} {newLinesPos} wordPos={index + 1} />
+              {#if $store.interpunct && index < Object.keys($store.words).length - 1}
+                <span class="is-size-5">&#5867;</span>
+              {/if}
             {:else}Ø{/if}
           {:else}
             <span>Cuneiform Rendering</span>

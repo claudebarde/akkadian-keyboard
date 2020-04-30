@@ -12,6 +12,11 @@
   let selectedCuneiform = 0;
   let charCorrespondences;
 
+  /*
+  Array.from("𒈗𒊮").map(el => el.codePointAt(0).toString(16))
+(2) ["12217", "122ae"]
+*/
+
   const processInput = event => {
     cuneiformSuggestions = [];
     let text = event.target.value.toLowerCase();

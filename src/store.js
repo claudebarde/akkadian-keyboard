@@ -8,6 +8,7 @@ const store = () => {
     stressedWords: [],
     syllabogramsToSwitch: {},
     doubleLongVowels: true,
+    interpunct: false,
     consonants: [
       "k",
       "g",
@@ -114,6 +115,12 @@ const store = () => {
       update((currentStore) => ({
         ...currentStore,
         doubleLongVowels: !currentStore.doubleLongVowels,
+      }));
+    },
+    updateInterpunct: () => {
+      update((currentStore) => ({
+        ...currentStore,
+        interpunct: !currentStore.interpunct,
       }));
     },
   };

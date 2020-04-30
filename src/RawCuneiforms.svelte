@@ -42,6 +42,9 @@
         }
       }
     }
+    if ($store.interpunct) {
+      rawString = rawString.replace(" ", "᛫");
+    }
   });
 </script>
 
