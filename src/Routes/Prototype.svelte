@@ -9,13 +9,9 @@
   let cuneiformSuggestions = [];
   let input = "";
   let cuneiforms = "";
+  let transcription = [];
   let selectedCuneiform = 0;
-  let charCorrespondences;
-
-  /*
-  Array.from("𒈗𒊮").map(el => el.codePointAt(0).toString(16))
-(2) ["12217", "122ae"]
-*/
+  let charCorrespondences, unicodeCorrespondences;
 
   const processInput = event => {
     cuneiformSuggestions = [];
@@ -73,6 +69,7 @@
       input = "";
       cuneiformSuggestions = [];
       selectedCuneiform = 0;
+      makeTranscription(cuneiforms);
     } else if (event.key === "ArrowLeft" && selectedCuneiform > 0) {
       selectedCuneiform--;
     } else if (
@@ -88,23 +85,63 @@
     input = "";
     cuneiformSuggestions = [];
     selectedCuneiform = 0;
+    makeTranscription(cuneiforms);
+  };
+
+  const makeTranscription = value => {
+    const cuneiforms = Array.from(value);
+    // gets unicode points of every character in the textarea
+    const unicodePoints = cuneiforms.map(el => el.codePointAt(0).toString(16));
+    if (unicodePoints.length > 0) {
+      transcription = [];
+      unicodePoints.forEach((unicode, i) => {
+        // checks what kind of character it is and builds the transcription
+        if (unicodeCorrespondences[unicode]) {
+          const values = unicodeCorrespondences[unicode].map(sign => sign.sign);
+          if (
+            transcription.filter(el => el.cuneiform === cuneiforms[i])
+              .length === 0
+          ) {
+            transcription.push({ cuneiform: cuneiforms[i], values });
+          }
+        }
+      });
+    }
   };
 
   onMount(() => {
     charCorrespondences = $store.charCorrespondences.filter(
       corr => !["â", "ê", "î", "û"].includes(corr.char)
     );
+    // builds unicode correspondences dictionary
+    unicodeCorrespondences = {};
+    Object.keys(sumerianCuneiforms).forEach(key => {
+      sumerianCuneiforms[key].forEach(sign => {
+        if (!unicodeCorrespondences.hasOwnProperty(sign.unicode)) {
+          unicodeCorrespondences[sign.unicode] = [];
+        }
+
+        unicodeCorrespondences[sign.unicode].push({
+          sign: sign.value,
+          cuneiform: sign.cuneiform
+        });
+      });
+    });
   });
 </script>
 
 <style>
   .cuneiform-box {
-    height: 300px;
+    height: 400px;
   }
 
   .cuneiform-rendering {
     width: 100%;
-    height: 80%;
+    height: 70%;
+  }
+
+  .transcription {
+    padding: 10px 0px;
   }
 </style>
 
@@ -140,7 +177,32 @@
       <h4 class="title is-4">Cuneiforms</h4>
       <textarea
         class="textarea cuneiform-rendering cuneiform-sign is-size-4"
-        bind:value={cuneiforms} />
+        bind:value={cuneiforms}
+        on:input={event => makeTranscription(event.target.value)} />
+      <div class="transcription has-text-left">
+        {#each transcription as el}
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button
+                class="button"
+                aria-haspopup="true"
+                aria-controls="dropdown-cuneiform">
+                <span class="cuneiform-sign is-size-5" style="margin-top:-3px">
+                  {el.cuneiform}
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-cuneiform" role="menu">
+              <div class="dropdown-content">
+                {#each el.values as value}
+                  <div class="dropdown-item is-size-7">{value}</div>
+                {/each}
+              </div>
+            </div>
+          </div>
+          &nbsp;
+        {:else}No text{/each}
+      </div>
     </div>
     <div class="box cuneiform-input">
       <input

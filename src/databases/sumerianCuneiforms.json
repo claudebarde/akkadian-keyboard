@@ -1,1838 +1,2100 @@
 {
-  "romanization": [{ "value": "Romanization", "cuneiform": "Cuneiform" }],
   "a": [
-    { "value": "A", "cuneiform": "𒀀" },
-    { "value": "A2", "cuneiform": "𒀉" },
-    { "value": "A12", "cuneiform": "𒌓" },
-    { "value": "A'", "cuneiform": "𒄴" }
+    { "value": "A", "cuneiform": "𒀀", "unicode": "12000" },
+    { "value": "A2", "cuneiform": "𒀉", "unicode": "12009" },
+    { "value": "A12", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "A'", "cuneiform": "𒄴", "unicode": "12134" }
   ],
   "ab": [
-    { "value": "AB", "cuneiform": "𒀊" },
-    { "value": "AB2", "cuneiform": "𒀖" }
+    { "value": "AB", "cuneiform": "𒀊", "unicode": "1200a" },
+    { "value": "AB2", "cuneiform": "𒀖", "unicode": "12016" }
   ],
-  "aba": [{ "value": "ABA", "cuneiform": "𒀊" }],
+  "aba": [{ "value": "ABA", "cuneiform": "𒀊", "unicode": "1200a" }],
   "abba": [
-    { "value": "ABBA", "cuneiform": "𒀊" },
-    { "value": "ABBA2", "cuneiform": "𒀋" }
+    { "value": "ABBA", "cuneiform": "𒀊", "unicode": "1200a" },
+    { "value": "ABBA2", "cuneiform": "𒀋", "unicode": "1200b" }
   ],
-  "abbununnu": [{ "value": "ABBUNUNNU", "cuneiform": "𒌓𒄷𒄭𒉣" }],
-  "abgal": [
-    { "value": "ABGAL", "cuneiform": "𒉣𒈨" },
-    { "value": "ABGAL2", "cuneiform": "𒉣𒈨𒅤" }
-  ],
-  "ablal": [
-    { "value": "ABLAL", "cuneiform": "𒆼" },
-    { "value": "ABLAL3", "cuneiform": "𒇦" }
-  ],
-  "abni": [{ "value": "ABNI2", "cuneiform": "𒆠𒉈" }],
-  "abrig": [
-    { "value": "ABRIG", "cuneiform": "𒉣𒈨𒁺" },
-    { "value": "ABRIG2", "cuneiform": "𒀖𒉣𒈨𒁺" }
-  ],
-  "absin": [
-    { "value": "ABSIN", "cuneiform": "𒆠𒀸𒀸" },
-    { "value": "ABSIN3", "cuneiform": "𒀳" }
-  ],
-  "abul": [{ "value": "ABUL", "cuneiform": "𒆍𒃲" }],
-  "abula": [{ "value": "ABULA", "cuneiform": "𒆍𒃲" }],
-  "abzu": [{ "value": "ABZU", "cuneiform": "𒍪𒀊" }],
-  "abzux": [{ "value": "ABZUX", "cuneiform": "𒌤" }],
-  "ad": [
-    { "value": "AD", "cuneiform": "𒀜" },
-    { "value": "AD2", "cuneiform": "𒄉" },
-    { "value": "AD3", "cuneiform": "𒇼" },
-    { "value": "AD4", "cuneiform": "𒍞" },
-    { "value": "AD5", "cuneiform": "𒌑𒄉" },
-    { "value": "AD6", "cuneiform": "𒇿" }
-  ],
-  "adx": [
-    { "value": "ADX", "cuneiform": "𒈕" },
-    { "value": "ADX", "cuneiform": "𒎉" },
-    { "value": "ADX", "cuneiform": "𒁁𒇽" },
-    { "value": "ADX", "cuneiform": "𒇽𒃵" }
-  ],
-  "adab": [{ "value": "ADAB", "cuneiform": "𒌓𒉣" }],
-  "adama": [{ "value": "ADAMA", "cuneiform": "𒁁𒈪" }],
-  "adamin": [
-    { "value": "ADAMIN", "cuneiform": "𒈓" },
-    { "value": "ADAMIN2", "cuneiform": "𒈘" },
-    { "value": "ADAMIN3", "cuneiform": "𒄒" },
-    { "value": "ADAMIN4", "cuneiform": "𒉫" },
-    { "value": "ADAMIN5", "cuneiform": "𒂛" }
-  ],
-  "adaminx": [
-    { "value": "ADAMINX", "cuneiform": "𒂜" },
-    { "value": "ADAMINX", "cuneiform": "𒇽𒇽" }
-  ],
-  "adda": [
-    { "value": "ADDA", "cuneiform": "𒇿" },
-    { "value": "ADDA2", "cuneiform": "𒇼" }
-  ],
-  "addax": [{ "value": "ADDAX", "cuneiform": "LU2 gunû UŠ2" }],
-  "addir": [{ "value": "ADDIR", "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀" }],
-  "addirx": [
-    { "value": "ADDIRX", "cuneiform": "𒄐𒉻𒋛" },
-    { "value": "ADDIRX", "cuneiform": "𒉺𒄐𒋛𒀀" },
-    { "value": "ADDIRX", "cuneiform": "𒉺𒄐𒋛𒀀𒉻" },
-    { "value": "ADDIRX", "cuneiform": "A LAK589 SI" },
-    { "value": "ADDIRX", "cuneiform": "LAK589 A SI" },
-    { "value": "ADDIRX", "cuneiform": "LAK589 PAD SI" },
-    { "value": "ADDIRX", "cuneiform": "LAK589 SI" },
-    { "value": "ADDIRX", "cuneiform": "LAK589 SI A" },
-    { "value": "ADDIRX", "cuneiform": "LAK590 SI" }
-  ],
-  "adkin": [{ "value": "ADKIN", "cuneiform": "𒋠𒇴" }],
-  "adkinx": [{ "value": "ADKINX", "cuneiform": "𒋁" }],
-  "ag": [
-    { "value": "AG", "cuneiform": "𒀝" },
-    { "value": "AG2", "cuneiform": "𒉘" }
-  ],
-  "aga": [
-    { "value": "AGA", "cuneiform": "𒂇" },
-    { "value": "AGA3", "cuneiform": "𒂆" }
-  ],
-  "agam": [{ "value": "AGAM", "cuneiform": "𒀂" }],
-  "agar": [
-    { "value": "AGAR2", "cuneiform": "𒇋" },
-    { "value": "AGAR3", "cuneiform": "𒆻" },
-    { "value": "AGAR4", "cuneiform": "𒅊" }
-  ],
-  "agargara": [{ "value": "AGARGARA", "cuneiform": "𒉩" }],
-  "agarin": [
-    { "value": "AGARIN", "cuneiform": "𒀌" },
-    { "value": "AGARIN2", "cuneiform": "𒀎" },
-    { "value": "AGARIN3", "cuneiform": "𒂼𒂆" },
-    { "value": "AGARIN4", "cuneiform": "𒂼𒋆" },
-    { "value": "AGARIN5", "cuneiform": "𒂼𒋋" }
-  ],
-  "agarinx": [
-    { "value": "AGARINX", "cuneiform": "𒀏" },
-    { "value": "AGARINX", "cuneiform": "𒇉" }
-  ],
-  "agrig": [{ "value": "AGRIG", "cuneiform": "𒅆𒁾" }],
-  "agrun": [{ "value": "AGRUN", "cuneiform": "𒂍𒉣" }],
-  "aĝ": [{ "value": "AĜ2", "cuneiform": "𒉘" }],
-  "aĝa": [{ "value": "AĜA3", "cuneiform": "𒂆" }],
-  "aĝar": [
-    { "value": "AĜAR5", "cuneiform": "𒅐" },
-    { "value": "AĜAR6", "cuneiform": "𒅎𒂂" }
-  ],
-  "aĝarin": [
-    { "value": "AĜARIN", "cuneiform": "𒀌" },
-    { "value": "AĜARIN2", "cuneiform": "𒀎" },
-    { "value": "AĜARIN3", "cuneiform": "𒂼𒂆" },
-    { "value": "AĜARIN4", "cuneiform": "𒂼𒋆" },
-    { "value": "AĜARIN5", "cuneiform": "𒂼𒋋" }
-  ],
-  "aĝarinx": [
-    { "value": "AĜARINX", "cuneiform": "𒀏" },
-    { "value": "AĜARINX", "cuneiform": "𒇉" }
-  ],
-  "aĝrig": [{ "value": "AĜRIG", "cuneiform": "𒅆𒁾" }],
-  "aḫ": [
-    { "value": "AḪ", "cuneiform": "𒄴" },
-    { "value": "AḪ3", "cuneiform": "𒌓" },
-    { "value": "AḪ6", "cuneiform": "𒌔" }
-  ],
-  "ak": [{ "value": "AK", "cuneiform": "𒀝" }],
-  "aka": [{ "value": "AKA3", "cuneiform": "𒋃" }],
-  "akan": [{ "value": "AKAN", "cuneiform": "𒁛" }],
-  "akkan": [{ "value": "AKKAN3", "cuneiform": "𒇖" }],
-  "akkil": [
-    { "value": "AKKIL", "cuneiform": "𒃰𒋺𒋛" },
-    { "value": "AKKIL2", "cuneiform": "𒀜𒆤" }
-  ],
-  "akkilx": [
-    { "value": "AKKILX", "cuneiform": "𒀜𒆪" },
-    { "value": "AKKILX", "cuneiform": "𒃰𒋺𒋛𒀀" }
-  ],
-  "aktum": [
-    { "value": "AKTUM", "cuneiform": "𒀀𒋢" },
-    { "value": "AKTUM2", "cuneiform": "𒋢𒀀" }
-  ],
-  "al": [{ "value": "AL", "cuneiform": "𒀠" }],
-  "alad": [
-    { "value": "ALAD", "cuneiform": "𒆘" },
-    { "value": "ALAD2", "cuneiform": "𒆗" }
-  ],
-  "alal": [
-    { "value": "ALAL", "cuneiform": "𒋄" },
-    { "value": "ALAL3", "cuneiform": "𒄒" },
-    { "value": "ALAL4", "cuneiform": "𒃺" }
-  ],
-  "alan": [{ "value": "ALAN", "cuneiform": "𒀩" }],
-  "algameš": [{ "value": "ALGAMEŠ", "cuneiform": "𒌓𒊩𒄸" }],
-  "alim": [{ "value": "ALIM", "cuneiform": "𒄋" }],
-  "alla": [{ "value": "ALLA", "cuneiform": "𒉄" }],
-  "alurax": [{ "value": "ALURAX", "cuneiform": "𒁃" }],
-  "am": [
-    { "value": "AM", "cuneiform": "𒄠" },
-    { "value": "AM3", "cuneiform": "𒀀𒀭" },
-    { "value": "AM6", "cuneiform": "𒀭" }
-  ],
-  "ama": [
-    { "value": "AMA", "cuneiform": "𒂼" },
-    { "value": "AMA5", "cuneiform": "𒃣" }
-  ],
-  "amagi": [
-    { "value": "AMAGI", "cuneiform": "𒈻" },
-    { "value": "AMAGI2", "cuneiform": "𒀀𒈹𒁲" },
-    { "value": "AMAGI3", "cuneiform": "𒍝𒈹𒁲" }
-  ],
-  "amagix": [{ "value": "AMAGIX", "cuneiform": "𒀀𒈹𒀀𒁲" }],
-  "amalu": [{ "value": "AMALU", "cuneiform": "𒂼𒀭𒈹" }],
-  "amalug": [{ "value": "AMALUG", "cuneiform": "𒂼𒈹" }],
-  "aman": [{ "value": "AMAN", "cuneiform": "𒉽𒉽" }],
-  "amar": [{ "value": "AMAR", "cuneiform": "𒀫" }],
-  "amaš": [{ "value": "AMAŠ", "cuneiform": "𒁦" }],
-  "ambar": [{ "value": "AMBAR", "cuneiform": "𒆹" }],
-  "amra": [{ "value": "AMRA", "cuneiform": "𒄑𒈣𒊏" }],
-  "amuš": [{ "value": "AMUŠ", "cuneiform": "𒀇" }],
-  "an": [{ "value": "AN", "cuneiform": "𒀭" }],
-  "anše": [{ "value": "ANŠE", "cuneiform": "𒀲" }],
-  "anzalub": [{ "value": "ANZALUB", "cuneiform": "𒊮𒄀" }],
-  "anzu": [{ "value": "ANZU2", "cuneiform": "𒀭𒅎𒈪" }],
-  "anzud": [
-    { "value": "ANZUD", "cuneiform": "𒀭𒅎𒂂" },
-    { "value": "ANZUD2", "cuneiform": "𒀭𒅎𒈪" }
-  ],
-  "ap": [{ "value": "AP", "cuneiform": "𒀊" }],
-  "apin": [{ "value": "APIN", "cuneiform": "𒀳" }],
-  "ar": [
-    { "value": "AR", "cuneiform": "𒅈" },
-    { "value": "AR2", "cuneiform": "𒄱" },
-    { "value": "AR3", "cuneiform": "𒄯" }
-  ],
-  "arx": [{ "value": "ARX", "cuneiform": "𒌸" }],
-  "ara": [
-    { "value": "ARA", "cuneiform": "𒊭" },
-    { "value": "ARA3", "cuneiform": "𒄯" }
-  ],
-  "arad": [
-    { "value": "ARAD", "cuneiform": "𒀴" },
-    { "value": "ARAD2", "cuneiform": "𒀵" }
-  ],
-  "araḫ": [
-    { "value": "ARAḪ3", "cuneiform": "𒃥" },
-    { "value": "ARAḪ4", "cuneiform": "𒂍𒍑𒁍𒁕" }
-  ],
-  "araḫx": [{ "value": "ARAḪX", "cuneiform": "𒍑𒁍𒁕" }],
-  "arali": [{ "value": "ARALI", "cuneiform": "𒂍𒆳𒈪" }],
-  "aralix": [{ "value": "ARALIX", "cuneiform": "𒌽" }],
-  "aratta": [{ "value": "ARATTA", "cuneiform": "𒇶" }],
-  "arattax": [{ "value": "ARATTAX", "cuneiform": "𒇴𒆳𒊒𒁕" }],
-  "argab": [{ "value": "ARGAB", "cuneiform": "𒀶" }],
-  "arḫuš": [
-    { "value": "ARḪUŠ", "cuneiform": "𒃣" },
-    { "value": "ARḪUŠ2", "cuneiform": "𒉦" }
-  ],
-  "ari": [{ "value": "ARI2", "cuneiform": "𒅂" }],
-  "arina": [{ "value": "ARINA", "cuneiform": "𒈸𒀀𒈾" }],
-  "arinax": [
-    { "value": "ARINAX", "cuneiform": "𒄿𒈕𒈾" },
-    { "value": "ARINAX", "cuneiform": "𒈕𒈾" },
-    { "value": "ARINAX", "cuneiform": "𒌫𒀀" }
-  ],
-  "arkab": [
-    { "value": "ARKAB", "cuneiform": "𒃻𒅁" },
-    { "value": "ARKAB2", "cuneiform": "𒀶" }
-  ],
-  "arkabx": [{ "value": "ARKABX", "cuneiform": "𒀶𒅁" }],
-  "as": [
-    { "value": "AS", "cuneiform": "𒊍" },
-    { "value": "AS4", "cuneiform": "𒍞" }
-  ],
-  "asal": [{ "value": "ASAL2", "cuneiform": "𒀀𒌅𒃮𒇺" }],
-  "asalx": [
-    { "value": "ASALX", "cuneiform": "𒀷" },
-    { "value": "ASALX", "cuneiform": "𒀀𒌅" },
-    { "value": "ASALX", "cuneiform": "𒀀𒌅𒃮𒋝𒃻" },
-    { "value": "ASALX", "cuneiform": "𒀀𒌅𒉪" }
-  ],
-  "asil": [
-    { "value": "ASIL", "cuneiform": "𒂰" },
-    { "value": "ASIL3", "cuneiform": "𒂢" }
-  ],
-  "asilx": [{ "value": "ASILX", "cuneiform": "𒂡" }],
-  "asila": [
-    { "value": "ASILA", "cuneiform": "𒂰" },
-    { "value": "ASILA3", "cuneiform": "𒂢" }
-  ],
-  "asilax": [{ "value": "ASILAX", "cuneiform": "𒂬" }],
-  "asilal": [
-    { "value": "ASILAL", "cuneiform": "𒂰" },
-    { "value": "ASILAL3", "cuneiform": "𒂢" },
-    { "value": "ASILAL4", "cuneiform": "𒂤" }
-  ],
-  "aslumx": [{ "value": "ASLUMX", "cuneiform": "𒀀𒈝" }],
-  "aš": [
-    { "value": "AŠ", "cuneiform": "𒀸" },
-    { "value": "AŠ2", "cuneiform": "𒀾" },
-    { "value": "AŠ3", "cuneiform": "𒐋" },
-    { "value": "AŠ5", "cuneiform": "𒋠𒇴𒋦" }
-  ],
-  "ašag": [{ "value": "AŠAG", "cuneiform": "𒃷" }],
-  "ašgab": [{ "value": "AŠGAB", "cuneiform": "𒀿" }],
-  "ašgabgalx": [{ "value": "AŠGABGALX", "cuneiform": "𒃲𒀿" }],
-  "aški": [{ "value": "AŠKI", "cuneiform": "𒍤𒆸" }],
-  "aškud": [
-    { "value": "AŠKUD", "cuneiform": "𒀾𒈽" },
-    { "value": "AŠKUD2", "cuneiform": "𒀾𒈹" }
-  ],
-  "ašlug": [{ "value": "AŠLUG", "cuneiform": "𒂍𒍑𒁍𒁕" }],
-  "ašnan": [
-    { "value": "AŠNAN", "cuneiform": "𒊺" },
-    { "value": "AŠNAN2", "cuneiform": "𒊺𒌁" }
-  ],
-  "ašša": [{ "value": "AŠŠA2", "cuneiform": "𒃰𒋺" }],
-  "ašta": [{ "value": "AŠTA", "cuneiform": "𒃰𒋺" }],
-  "ašte": [
-    { "value": "AŠTE", "cuneiform": "𒀉𒌋𒆤" },
-    { "value": "AŠTE2", "cuneiform": "𒆹" }
-  ],
-  "at": [{ "value": "AT", "cuneiform": "𒀜" }],
-  "au": [{ "value": "AU", "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀" }],
-  "aya": [
-    { "value": "AYA", "cuneiform": "𒀀𒀀" },
-    { "value": "AYA2", "cuneiform": "𒀀" },
-    { "value": "AYA4", "cuneiform": "𒆹" }
-  ],
-  "ayayax": [{ "value": "AYAYAX", "cuneiform": "𒀀𒀀𒀀" }],
-  "az": [{ "value": "AZ", "cuneiform": "𒊍" }],
-  "azadx": [{ "value": "AZADX", "cuneiform": "𒀀𒇉𒋙" }],
-  "azag": [{ "value": "AZAG", "cuneiform": "𒆬𒀭" }],
-  "azlag": [
-    { "value": "AZLAG", "cuneiform": "𒌆𒌓" },
-    { "value": "AZLAG3", "cuneiform": "𒄑𒌆𒉿𒋼𒀀𒁺" },
-    { "value": "AZLAG4", "cuneiform": "𒄑𒌆𒋼𒀀𒁺" },
-    { "value": "AZLAG5", "cuneiform": "𒄑𒌆𒉿𒋼𒀀" },
-    { "value": "AZLAG7", "cuneiform": "𒈐" }
-  ],
-  "azlaggalx": [{ "value": "AZLAGGALX", "cuneiform": "𒃲𒄑𒌆𒋼𒀀𒁺" }],
-  "azu": [{ "value": "AZU", "cuneiform": "𒍬" }],
-  "azugna": [{ "value": "AZUGNA", "cuneiform": "𒄯𒊕" }],
-  "ba": [
-    { "value": "BA", "cuneiform": "𒁀" },
-    { "value": "BA4", "cuneiform": "𒂷" },
-    { "value": "BA13", "cuneiform": "𒈨" }
-  ],
-  "babbar": [
-    { "value": "BABBAR", "cuneiform": "𒌓" },
-    { "value": "BABBAR2", "cuneiform": "𒌓𒌓" }
-  ],
-  "bad": [
-    { "value": "BAD", "cuneiform": "𒁁" },
-    { "value": "BAD3", "cuneiform": "𒂦" }
-  ],
-  "bag": [{ "value": "BAG3", "cuneiform": "𒁂" }],
-  "baḫar": [{ "value": "BAḪAR2", "cuneiform": "𒁃" }],
-  "bal": [{ "value": "BAL", "cuneiform": "𒁄" }],
-  "bala": [{ "value": "BALA", "cuneiform": "𒁄" }],
-  "balag": [{ "value": "BALAG", "cuneiform": "𒁆" }],
-  "ban": [{ "value": "BAN3", "cuneiform": "𒌉" }],
-  "banda": [{ "value": "BANDA3", "cuneiform": "𒌉" }],
-  "banšur": [{ "value": "BANŠUR", "cuneiform": "𒍎" }],
-  "bappir": [{ "value": "BAPPIR", "cuneiform": "𒋋" }],
-  "bar": [
-    { "value": "BAR", "cuneiform": "𒁇" },
-    { "value": "BAR2", "cuneiform": "𒁈" },
-    { "value": "BAR7", "cuneiform": "𒉈" }
-  ],
-  "bara": [{ "value": "BARA2", "cuneiform": "𒁈" }],
-  "bargi": [{ "value": "BARGI", "cuneiform": "𒌐" }],
-  "bazbazx": [{ "value": "BAZBAZX", "cuneiform": "𒊻" }],
-  "be": [
-    { "value": "BE", "cuneiform": "𒁁" },
-    { "value": "BE2", "cuneiform": "𒁉" },
-    { "value": "BE3", "cuneiform": "𒉌" },
-    { "value": "BE7", "cuneiform": "𒉈" }
-  ],
-  "bi": [
-    { "value": "BI", "cuneiform": "𒁉" },
-    { "value": "BI2", "cuneiform": "𒉈" }
-  ],
-  "bil": [
-    { "value": "BIL", "cuneiform": "𒉈" },
-    { "value": "BIL2", "cuneiform": "𒉋" }
-  ],
-  "bir": [
-    { "value": "BIR", "cuneiform": "𒄵" },
-    { "value": "BIR4", "cuneiform": "𒂔" },
-    { "value": "BIR5", "cuneiform": "𒉆" },
-    { "value": "BIR6", "cuneiform": "𒊶" }
-  ],
-  "bišeba": [{ "value": "BIŠEBA3", "cuneiform": "𒄡" }],
-  "bu": [{ "value": "BU", "cuneiform": "𒁍" }],
-  "bugin": [{ "value": "BUGIN", "cuneiform": "𒆹" }],
-  "bul": [{ "value": "BUL", "cuneiform": "𒇧" }],
-  "bulug": [{ "value": "BULUG", "cuneiform": "𒁑" }],
-  "bun": [{ "value": "BUN2", "cuneiform": "𒅮" }],
-  "bunin": [{ "value": "BUNIN", "cuneiform": "𒆹" }],
-  "bur": [
-    { "value": "BUR", "cuneiform": "𒁓" },
-    { "value": "BUR2", "cuneiform": "𒁔" },
-    { "value": "BUR3", "cuneiform": "𒌋" },
-    { "value": "BUR10", "cuneiform": "𒇧" },
-    { "value": "BUR12", "cuneiform": "𒁍" }
-  ],
-  "buranun": [{ "value": "BURANUN", "cuneiform": "𒌓𒄒𒉣" }],
-  "buranunx": [{ "value": "BURANUNX", "cuneiform": "𒄒𒉣" }],
-  "buranuna": [{ "value": "BURANUNA", "cuneiform": "𒌓𒄒𒉣" }],
-  "buru": [
-    { "value": "BURU4", "cuneiform": "𒉢𒁓" },
-    { "value": "BURU14", "cuneiform": "𒂙" }
-  ],
-  "da": [
-    { "value": "DA", "cuneiform": "𒁕" },
-    { "value": "DA2", "cuneiform": "𒋫" },
-    { "value": "DA3", "cuneiform": "𒆕" }
-  ],
-  "dab": [
-    { "value": "DAB", "cuneiform": "𒁳" },
-    { "value": "DAB5", "cuneiform": "𒆪" },
-    { "value": "DAB6", "cuneiform": "𒍏" }
-  ],
-  "dadag": [{ "value": "DADAG", "cuneiform": "𒌓𒌓" }],
-  "dag": [
-    { "value": "DAG", "cuneiform": "𒁖" },
-    { "value": "DAG3", "cuneiform": "𒍴" }
-  ],
-  "dagrim": [{ "value": "DAGRIM", "cuneiform": "𒇑" }],
-  "daḫ": [{ "value": "DAḪ", "cuneiform": "𒈭" }],
-  "dal": [{ "value": "DAL", "cuneiform": "𒊑" }],
-  "dalla": [{ "value": "DALLA", "cuneiform": "𒈦𒄘𒃼" }],
-  "dam": [{ "value": "DAM", "cuneiform": "𒁮" }],
-  "dan": [
-    { "value": "DAN3", "cuneiform": "𒃩" },
-    { "value": "DAN4", "cuneiform": "𒃋" }
-  ],
-  "dar": [
-    { "value": "DAR", "cuneiform": "𒁯" },
-    { "value": "DAR3", "cuneiform": "𒁰" }
-  ],
-  "dara": [
-    { "value": "DARA3", "cuneiform": "𒁰" },
-    { "value": "DARA4", "cuneiform": "𒁱" }
-  ],
-  "de": [
-    { "value": "DE2", "cuneiform": "𒌤" },
-    { "value": "DE3", "cuneiform": "𒉈" },
-    { "value": "DE6", "cuneiform": "𒁺" }
-  ],
-  "di": [
-    { "value": "DI", "cuneiform": "𒁲" },
-    { "value": "DI4", "cuneiform": "𒌉" }
-  ],
-  "dib": [{ "value": "DIB", "cuneiform": "𒁳" }],
-  "did": [{ "value": "DID", "cuneiform": "𒅎" }],
-  "didli": [{ "value": "DIDLI", "cuneiform": "𒐀" }],
-  "dig": [{ "value": "DIG", "cuneiform": "𒉌" }],
-  "diĝir": [{ "value": "DIĜIR", "cuneiform": "𒀭" }],
-  "dili": [{ "value": "DILI", "cuneiform": "𒀸" }],
-  "dilim": [{ "value": "DILIM2", "cuneiform": "𒇺" }],
-  "dilmun": [{ "value": "DILMUN", "cuneiform": "𒉌𒌇" }],
-  "dim": [
-    { "value": "DIM", "cuneiform": "𒁴" },
-    { "value": "DIM2", "cuneiform": "𒁶" }
-  ],
-  "din": [{ "value": "DIN", "cuneiform": "𒁷" }],
-  "dir": [{ "value": "DIR", "cuneiform": "𒋛𒀀" }],
-  "diš": [{ "value": "DIŠ", "cuneiform": "𒁹" }],
-  "du": [
-    { "value": "DU", "cuneiform": "𒁺" },
-    { "value": "DU2", "cuneiform": "𒌅" },
-    { "value": "DU3", "cuneiform": "𒆕" },
-    { "value": "DU5", "cuneiform": "𒂅" },
-    { "value": "DU6", "cuneiform": "𒇯" },
-    { "value": "DU7", "cuneiform": "𒌌" },
-    { "value": "DU8", "cuneiform": "𒂃" },
-    { "value": "DU11", "cuneiform": "𒅗" },
-    { "value": "DU12", "cuneiform": "𒌇" },
-    { "value": "DU17", "cuneiform": "𒉈" }
-  ],
-  "dub": [
-    { "value": "DUB", "cuneiform": "𒁾" },
-    { "value": "DUB2", "cuneiform": "𒂀" },
-    { "value": "DUB3", "cuneiform": "𒄭" }
-  ],
-  "dubur": [{ "value": "DUBUR2", "cuneiform": "𒄶" }],
-  "dug": [
-    { "value": "DUG", "cuneiform": "𒂁" },
-    { "value": "DUG3", "cuneiform": "𒄭" },
-    { "value": "DUG4", "cuneiform": "𒅗" }
-  ],
-  "dugud": [{ "value": "DUGUD", "cuneiform": "𒂂" }],
-  "duḫ": [{ "value": "DUḪ", "cuneiform": "𒂃" }],
-  "dul": [
-    { "value": "DUL", "cuneiform": "𒌋𒌆" },
-    { "value": "DUL3", "cuneiform": "𒊨" },
-    { "value": "DUL7", "cuneiform": "𒊕" }
-  ],
-  "dulx": [{ "value": "DULX", "cuneiform": "𒌨𒀀" }],
-  "dumu": [{ "value": "DUMU", "cuneiform": "𒌉" }],
-  "dun": [
-    { "value": "DUN", "cuneiform": "𒂄" },
-    { "value": "DUN3", "cuneiform": "𒂅" }
-  ],
-  "dur": [
-    { "value": "DUR", "cuneiform": "𒄙" },
-    { "value": "DUR2", "cuneiform": "𒂉" },
-    { "value": "DUR3", "cuneiform": "𒀲𒀴" },
-    { "value": "DUR7", "cuneiform": "𒁍" },
-    { "value": "DUR10", "cuneiform": "𒊿" }
-  ],
-  "duru": [
-    { "value": "DURU2", "cuneiform": "𒆪" },
-    { "value": "DURU5", "cuneiform": "𒀀" }
-  ],
-  "durun": [{ "value": "DURUN", "cuneiform": "𒂉" }],
-  "durunx": [{ "value": "DURUNX", "cuneiform": "𒆪𒆪" }],
-  "dusu": [{ "value": "DUSU2", "cuneiform": "𒀲𒅆𒂠" }],
-  "e": [
-    { "value": "E", "cuneiform": "𒂊" },
-    { "value": "E2", "cuneiform": "𒂍" },
-    { "value": "E3", "cuneiform": "𒌓𒁺" },
-    { "value": "E4", "cuneiform": "𒀀" }
-  ],
-  "ea": [{ "value": "EA", "cuneiform": "𒀀" }],
-  "ed": [
-    { "value": "ED", "cuneiform": "𒀉" },
-    { "value": "ED2", "cuneiform": "𒌓𒁺" },
-    { "value": "ED3", "cuneiform": "𒇯𒁺" }
-  ],
-  "eden": [{ "value": "EDEN", "cuneiform": "𒂔" }],
-  "edimx": [{ "value": "EDIMX", "cuneiform": "𒂔" }],
-  "edin": [{ "value": "EDIN", "cuneiform": "𒂔" }],
-  "eduru": [{ "value": "EDURU", "cuneiform": "𒀁" }],
-  "egara": [{ "value": "EGARA", "cuneiform": "𒃌" }],
-  "egir": [
-    { "value": "EGIR", "cuneiform": "𒂕" },
-    { "value": "EGIR2", "cuneiform": "𒂠" },
-    { "value": "EGIR5", "cuneiform": "𒈝" },
-    { "value": "EGIR6", "cuneiform": "𒈱" }
-  ],
-  "eĝ": [{ "value": "EĜ3", "cuneiform": "𒉘" }],
-  "eĝer": [{ "value": "EĜER", "cuneiform": "𒂕" }],
-  "eĝir": [
-    { "value": "EĜIR", "cuneiform": "𒂕" },
-    { "value": "EĜIR5", "cuneiform": "𒈝" },
-    { "value": "EĜIR6", "cuneiform": "𒈱" }
-  ],
-  "eḫ": [
-    { "value": "EḪ", "cuneiform": "𒄴" },
-    { "value": "EḪ3", "cuneiform": "𒆪𒆪" }
-  ],
-  "el": [{ "value": "EL", "cuneiform": "𒂖" }],
-  "em": [
-    { "value": "EM", "cuneiform": "𒅎" },
-    { "value": "EM3", "cuneiform": "𒉘" }
-  ],
-  "emx": [{ "value": "EMX", "cuneiform": "𒀀𒀭" }],
-  "eme": [
-    { "value": "EME", "cuneiform": "𒅴" },
-    { "value": "EME4", "cuneiform": "𒂼" },
-    { "value": "EME5", "cuneiform": "𒊩𒄸" }
-  ],
-  "emeda": [{ "value": "EMEDA", "cuneiform": "𒌝𒈨" }],
-  "emedu": [
-    { "value": "EMEDU", "cuneiform": "𒂼𒌅" },
-    { "value": "EMEDU2", "cuneiform": "𒂼𒀀𒌅" }
-  ],
-  "en": [
-    { "value": "EN", "cuneiform": "𒂗" },
-    { "value": "EN3", "cuneiform": "𒇷" },
-    { "value": "EN6", "cuneiform": "𒅔" },
-    { "value": "EN8", "cuneiform": "𒊭" }
-  ],
-  "enegir": [
-    { "value": "ENEGIR", "cuneiform": "𒅎" },
-    { "value": "ENEGIR3", "cuneiform": "𒂗𒁶𒍼" }
-  ],
-  "engar": [{ "value": "ENGAR", "cuneiform": "𒀳" }],
-  "engur": [{ "value": "ENGUR", "cuneiform": "𒇉" }],
-  "enkar": [{ "value": "ENKAR", "cuneiform": "𒂙" }],
-  "enmen": [{ "value": "ENMEN", "cuneiform": "𒆉" }],
-  "er": [
-    { "value": "ER", "cuneiform": "𒅕" },
-    { "value": "ER2", "cuneiform": "𒀀𒅆" }
-  ],
-  "erem": [{ "value": "EREM", "cuneiform": "𒂟" }],
-  "eren": [
-    { "value": "EREN", "cuneiform": "𒂞" },
-    { "value": "EREN2", "cuneiform": "𒂟" }
-  ],
-  "eri": [{ "value": "ERI", "cuneiform": "𒌷" }],
-  "erim": [
-    { "value": "ERIM", "cuneiform": "𒂟" },
-    { "value": "ERIM2", "cuneiform": "𒉈𒊒" },
-    { "value": "ERIM3", "cuneiform": "𒌿" }
-  ],
-  "erin": [
-    { "value": "ERIN", "cuneiform": "𒂞" },
-    { "value": "ERIN2", "cuneiform": "𒂟" }
-  ],
-  "erinx": [{ "value": "ERINX", "cuneiform": "𒈶" }],
-  "erina": [
-    { "value": "ERINA8", "cuneiform": "𒈷" },
-    { "value": "ERINA8", "cuneiform": "𒈸𒀀𒈾" }
-  ],
-  "es": [
-    { "value": "ES", "cuneiform": "𒁀" },
-    { "value": "ES2", "cuneiform": "𒌍" }
-  ],
-  "esag": [{ "value": "ESAG2", "cuneiform": "𒃥" }],
-  "esi": [{ "value": "ESI", "cuneiform": "𒆗" }],
-  "eš": [
-    { "value": "EŠ", "cuneiform": "𒌍" },
-    { "value": "EŠ2", "cuneiform": "𒂠" },
-    { "value": "EŠ3", "cuneiform": "𒀊" },
-    { "value": "EŠ4", "cuneiform": "𒁹" },
-    { "value": "EŠ16", "cuneiform": "𒀼" }
-  ],
-  "eše": [{ "value": "EŠE2", "cuneiform": "𒂠" }],
-  "ešemen": [
-    { "value": "EŠEMEN", "cuneiform": "𒆠𒂊𒉈𒁲" },
-    { "value": "EŠEMEN2", "cuneiform": "𒆠𒂊𒉈𒁲𒀭𒈹" }
-  ],
-  "ešgar": [{ "value": "EŠGAR", "cuneiform": "𒀾𒃼" }],
-  "eštub": [{ "value": "EŠTUB", "cuneiform": "𒄞" }],
-  "et": [{ "value": "ET", "cuneiform": "𒀉" }],
-  "ezen": [{ "value": "EZEN", "cuneiform": "𒂡" }],
-  "ezim": [{ "value": "EZIM2", "cuneiform": "𒊺𒌁" }],
-  "ezina": [
-    { "value": "EZINA2", "cuneiform": "𒊺𒌁" },
-    { "value": "EZINA3", "cuneiform": "𒌁" }
-  ],
-  "ga": [
-    { "value": "GA", "cuneiform": "𒂵" },
-    { "value": "GA14", "cuneiform": "𒅗" },
-    { "value": "GA2", "cuneiform": "𒂷" }
-  ],
-  "gab": [{ "value": "GAB", "cuneiform": "𒃮" }],
-  "gaba": [{ "value": "GABA", "cuneiform": "𒃮" }],
-  "gad": [{ "value": "GAD", "cuneiform": "𒃰" }],
-  "gada": [{ "value": "GADA", "cuneiform": "𒃰" }],
-  "gag": [{ "value": "GAG", "cuneiform": "𒆕" }],
-  "gal": [
-    { "value": "GAL", "cuneiform": "𒃲" },
-    { "value": "GAL2", "cuneiform": "𒅅" },
-    { "value": "GAL4", "cuneiform": "𒊩" },
-    { "value": "GAL5", "cuneiform": "𒋼" }
-  ],
-  "gala": [{ "value": "GALA", "cuneiform": "𒍑𒆪" }],
-  "galam": [{ "value": "GALAM", "cuneiform": "𒃴" }],
-  "galga": [{ "value": "GALGA", "cuneiform": "𒃌" }],
-  "gam": [
-    { "value": "GAM", "cuneiform": "𒃵" },
-    { "value": "GAM3", "cuneiform": "𒉽𒈿" }
-  ],
-  "gan": [
-    { "value": "GAN", "cuneiform": "𒃶" },
-    { "value": "GAN2", "cuneiform": "𒃷" }
-  ],
-  "gana": [{ "value": "GANA2", "cuneiform": "𒃷" }],
-  "ganba": [{ "value": "GANBA", "cuneiform": "𒆠𒇴" }],
-  "ganun": [{ "value": "GANUN", "cuneiform": "𒃠" }],
-  "gar": [
-    { "value": "GAR", "cuneiform": "𒃻" },
-    { "value": "GAR3", "cuneiform": "𒃼" },
-    { "value": "GAR5", "cuneiform": "𒈖" },
-    { "value": "GAR8", "cuneiform": "𒋞" }
-  ],
-  "garadin": [{ "value": "GARADIN9", "cuneiform": "𒌏" }],
-  "garadinx": [{ "value": "GARADINX", "cuneiform": "𒃱" }],
-  "garim": [{ "value": "GARIM", "cuneiform": "𒇑" }],
-  "gašam": [{ "value": "GAŠAM", "cuneiform": "𒉣𒈨𒋳" }],
-  "gašan": [{ "value": "GAŠAN", "cuneiform": "𒃽" }],
-  "gaz": [{ "value": "GAZ", "cuneiform": "𒄤" }],
-  "gazi": [{ "value": "GAZI", "cuneiform": "𒃢" }],
-  "ge": [
-    { "value": "GE", "cuneiform": "𒄀" },
-    { "value": "GE2", "cuneiform": "𒆤" },
-    { "value": "GE6", "cuneiform": "𒈪" },
-    { "value": "GE22", "cuneiform": "𒀺" },
-    { "value": "GE23", "cuneiform": "𒀹" }
-  ],
-  "gel": [{ "value": "GEL", "cuneiform": "𒄃" }],
-  "geme": [{ "value": "GEME2", "cuneiform": "𒊩𒆳" }],
-  "gen": [{ "value": "GEN6", "cuneiform": "𒄀" }],
-  "genna": [{ "value": "GENNA", "cuneiform": "𒌉𒁹" }],
-  "geš": [{ "value": "GEŠ", "cuneiform": "𒄑" }],
-  "geššim": [{ "value": "GEŠŠIM", "cuneiform": "𒄑𒋆" }],
-  "geštin": [{ "value": "GEŠTIN", "cuneiform": "𒃾" }],
-  "gi": [
-    { "value": "GI", "cuneiform": "𒄀" },
-    { "value": "GI2", "cuneiform": "𒆤" },
-    { "value": "GI4", "cuneiform": "𒄄" },
-    { "value": "GI5", "cuneiform": "𒆠" },
-    { "value": "GI6", "cuneiform": "𒈪" },
-    { "value": "GI7", "cuneiform": "𒂠" },
-    { "value": "GI16", "cuneiform": "𒄃" },
-    { "value": "GI17", "cuneiform": "𒍼" }
-  ],
-  "gib": [{ "value": "GIB", "cuneiform": "𒄃" }],
-  "gibil": [
-    { "value": "GIBIL", "cuneiform": "𒉋" },
-    { "value": "GIBIL2", "cuneiform": "𒋙𒀾" },
-    { "value": "GIBIL4", "cuneiform": "𒉈" }
-  ],
-  "gid": [{ "value": "GID2", "cuneiform": "𒁍" }],
-  "gidim": [{ "value": "GIDIM", "cuneiform": "𒄇" }],
-  "gig": [
-    { "value": "GIG", "cuneiform": "𒍼" },
-    { "value": "GIG2", "cuneiform": "𒈪" }
-  ],
-  "gigam": [{ "value": "GIGAM", "cuneiform": "𒈓" }],
-  "giggi": [{ "value": "GIGGI", "cuneiform": "𒈪" }],
-  "gigi": [{ "value": "GIGI", "cuneiform": "𒄅" }],
-  "gigir": [
-    { "value": "GIGIR", "cuneiform": "𒇀" },
-    { "value": "GIGIR2", "cuneiform": "𒇥" }
-  ],
-  "gigirx": [{ "value": "GIGIRX", "cuneiform": "𒆸𒌀" }],
-  "gil": [{ "value": "GIL", "cuneiform": "𒄃" }],
-  "gilgameš": [
-    { "value": "GILGAMEŠ", "cuneiform": "𒄑𒂆𒈦" },
-    { "value": "GILGAMEŠ2", "cuneiform": "𒄑𒉋𒂵𒈩" }
-  ],
-  "gilim": [{ "value": "GILIM", "cuneiform": "𒄃" }],
-  "gim": [{ "value": "GIM", "cuneiform": "𒁶" }],
-  "gin": [
-    { "value": "GIN", "cuneiform": "𒁺" },
-    { "value": "GIN2", "cuneiform": "𒂆" },
-    { "value": "GIN3", "cuneiform": "𒆳" },
-    { "value": "GIN4", "cuneiform": "𒍤𒆸" },
-    { "value": "GIN6", "cuneiform": "𒄀" },
-    { "value": "GIN7", "cuneiform": "𒁶" }
-  ],
-  "gir": [
-    { "value": "GIR", "cuneiform": "𒄫" },
-    { "value": "GIR2", "cuneiform": "𒄈" },
-    { "value": "GIR3", "cuneiform": "𒄊" },
-    { "value": "GIR4", "cuneiform": "𒌋𒀜" },
-    { "value": "GIR5", "cuneiform": "𒁽" },
-    { "value": "GIR6", "cuneiform": "𒁼" },
-    { "value": "GIR10", "cuneiform": "𒉈" },
-    { "value": "GIR15", "cuneiform": "𒂠" }
-  ],
-  "giraba": [{ "value": "GIRABA", "cuneiform": "𒀊𒄫" }],
-  "giri": [
-    { "value": "GIRI16", "cuneiform": "𒄌" },
-    { "value": "GIRI17", "cuneiform": "𒅗" }
-  ],
-  "gisal": [{ "value": "GISAL", "cuneiform": "𒄐" }],
-  "giš": [{ "value": "GIŠ", "cuneiform": "𒄑" }],
-  "gu": [
-    { "value": "GU", "cuneiform": "𒄖" },
-    { "value": "GU2", "cuneiform": "𒄘" },
-    { "value": "GU3", "cuneiform": "𒅗" },
-    { "value": "GU4", "cuneiform": "𒄞" },
-    { "value": "GU7", "cuneiform": "𒅥" }
-  ],
-  "gub": [
-    { "value": "GUB", "cuneiform": "𒁺" },
-    { "value": "GUB2", "cuneiform": "𒇷" }
-  ],
-  "gud": [
-    { "value": "GUD", "cuneiform": "𒄞" },
-    { "value": "GUD3", "cuneiform": "𒌑𒆠𒋧𒂵" }
-  ],
-  "gug": [
-    { "value": "GUG", "cuneiform": "𒍝𒄢" },
-    { "value": "GUG2", "cuneiform": "𒈖" }
-  ],
-  "gul": [{ "value": "GUL", "cuneiform": "𒄢" }],
-  "gum": [{ "value": "GUM", "cuneiform": "𒄣" }],
-  "gun": [{ "value": "GUN3", "cuneiform": "𒁯" }],
-  "gur": [
-    { "value": "GUR", "cuneiform": "𒄥" },
-    { "value": "GUR2", "cuneiform": "𒃵" },
-    { "value": "GUR4", "cuneiform": "𒆸" },
-    { "value": "GUR5", "cuneiform": "𒍀" },
-    { "value": "GUR7", "cuneiform": "𒄦" },
-    { "value": "GUR8", "cuneiform": "𒋽" },
-    { "value": "GUR10", "cuneiform": "𒆥" },
-    { "value": "GUR11", "cuneiform": "𒂵" },
-    { "value": "GUR17", "cuneiform": "𒄕" }
-  ],
-  "guru": [
-    { "value": "GURU5", "cuneiform": "𒍀" },
-    { "value": "GURU6", "cuneiform": "𒃸" },
-    { "value": "GURU7", "cuneiform": "𒄦" }
-  ],
-  "gurud": [
-    { "value": "GURUD", "cuneiform": "𒉩𒆠" },
-    { "value": "GURUD2", "cuneiform": "𒇽𒆠" }
-  ],
-  "gurum": [{ "value": "GURUM", "cuneiform": "𒃵" }],
-  "gurun": [
+  "abbununnu": [
     {
-      "value": "GURUN",
-      "cuneiform": "UŠ2 squared (four opposing 𒍗 forming a square in the middle)"
+      "value": "ABBUNUNNU",
+      "cuneiform": "𒌓𒄷𒄭𒉣",
+      "unicode": "12313-12137-1212d-12263"
     }
   ],
+  "abgal": [
+    { "value": "ABGAL", "cuneiform": "𒉣𒈨", "unicode": "12263-12228" },
+    { "value": "ABGAL2", "cuneiform": "𒉣𒈨𒅤", "unicode": "12263-12228-12164" }
+  ],
+  "ablal": [
+    { "value": "ABLAL", "cuneiform": "𒆼", "unicode": "121bc" },
+    { "value": "ABLAL3", "cuneiform": "𒇦", "unicode": "121e6" }
+  ],
+  "abni": [{ "value": "ABNI2", "cuneiform": "𒆠𒉈", "unicode": "121a0-12248" }],
+  "abrig": [
+    { "value": "ABRIG", "cuneiform": "𒉣𒈨𒁺", "unicode": "12263-12228-1207a" },
+    {
+      "value": "ABRIG2",
+      "cuneiform": "𒀖𒉣𒈨𒁺",
+      "unicode": "12016-12263-12228-1207a"
+    }
+  ],
+  "absin": [
+    { "value": "ABSIN", "cuneiform": "𒆠𒀸𒀸", "unicode": "121a0-12038-12038" },
+    { "value": "ABSIN3", "cuneiform": "𒀳", "unicode": "12033" }
+  ],
+  "abul": [{ "value": "ABUL", "cuneiform": "𒆍𒃲", "unicode": "1218d-120f2" }],
+  "abula": [{ "value": "ABULA", "cuneiform": "𒆍𒃲", "unicode": "1218d-120f2" }],
+  "abzu": [{ "value": "ABZU", "cuneiform": "𒍪𒀊", "unicode": "1236a-1200a" }],
+  "abzux": [{ "value": "ABZUX", "cuneiform": "𒌤", "unicode": "12324" }],
+  "ad": [
+    { "value": "AD", "cuneiform": "𒀜", "unicode": "1201c" },
+    { "value": "AD2", "cuneiform": "𒄉", "unicode": "12109" },
+    { "value": "AD3", "cuneiform": "𒇼", "unicode": "121fc" },
+    { "value": "AD4", "cuneiform": "𒍞", "unicode": "1235e" },
+    { "value": "AD5", "cuneiform": "𒌑𒄉", "unicode": "12311-12109" },
+    { "value": "AD6", "cuneiform": "𒇿", "unicode": "121ff" }
+  ],
+  "adx": [
+    { "value": "ADX", "cuneiform": "𒈕", "unicode": "12215" },
+    { "value": "ADX", "cuneiform": "𒎉", "unicode": "12389" },
+    { "value": "ADX", "cuneiform": "𒁁𒇽", "unicode": "12041-121fd" },
+    { "value": "ADX", "cuneiform": "𒇽𒃵", "unicode": "121fd-120f5" }
+  ],
+  "adab": [{ "value": "ADAB", "cuneiform": "𒌓𒉣", "unicode": "12313-12263" }],
+  "adama": [{ "value": "ADAMA", "cuneiform": "𒁁𒈪", "unicode": "12041-1222a" }],
+  "adamin": [
+    { "value": "ADAMIN", "cuneiform": "𒈓", "unicode": "12213" },
+    { "value": "ADAMIN2", "cuneiform": "𒈘", "unicode": "12218" },
+    { "value": "ADAMIN3", "cuneiform": "𒄒", "unicode": "12112" },
+    { "value": "ADAMIN4", "cuneiform": "𒉫", "unicode": "1226b" },
+    { "value": "ADAMIN5", "cuneiform": "𒂛", "unicode": "1209b" }
+  ],
+  "adaminx": [
+    { "value": "ADAMINX", "cuneiform": "𒂜", "unicode": "1209c" },
+    { "value": "ADAMINX", "cuneiform": "𒇽𒇽", "unicode": "121fd-121fd" }
+  ],
+  "adda": [
+    { "value": "ADDA", "cuneiform": "𒇿", "unicode": "121ff" },
+    { "value": "ADDA2", "cuneiform": "𒇼", "unicode": "121fc" }
+  ],
+  "addir": [
+    {
+      "value": "ADDIR",
+      "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀",
+      "unicode": "12000-1227a-12110-1227b-122db-12000"
+    }
+  ],
+  "addirx": [
+    { "value": "ADDIRX", "cuneiform": "𒄐𒉻𒋛", "unicode": "12110-1227b-122db" },
+    {
+      "value": "ADDIRX",
+      "cuneiform": "𒉺𒄐𒋛𒀀",
+      "unicode": "1227a-12110-122db-12000"
+    },
+    {
+      "value": "ADDIRX",
+      "cuneiform": "𒉺𒄐𒋛𒀀𒉻",
+      "unicode": "1227a-12110-122db-12000-1227b"
+    }
+  ],
+  "adkin": [{ "value": "ADKIN", "cuneiform": "𒋠𒇴", "unicode": "122e0-121f4" }],
+  "adkinx": [{ "value": "ADKINX", "cuneiform": "𒋁", "unicode": "122c1" }],
+  "ag": [
+    { "value": "AG", "cuneiform": "𒀝", "unicode": "1201d" },
+    { "value": "AG2", "cuneiform": "𒉘", "unicode": "12258" }
+  ],
+  "aga": [
+    { "value": "AGA", "cuneiform": "𒂇", "unicode": "12087" },
+    { "value": "AGA3", "cuneiform": "𒂆", "unicode": "12086" }
+  ],
+  "agam": [{ "value": "AGAM", "cuneiform": "𒀂", "unicode": "12002" }],
+  "agar": [
+    { "value": "AGAR2", "cuneiform": "𒇋", "unicode": "121cb" },
+    { "value": "AGAR3", "cuneiform": "𒆻", "unicode": "121bb" },
+    { "value": "AGAR4", "cuneiform": "𒅊", "unicode": "1214a" }
+  ],
+  "agargara": [{ "value": "AGARGARA", "cuneiform": "𒉩", "unicode": "12269" }],
+  "agarin": [
+    { "value": "AGARIN", "cuneiform": "𒀌", "unicode": "1200c" },
+    { "value": "AGARIN2", "cuneiform": "𒀎", "unicode": "1200e" },
+    { "value": "AGARIN3", "cuneiform": "𒂼𒂆", "unicode": "120bc-12086" },
+    { "value": "AGARIN4", "cuneiform": "𒂼𒋆", "unicode": "120bc-122c6" },
+    { "value": "AGARIN5", "cuneiform": "𒂼𒋋", "unicode": "120bc-122cb" }
+  ],
+  "agarinx": [
+    { "value": "AGARINX", "cuneiform": "𒀏", "unicode": "1200f" },
+    { "value": "AGARINX", "cuneiform": "𒇉", "unicode": "121c9" }
+  ],
+  "agrig": [{ "value": "AGRIG", "cuneiform": "𒅆𒁾", "unicode": "12146-1207e" }],
+  "agrun": [{ "value": "AGRUN", "cuneiform": "𒂍𒉣", "unicode": "1208d-12263" }],
+  "aĝ": [{ "value": "AĜ2", "cuneiform": "𒉘", "unicode": "12258" }],
+  "aĝa": [{ "value": "AĜA3", "cuneiform": "𒂆", "unicode": "12086" }],
+  "aĝar": [
+    { "value": "AĜAR5", "cuneiform": "𒅐", "unicode": "12150" },
+    { "value": "AĜAR6", "cuneiform": "𒅎𒂂", "unicode": "1214e-12082" }
+  ],
+  "aĝarin": [
+    { "value": "AĜARIN", "cuneiform": "𒀌", "unicode": "1200c" },
+    { "value": "AĜARIN2", "cuneiform": "𒀎", "unicode": "1200e" },
+    { "value": "AĜARIN3", "cuneiform": "𒂼𒂆", "unicode": "120bc-12086" },
+    { "value": "AĜARIN4", "cuneiform": "𒂼𒋆", "unicode": "120bc-122c6" },
+    { "value": "AĜARIN5", "cuneiform": "𒂼𒋋", "unicode": "120bc-122cb" }
+  ],
+  "aĝarinx": [
+    { "value": "AĜARINX", "cuneiform": "𒀏", "unicode": "1200f" },
+    { "value": "AĜARINX", "cuneiform": "𒇉", "unicode": "121c9" }
+  ],
+  "aĝrig": [{ "value": "AĜRIG", "cuneiform": "𒅆𒁾", "unicode": "12146-1207e" }],
+  "aḫ": [
+    { "value": "AḪ", "cuneiform": "𒄴", "unicode": "12134" },
+    { "value": "AḪ3", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "AḪ6", "cuneiform": "𒌔", "unicode": "12314" }
+  ],
+  "ak": [{ "value": "AK", "cuneiform": "𒀝", "unicode": "1201d" }],
+  "aka": [{ "value": "AKA3", "cuneiform": "𒋃", "unicode": "122c3" }],
+  "akan": [{ "value": "AKAN", "cuneiform": "𒁛", "unicode": "1205b" }],
+  "akkan": [{ "value": "AKKAN3", "cuneiform": "𒇖", "unicode": "121d6" }],
+  "akkil": [
+    { "value": "AKKIL", "cuneiform": "𒃰𒋺𒋛", "unicode": "120f0-122fa-122db" },
+    { "value": "AKKIL2", "cuneiform": "𒀜𒆤", "unicode": "1201c-121a4" }
+  ],
+  "akkilx": [
+    { "value": "AKKILX", "cuneiform": "𒀜𒆪", "unicode": "1201c-121aa" },
+    {
+      "value": "AKKILX",
+      "cuneiform": "𒃰𒋺𒋛𒀀",
+      "unicode": "120f0-122fa-122db-12000"
+    }
+  ],
+  "aktum": [
+    { "value": "AKTUM", "cuneiform": "𒀀𒋢", "unicode": "12000-122e2" },
+    { "value": "AKTUM2", "cuneiform": "𒋢𒀀", "unicode": "122e2-12000" }
+  ],
+  "al": [{ "value": "AL", "cuneiform": "𒀠", "unicode": "12020" }],
+  "alad": [
+    { "value": "ALAD", "cuneiform": "𒆘", "unicode": "12198" },
+    { "value": "ALAD2", "cuneiform": "𒆗", "unicode": "12197" }
+  ],
+  "alal": [
+    { "value": "ALAL", "cuneiform": "𒋄", "unicode": "122c4" },
+    { "value": "ALAL3", "cuneiform": "𒄒", "unicode": "12112" },
+    { "value": "ALAL4", "cuneiform": "𒃺", "unicode": "120fa" }
+  ],
+  "alan": [{ "value": "ALAN", "cuneiform": "𒀩", "unicode": "12029" }],
+  "algameš": [
+    { "value": "ALGAMEŠ", "cuneiform": "𒌓𒊩𒄸", "unicode": "12313-122a9-12138" }
+  ],
+  "alim": [{ "value": "ALIM", "cuneiform": "𒄋", "unicode": "1210b" }],
+  "alla": [{ "value": "ALLA", "cuneiform": "𒉄", "unicode": "12244" }],
+  "alurax": [{ "value": "ALURAX", "cuneiform": "𒁃", "unicode": "12043" }],
+  "am": [
+    { "value": "AM", "cuneiform": "𒄠", "unicode": "12120" },
+    { "value": "AM3", "cuneiform": "𒀀𒀭", "unicode": "12000-1202d" },
+    { "value": "AM6", "cuneiform": "𒀭", "unicode": "1202d" }
+  ],
+  "ama": [
+    { "value": "AMA", "cuneiform": "𒂼", "unicode": "120bc" },
+    { "value": "AMA5", "cuneiform": "𒃣", "unicode": "120e3" }
+  ],
+  "amagi": [
+    { "value": "AMAGI", "cuneiform": "𒈻", "unicode": "1223b" },
+    { "value": "AMAGI2", "cuneiform": "𒀀𒈹𒁲", "unicode": "12000-12239-12072" },
+    { "value": "AMAGI3", "cuneiform": "𒍝𒈹𒁲", "unicode": "1235d-12239-12072" }
+  ],
+  "amagix": [
+    {
+      "value": "AMAGIX",
+      "cuneiform": "𒀀𒈹𒀀𒁲",
+      "unicode": "12000-12239-12000-12072"
+    }
+  ],
+  "amalu": [
+    { "value": "AMALU", "cuneiform": "𒂼𒀭𒈹", "unicode": "120bc-1202d-12239" }
+  ],
+  "amalug": [
+    { "value": "AMALUG", "cuneiform": "𒂼𒈹", "unicode": "120bc-12239" }
+  ],
+  "aman": [{ "value": "AMAN", "cuneiform": "𒉽𒉽", "unicode": "1227d-1227d" }],
+  "amar": [{ "value": "AMAR", "cuneiform": "𒀫", "unicode": "1202b" }],
+  "amaš": [{ "value": "AMAŠ", "cuneiform": "𒁦", "unicode": "12066" }],
+  "ambar": [{ "value": "AMBAR", "cuneiform": "𒆹", "unicode": "121b9" }],
+  "amra": [
+    { "value": "AMRA", "cuneiform": "𒄑𒈣𒊏", "unicode": "12111-12223-1228f" }
+  ],
+  "amuš": [{ "value": "AMUŠ", "cuneiform": "𒀇", "unicode": "12007" }],
+  "an": [{ "value": "AN", "cuneiform": "𒀭", "unicode": "1202d" }],
+  "anše": [{ "value": "ANŠE", "cuneiform": "𒀲", "unicode": "12032" }],
+  "anzalub": [
+    { "value": "ANZALUB", "cuneiform": "𒊮𒄀", "unicode": "122ae-12100" }
+  ],
+  "anzu": [
+    { "value": "ANZU2", "cuneiform": "𒀭𒅎𒈪", "unicode": "1202d-1214e-1222a" }
+  ],
+  "anzud": [
+    { "value": "ANZUD", "cuneiform": "𒀭𒅎𒂂", "unicode": "1202d-1214e-12082" },
+    { "value": "ANZUD2", "cuneiform": "𒀭𒅎𒈪", "unicode": "1202d-1214e-1222a" }
+  ],
+  "ap": [{ "value": "AP", "cuneiform": "𒀊", "unicode": "1200a" }],
+  "apin": [{ "value": "APIN", "cuneiform": "𒀳", "unicode": "12033" }],
+  "ar": [
+    { "value": "AR", "cuneiform": "𒅈", "unicode": "12148" },
+    { "value": "AR2", "cuneiform": "𒄱", "unicode": "12131" },
+    { "value": "AR3", "cuneiform": "𒄯", "unicode": "1212f" }
+  ],
+  "arx": [{ "value": "ARX", "cuneiform": "𒌸", "unicode": "12338" }],
+  "ara": [
+    { "value": "ARA", "cuneiform": "𒊭", "unicode": "122ad" },
+    { "value": "ARA3", "cuneiform": "𒄯", "unicode": "1212f" }
+  ],
+  "arad": [
+    { "value": "ARAD", "cuneiform": "𒀴", "unicode": "12034" },
+    { "value": "ARAD2", "cuneiform": "𒀵", "unicode": "12035" }
+  ],
+  "araḫ": [
+    { "value": "ARAḪ3", "cuneiform": "𒃥", "unicode": "120e5" },
+    {
+      "value": "ARAḪ4",
+      "cuneiform": "𒂍𒍑𒁍𒁕",
+      "unicode": "1208d-12351-1204d-12055"
+    }
+  ],
+  "araḫx": [
+    { "value": "ARAḪX", "cuneiform": "𒍑𒁍𒁕", "unicode": "12351-1204d-12055" }
+  ],
+  "arali": [
+    { "value": "ARALI", "cuneiform": "𒂍𒆳𒈪", "unicode": "1208d-121b3-1222a" }
+  ],
+  "aralix": [{ "value": "ARALIX", "cuneiform": "𒌽", "unicode": "1233d" }],
+  "aratta": [{ "value": "ARATTA", "cuneiform": "𒇶", "unicode": "121f6" }],
+  "arattax": [
+    {
+      "value": "ARATTAX",
+      "cuneiform": "𒇴𒆳𒊒𒁕",
+      "unicode": "121f4-121b3-12292-12055"
+    }
+  ],
+  "argab": [{ "value": "ARGAB", "cuneiform": "𒀶", "unicode": "12036" }],
+  "arḫuš": [
+    { "value": "ARḪUŠ", "cuneiform": "𒃣", "unicode": "120e3" },
+    { "value": "ARḪUŠ2", "cuneiform": "𒉦", "unicode": "12266" }
+  ],
+  "ari": [{ "value": "ARI2", "cuneiform": "𒅂", "unicode": "12142" }],
+  "arina": [
+    { "value": "ARINA", "cuneiform": "𒈸𒀀𒈾", "unicode": "12238-12000-1223e" }
+  ],
+  "arinax": [
+    { "value": "ARINAX", "cuneiform": "𒄿𒈕𒈾", "unicode": "1213f-12215-1223e" },
+    { "value": "ARINAX", "cuneiform": "𒈕𒈾", "unicode": "12215-1223e" },
+    { "value": "ARINAX", "cuneiform": "𒌫𒀀", "unicode": "1232b-12000" }
+  ],
+  "arkab": [
+    { "value": "ARKAB", "cuneiform": "𒃻𒅁", "unicode": "120fb-12141" },
+    { "value": "ARKAB2", "cuneiform": "𒀶", "unicode": "12036" }
+  ],
+  "arkabx": [
+    { "value": "ARKABX", "cuneiform": "𒀶𒅁", "unicode": "12036-12141" }
+  ],
+  "as": [
+    { "value": "AS", "cuneiform": "𒊍", "unicode": "1228d" },
+    { "value": "AS4", "cuneiform": "𒍞", "unicode": "1235e" }
+  ],
+  "asal": [
+    {
+      "value": "ASAL2",
+      "cuneiform": "𒀀𒌅𒃮𒇺",
+      "unicode": "12000-12305-120ee-121fa"
+    }
+  ],
+  "asalx": [
+    { "value": "ASALX", "cuneiform": "𒀷", "unicode": "12037" },
+    { "value": "ASALX", "cuneiform": "𒀀𒌅", "unicode": "12000-12305" },
+    {
+      "value": "ASALX",
+      "cuneiform": "𒀀𒌅𒃮𒋝𒃻",
+      "unicode": "12000-12305-120ee-122dd-120fb"
+    },
+    { "value": "ASALX", "cuneiform": "𒀀𒌅𒉪", "unicode": "12000-12305-1226a" }
+  ],
+  "asil": [
+    { "value": "ASIL", "cuneiform": "𒂰", "unicode": "120b0" },
+    { "value": "ASIL3", "cuneiform": "𒂢", "unicode": "120a2" }
+  ],
+  "asilx": [{ "value": "ASILX", "cuneiform": "𒂡", "unicode": "120a1" }],
+  "asila": [
+    { "value": "ASILA", "cuneiform": "𒂰", "unicode": "120b0" },
+    { "value": "ASILA3", "cuneiform": "𒂢", "unicode": "120a2" }
+  ],
+  "asilax": [{ "value": "ASILAX", "cuneiform": "𒂬", "unicode": "120ac" }],
+  "asilal": [
+    { "value": "ASILAL", "cuneiform": "𒂰", "unicode": "120b0" },
+    { "value": "ASILAL3", "cuneiform": "𒂢", "unicode": "120a2" },
+    { "value": "ASILAL4", "cuneiform": "𒂤", "unicode": "120a4" }
+  ],
+  "aslumx": [
+    { "value": "ASLUMX", "cuneiform": "𒀀𒈝", "unicode": "12000-1221d" }
+  ],
+  "aš": [
+    { "value": "AŠ", "cuneiform": "𒀸", "unicode": "12038" },
+    { "value": "AŠ2", "cuneiform": "𒀾", "unicode": "1203e" },
+    { "value": "AŠ3", "cuneiform": "𒐋", "unicode": "1240b" },
+    { "value": "AŠ5", "cuneiform": "𒋠𒇴𒋦", "unicode": "122e0-121f4-122e6" }
+  ],
+  "ašag": [{ "value": "AŠAG", "cuneiform": "𒃷", "unicode": "120f7" }],
+  "ašgab": [{ "value": "AŠGAB", "cuneiform": "𒀿", "unicode": "1203f" }],
+  "ašgabgalx": [
+    { "value": "AŠGABGALX", "cuneiform": "𒃲𒀿", "unicode": "120f2-1203f" }
+  ],
+  "aški": [{ "value": "AŠKI", "cuneiform": "𒍤𒆸", "unicode": "12364-121b8" }],
+  "aškud": [
+    { "value": "AŠKUD", "cuneiform": "𒀾𒈽", "unicode": "1203e-1223d" },
+    { "value": "AŠKUD2", "cuneiform": "𒀾𒈹", "unicode": "1203e-12239" }
+  ],
+  "ašlug": [
+    {
+      "value": "AŠLUG",
+      "cuneiform": "𒂍𒍑𒁍𒁕",
+      "unicode": "1208d-12351-1204d-12055"
+    }
+  ],
+  "ašnan": [
+    { "value": "AŠNAN", "cuneiform": "𒊺", "unicode": "122ba" },
+    { "value": "AŠNAN2", "cuneiform": "𒊺𒌁", "unicode": "122ba-12301" }
+  ],
+  "ašša": [{ "value": "AŠŠA2", "cuneiform": "𒃰𒋺", "unicode": "120f0-122fa" }],
+  "ašta": [{ "value": "AŠTA", "cuneiform": "𒃰𒋺", "unicode": "120f0-122fa" }],
+  "ašte": [
+    { "value": "AŠTE", "cuneiform": "𒀉𒌋𒆤", "unicode": "12009-1230b-121a4" },
+    { "value": "AŠTE2", "cuneiform": "𒆹", "unicode": "121b9" }
+  ],
+  "at": [{ "value": "AT", "cuneiform": "𒀜", "unicode": "1201c" }],
+  "au": [
+    {
+      "value": "AU",
+      "cuneiform": "𒀀𒉺𒄐𒉻𒋛𒀀",
+      "unicode": "12000-1227a-12110-1227b-122db-12000"
+    }
+  ],
+  "aya": [
+    { "value": "AYA", "cuneiform": "𒀀𒀀", "unicode": "12000-12000" },
+    { "value": "AYA2", "cuneiform": "𒀀", "unicode": "12000" },
+    { "value": "AYA4", "cuneiform": "𒆹", "unicode": "121b9" }
+  ],
+  "ayayax": [
+    { "value": "AYAYAX", "cuneiform": "𒀀𒀀𒀀", "unicode": "12000-12000-12000" }
+  ],
+  "az": [{ "value": "AZ", "cuneiform": "𒊍", "unicode": "1228d" }],
+  "azadx": [
+    { "value": "AZADX", "cuneiform": "𒀀𒇉𒋙", "unicode": "12000-121c9-122d9" }
+  ],
+  "azag": [{ "value": "AZAG", "cuneiform": "𒆬𒀭", "unicode": "121ac-1202d" }],
+  "azlag": [
+    { "value": "AZLAG", "cuneiform": "𒌆𒌓", "unicode": "12306-12313" },
+    {
+      "value": "AZLAG3",
+      "cuneiform": "𒄑𒌆𒉿𒋼𒀀𒁺",
+      "unicode": "12111-12306-1227f-122fc-12000-1207a"
+    },
+    {
+      "value": "AZLAG4",
+      "cuneiform": "𒄑𒌆𒋼𒀀𒁺",
+      "unicode": "12111-12306-122fc-12000-1207a"
+    },
+    {
+      "value": "AZLAG5",
+      "cuneiform": "𒄑𒌆𒉿𒋼𒀀",
+      "unicode": "12111-12306-1227f-122fc-12000"
+    },
+    { "value": "AZLAG7", "cuneiform": "𒈐", "unicode": "12210" }
+  ],
+  "azlaggalx": [
+    {
+      "value": "AZLAGGALX",
+      "cuneiform": "𒃲𒄑𒌆𒋼𒀀𒁺",
+      "unicode": "120f2-12111-12306-122fc-12000-1207a"
+    }
+  ],
+  "azu": [{ "value": "AZU", "cuneiform": "𒍬", "unicode": "1236c" }],
+  "azugna": [
+    { "value": "AZUGNA", "cuneiform": "𒄯𒊕", "unicode": "1212f-12295" }
+  ],
+  "ba": [
+    { "value": "BA", "cuneiform": "𒁀", "unicode": "12040" },
+    { "value": "BA4", "cuneiform": "𒂷", "unicode": "120b7" },
+    { "value": "BA13", "cuneiform": "𒈨", "unicode": "12228" }
+  ],
+  "babbar": [
+    { "value": "BABBAR", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "BABBAR2", "cuneiform": "𒌓𒌓", "unicode": "12313-12313" }
+  ],
+  "bad": [
+    { "value": "BAD", "cuneiform": "𒁁", "unicode": "12041" },
+    { "value": "BAD3", "cuneiform": "𒂦", "unicode": "120a6" }
+  ],
+  "bag": [{ "value": "BAG3", "cuneiform": "𒁂", "unicode": "12042" }],
+  "baḫar": [{ "value": "BAḪAR2", "cuneiform": "𒁃", "unicode": "12043" }],
+  "bal": [{ "value": "BAL", "cuneiform": "𒁄", "unicode": "12044" }],
+  "bala": [{ "value": "BALA", "cuneiform": "𒁄", "unicode": "12044" }],
+  "balag": [{ "value": "BALAG", "cuneiform": "𒁆", "unicode": "12046" }],
+  "ban": [{ "value": "BAN3", "cuneiform": "𒌉", "unicode": "12309" }],
+  "banda": [{ "value": "BANDA3", "cuneiform": "𒌉", "unicode": "12309" }],
+  "banšur": [{ "value": "BANŠUR", "cuneiform": "𒍎", "unicode": "1234e" }],
+  "bappir": [{ "value": "BAPPIR", "cuneiform": "𒋋", "unicode": "122cb" }],
+  "bar": [
+    { "value": "BAR", "cuneiform": "𒁇", "unicode": "12047" },
+    { "value": "BAR2", "cuneiform": "𒁈", "unicode": "12048" },
+    { "value": "BAR7", "cuneiform": "𒉈", "unicode": "12248" }
+  ],
+  "bara": [{ "value": "BARA2", "cuneiform": "𒁈", "unicode": "12048" }],
+  "bargi": [{ "value": "BARGI", "cuneiform": "𒌐", "unicode": "12310" }],
+  "bazbazx": [{ "value": "BAZBAZX", "cuneiform": "𒊻", "unicode": "122bb" }],
+  "be": [
+    { "value": "BE", "cuneiform": "𒁁", "unicode": "12041" },
+    { "value": "BE2", "cuneiform": "𒁉", "unicode": "12049" },
+    { "value": "BE3", "cuneiform": "𒉌", "unicode": "1224c" },
+    { "value": "BE7", "cuneiform": "𒉈", "unicode": "12248" }
+  ],
+  "bi": [
+    { "value": "BI", "cuneiform": "𒁉", "unicode": "12049" },
+    { "value": "BI2", "cuneiform": "𒉈", "unicode": "12248" }
+  ],
+  "bil": [
+    { "value": "BIL", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "BIL2", "cuneiform": "𒉋", "unicode": "1224b" }
+  ],
+  "bir": [
+    { "value": "BIR", "cuneiform": "𒄵", "unicode": "12135" },
+    { "value": "BIR4", "cuneiform": "𒂔", "unicode": "12094" },
+    { "value": "BIR5", "cuneiform": "𒉆", "unicode": "12246" },
+    { "value": "BIR6", "cuneiform": "𒊶", "unicode": "122b6" }
+  ],
+  "bišeba": [{ "value": "BIŠEBA3", "cuneiform": "𒄡", "unicode": "12121" }],
+  "bu": [{ "value": "BU", "cuneiform": "𒁍", "unicode": "1204d" }],
+  "bugin": [{ "value": "BUGIN", "cuneiform": "𒆹", "unicode": "121b9" }],
+  "bul": [{ "value": "BUL", "cuneiform": "𒇧", "unicode": "121e7" }],
+  "bulug": [{ "value": "BULUG", "cuneiform": "𒁑", "unicode": "12051" }],
+  "bun": [{ "value": "BUN2", "cuneiform": "𒅮", "unicode": "1216e" }],
+  "bunin": [{ "value": "BUNIN", "cuneiform": "𒆹", "unicode": "121b9" }],
+  "bur": [
+    { "value": "BUR", "cuneiform": "𒁓", "unicode": "12053" },
+    { "value": "BUR2", "cuneiform": "𒁔", "unicode": "12054" },
+    { "value": "BUR3", "cuneiform": "𒌋", "unicode": "1230b" },
+    { "value": "BUR10", "cuneiform": "𒇧", "unicode": "121e7" },
+    { "value": "BUR12", "cuneiform": "𒁍", "unicode": "1204d" }
+  ],
+  "buranun": [
+    { "value": "BURANUN", "cuneiform": "𒌓𒄒𒉣", "unicode": "12313-12112-12263" }
+  ],
+  "buranunx": [
+    { "value": "BURANUNX", "cuneiform": "𒄒𒉣", "unicode": "12112-12263" }
+  ],
+  "buranuna": [
+    { "value": "BURANUNA", "cuneiform": "𒌓𒄒𒉣", "unicode": "12313-12112-12263" }
+  ],
+  "buru": [
+    { "value": "BURU4", "cuneiform": "𒉢𒁓", "unicode": "12262-12053" },
+    { "value": "BURU14", "cuneiform": "𒂙", "unicode": "12099" }
+  ],
+  "da": [
+    { "value": "DA", "cuneiform": "𒁕", "unicode": "12055" },
+    { "value": "DA2", "cuneiform": "𒋫", "unicode": "122eb" },
+    { "value": "DA3", "cuneiform": "𒆕", "unicode": "12195" }
+  ],
+  "dab": [
+    { "value": "DAB", "cuneiform": "𒁳", "unicode": "12073" },
+    { "value": "DAB5", "cuneiform": "𒆪", "unicode": "121aa" },
+    { "value": "DAB6", "cuneiform": "𒍏", "unicode": "1234f" }
+  ],
+  "dadag": [{ "value": "DADAG", "cuneiform": "𒌓𒌓", "unicode": "12313-12313" }],
+  "dag": [
+    { "value": "DAG", "cuneiform": "𒁖", "unicode": "12056" },
+    { "value": "DAG3", "cuneiform": "𒍴", "unicode": "12374" }
+  ],
+  "dagrim": [{ "value": "DAGRIM", "cuneiform": "𒇑", "unicode": "121d1" }],
+  "daḫ": [{ "value": "DAḪ", "cuneiform": "𒈭", "unicode": "1222d" }],
+  "dal": [{ "value": "DAL", "cuneiform": "𒊑", "unicode": "12291" }],
+  "dalla": [
+    { "value": "DALLA", "cuneiform": "𒈦𒄘𒃼", "unicode": "12226-12118-120fc" }
+  ],
+  "dam": [{ "value": "DAM", "cuneiform": "𒁮", "unicode": "1206e" }],
+  "dan": [
+    { "value": "DAN3", "cuneiform": "𒃩", "unicode": "120e9" },
+    { "value": "DAN4", "cuneiform": "𒃋", "unicode": "120cb" }
+  ],
+  "dar": [
+    { "value": "DAR", "cuneiform": "𒁯", "unicode": "1206f" },
+    { "value": "DAR3", "cuneiform": "𒁰", "unicode": "12070" }
+  ],
+  "dara": [
+    { "value": "DARA3", "cuneiform": "𒁰", "unicode": "12070" },
+    { "value": "DARA4", "cuneiform": "𒁱", "unicode": "12071" }
+  ],
+  "de": [
+    { "value": "DE2", "cuneiform": "𒌤", "unicode": "12324" },
+    { "value": "DE3", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "DE6", "cuneiform": "𒁺", "unicode": "1207a" }
+  ],
+  "di": [
+    { "value": "DI", "cuneiform": "𒁲", "unicode": "12072" },
+    { "value": "DI4", "cuneiform": "𒌉", "unicode": "12309" }
+  ],
+  "dib": [{ "value": "DIB", "cuneiform": "𒁳", "unicode": "12073" }],
+  "did": [{ "value": "DID", "cuneiform": "𒅎", "unicode": "1214e" }],
+  "didli": [{ "value": "DIDLI", "cuneiform": "𒐀", "unicode": "12400" }],
+  "dig": [{ "value": "DIG", "cuneiform": "𒉌", "unicode": "1224c" }],
+  "diĝir": [{ "value": "DIĜIR", "cuneiform": "𒀭", "unicode": "1202d" }],
+  "dili": [{ "value": "DILI", "cuneiform": "𒀸", "unicode": "12038" }],
+  "dilim": [{ "value": "DILIM2", "cuneiform": "𒇺", "unicode": "121fa" }],
+  "dilmun": [
+    { "value": "DILMUN", "cuneiform": "𒉌𒌇", "unicode": "1224c-12307" }
+  ],
+  "dim": [
+    { "value": "DIM", "cuneiform": "𒁴", "unicode": "12074" },
+    { "value": "DIM2", "cuneiform": "𒁶", "unicode": "12076" }
+  ],
+  "din": [{ "value": "DIN", "cuneiform": "𒁷", "unicode": "12077" }],
+  "dir": [{ "value": "DIR", "cuneiform": "𒋛𒀀", "unicode": "122db-12000" }],
+  "diš": [{ "value": "DIŠ", "cuneiform": "𒁹", "unicode": "12079" }],
+  "du": [
+    { "value": "DU", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "DU2", "cuneiform": "𒌅", "unicode": "12305" },
+    { "value": "DU3", "cuneiform": "𒆕", "unicode": "12195" },
+    { "value": "DU5", "cuneiform": "𒂅", "unicode": "12085" },
+    { "value": "DU6", "cuneiform": "𒇯", "unicode": "121ef" },
+    { "value": "DU7", "cuneiform": "𒌌", "unicode": "1230c" },
+    { "value": "DU8", "cuneiform": "𒂃", "unicode": "12083" },
+    { "value": "DU11", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "DU12", "cuneiform": "𒌇", "unicode": "12307" },
+    { "value": "DU17", "cuneiform": "𒉈", "unicode": "12248" }
+  ],
+  "dub": [
+    { "value": "DUB", "cuneiform": "𒁾", "unicode": "1207e" },
+    { "value": "DUB2", "cuneiform": "𒂀", "unicode": "12080" },
+    { "value": "DUB3", "cuneiform": "𒄭", "unicode": "1212d" }
+  ],
+  "dubur": [{ "value": "DUBUR2", "cuneiform": "𒄶", "unicode": "12136" }],
+  "dug": [
+    { "value": "DUG", "cuneiform": "𒂁", "unicode": "12081" },
+    { "value": "DUG3", "cuneiform": "𒄭", "unicode": "1212d" },
+    { "value": "DUG4", "cuneiform": "𒅗", "unicode": "12157" }
+  ],
+  "dugud": [{ "value": "DUGUD", "cuneiform": "𒂂", "unicode": "12082" }],
+  "duḫ": [{ "value": "DUḪ", "cuneiform": "𒂃", "unicode": "12083" }],
+  "dul": [
+    { "value": "DUL", "cuneiform": "𒌋𒌆", "unicode": "1230b-12306" },
+    { "value": "DUL3", "cuneiform": "𒊨", "unicode": "122a8" },
+    { "value": "DUL7", "cuneiform": "𒊕", "unicode": "12295" }
+  ],
+  "dulx": [{ "value": "DULX", "cuneiform": "𒌨𒀀", "unicode": "12328-12000" }],
+  "dumu": [{ "value": "DUMU", "cuneiform": "𒌉", "unicode": "12309" }],
+  "dun": [
+    { "value": "DUN", "cuneiform": "𒂄", "unicode": "12084" },
+    { "value": "DUN3", "cuneiform": "𒂅", "unicode": "12085" }
+  ],
+  "dur": [
+    { "value": "DUR", "cuneiform": "𒄙", "unicode": "12119" },
+    { "value": "DUR2", "cuneiform": "𒂉", "unicode": "12089" },
+    { "value": "DUR3", "cuneiform": "𒀲𒀴", "unicode": "12032-12034" },
+    { "value": "DUR7", "cuneiform": "𒁍", "unicode": "1204d" },
+    { "value": "DUR10", "cuneiform": "𒊿", "unicode": "122bf" }
+  ],
+  "duru": [
+    { "value": "DURU2", "cuneiform": "𒆪", "unicode": "121aa" },
+    { "value": "DURU5", "cuneiform": "𒀀", "unicode": "12000" }
+  ],
+  "durun": [{ "value": "DURUN", "cuneiform": "𒂉", "unicode": "12089" }],
+  "durunx": [
+    { "value": "DURUNX", "cuneiform": "𒆪𒆪", "unicode": "121aa-121aa" }
+  ],
+  "dusu": [
+    { "value": "DUSU2", "cuneiform": "𒀲𒅆𒂠", "unicode": "12032-12146-120a0" }
+  ],
+  "e": [
+    { "value": "E", "cuneiform": "𒂊", "unicode": "1208a" },
+    { "value": "E2", "cuneiform": "𒂍", "unicode": "1208d" },
+    { "value": "E3", "cuneiform": "𒌓𒁺", "unicode": "12313-1207a" },
+    { "value": "E4", "cuneiform": "𒀀", "unicode": "12000" }
+  ],
+  "ea": [{ "value": "EA", "cuneiform": "𒀀", "unicode": "12000" }],
+  "ed": [
+    { "value": "ED", "cuneiform": "𒀉", "unicode": "12009" },
+    { "value": "ED2", "cuneiform": "𒌓𒁺", "unicode": "12313-1207a" },
+    { "value": "ED3", "cuneiform": "𒇯𒁺", "unicode": "121ef-1207a" }
+  ],
+  "eden": [{ "value": "EDEN", "cuneiform": "𒂔", "unicode": "12094" }],
+  "edimx": [{ "value": "EDIMX", "cuneiform": "𒂔", "unicode": "12094" }],
+  "edin": [{ "value": "EDIN", "cuneiform": "𒂔", "unicode": "12094" }],
+  "eduru": [{ "value": "EDURU", "cuneiform": "𒀁", "unicode": "12001" }],
+  "egara": [{ "value": "EGARA", "cuneiform": "𒃌", "unicode": "120cc" }],
+  "egir": [
+    { "value": "EGIR", "cuneiform": "𒂕", "unicode": "12095" },
+    { "value": "EGIR2", "cuneiform": "𒂠", "unicode": "120a0" },
+    { "value": "EGIR5", "cuneiform": "𒈝", "unicode": "1221d" },
+    { "value": "EGIR6", "cuneiform": "𒈱", "unicode": "12231" }
+  ],
+  "eĝ": [{ "value": "EĜ3", "cuneiform": "𒉘", "unicode": "12258" }],
+  "eĝer": [{ "value": "EĜER", "cuneiform": "𒂕", "unicode": "12095" }],
+  "eĝir": [
+    { "value": "EĜIR", "cuneiform": "𒂕", "unicode": "12095" },
+    { "value": "EĜIR5", "cuneiform": "𒈝", "unicode": "1221d" },
+    { "value": "EĜIR6", "cuneiform": "𒈱", "unicode": "12231" }
+  ],
+  "eḫ": [
+    { "value": "EḪ", "cuneiform": "𒄴", "unicode": "12134" },
+    { "value": "EḪ3", "cuneiform": "𒆪𒆪", "unicode": "121aa-121aa" }
+  ],
+  "el": [{ "value": "EL", "cuneiform": "𒂖", "unicode": "12096" }],
+  "em": [
+    { "value": "EM", "cuneiform": "𒅎", "unicode": "1214e" },
+    { "value": "EM3", "cuneiform": "𒉘", "unicode": "12258" }
+  ],
+  "emx": [{ "value": "EMX", "cuneiform": "𒀀𒀭", "unicode": "12000-1202d" }],
+  "eme": [
+    { "value": "EME", "cuneiform": "𒅴", "unicode": "12174" },
+    { "value": "EME4", "cuneiform": "𒂼", "unicode": "120bc" },
+    { "value": "EME5", "cuneiform": "𒊩𒄸", "unicode": "122a9-12138" }
+  ],
+  "emeda": [{ "value": "EMEDA", "cuneiform": "𒌝𒈨", "unicode": "1231d-12228" }],
+  "emedu": [
+    { "value": "EMEDU", "cuneiform": "𒂼𒌅", "unicode": "120bc-12305" },
+    { "value": "EMEDU2", "cuneiform": "𒂼𒀀𒌅", "unicode": "120bc-12000-12305" }
+  ],
+  "en": [
+    { "value": "EN", "cuneiform": "𒂗", "unicode": "12097" },
+    { "value": "EN3", "cuneiform": "𒇷", "unicode": "121f7" },
+    { "value": "EN6", "cuneiform": "𒅔", "unicode": "12154" },
+    { "value": "EN8", "cuneiform": "𒊭", "unicode": "122ad" }
+  ],
+  "enegir": [
+    { "value": "ENEGIR", "cuneiform": "𒅎", "unicode": "1214e" },
+    { "value": "ENEGIR3", "cuneiform": "𒂗𒁶𒍼", "unicode": "12097-12076-1237c" }
+  ],
+  "engar": [{ "value": "ENGAR", "cuneiform": "𒀳", "unicode": "12033" }],
+  "engur": [{ "value": "ENGUR", "cuneiform": "𒇉", "unicode": "121c9" }],
+  "enkar": [{ "value": "ENKAR", "cuneiform": "𒂙", "unicode": "12099" }],
+  "enmen": [{ "value": "ENMEN", "cuneiform": "𒆉", "unicode": "12189" }],
+  "er": [
+    { "value": "ER", "cuneiform": "𒅕", "unicode": "12155" },
+    { "value": "ER2", "cuneiform": "𒀀𒅆", "unicode": "12000-12146" }
+  ],
+  "erem": [{ "value": "EREM", "cuneiform": "𒂟", "unicode": "1209f" }],
+  "eren": [
+    { "value": "EREN", "cuneiform": "𒂞", "unicode": "1209e" },
+    { "value": "EREN2", "cuneiform": "𒂟", "unicode": "1209f" }
+  ],
+  "eri": [{ "value": "ERI", "cuneiform": "𒌷", "unicode": "12337" }],
+  "erim": [
+    { "value": "ERIM", "cuneiform": "𒂟", "unicode": "1209f" },
+    { "value": "ERIM2", "cuneiform": "𒉈𒊒", "unicode": "12248-12292" },
+    { "value": "ERIM3", "cuneiform": "𒌿", "unicode": "1233f" }
+  ],
+  "erin": [
+    { "value": "ERIN", "cuneiform": "𒂞", "unicode": "1209e" },
+    { "value": "ERIN2", "cuneiform": "𒂟", "unicode": "1209f" }
+  ],
+  "erinx": [{ "value": "ERINX", "cuneiform": "𒈶", "unicode": "12236" }],
+  "erina": [
+    { "value": "ERINA8", "cuneiform": "𒈷", "unicode": "12237" },
+    { "value": "ERINA8", "cuneiform": "𒈸𒀀𒈾", "unicode": "12238-12000-1223e" }
+  ],
+  "es": [
+    { "value": "ES", "cuneiform": "𒁀", "unicode": "12040" },
+    { "value": "ES2", "cuneiform": "𒌍", "unicode": "1230d" }
+  ],
+  "esag": [{ "value": "ESAG2", "cuneiform": "𒃥", "unicode": "120e5" }],
+  "esi": [{ "value": "ESI", "cuneiform": "𒆗", "unicode": "12197" }],
+  "eš": [
+    { "value": "EŠ", "cuneiform": "𒌍", "unicode": "1230d" },
+    { "value": "EŠ2", "cuneiform": "𒂠", "unicode": "120a0" },
+    { "value": "EŠ3", "cuneiform": "𒀊", "unicode": "1200a" },
+    { "value": "EŠ4", "cuneiform": "𒁹", "unicode": "12079" },
+    { "value": "EŠ16", "cuneiform": "𒀼", "unicode": "1203c" }
+  ],
+  "eše": [{ "value": "EŠE2", "cuneiform": "𒂠", "unicode": "120a0" }],
+  "ešemen": [
+    {
+      "value": "EŠEMEN",
+      "cuneiform": "𒆠𒂊𒉈𒁲",
+      "unicode": "121a0-1208a-12248-12072"
+    },
+    {
+      "value": "EŠEMEN2",
+      "cuneiform": "𒆠𒂊𒉈𒁲𒀭𒈹",
+      "unicode": "121a0-1208a-12248-12072-1202d-12239"
+    }
+  ],
+  "ešgar": [{ "value": "EŠGAR", "cuneiform": "𒀾𒃼", "unicode": "1203e-120fc" }],
+  "eštub": [{ "value": "EŠTUB", "cuneiform": "𒄞", "unicode": "1211e" }],
+  "et": [{ "value": "ET", "cuneiform": "𒀉", "unicode": "12009" }],
+  "ezen": [{ "value": "EZEN", "cuneiform": "𒂡", "unicode": "120a1" }],
+  "ezim": [{ "value": "EZIM2", "cuneiform": "𒊺𒌁", "unicode": "122ba-12301" }],
+  "ezina": [
+    { "value": "EZINA2", "cuneiform": "𒊺𒌁", "unicode": "122ba-12301" },
+    { "value": "EZINA3", "cuneiform": "𒌁", "unicode": "12301" }
+  ],
+  "ga": [
+    { "value": "GA", "cuneiform": "𒂵", "unicode": "120b5" },
+    { "value": "GA14", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "GA2", "cuneiform": "𒂷", "unicode": "120b7" }
+  ],
+  "gab": [{ "value": "GAB", "cuneiform": "𒃮", "unicode": "120ee" }],
+  "gaba": [{ "value": "GABA", "cuneiform": "𒃮", "unicode": "120ee" }],
+  "gad": [{ "value": "GAD", "cuneiform": "𒃰", "unicode": "120f0" }],
+  "gada": [{ "value": "GADA", "cuneiform": "𒃰", "unicode": "120f0" }],
+  "gag": [{ "value": "GAG", "cuneiform": "𒆕", "unicode": "12195" }],
+  "gal": [
+    { "value": "GAL", "cuneiform": "𒃲", "unicode": "120f2" },
+    { "value": "GAL2", "cuneiform": "𒅅", "unicode": "12145" },
+    { "value": "GAL4", "cuneiform": "𒊩", "unicode": "122a9" },
+    { "value": "GAL5", "cuneiform": "𒋼", "unicode": "122fc" }
+  ],
+  "gala": [{ "value": "GALA", "cuneiform": "𒍑𒆪", "unicode": "12351-121aa" }],
+  "galam": [{ "value": "GALAM", "cuneiform": "𒃴", "unicode": "120f4" }],
+  "galga": [{ "value": "GALGA", "cuneiform": "𒃌", "unicode": "120cc" }],
+  "gam": [
+    { "value": "GAM", "cuneiform": "𒃵", "unicode": "120f5" },
+    { "value": "GAM3", "cuneiform": "𒉽𒈿", "unicode": "1227d-1223f" }
+  ],
+  "gan": [
+    { "value": "GAN", "cuneiform": "𒃶", "unicode": "120f6" },
+    { "value": "GAN2", "cuneiform": "𒃷", "unicode": "120f7" }
+  ],
+  "gana": [{ "value": "GANA2", "cuneiform": "𒃷", "unicode": "120f7" }],
+  "ganba": [{ "value": "GANBA", "cuneiform": "𒆠𒇴", "unicode": "121a0-121f4" }],
+  "ganun": [{ "value": "GANUN", "cuneiform": "𒃠", "unicode": "120e0" }],
+  "gar": [
+    { "value": "GAR", "cuneiform": "𒃻", "unicode": "120fb" },
+    { "value": "GAR3", "cuneiform": "𒃼", "unicode": "120fc" },
+    { "value": "GAR5", "cuneiform": "𒈖", "unicode": "12216" },
+    { "value": "GAR8", "cuneiform": "𒋞", "unicode": "122de" }
+  ],
+  "garadin": [{ "value": "GARADIN9", "cuneiform": "𒌏", "unicode": "1230f" }],
+  "garadinx": [{ "value": "GARADINX", "cuneiform": "𒃱", "unicode": "120f1" }],
+  "garim": [{ "value": "GARIM", "cuneiform": "𒇑", "unicode": "121d1" }],
+  "gašam": [
+    { "value": "GAŠAM", "cuneiform": "𒉣𒈨𒋳", "unicode": "12263-12228-122f3" }
+  ],
+  "gašan": [{ "value": "GAŠAN", "cuneiform": "𒃽", "unicode": "120fd" }],
+  "gaz": [{ "value": "GAZ", "cuneiform": "𒄤", "unicode": "12124" }],
+  "gazi": [{ "value": "GAZI", "cuneiform": "𒃢", "unicode": "120e2" }],
+  "ge": [
+    { "value": "GE", "cuneiform": "𒄀", "unicode": "12100" },
+    { "value": "GE2", "cuneiform": "𒆤", "unicode": "121a4" },
+    { "value": "GE6", "cuneiform": "𒈪", "unicode": "1222a" },
+    { "value": "GE22", "cuneiform": "𒀺", "unicode": "1203a" },
+    { "value": "GE23", "cuneiform": "𒀹", "unicode": "12039" }
+  ],
+  "gel": [{ "value": "GEL", "cuneiform": "𒄃", "unicode": "12103" }],
+  "geme": [{ "value": "GEME2", "cuneiform": "𒊩𒆳", "unicode": "122a9-121b3" }],
+  "gen": [{ "value": "GEN6", "cuneiform": "𒄀", "unicode": "12100" }],
+  "genna": [{ "value": "GENNA", "cuneiform": "𒌉𒁹", "unicode": "12309-12079" }],
+  "geš": [{ "value": "GEŠ", "cuneiform": "𒄑", "unicode": "12111" }],
+  "geššim": [
+    { "value": "GEŠŠIM", "cuneiform": "𒄑𒋆", "unicode": "12111-122c6" }
+  ],
+  "geštin": [{ "value": "GEŠTIN", "cuneiform": "𒃾", "unicode": "120fe" }],
+  "gi": [
+    { "value": "GI", "cuneiform": "𒄀", "unicode": "12100" },
+    { "value": "GI2", "cuneiform": "𒆤", "unicode": "121a4" },
+    { "value": "GI4", "cuneiform": "𒄄", "unicode": "12104" },
+    { "value": "GI5", "cuneiform": "𒆠", "unicode": "121a0" },
+    { "value": "GI6", "cuneiform": "𒈪", "unicode": "1222a" },
+    { "value": "GI7", "cuneiform": "𒂠", "unicode": "120a0" },
+    { "value": "GI16", "cuneiform": "𒄃", "unicode": "12103" },
+    { "value": "GI17", "cuneiform": "𒍼", "unicode": "1237c" }
+  ],
+  "gib": [{ "value": "GIB", "cuneiform": "𒄃", "unicode": "12103" }],
+  "gibil": [
+    { "value": "GIBIL", "cuneiform": "𒉋", "unicode": "1224b" },
+    { "value": "GIBIL2", "cuneiform": "𒋙𒀾", "unicode": "122d9-1203e" },
+    { "value": "GIBIL4", "cuneiform": "𒉈", "unicode": "12248" }
+  ],
+  "gid": [{ "value": "GID2", "cuneiform": "𒁍", "unicode": "1204d" }],
+  "gidim": [{ "value": "GIDIM", "cuneiform": "𒄇", "unicode": "12107" }],
+  "gig": [
+    { "value": "GIG", "cuneiform": "𒍼", "unicode": "1237c" },
+    { "value": "GIG2", "cuneiform": "𒈪", "unicode": "1222a" }
+  ],
+  "gigam": [{ "value": "GIGAM", "cuneiform": "𒈓", "unicode": "12213" }],
+  "giggi": [{ "value": "GIGGI", "cuneiform": "𒈪", "unicode": "1222a" }],
+  "gigi": [{ "value": "GIGI", "cuneiform": "𒄅", "unicode": "12105" }],
+  "gigir": [
+    { "value": "GIGIR", "cuneiform": "𒇀", "unicode": "121c0" },
+    { "value": "GIGIR2", "cuneiform": "𒇥", "unicode": "121e5" }
+  ],
+  "gigirx": [
+    { "value": "GIGIRX", "cuneiform": "𒆸𒌀", "unicode": "121b8-12300" }
+  ],
+  "gil": [{ "value": "GIL", "cuneiform": "𒄃", "unicode": "12103" }],
+  "gilgameš": [
+    { "value": "GILGAMEŠ", "cuneiform": "𒄑𒂆𒈦", "unicode": "12111-12086-12226" },
+    {
+      "value": "GILGAMEŠ2",
+      "cuneiform": "𒄑𒉋𒂵𒈩",
+      "unicode": "12111-1224b-120b5-12229"
+    }
+  ],
+  "gilim": [{ "value": "GILIM", "cuneiform": "𒄃", "unicode": "12103" }],
+  "gim": [{ "value": "GIM", "cuneiform": "𒁶", "unicode": "12076" }],
+  "gin": [
+    { "value": "GIN", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "GIN2", "cuneiform": "𒂆", "unicode": "12086" },
+    { "value": "GIN3", "cuneiform": "𒆳", "unicode": "121b3" },
+    { "value": "GIN4", "cuneiform": "𒍤𒆸", "unicode": "12364-121b8" },
+    { "value": "GIN6", "cuneiform": "𒄀", "unicode": "12100" },
+    { "value": "GIN7", "cuneiform": "𒁶", "unicode": "12076" }
+  ],
+  "gir": [
+    { "value": "GIR", "cuneiform": "𒄫", "unicode": "1212b" },
+    { "value": "GIR2", "cuneiform": "𒄈", "unicode": "12108" },
+    { "value": "GIR3", "cuneiform": "𒄊", "unicode": "1210a" },
+    { "value": "GIR4", "cuneiform": "𒌋𒀜", "unicode": "1230b-1201c" },
+    { "value": "GIR5", "cuneiform": "𒁽", "unicode": "1207d" },
+    { "value": "GIR6", "cuneiform": "𒁼", "unicode": "1207c" },
+    { "value": "GIR10", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "GIR15", "cuneiform": "𒂠", "unicode": "120a0" }
+  ],
+  "giraba": [
+    { "value": "GIRABA", "cuneiform": "𒀊𒄫", "unicode": "1200a-1212b" }
+  ],
+  "giri": [
+    { "value": "GIRI16", "cuneiform": "𒄌", "unicode": "1210c" },
+    { "value": "GIRI17", "cuneiform": "𒅗", "unicode": "12157" }
+  ],
+  "gisal": [{ "value": "GISAL", "cuneiform": "𒄐", "unicode": "12110" }],
+  "giš": [{ "value": "GIŠ", "cuneiform": "𒄑", "unicode": "12111" }],
+  "gu": [
+    { "value": "GU", "cuneiform": "𒄖", "unicode": "12116" },
+    { "value": "GU2", "cuneiform": "𒄘", "unicode": "12118" },
+    { "value": "GU3", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "GU4", "cuneiform": "𒄞", "unicode": "1211e" },
+    { "value": "GU7", "cuneiform": "𒅥", "unicode": "12165" }
+  ],
+  "gub": [
+    { "value": "GUB", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "GUB2", "cuneiform": "𒇷", "unicode": "121f7" }
+  ],
+  "gud": [
+    { "value": "GUD", "cuneiform": "𒄞", "unicode": "1211e" },
+    {
+      "value": "GUD3",
+      "cuneiform": "𒌑𒆠𒋧𒂵",
+      "unicode": "12311-121a0-122e7-120b5"
+    }
+  ],
+  "gug": [
+    { "value": "GUG", "cuneiform": "𒍝𒄢", "unicode": "1235d-12122" },
+    { "value": "GUG2", "cuneiform": "𒈖", "unicode": "12216" }
+  ],
+  "gul": [{ "value": "GUL", "cuneiform": "𒄢", "unicode": "12122" }],
+  "gum": [{ "value": "GUM", "cuneiform": "𒄣", "unicode": "12123" }],
+  "gun": [{ "value": "GUN3", "cuneiform": "𒁯", "unicode": "1206f" }],
+  "gur": [
+    { "value": "GUR", "cuneiform": "𒄥", "unicode": "12125" },
+    { "value": "GUR2", "cuneiform": "𒃵", "unicode": "120f5" },
+    { "value": "GUR4", "cuneiform": "𒆸", "unicode": "121b8" },
+    { "value": "GUR5", "cuneiform": "𒍀", "unicode": "12340" },
+    { "value": "GUR7", "cuneiform": "𒄦", "unicode": "12126" },
+    { "value": "GUR8", "cuneiform": "𒋽", "unicode": "122fd" },
+    { "value": "GUR10", "cuneiform": "𒆥", "unicode": "121a5" },
+    { "value": "GUR11", "cuneiform": "𒂵", "unicode": "120b5" },
+    { "value": "GUR17", "cuneiform": "𒄕", "unicode": "12115" }
+  ],
+  "guru": [
+    { "value": "GURU5", "cuneiform": "𒍀", "unicode": "12340" },
+    { "value": "GURU6", "cuneiform": "𒃸", "unicode": "120f8" },
+    { "value": "GURU7", "cuneiform": "𒄦", "unicode": "12126" }
+  ],
+  "gurud": [
+    { "value": "GURUD", "cuneiform": "𒉩𒆠", "unicode": "12269-121a0" },
+    { "value": "GURUD2", "cuneiform": "𒇽𒆠", "unicode": "121fd-121a0" }
+  ],
+  "gurum": [{ "value": "GURUM", "cuneiform": "𒃵", "unicode": "120f5" }],
   "guruš": [
-    { "value": "GURUŠ", "cuneiform": "𒄨" },
-    { "value": "GURUŠ3", "cuneiform": "𒍀" }
+    { "value": "GURUŠ", "cuneiform": "𒄨", "unicode": "12128" },
+    { "value": "GURUŠ3", "cuneiform": "𒍀", "unicode": "12340" }
   ],
-  "ĝa": [{ "value": "ĜA2", "cuneiform": "𒂷" }],
-  "ĝal": [{ "value": "ĜAL2", "cuneiform": "𒅅" }],
-  "ĝar": [{ "value": "ĜAR", "cuneiform": "𒃻" }],
-  "ĝarin": [{ "value": "ĜARIN", "cuneiform": "𒇑" }],
+  "ĝa": [{ "value": "ĜA2", "cuneiform": "𒂷", "unicode": "120b7" }],
+  "ĝal": [{ "value": "ĜAL2", "cuneiform": "𒅅", "unicode": "12145" }],
+  "ĝar": [{ "value": "ĜAR", "cuneiform": "𒃻", "unicode": "120fb" }],
+  "ĝarin": [{ "value": "ĜARIN", "cuneiform": "𒇑", "unicode": "121d1" }],
   "ĝarza": [
-    { "value": "ĜARZA", "cuneiform": "𒉺𒀭" },
-    { "value": "ĜARZA2", "cuneiform": "𒉺𒈗" }
+    { "value": "ĜARZA", "cuneiform": "𒉺𒀭", "unicode": "1227a-1202d" },
+    { "value": "ĜARZA2", "cuneiform": "𒉺𒈗", "unicode": "1227a-12217" }
   ],
-  "ĝe": [{ "value": "ĜE26", "cuneiform": "𒂷" }],
-  "ĝen": [{ "value": "ĜEN", "cuneiform": "𒁺" }],
-  "ĝešhašhur": [{ "value": "ĜEŠHAŠHUR", "cuneiform": "𒄑𒈢" }],
-  "ĝeššim": [{ "value": "ĜEŠŠIM", "cuneiform": "𒄑𒋆" }],
-  "ĝeštin": [{ "value": "ĜEŠTIN", "cuneiform": "𒃾" }],
-  "ĝeštug": [{ "value": "ĜEŠTUG3", "cuneiform": "𒄑𒉿𒌆" }],
+  "ĝe": [{ "value": "ĜE26", "cuneiform": "𒂷", "unicode": "120b7" }],
+  "ĝen": [{ "value": "ĜEN", "cuneiform": "𒁺", "unicode": "1207a" }],
+  "ĝešhašhur": [
+    { "value": "ĜEŠHAŠHUR", "cuneiform": "𒄑𒈢", "unicode": "12111-12222" }
+  ],
+  "ĝeššim": [
+    { "value": "ĜEŠŠIM", "cuneiform": "𒄑𒋆", "unicode": "12111-122c6" }
+  ],
+  "ĝeštin": [{ "value": "ĜEŠTIN", "cuneiform": "𒃾", "unicode": "120fe" }],
+  "ĝeštug": [
+    { "value": "ĜEŠTUG3", "cuneiform": "𒄑𒉿𒌆", "unicode": "12111-1227f-12306" }
+  ],
   "ĝi": [
-    { "value": "ĜI6", "cuneiform": "𒈪" },
-    { "value": "ĜI25", "cuneiform": "𒂂" }
+    { "value": "ĜI6", "cuneiform": "𒈪", "unicode": "1222a" },
+    { "value": "ĜI25", "cuneiform": "𒂂", "unicode": "12082" }
   ],
   "ĝidlam": [
-    { "value": "ĜIDLAM", "cuneiform": "𒊩𒍑𒁮" },
-    { "value": "ĜIDLAM2", "cuneiform": "𒍑𒁮" },
-    { "value": "ĜIDLAM3", "cuneiform": "𒍑𒊩𒁮" }
+    { "value": "ĜIDLAM", "cuneiform": "𒊩𒍑𒁮", "unicode": "122a9-12351-1206e" },
+    { "value": "ĜIDLAM2", "cuneiform": "𒍑𒁮", "unicode": "12351-1206e" },
+    { "value": "ĜIDLAM3", "cuneiform": "𒍑𒊩𒁮", "unicode": "12351-122a9-1206e" }
   ],
-  "ĝidru": [{ "value": "ĜIDRU", "cuneiform": "𒉺" }],
-  "ĝir": [{ "value": "ĜIR2", "cuneiform": "𒄈" }],
-  "ĝiri": [{ "value": "ĜIRI3", "cuneiform": "𒄊" }],
-  "ĝissu": [{ "value": "ĜISSU", "cuneiform": "𒄑𒈪" }],
-  "ĝiš": [{ "value": "ĜIŠ", "cuneiform": "𒄑" }],
-  "ĝišgal": [{ "value": "ĜIŠGAL", "cuneiform": "𒍇" }],
-  "ĝiškim": [{ "value": "ĜIŠKIM", "cuneiform": "𒅆𒁾" }],
-  "ĝišnimbar": [{ "value": "ĜIŠNIMBAR", "cuneiform": "𒊷" }],
-  "ĝizzal": [{ "value": "ĜIZZAL", "cuneiform": "𒄑𒌆𒉿𒎓𒉣" }],
-  "ĝu": [{ "value": "ĜU10", "cuneiform": "𒈬" }],
-  "ĝuruš": [{ "value": "ĜURUŠ", "cuneiform": "𒆗" }],
-  "ḫa": [{ "value": "ḪA", "cuneiform": "𒄩" }],
-  "ḫabrud": [{ "value": "ḪABRUD", "cuneiform": "𒆢" }],
-  "ḫad": [{ "value": "ḪAD2", "cuneiform": "𒌓" }],
-  "ḫal": [{ "value": "ḪAL", "cuneiform": "𒄬" }],
-  "ḫar": [{ "value": "ḪAR", "cuneiform": "𒄯" }],
-  "ḫasḫur": [{ "value": "ḪASḪUR", "cuneiform": "𒈢" }],
+  "ĝidru": [{ "value": "ĜIDRU", "cuneiform": "𒉺", "unicode": "1227a" }],
+  "ĝir": [{ "value": "ĜIR2", "cuneiform": "𒄈", "unicode": "12108" }],
+  "ĝiri": [{ "value": "ĜIRI3", "cuneiform": "𒄊", "unicode": "1210a" }],
+  "ĝissu": [{ "value": "ĜISSU", "cuneiform": "𒄑𒈪", "unicode": "12111-1222a" }],
+  "ĝiš": [{ "value": "ĜIŠ", "cuneiform": "𒄑", "unicode": "12111" }],
+  "ĝišgal": [{ "value": "ĜIŠGAL", "cuneiform": "𒍇", "unicode": "12347" }],
+  "ĝiškim": [
+    { "value": "ĜIŠKIM", "cuneiform": "𒅆𒁾", "unicode": "12146-1207e" }
+  ],
+  "ĝišnimbar": [{ "value": "ĜIŠNIMBAR", "cuneiform": "𒊷", "unicode": "122b7" }],
+  "ĝizzal": [
+    {
+      "value": "ĜIZZAL",
+      "cuneiform": "𒄑𒌆𒉿𒎓𒉣",
+      "unicode": "12111-12306-1227f-12393-12263"
+    }
+  ],
+  "ĝu": [{ "value": "ĜU10", "cuneiform": "𒈬", "unicode": "1222c" }],
+  "ĝuruš": [{ "value": "ĜURUŠ", "cuneiform": "𒆗", "unicode": "12197" }],
+  "ḫa": [{ "value": "ḪA", "cuneiform": "𒄩", "unicode": "12129" }],
+  "ḫabrud": [{ "value": "ḪABRUD", "cuneiform": "𒆢", "unicode": "121a2" }],
+  "ḫad": [{ "value": "ḪAD2", "cuneiform": "𒌓", "unicode": "12313" }],
+  "ḫal": [{ "value": "ḪAL", "cuneiform": "𒄬", "unicode": "1212c" }],
+  "ḫar": [{ "value": "ḪAR", "cuneiform": "𒄯", "unicode": "1212f" }],
+  "ḫasḫur": [{ "value": "ḪASḪUR", "cuneiform": "𒈢", "unicode": "12222" }],
   "ḫaš": [
-    { "value": "ḪAŠ", "cuneiform": "𒋻" },
-    { "value": "ḪAŠ2", "cuneiform": "𒍨" },
-    { "value": "ḪAŠ4", "cuneiform": "𒍮" }
+    { "value": "ḪAŠ", "cuneiform": "𒋻", "unicode": "122fb" },
+    { "value": "ḪAŠ2", "cuneiform": "𒍨", "unicode": "12368" },
+    { "value": "ḪAŠ4", "cuneiform": "𒍮", "unicode": "1236e" }
   ],
-  "ḫe": [{ "value": "ḪE2", "cuneiform": "𒃶" }],
-  "ḫi": [{ "value": "ḪI", "cuneiform": "𒄭" }],
-  "ḫirinx": [{ "value": "ḪIRINX", "cuneiform": "𒆶" }],
-  "ḫu": [{ "value": "ḪU", "cuneiform": "𒄷" }],
+  "ḫe": [{ "value": "ḪE2", "cuneiform": "𒃶", "unicode": "120f6" }],
+  "ḫi": [{ "value": "ḪI", "cuneiform": "𒄭", "unicode": "1212d" }],
+  "ḫirinx": [{ "value": "ḪIRINX", "cuneiform": "𒆶", "unicode": "121b6" }],
+  "ḫu": [{ "value": "ḪU", "cuneiform": "𒄷", "unicode": "12137" }],
   "ḫub": [
-    { "value": "ḪUB", "cuneiform": "𒄽" },
-    { "value": "ḪUB2", "cuneiform": "𒄸" }
+    { "value": "ḪUB", "cuneiform": "𒄽", "unicode": "1213d" },
+    { "value": "ḪUB2", "cuneiform": "𒄸", "unicode": "12138" }
   ],
-  "ḫud": [{ "value": "ḪUD2", "cuneiform": "𒌓" }],
-  "ḫuĝ": [{ "value": "ḪUĜ", "cuneiform": "𒂠" }],
+  "ḫud": [{ "value": "ḪUD2", "cuneiform": "𒌓", "unicode": "12313" }],
+  "ḫuĝ": [{ "value": "ḪUĜ", "cuneiform": "𒂠", "unicode": "120a0" }],
   "ḫul": [
-    { "value": "ḪUL", "cuneiform": "𒅆𒌨" },
-    { "value": "ḪUL2", "cuneiform": "𒄾" }
+    { "value": "ḪUL", "cuneiform": "𒅆𒌨", "unicode": "12146-12328" },
+    { "value": "ḪUL2", "cuneiform": "𒄾", "unicode": "1213e" }
   ],
-  "ḫulu": [{ "value": "ḪULU", "cuneiform": "𒅆𒌨" }],
-  "ḫuluḫ": [{ "value": "ḪULUḪ", "cuneiform": "𒈛" }],
-  "ḫum": [{ "value": "ḪUM", "cuneiform": "𒈝" }],
-  "ḫur": [{ "value": "ḪUR", "cuneiform": "𒄯" }],
-  "ḫuš": [{ "value": "ḪUŠ", "cuneiform": "𒄭𒄊" }],
-  "ḫuš(lak)": [{ "value": "ḪUŠ(LAK240)", "cuneiform": "𒍽" }],
+  "ḫulu": [{ "value": "ḪULU", "cuneiform": "𒅆𒌨", "unicode": "12146-12328" }],
+  "ḫuluḫ": [{ "value": "ḪULUḪ", "cuneiform": "𒈛", "unicode": "1221b" }],
+  "ḫum": [{ "value": "ḪUM", "cuneiform": "𒈝", "unicode": "1221d" }],
+  "ḫur": [{ "value": "ḪUR", "cuneiform": "𒄯", "unicode": "1212f" }],
+  "ḫuš": [{ "value": "ḪUŠ", "cuneiform": "𒄭𒄊", "unicode": "1212d-1210a" }],
+  "ḫuš(lak)": [
+    { "value": "ḪUŠ(LAK240)", "cuneiform": "𒍽", "unicode": "1237d" }
+  ],
   "i": [
-    { "value": "I", "cuneiform": "𒄿" },
-    { "value": "I3", "cuneiform": "𒉌" }
+    { "value": "I", "cuneiform": "𒄿", "unicode": "1213f" },
+    { "value": "I3", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
   "ia": [
-    { "value": "IA", "cuneiform": "𒅀" },
-    { "value": "IA3", "cuneiform": "𒉌" }
+    { "value": "IA", "cuneiform": "𒅀", "unicode": "12140" },
+    { "value": "IA3", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
   "ib": [
-    { "value": "IB", "cuneiform": "𒅁" },
-    { "value": "IB2", "cuneiform": "𒌈" }
+    { "value": "IB", "cuneiform": "𒅁", "unicode": "12141" },
+    { "value": "IB2", "cuneiform": "𒌈", "unicode": "12308" }
   ],
   "id": [
-    { "value": "ID", "cuneiform": "𒀉" },
-    { "value": "ID2", "cuneiform": "𒀀𒇉" }
+    { "value": "ID", "cuneiform": "𒀉", "unicode": "12009" },
+    { "value": "ID2", "cuneiform": "𒀀𒇉", "unicode": "12000-121c9" }
   ],
-  "idigna": [{ "value": "IDIGNA", "cuneiform": "𒈦𒄘𒃼" }],
-  "idim": [{ "value": "IDIM", "cuneiform": "𒅂" }],
-  "ig": [{ "value": "IG", "cuneiform": "𒅅" }],
-  "igi": [{ "value": "IGI", "cuneiform": "𒅆" }],
-  "igištu": [{ "value": "IGIŠTU", "cuneiform": "𒅆𒁺" }],
-  "iĝ": [{ "value": "IĜ3", "cuneiform": "𒉘" }],
-  "iḫ": [{ "value": "IḪ", "cuneiform": "𒄴" }],
+  "idigna": [
+    { "value": "IDIGNA", "cuneiform": "𒈦𒄘𒃼", "unicode": "12226-12118-120fc" }
+  ],
+  "idim": [{ "value": "IDIM", "cuneiform": "𒅂", "unicode": "12142" }],
+  "ig": [{ "value": "IG", "cuneiform": "𒅅", "unicode": "12145" }],
+  "igi": [{ "value": "IGI", "cuneiform": "𒅆", "unicode": "12146" }],
+  "igištu": [
+    { "value": "IGIŠTU", "cuneiform": "𒅆𒁺", "unicode": "12146-1207a" }
+  ],
+  "iĝ": [{ "value": "IĜ3", "cuneiform": "𒉘", "unicode": "12258" }],
+  "iḫ": [{ "value": "IḪ", "cuneiform": "𒄴", "unicode": "12134" }],
   "il": [
-    { "value": "IL", "cuneiform": "𒅋" },
-    { "value": "IL2", "cuneiform": "𒅍" },
-    { "value": "IL3", "cuneiform": "𒀭" }
+    { "value": "IL", "cuneiform": "𒅋", "unicode": "1214b" },
+    { "value": "IL2", "cuneiform": "𒅍", "unicode": "1214d" },
+    { "value": "IL3", "cuneiform": "𒀭", "unicode": "1202d" }
   ],
   "im": [
-    { "value": "IM", "cuneiform": "𒅎" },
-    { "value": "IM2", "cuneiform": "𒁽" }
+    { "value": "IM", "cuneiform": "𒅎", "unicode": "1214e" },
+    { "value": "IM2", "cuneiform": "𒁽", "unicode": "1207d" }
   ],
-  "imin": [{ "value": "IMIN", "cuneiform": "𒅓" }],
-  "imma": [{ "value": "IMMA3", "cuneiform": "𒅊" }],
-  "immax": [{ "value": "IMMAX", "cuneiform": "𒇋" }],
-  "immal": [{ "value": "IMMAL", "cuneiform": "𒉥" }],
-  "in": [{ "value": "IN", "cuneiform": "𒅔" }],
-  "inana": [{ "value": "INANA", "cuneiform": "𒈹" }],
-  "inanna": [{ "value": "INANNA", "cuneiform": "𒈹" }],
-  "inim": [{ "value": "INIM", "cuneiform": "𒅗" }],
-  "innin": [{ "value": "INNIN", "cuneiform": "𒈹" }],
-  "iq": [{ "value": "IQ", "cuneiform": "𒅅" }],
+  "imin": [{ "value": "IMIN", "cuneiform": "𒅓", "unicode": "12153" }],
+  "imma": [{ "value": "IMMA3", "cuneiform": "𒅊", "unicode": "1214a" }],
+  "immax": [{ "value": "IMMAX", "cuneiform": "𒇋", "unicode": "121cb" }],
+  "immal": [{ "value": "IMMAL", "cuneiform": "𒉥", "unicode": "12265" }],
+  "in": [{ "value": "IN", "cuneiform": "𒅔", "unicode": "12154" }],
+  "inana": [{ "value": "INANA", "cuneiform": "𒈹", "unicode": "12239" }],
+  "inanna": [{ "value": "INANNA", "cuneiform": "𒈹", "unicode": "12239" }],
+  "inim": [{ "value": "INIM", "cuneiform": "𒅗", "unicode": "12157" }],
+  "innin": [{ "value": "INNIN", "cuneiform": "𒈹", "unicode": "12239" }],
+  "iq": [{ "value": "IQ", "cuneiform": "𒅅", "unicode": "12145" }],
   "ir": [
-    { "value": "IR", "cuneiform": "𒅕" },
-    { "value": "IR3", "cuneiform": "𒀴" },
-    { "value": "IR11", "cuneiform": "𒀵" }
+    { "value": "IR", "cuneiform": "𒅕", "unicode": "12155" },
+    { "value": "IR3", "cuneiform": "𒀴", "unicode": "12034" },
+    { "value": "IR11", "cuneiform": "𒀵", "unicode": "12035" }
   ],
   "iri": [
-    { "value": "IRI", "cuneiform": "𒌷" },
-    { "value": "IRI12", "cuneiform": "𒀊" }
+    { "value": "IRI", "cuneiform": "𒌷", "unicode": "12337" },
+    { "value": "IRI12", "cuneiform": "𒀊", "unicode": "1200a" }
   ],
-  "is": [{ "value": "IS3", "cuneiform": "𒀊" }],
-  "isimu": [{ "value": "ISIMU3", "cuneiform": "𒌋𒀜" }],
-  "isimud": [{ "value": "ISIMUD4", "cuneiform": "𒉽𒅊𒉣𒈨" }],
-  "isimudx": [{ "value": "ISIMUDX", "cuneiform": "𒉽𒉣𒈨𒂡" }],
-  "isin": [{ "value": "ISIN2", "cuneiform": "𒅔" }],
-  "iš": [{ "value": "IŠ", "cuneiform": "𒅖" }],
-  "išib": [{ "value": "IŠIB", "cuneiform": "𒈨" }],
-  "išin": [{ "value": "IŠIN", "cuneiform": "𒉺𒊺" }],
-  "iškur": [{ "value": "IŠKUR", "cuneiform": "𒅎" }],
-  "it": [{ "value": "IT", "cuneiform": "𒀉" }],
+  "is": [{ "value": "IS3", "cuneiform": "𒀊", "unicode": "1200a" }],
+  "isimu": [{ "value": "ISIMU3", "cuneiform": "𒌋𒀜", "unicode": "1230b-1201c" }],
+  "isimud": [
+    {
+      "value": "ISIMUD4",
+      "cuneiform": "𒉽𒅊𒉣𒈨",
+      "unicode": "1227d-1214a-12263-12228"
+    }
+  ],
+  "isimudx": [
+    {
+      "value": "ISIMUDX",
+      "cuneiform": "𒉽𒉣𒈨𒂡",
+      "unicode": "1227d-12263-12228-120a1"
+    }
+  ],
+  "isin": [{ "value": "ISIN2", "cuneiform": "𒅔", "unicode": "12154" }],
+  "iš": [{ "value": "IŠ", "cuneiform": "𒅖", "unicode": "12156" }],
+  "išib": [{ "value": "IŠIB", "cuneiform": "𒈨", "unicode": "12228" }],
+  "išin": [{ "value": "IŠIN", "cuneiform": "𒉺𒊺", "unicode": "1227a-122ba" }],
+  "iškur": [{ "value": "IŠKUR", "cuneiform": "𒅎", "unicode": "1214e" }],
+  "it": [{ "value": "IT", "cuneiform": "𒀉", "unicode": "12009" }],
   "iti": [
-    { "value": "ITI", "cuneiform": "𒌚" },
-    { "value": "ITI7", "cuneiform": "𒌗𒀭𒋀𒆠" }
+    { "value": "ITI", "cuneiform": "𒌚", "unicode": "1231a" },
+    {
+      "value": "ITI7",
+      "cuneiform": "𒌗𒀭𒋀𒆠",
+      "unicode": "12317-1202d-122c0-121a0"
+    }
   ],
-  "itid": [{ "value": "ITID", "cuneiform": "𒌗" }],
+  "itid": [{ "value": "ITID", "cuneiform": "𒌗", "unicode": "12317" }],
   "itima": [
-    { "value": "ITIMA", "cuneiform": "𒃟" },
-    { "value": "ITIMA2", "cuneiform": "𒌖" }
+    { "value": "ITIMA", "cuneiform": "𒃟", "unicode": "120df" },
+    { "value": "ITIMA2", "cuneiform": "𒌖", "unicode": "12316" }
   ],
-  "iṭ": [{ "value": "IṬ", "cuneiform": "𒀉" }],
-  "iz": [{ "value": "IZ", "cuneiform": "𒄑" }],
-  "izi": [{ "value": "IZI", "cuneiform": "𒉈" }],
-  "izin": [{ "value": "IZIN", "cuneiform": "𒂡" }],
+  "iṭ": [{ "value": "IṬ", "cuneiform": "𒀉", "unicode": "12009" }],
+  "iz": [{ "value": "IZ", "cuneiform": "𒄑", "unicode": "12111" }],
+  "izi": [{ "value": "IZI", "cuneiform": "𒉈", "unicode": "12248" }],
+  "izin": [{ "value": "IZIN", "cuneiform": "𒂡", "unicode": "120a1" }],
   "ka": [
-    { "value": "KA", "cuneiform": "𒅗" },
-    { "value": "KA2", "cuneiform": "𒆍" },
-    { "value": "KA3", "cuneiform": "𒂵" },
-    { "value": "KA5", "cuneiform": "𒈜" }
+    { "value": "KA", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "KA2", "cuneiform": "𒆍", "unicode": "1218d" },
+    { "value": "KA3", "cuneiform": "𒂵", "unicode": "120b5" },
+    { "value": "KA5", "cuneiform": "𒈜", "unicode": "1221c" }
   ],
-  "kab": [{ "value": "KAB", "cuneiform": "𒆏" }],
+  "kab": [{ "value": "KAB", "cuneiform": "𒆏", "unicode": "1218f" }],
   "kad": [
-    { "value": "KAD2", "cuneiform": "𒆐" },
-    { "value": "KAD3", "cuneiform": "𒆑" },
-    { "value": "KAD4", "cuneiform": "𒆒" },
-    { "value": "KAD5", "cuneiform": "𒆓" }
+    { "value": "KAD2", "cuneiform": "𒆐", "unicode": "12190" },
+    { "value": "KAD3", "cuneiform": "𒆑", "unicode": "12191" },
+    { "value": "KAD4", "cuneiform": "𒆒", "unicode": "12192" },
+    { "value": "KAD5", "cuneiform": "𒆓", "unicode": "12193" }
   ],
-  "kak": [{ "value": "KAK", "cuneiform": "𒆕" }],
-  "kal": [{ "value": "KAL", "cuneiform": "𒆗" }],
-  "kalag": [{ "value": "KALAG", "cuneiform": "𒆗" }],
-  "kalam": [{ "value": "KALAM", "cuneiform": "𒌦" }],
+  "kak": [{ "value": "KAK", "cuneiform": "𒆕", "unicode": "12195" }],
+  "kal": [{ "value": "KAL", "cuneiform": "𒆗", "unicode": "12197" }],
+  "kalag": [{ "value": "KALAG", "cuneiform": "𒆗", "unicode": "12197" }],
+  "kalam": [{ "value": "KALAM", "cuneiform": "𒌦", "unicode": "12326" }],
   "kam": [
-    { "value": "KAM", "cuneiform": "𒄰" },
-    { "value": "KAM2", "cuneiform": "𒆚" },
-    { "value": "KAM4", "cuneiform": "𒆛" }
+    { "value": "KAM", "cuneiform": "𒄰", "unicode": "12130" },
+    { "value": "KAM2", "cuneiform": "𒆚", "unicode": "1219a" },
+    { "value": "KAM4", "cuneiform": "𒆛", "unicode": "1219b" }
   ],
   "kan": [
-    { "value": "KAN", "cuneiform": "𒃶" },
-    { "value": "KAN4", "cuneiform": "𒆍" }
+    { "value": "KAN", "cuneiform": "𒃶", "unicode": "120f6" },
+    { "value": "KAN4", "cuneiform": "𒆍", "unicode": "1218d" }
   ],
   "kar": [
-    { "value": "KAR", "cuneiform": "𒋼𒀀" },
-    { "value": "KAR2", "cuneiform": "𒃸" }
+    { "value": "KAR", "cuneiform": "𒋼𒀀", "unicode": "122fc-12000" },
+    { "value": "KAR2", "cuneiform": "𒃸", "unicode": "120f8" }
   ],
-  "karkara": [{ "value": "KARKARA", "cuneiform": "𒅎" }],
-  "kaskal": [{ "value": "KASKAL", "cuneiform": "𒆜" }],
-  "kaš": [{ "value": "KAŠ4", "cuneiform": "𒁽" }],
+  "karkara": [{ "value": "KARKARA", "cuneiform": "𒅎", "unicode": "1214e" }],
+  "kaskal": [{ "value": "KASKAL", "cuneiform": "𒆜", "unicode": "1219c" }],
+  "kaš": [{ "value": "KAŠ4", "cuneiform": "𒁽", "unicode": "1207d" }],
   "ke": [
-    { "value": "KE", "cuneiform": "𒆠" },
-    { "value": "KE2", "cuneiform": "𒄀" },
-    { "value": "KE4", "cuneiform": "𒆤" }
+    { "value": "KE", "cuneiform": "𒆠", "unicode": "121a0" },
+    { "value": "KE2", "cuneiform": "𒄀", "unicode": "12100" },
+    { "value": "KE4", "cuneiform": "𒆤", "unicode": "121a4" }
   ],
   "keš": [
-    { "value": "KEŠ2", "cuneiform": "𒆟" },
-    { "value": "KEŠ3", "cuneiform": "𒋙𒀭𒄲" }
+    { "value": "KEŠ2", "cuneiform": "𒆟", "unicode": "1219f" },
+    { "value": "KEŠ3", "cuneiform": "𒋙𒀭𒄲", "unicode": "122d9-1202d-12132" }
   ],
-  "kešda": [{ "value": "KEŠDA", "cuneiform": "𒂡" }],
+  "kešda": [{ "value": "KEŠDA", "cuneiform": "𒂡", "unicode": "120a1" }],
   "ki": [
-    { "value": "KI", "cuneiform": "𒆠" },
-    { "value": "KI2", "cuneiform": "𒄀" }
+    { "value": "KI", "cuneiform": "𒆠", "unicode": "121a0" },
+    { "value": "KI2", "cuneiform": "𒄀", "unicode": "12100" }
   ],
-  "kibir": [{ "value": "KIBIR2", "cuneiform": "𒋙𒀾" }],
+  "kibir": [{ "value": "KIBIR2", "cuneiform": "𒋙𒀾", "unicode": "122d9-1203e" }],
   "kid": [
-    { "value": "KID", "cuneiform": "𒆤" },
-    { "value": "KID2", "cuneiform": "𒋺" }
+    { "value": "KID", "cuneiform": "𒆤", "unicode": "121a4" },
+    { "value": "KID2", "cuneiform": "𒋺", "unicode": "122fa" }
   ],
-  "kiĝ": [{ "value": "KIĜ2", "cuneiform": "𒆥" }],
-  "kim": [{ "value": "KIM3", "cuneiform": "𒁍" }],
-  "kin": [{ "value": "KIN", "cuneiform": "𒆥" }],
-  "kinda": [{ "value": "KINDA", "cuneiform": "𒃱" }],
-  "kindagal": [{ "value": "KINDAGAL2", "cuneiform": "𒃲𒌵" }],
-  "kingal": [{ "value": "KINGAL", "cuneiform": "𒃲𒌺" }],
+  "kiĝ": [{ "value": "KIĜ2", "cuneiform": "𒆥", "unicode": "121a5" }],
+  "kim": [{ "value": "KIM3", "cuneiform": "𒁍", "unicode": "1204d" }],
+  "kin": [{ "value": "KIN", "cuneiform": "𒆥", "unicode": "121a5" }],
+  "kinda": [{ "value": "KINDA", "cuneiform": "𒃱", "unicode": "120f1" }],
+  "kindagal": [
+    { "value": "KINDAGAL2", "cuneiform": "𒃲𒌵", "unicode": "120f2-12335" }
+  ],
+  "kingal": [
+    { "value": "KINGAL", "cuneiform": "𒃲𒌺", "unicode": "120f2-1233a" }
+  ],
   "kir": [
-    { "value": "KIR4", "cuneiform": "𒅗" },
-    { "value": "KIR6", "cuneiform": "𒀘" }
+    { "value": "KIR4", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "KIR6", "cuneiform": "𒀘", "unicode": "12018" }
   ],
-  "kiri": [{ "value": "KIRI6", "cuneiform": "𒊬" }],
-  "kisal": [{ "value": "KISAL", "cuneiform": "𒆦" }],
-  "kisim": [{ "value": "KISIM5", "cuneiform": "𒆨" }],
-  "kislaḫ": [{ "value": "KISLAḪ", "cuneiform": "𒆠𒌓" }],
-  "kiš": [{ "value": "KIŠ", "cuneiform": "𒆧" }],
+  "kiri": [{ "value": "KIRI6", "cuneiform": "𒊬", "unicode": "122ac" }],
+  "kisal": [{ "value": "KISAL", "cuneiform": "𒆦", "unicode": "121a6" }],
+  "kisim": [{ "value": "KISIM5", "cuneiform": "𒆨", "unicode": "121a8" }],
+  "kislaḫ": [
+    { "value": "KISLAḪ", "cuneiform": "𒆠𒌓", "unicode": "121a0-12313" }
+  ],
+  "kiš": [{ "value": "KIŠ", "cuneiform": "𒆧", "unicode": "121a7" }],
   "kiši": [
-    { "value": "KIŠI6", "cuneiform": "𒊾" },
-    { "value": "KIŠI8", "cuneiform": "𒁞" },
-    { "value": "KIŠI16", "cuneiform": "𒌑𒄉" },
-    { "value": "KIŠI17", "cuneiform": "𒄉" }
+    { "value": "KIŠI6", "cuneiform": "𒊾", "unicode": "122be" },
+    { "value": "KIŠI8", "cuneiform": "𒁞", "unicode": "1205e" },
+    { "value": "KIŠI16", "cuneiform": "𒌑𒄉", "unicode": "12311-12109" },
+    { "value": "KIŠI17", "cuneiform": "𒄉", "unicode": "12109" }
   ],
   "ku": [
-    { "value": "KU", "cuneiform": "𒆪" },
-    { "value": "KU3", "cuneiform": "𒆬" },
-    { "value": "KU4", "cuneiform": "𒆭" },
-    { "value": "KU5", "cuneiform": "𒋻" },
-    { "value": "KU6", "cuneiform": "𒄩" },
-    { "value": "KU7", "cuneiform": "𒆯" }
+    { "value": "KU", "cuneiform": "𒆪", "unicode": "121aa" },
+    { "value": "KU3", "cuneiform": "𒆬", "unicode": "121ac" },
+    { "value": "KU4", "cuneiform": "𒆭", "unicode": "121ad" },
+    { "value": "KU5", "cuneiform": "𒋻", "unicode": "122fb" },
+    { "value": "KU6", "cuneiform": "𒄩", "unicode": "12129" },
+    { "value": "KU7", "cuneiform": "𒆯", "unicode": "121af" }
   ],
-  "kud": [{ "value": "KUD", "cuneiform": "𒋻" }],
-  "kug": [{ "value": "KUG", "cuneiform": "𒆬" }],
-  "kul": [{ "value": "KUL", "cuneiform": "𒆰" }],
+  "kud": [{ "value": "KUD", "cuneiform": "𒋻", "unicode": "122fb" }],
+  "kug": [{ "value": "KUG", "cuneiform": "𒆬", "unicode": "121ac" }],
+  "kul": [{ "value": "KUL", "cuneiform": "𒆰", "unicode": "121b0" }],
   "kum": [
-    { "value": "KUM", "cuneiform": "𒄣" },
-    { "value": "KUM2", "cuneiform": "𒉈" }
+    { "value": "KUM", "cuneiform": "𒄣", "unicode": "12123" },
+    { "value": "KUM2", "cuneiform": "𒉈", "unicode": "12248" }
   ],
   "kun": [
-    { "value": "KUN", "cuneiform": "𒆲" },
-    { "value": "KUN4", "cuneiform": "𒄿𒇻" }
+    { "value": "KUN", "cuneiform": "𒆲", "unicode": "121b2" },
+    { "value": "KUN4", "cuneiform": "𒄿𒇻", "unicode": "1213f-121fb" }
   ],
-  "kup": [{ "value": "KUP4", "cuneiform": "𒆤" }],
+  "kup": [{ "value": "KUP4", "cuneiform": "𒆤", "unicode": "121a4" }],
   "kur": [
-    { "value": "KUR", "cuneiform": "𒆳" },
-    { "value": "KUR2", "cuneiform": "𒉽" }
+    { "value": "KUR", "cuneiform": "𒆳", "unicode": "121b3" },
+    { "value": "KUR2", "cuneiform": "𒉽", "unicode": "1227d" }
   ],
-  "kurku": [{ "value": "KURKU2", "cuneiform": "𒅗𒀭𒉌𒋛" }],
-  "kurum": [{ "value": "KURUM7", "cuneiform": "𒅆𒂟" }],
+  "kurku": [
+    {
+      "value": "KURKU2",
+      "cuneiform": "𒅗𒀭𒉌𒋛",
+      "unicode": "12157-1202d-1224c-122db"
+    }
+  ],
+  "kurum": [{ "value": "KURUM7", "cuneiform": "𒅆𒂟", "unicode": "12146-1209f" }],
   "kuš": [
-    { "value": "KUŠ", "cuneiform": "𒋢" },
-    { "value": "KUŠ2", "cuneiform": "𒊨" },
-    { "value": "KUŠ3", "cuneiform": "𒌑" }
+    { "value": "KUŠ", "cuneiform": "𒋢", "unicode": "122e2" },
+    { "value": "KUŠ2", "cuneiform": "𒊨", "unicode": "122a8" },
+    { "value": "KUŠ3", "cuneiform": "𒌑", "unicode": "12311" }
   ],
   "kušu": [
-    { "value": "KUŠU", "cuneiform": "𒌋𒊊" },
-    { "value": "KUŠU2", "cuneiform": "𒆵" },
-    { "value": "KUŠU4", "cuneiform": "𒊨" }
+    { "value": "KUŠU", "cuneiform": "𒌋𒊊", "unicode": "1230b-1228a" },
+    { "value": "KUŠU2", "cuneiform": "𒆵", "unicode": "121b5" },
+    { "value": "KUŠU4", "cuneiform": "𒊨", "unicode": "122a8" }
   ],
-  "kušum": [{ "value": "KUŠUM4", "cuneiform": "𒌋𒊊" }],
+  "kušum": [{ "value": "KUŠUM4", "cuneiform": "𒌋𒊊", "unicode": "1230b-1228a" }],
   "la": [
-    { "value": "LA", "cuneiform": "𒆷" },
-    { "value": "LA2", "cuneiform": "𒇲" }
+    { "value": "LA", "cuneiform": "𒆷", "unicode": "121b7" },
+    { "value": "LA2", "cuneiform": "𒇲", "unicode": "121f2" }
   ],
-  "lag": [{ "value": "LAG", "cuneiform": "𒋃" }],
-  "lagab": [{ "value": "LAGAB", "cuneiform": "𒆸" }],
+  "lag": [{ "value": "LAG", "cuneiform": "𒋃", "unicode": "122c3" }],
+  "lagab": [{ "value": "LAGAB", "cuneiform": "𒆸", "unicode": "121b8" }],
   "lagar": [
-    { "value": "LAGAR", "cuneiform": "𒇬" },
-    { "value": "LAGAR3", "cuneiform": "𒊩𒄸" }
+    { "value": "LAGAR", "cuneiform": "𒇬", "unicode": "121ec" },
+    { "value": "LAGAR3", "cuneiform": "𒊩𒄸", "unicode": "122a9-12138" }
   ],
-  "lagaš": [{ "value": "LAGAŠ", "cuneiform": "𒉢𒁓𒆷" }],
-  "laḫ": [{ "value": "LAḪ4", "cuneiform": "𒁻" }],
-  "laḫšu": [{ "value": "LAḪŠU", "cuneiform": "𒇱" }],
+  "lagaš": [
+    { "value": "LAGAŠ", "cuneiform": "𒉢𒁓𒆷", "unicode": "12262-12053-121b7" }
+  ],
+  "laḫ": [{ "value": "LAḪ4", "cuneiform": "𒁻", "unicode": "1207b" }],
+  "laḫšu": [{ "value": "LAḪŠU", "cuneiform": "𒇱", "unicode": "121f1" }],
   "laḫtan": [
-    { "value": "LAḪTAN", "cuneiform": "𒉴" },
-    { "value": "LAḪTAN2", "cuneiform": "𒉶" }
+    { "value": "LAḪTAN", "cuneiform": "𒉴", "unicode": "12274" },
+    { "value": "LAḪTAN2", "cuneiform": "𒉶", "unicode": "12276" }
   ],
   "lal": [
-    { "value": "LAL", "cuneiform": "𒇲" },
-    { "value": "LAL3", "cuneiform": "𒋭" }
+    { "value": "LAL", "cuneiform": "𒇲", "unicode": "121f2" },
+    { "value": "LAL3", "cuneiform": "𒋭", "unicode": "122ed" }
   ],
   "lam": [
-    { "value": "LAM", "cuneiform": "𒇴" },
-    { "value": "LAM2", "cuneiform": "𒉈" }
+    { "value": "LAM", "cuneiform": "𒇴", "unicode": "121f4" },
+    { "value": "LAM2", "cuneiform": "𒉈", "unicode": "12248" }
   ],
-  "lamma": [{ "value": "LAMMA", "cuneiform": "𒆗" }],
+  "lamma": [{ "value": "LAMMA", "cuneiform": "𒆗", "unicode": "12197" }],
   "le": [
-    { "value": "LE", "cuneiform": "𒇷" },
-    { "value": "LE2", "cuneiform": "𒉌" }
+    { "value": "LE", "cuneiform": "𒇷", "unicode": "121f7" },
+    { "value": "LE2", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
-  "lem": [{ "value": "LEM4", "cuneiform": "𒉈" }],
+  "lem": [{ "value": "LEM4", "cuneiform": "𒉈", "unicode": "12248" }],
   "li": [
-    { "value": "LI", "cuneiform": "𒇷" },
-    { "value": "LI2", "cuneiform": "𒉌" },
-    { "value": "LI9", "cuneiform": "𒉈" }
+    { "value": "LI", "cuneiform": "𒇷", "unicode": "121f7" },
+    { "value": "LI2", "cuneiform": "𒉌", "unicode": "1224c" },
+    { "value": "LI9", "cuneiform": "𒉈", "unicode": "12248" }
   ],
-  "lib": [{ "value": "LIB", "cuneiform": "𒈜" }],
-  "libir": [{ "value": "LIBIR", "cuneiform": "𒅆𒂠" }],
-  "libiš": [{ "value": "LIBIŠ", "cuneiform": "𒀚" }],
+  "lib": [{ "value": "LIB", "cuneiform": "𒈜", "unicode": "1221c" }],
+  "libir": [{ "value": "LIBIR", "cuneiform": "𒅆𒂠", "unicode": "12146-120a0" }],
+  "libiš": [{ "value": "LIBIŠ", "cuneiform": "𒀚", "unicode": "1201a" }],
   "lid": [
-    { "value": "LID", "cuneiform": "𒀖" },
-    { "value": "LID2", "cuneiform": "𒉌" }
+    { "value": "LID", "cuneiform": "𒀖", "unicode": "12016" },
+    { "value": "LID2", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
-  "ligima": [{ "value": "LIGIMA", "cuneiform": "𒅆𒌉𒌉" }],
+  "ligima": [
+    { "value": "LIGIMA", "cuneiform": "𒅆𒌉𒌉", "unicode": "12146-12309-12309" }
+  ],
   "lil": [
-    { "value": "LIL", "cuneiform": "𒇸" },
-    { "value": "LIL2", "cuneiform": "𒆤" }
+    { "value": "LIL", "cuneiform": "𒇸", "unicode": "121f8" },
+    { "value": "LIL2", "cuneiform": "𒆤", "unicode": "121a4" }
   ],
-  "liliz": [{ "value": "LILIZ", "cuneiform": "𒀗" }],
-  "lim": [{ "value": "LIM", "cuneiform": "𒅆" }],
-  "limmu": [{ "value": "LIMMU2", "cuneiform": "𒇹" }],
-  "liš": [{ "value": "LIŠ", "cuneiform": "𒇺" }],
+  "liliz": [{ "value": "LILIZ", "cuneiform": "𒀗", "unicode": "12017" }],
+  "lim": [{ "value": "LIM", "cuneiform": "𒅆", "unicode": "12146" }],
+  "limmu": [{ "value": "LIMMU2", "cuneiform": "𒇹", "unicode": "121f9" }],
+  "liš": [{ "value": "LIŠ", "cuneiform": "𒇺", "unicode": "121fa" }],
   "lu": [
-    { "value": "LU", "cuneiform": "𒇻" },
-    { "value": "LU2", "cuneiform": "𒇽" },
-    { "value": "LU3", "cuneiform": "𒈖" }
+    { "value": "LU", "cuneiform": "𒇻", "unicode": "121fb" },
+    { "value": "LU2", "cuneiform": "𒇽", "unicode": "121fd" },
+    { "value": "LU3", "cuneiform": "𒈖", "unicode": "12216" }
   ],
-  "lub": [{ "value": "LUB", "cuneiform": "𒈜" }],
-  "lug": [{ "value": "LUG", "cuneiform": "𒇻" }],
-  "lugal": [{ "value": "LUGAL", "cuneiform": "𒈗" }],
-  "lugud": [{ "value": "LUGUD3", "cuneiform": "𒈟" }],
-  "luḫ": [{ "value": "LUḪ", "cuneiform": "𒈛" }],
-  "lul": [{ "value": "LUL", "cuneiform": "𒈜" }],
-  "lum": [{ "value": "LUM", "cuneiform": "𒈝" }],
-  "lunga": [{ "value": "LUNGA3", "cuneiform": "𒋋" }],
+  "lub": [{ "value": "LUB", "cuneiform": "𒈜", "unicode": "1221c" }],
+  "lug": [{ "value": "LUG", "cuneiform": "𒇻", "unicode": "121fb" }],
+  "lugal": [{ "value": "LUGAL", "cuneiform": "𒈗", "unicode": "12217" }],
+  "lugud": [{ "value": "LUGUD3", "cuneiform": "𒈟", "unicode": "1221f" }],
+  "luḫ": [{ "value": "LUḪ", "cuneiform": "𒈛", "unicode": "1221b" }],
+  "lul": [{ "value": "LUL", "cuneiform": "𒈜", "unicode": "1221c" }],
+  "lum": [{ "value": "LUM", "cuneiform": "𒈝", "unicode": "1221d" }],
+  "lunga": [{ "value": "LUNGA3", "cuneiform": "𒋋", "unicode": "122cb" }],
   "ma": [
-    { "value": "MA", "cuneiform": "𒈠" },
-    { "value": "MA2", "cuneiform": "𒈣" },
-    { "value": "MA3", "cuneiform": "𒂷" }
+    { "value": "MA", "cuneiform": "𒈠", "unicode": "12220" },
+    { "value": "MA2", "cuneiform": "𒈣", "unicode": "12223" },
+    { "value": "MA3", "cuneiform": "𒂷", "unicode": "120b7" }
   ],
-  "maḫ": [{ "value": "MAḪ", "cuneiform": "𒈤" }],
-  "mar": [{ "value": "MAR", "cuneiform": "𒈥" }],
+  "maḫ": [{ "value": "MAḪ", "cuneiform": "𒈤", "unicode": "12224" }],
+  "mar": [{ "value": "MAR", "cuneiform": "𒈥", "unicode": "12225" }],
   "maš": [
-    { "value": "MAŠ", "cuneiform": "𒈦" },
-    { "value": "MAŠ2", "cuneiform": "𒈧" },
-    { "value": "MAŠ3", "cuneiform": "𒈦𒉺" }
+    { "value": "MAŠ", "cuneiform": "𒈦", "unicode": "12226" },
+    { "value": "MAŠ2", "cuneiform": "𒈧", "unicode": "12227" },
+    { "value": "MAŠ3", "cuneiform": "𒈦𒉺", "unicode": "12226-1227a" }
   ],
-  "mašgi": [{ "value": "MAŠGI", "cuneiform": "𒌐" }],
+  "mašgi": [{ "value": "MAŠGI", "cuneiform": "𒌐", "unicode": "12310" }],
   "me": [
-    { "value": "ME", "cuneiform": "𒈨" },
-    { "value": "ME3", "cuneiform": "𒀞" }
+    { "value": "ME", "cuneiform": "𒈨", "unicode": "12228" },
+    { "value": "ME3", "cuneiform": "𒀞", "unicode": "1201e" }
   ],
   "men": [
-    { "value": "MEN", "cuneiform": "𒃞" },
-    { "value": "MEN2", "cuneiform": "𒈨" }
+    { "value": "MEN", "cuneiform": "𒃞", "unicode": "120de" },
+    { "value": "MEN2", "cuneiform": "𒈨", "unicode": "12228" }
   ],
-  "mes": [{ "value": "MES", "cuneiform": "𒈩" }],
-  "meš": [{ "value": "MEŠ", "cuneiform": "𒎌" }],
+  "mes": [{ "value": "MES", "cuneiform": "𒈩", "unicode": "12229" }],
+  "meš": [{ "value": "MEŠ", "cuneiform": "𒎌", "unicode": "1238c" }],
   "mi": [
-    { "value": "MI", "cuneiform": "𒈪" },
-    { "value": "MI2", "cuneiform": "𒊩" }
+    { "value": "MI", "cuneiform": "𒈪", "unicode": "1222a" },
+    { "value": "MI2", "cuneiform": "𒊩", "unicode": "122a9" }
   ],
   "min": [
-    { "value": "MIN", "cuneiform": "𒈫" },
-    { "value": "MIN3", "cuneiform": "𒌋𒌋" }
+    { "value": "MIN", "cuneiform": "𒈫", "unicode": "1222b" },
+    { "value": "MIN3", "cuneiform": "𒌋𒌋", "unicode": "1230b-1230b" }
   ],
-  "mitum": [{ "value": "MITUM2", "cuneiform": "𒆪𒅂" }],
+  "mitum": [{ "value": "MITUM2", "cuneiform": "𒆪𒅂", "unicode": "121aa-12142" }],
   "mu": [
-    { "value": "MU", "cuneiform": "𒈬" },
-    { "value": "MU2", "cuneiform": "𒊬" }
+    { "value": "MU", "cuneiform": "𒈬", "unicode": "1222c" },
+    { "value": "MU2", "cuneiform": "𒊬", "unicode": "122ac" }
   ],
   "mud": [
-    { "value": "MUD", "cuneiform": "𒄷𒄭" },
-    { "value": "MUD3", "cuneiform": "𒉯" }
+    { "value": "MUD", "cuneiform": "𒄷𒄭", "unicode": "12137-1212d" },
+    { "value": "MUD3", "cuneiform": "𒉯", "unicode": "1226f" }
   ],
-  "mudx": [{ "value": "MUDX", "cuneiform": "(LAK449)" }],
-  "mug": [{ "value": "MUG", "cuneiform": "𒈮" }],
-  "mul": [{ "value": "MUL", "cuneiform": "𒀯" }],
-  "mun": [{ "value": "MUN", "cuneiform": "𒁵" }],
-  "munsub": [{ "value": "MUNSUB", "cuneiform": "𒈰" }],
-  "munšub": [{ "value": "MUNŠUB", "cuneiform": "𒈰" }],
-  "munu": [{ "value": "MUNU4", "cuneiform": "𒉽𒊺𒉽" }],
-  "munus": [{ "value": "MUNUS", "cuneiform": "𒊩" }],
-  "mur": [{ "value": "MUR", "cuneiform": "𒄯" }],
+  "mug": [{ "value": "MUG", "cuneiform": "𒈮", "unicode": "1222e" }],
+  "mul": [{ "value": "MUL", "cuneiform": "𒀯", "unicode": "1202f" }],
+  "mun": [{ "value": "MUN", "cuneiform": "𒁵", "unicode": "12075" }],
+  "munsub": [{ "value": "MUNSUB", "cuneiform": "𒈰", "unicode": "12230" }],
+  "munšub": [{ "value": "MUNŠUB", "cuneiform": "𒈰", "unicode": "12230" }],
+  "munu": [
+    { "value": "MUNU4", "cuneiform": "𒉽𒊺𒉽", "unicode": "1227d-122ba-1227d" }
+  ],
+  "munus": [{ "value": "MUNUS", "cuneiform": "𒊩", "unicode": "122a9" }],
+  "mur": [{ "value": "MUR", "cuneiform": "𒄯", "unicode": "1212f" }],
   "murgu": [
-    { "value": "MURGU", "cuneiform": "𒋞" },
-    { "value": "MURGU2", "cuneiform": "𒈱" }
+    { "value": "MURGU", "cuneiform": "𒋞", "unicode": "122de" },
+    { "value": "MURGU2", "cuneiform": "𒈱", "unicode": "12231" }
   ],
   "muru": [
-    { "value": "MURU2", "cuneiform": "𒉠" },
-    { "value": "MURU9", "cuneiform": "𒅎𒂂" }
+    { "value": "MURU2", "cuneiform": "𒉠", "unicode": "12260" },
+    { "value": "MURU9", "cuneiform": "𒅎𒂂", "unicode": "1214e-12082" }
   ],
-  "murub": [{ "value": "MURUB4", "cuneiform": "𒉠" }],
-  "mussa": [{ "value": "MUSSA", "cuneiform": "𒊩𒍑𒁲" }],
+  "murub": [{ "value": "MURUB4", "cuneiform": "𒉠", "unicode": "12260" }],
+  "mussa": [
+    { "value": "MUSSA", "cuneiform": "𒊩𒍑𒁲", "unicode": "122a9-12351-12072" }
+  ],
   "muš": [
-    { "value": "MUŠ", "cuneiform": "𒈲" },
-    { "value": "MUŠ2", "cuneiform": "𒈽" },
-    { "value": "MUŠ3", "cuneiform": "𒈹" }
+    { "value": "MUŠ", "cuneiform": "𒈲", "unicode": "12232" },
+    { "value": "MUŠ2", "cuneiform": "𒈽", "unicode": "1223d" },
+    { "value": "MUŠ3", "cuneiform": "𒈹", "unicode": "12239" }
   ],
-  "mušen": [{ "value": "MUŠEN", "cuneiform": "𒄷" }],
-  "muštug": [{ "value": "MUŠTUG2", "cuneiform": "𒈬𒍑𒌆𒉿" }],
+  "mušen": [{ "value": "MUŠEN", "cuneiform": "𒄷", "unicode": "12137" }],
+  "muštug": [
+    {
+      "value": "MUŠTUG2",
+      "cuneiform": "𒈬𒍑𒌆𒉿",
+      "unicode": "1222c-12351-12306-1227f"
+    }
+  ],
   "na": [
-    { "value": "NA", "cuneiform": "𒈾" },
-    { "value": "NA2", "cuneiform": "𒈿" },
-    { "value": "NA4", "cuneiform": "𒎎" }
+    { "value": "NA", "cuneiform": "𒈾", "unicode": "1223e" },
+    { "value": "NA2", "cuneiform": "𒈿", "unicode": "1223f" },
+    { "value": "NA4", "cuneiform": "𒎎", "unicode": "1238e" }
   ],
-  "nag": [{ "value": "NAG", "cuneiform": "𒅘" }],
-  "naga": [{ "value": "NAGA", "cuneiform": "𒉀" }],
-  "nagar": [{ "value": "NAGAR", "cuneiform": "𒉄" }],
-  "nagga": [{ "value": "NAGGA", "cuneiform": "𒀭𒈾" }],
-  "naggax": [{ "value": "NAGGAX", "cuneiform": "𒀭" }],
-  "naĝ": [{ "value": "NAĜ", "cuneiform": "𒅘" }],
+  "nag": [{ "value": "NAG", "cuneiform": "𒅘", "unicode": "12158" }],
+  "naga": [{ "value": "NAGA", "cuneiform": "𒉀", "unicode": "12240" }],
+  "nagar": [{ "value": "NAGAR", "cuneiform": "𒉄", "unicode": "12244" }],
+  "nagga": [{ "value": "NAGGA", "cuneiform": "𒀭𒈾", "unicode": "1202d-1223e" }],
+  "naggax": [{ "value": "NAGGAX", "cuneiform": "𒀭", "unicode": "1202d" }],
+  "naĝ": [{ "value": "NAĜ", "cuneiform": "𒅘", "unicode": "12158" }],
   "naĝa": [
-    { "value": "NAĜA", "cuneiform": "𒉀" },
-    { "value": "NAĜA3", "cuneiform": "𒄤" },
-    { "value": "NAĜA4", "cuneiform": "𒄣" }
+    { "value": "NAĜA", "cuneiform": "𒉀", "unicode": "12240" },
+    { "value": "NAĜA3", "cuneiform": "𒄤", "unicode": "12124" },
+    { "value": "NAĜA4", "cuneiform": "𒄣", "unicode": "12123" }
   ],
   "nam": [
-    { "value": "NAM", "cuneiform": "𒉆" },
-    { "value": "NAM2", "cuneiform": "𒉇" }
+    { "value": "NAM", "cuneiform": "𒉆", "unicode": "12246" },
+    { "value": "NAM2", "cuneiform": "𒉇", "unicode": "12247" }
   ],
-  "namma": [{ "value": "NAMMA", "cuneiform": "𒇉" }],
-  "nanna": [{ "value": "NANNA", "cuneiform": "𒋀𒆠" }],
-  "nanše": [{ "value": "NANŠE", "cuneiform": "𒀏" }],
-  "nar": [{ "value": "NAR", "cuneiform": "𒈜" }],
+  "namma": [{ "value": "NAMMA", "cuneiform": "𒇉", "unicode": "121c9" }],
+  "nanna": [{ "value": "NANNA", "cuneiform": "𒋀𒆠", "unicode": "122c0-121a0" }],
+  "nanše": [{ "value": "NANŠE", "cuneiform": "𒀏", "unicode": "1200f" }],
+  "nar": [{ "value": "NAR", "cuneiform": "𒈜", "unicode": "1221c" }],
   "ne": [
-    { "value": "NE", "cuneiform": "𒉈" },
-    { "value": "NE2", "cuneiform": "𒉌" }
+    { "value": "NE", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "NE2", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
   "ni": [
-    { "value": "NI", "cuneiform": "𒉌" },
-    { "value": "NI2", "cuneiform": "𒉎" },
-    { "value": "NI3", "cuneiform": "𒃻" },
-    { "value": "NI5", "cuneiform": "𒉈" }
+    { "value": "NI", "cuneiform": "𒉌", "unicode": "1224c" },
+    { "value": "NI2", "cuneiform": "𒉎", "unicode": "1224e" },
+    { "value": "NI3", "cuneiform": "𒃻", "unicode": "120fb" },
+    { "value": "NI5", "cuneiform": "𒉈", "unicode": "12248" }
   ],
-  "nidba": [{ "value": "NIDBA2", "cuneiform": "𒉻𒈹" }],
+  "nidba": [{ "value": "NIDBA2", "cuneiform": "𒉻𒈹", "unicode": "1227b-12239" }],
   "nig": [
-    { "value": "NIG", "cuneiform": "𒊩𒌨" },
-    { "value": "NIG2", "cuneiform": "𒃻" }
+    { "value": "NIG", "cuneiform": "𒊩𒌨", "unicode": "122a9-12328" },
+    { "value": "NIG2", "cuneiform": "𒃻", "unicode": "120fb" }
   ],
-  "niga": [{ "value": "NIGA", "cuneiform": "𒊺" }],
+  "niga": [{ "value": "NIGA", "cuneiform": "𒊺", "unicode": "122ba" }],
   "nigin": [
-    { "value": "NIGIN", "cuneiform": "𒇔" },
-    { "value": "NIGIN2", "cuneiform": "𒆸" }
+    { "value": "NIGIN", "cuneiform": "𒇔", "unicode": "121d4" },
+    { "value": "NIGIN2", "cuneiform": "𒆸", "unicode": "121b8" }
   ],
-  "niĝ": [{ "value": "NIĜ2", "cuneiform": "𒃻" }],
-  "niĝin": [{ "value": "NIĜIN2", "cuneiform": "𒆸" }],
-  "nim": [{ "value": "NIM", "cuneiform": "𒉏" }],
+  "niĝ": [{ "value": "NIĜ2", "cuneiform": "𒃻", "unicode": "120fb" }],
+  "niĝin": [{ "value": "NIĜIN2", "cuneiform": "𒆸", "unicode": "121b8" }],
+  "nim": [{ "value": "NIM", "cuneiform": "𒉏", "unicode": "1224f" }],
   "nin": [
-    { "value": "NIN", "cuneiform": "𒎏" },
-    { "value": "NIN9", "cuneiform": "𒎐" }
+    { "value": "NIN", "cuneiform": "𒎏", "unicode": "1238f" },
+    { "value": "NIN9", "cuneiform": "𒎐", "unicode": "12390" }
   ],
-  "nina": [{ "value": "NINA", "cuneiform": "𒀏" }],
+  "nina": [{ "value": "NINA", "cuneiform": "𒀏", "unicode": "1200f" }],
   "ninda": [
-    { "value": "NINDA", "cuneiform": "𒃻" },
-    { "value": "NINDA2", "cuneiform": "𒉒" }
+    { "value": "NINDA", "cuneiform": "𒃻", "unicode": "120fb" },
+    { "value": "NINDA2", "cuneiform": "𒉒", "unicode": "12252" }
   ],
-  "ninna": [{ "value": "NINNA2", "cuneiform": "𒇧" }],
-  "ninni": [{ "value": "NINNI5", "cuneiform": "𒌃" }],
+  "ninna": [{ "value": "NINNA2", "cuneiform": "𒇧", "unicode": "121e7" }],
+  "ninni": [{ "value": "NINNI5", "cuneiform": "𒌃", "unicode": "12303" }],
   "nir": [
-    { "value": "NIR", "cuneiform": "𒉪" },
-    { "value": "NIR3", "cuneiform": "𒍝𒉏" }
+    { "value": "NIR", "cuneiform": "𒉪", "unicode": "1226a" },
+    { "value": "NIR3", "cuneiform": "𒍝𒉏", "unicode": "1235d-1224f" }
   ],
-  "nisag": [{ "value": "NISAG", "cuneiform": "𒉠" }],
-  "nita": [{ "value": "NITA", "cuneiform": "𒍑" }],
-  "nitaḫ": [{ "value": "NITAḪ2", "cuneiform": "𒀴" }],
-  "nitalam": [{ "value": "NITALAM4", "cuneiform": "𒊩𒍑" }],
+  "nisag": [{ "value": "NISAG", "cuneiform": "𒉠", "unicode": "12260" }],
+  "nita": [{ "value": "NITA", "cuneiform": "𒍑", "unicode": "12351" }],
+  "nitaḫ": [{ "value": "NITAḪ2", "cuneiform": "𒀴", "unicode": "12034" }],
+  "nitalam": [
+    { "value": "NITALAM4", "cuneiform": "𒊩𒍑", "unicode": "122a9-12351" }
+  ],
   "nu": [
-    { "value": "NU", "cuneiform": "𒉡" },
-    { "value": "NU2", "cuneiform": "𒈿" },
-    { "value": "NU11", "cuneiform": "𒉢" },
-    { "value": "NU12", "cuneiform": "𒇻" }
+    { "value": "NU", "cuneiform": "𒉡", "unicode": "12261" },
+    { "value": "NU2", "cuneiform": "𒈿", "unicode": "1223f" },
+    { "value": "NU11", "cuneiform": "𒉢", "unicode": "12262" },
+    { "value": "NU12", "cuneiform": "𒇻", "unicode": "121fb" }
   ],
-  "nud": [{ "value": "NUD", "cuneiform": "𒈿" }],
+  "nud": [{ "value": "NUD", "cuneiform": "𒈿", "unicode": "1223f" }],
   "num": [
-    { "value": "NUM", "cuneiform": "𒉏" },
-    { "value": "NUM2", "cuneiform": "𒈝" }
+    { "value": "NUM", "cuneiform": "𒉏", "unicode": "1224f" },
+    { "value": "NUM2", "cuneiform": "𒈝", "unicode": "1221d" }
   ],
   "numun": [
-    { "value": "NUMUN", "cuneiform": "𒆰" },
-    { "value": "NUMUN2", "cuneiform": "𒍤𒆸" },
-    { "value": "NUMUN3", "cuneiform": "𒄴" }
+    { "value": "NUMUN", "cuneiform": "𒆰", "unicode": "121b0" },
+    { "value": "NUMUN2", "cuneiform": "𒍤𒆸", "unicode": "12364-121b8" },
+    { "value": "NUMUN3", "cuneiform": "𒄴", "unicode": "12134" }
   ],
-  "nun": [{ "value": "NUN", "cuneiform": "𒉣" }],
-  "nundum": [{ "value": "NUNDUM", "cuneiform": "𒅻" }],
-  "nunuz": [{ "value": "NUNUZ", "cuneiform": "𒉭" }],
+  "nun": [{ "value": "NUN", "cuneiform": "𒉣", "unicode": "12263" }],
+  "nundum": [{ "value": "NUNDUM", "cuneiform": "𒅻", "unicode": "1217b" }],
+  "nunuz": [{ "value": "NUNUZ", "cuneiform": "𒉭", "unicode": "1226d" }],
   "pa": [
-    { "value": "PA", "cuneiform": "𒉺" },
-    { "value": "PA5", "cuneiform": "𒉽𒂊" }
+    { "value": "PA", "cuneiform": "𒉺", "unicode": "1227a" },
+    { "value": "PA5", "cuneiform": "𒉽𒂊", "unicode": "1227d-1208a" }
   ],
-  "pab": [{ "value": "PAB", "cuneiform": "𒉽" }],
+  "pab": [{ "value": "PAB", "cuneiform": "𒉽", "unicode": "1227d" }],
   "pad": [
-    { "value": "PAD", "cuneiform": "𒉻" },
-    { "value": "PAD3", "cuneiform": "𒅆𒊒" }
+    { "value": "PAD", "cuneiform": "𒉻", "unicode": "1227b" },
+    { "value": "PAD3", "cuneiform": "𒅆𒊒", "unicode": "12146-12292" }
   ],
-  "palil": [{ "value": "PALIL", "cuneiform": "𒅆𒁺" }],
-  "pan": [{ "value": "PAN", "cuneiform": "𒉼" }],
-  "pap": [{ "value": "PAP", "cuneiform": "𒉽" }],
-  "par": [{ "value": "PAR3", "cuneiform": "𒁖" }],
-  "pe": [{ "value": "PE", "cuneiform": "𒄫" }],
+  "palil": [{ "value": "PALIL", "cuneiform": "𒅆𒁺", "unicode": "12146-1207a" }],
+  "pan": [{ "value": "PAN", "cuneiform": "𒉼", "unicode": "1227c" }],
+  "pap": [{ "value": "PAP", "cuneiform": "𒉽", "unicode": "1227d" }],
+  "par": [{ "value": "PAR3", "cuneiform": "𒁖", "unicode": "12056" }],
+  "pe": [{ "value": "PE", "cuneiform": "𒄫", "unicode": "1212b" }],
   "pel": [
-    { "value": "PEL", "cuneiform": "𒉈" },
-    { "value": "PEL2", "cuneiform": "𒉋" }
+    { "value": "PEL", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "PEL2", "cuneiform": "𒉋", "unicode": "1224b" }
   ],
   "peš": [
-    { "value": "PEŠ2", "cuneiform": "𒉾" },
-    { "value": "PEŠ3", "cuneiform": "𒈠" },
-    { "value": "PEŠ4", "cuneiform": "𒊯" },
-    { "value": "PEŠ6", "cuneiform": "𒆓" },
-    { "value": "PEŠ13", "cuneiform": "𒊴" }
+    { "value": "PEŠ2", "cuneiform": "𒉾", "unicode": "1227e" },
+    { "value": "PEŠ3", "cuneiform": "𒈠", "unicode": "12220" },
+    { "value": "PEŠ4", "cuneiform": "𒊯", "unicode": "122af" },
+    { "value": "PEŠ6", "cuneiform": "𒆓", "unicode": "12193" },
+    { "value": "PEŠ13", "cuneiform": "𒊴", "unicode": "122b4" }
   ],
   "pi": [
-    { "value": "PI", "cuneiform": "𒉿" },
-    { "value": "PI4", "cuneiform": "𒅗" }
+    { "value": "PI", "cuneiform": "𒉿", "unicode": "1227f" },
+    { "value": "PI4", "cuneiform": "𒅗", "unicode": "12157" }
   ],
-  "pil": [{ "value": "PIL", "cuneiform": "𒉈" }],
-  "pir": [{ "value": "PIR2", "cuneiform": "𒎕" }],
-  "pirig": [{ "value": "PIRIG", "cuneiform": "𒊊" }],
+  "pil": [{ "value": "PIL", "cuneiform": "𒉈", "unicode": "12248" }],
+  "pir": [{ "value": "PIR2", "cuneiform": "𒎕", "unicode": "12395" }],
+  "pirig": [{ "value": "PIRIG", "cuneiform": "𒊊", "unicode": "1228a" }],
   "piriĝ": [
-    { "value": "PIRIĜ", "cuneiform": "𒊊" },
-    { "value": "PIRIĜ2", "cuneiform": "𒌓" },
-    { "value": "PIRIĜ3", "cuneiform": "𒊌" }
+    { "value": "PIRIĜ", "cuneiform": "𒊊", "unicode": "1228a" },
+    { "value": "PIRIĜ2", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "PIRIĜ3", "cuneiform": "𒊌", "unicode": "1228c" }
   ],
   "pisaĝ": [
-    { "value": "PISAĜ", "cuneiform": "𒂷" },
-    { "value": "PISAĜ3", "cuneiform": "𒋄" }
+    { "value": "PISAĜ", "cuneiform": "𒂷", "unicode": "120b7" },
+    { "value": "PISAĜ3", "cuneiform": "𒋄", "unicode": "122c4" }
   ],
-  "pisan": [{ "value": "PISAN3", "cuneiform": "𒊿" }],
+  "pisan": [{ "value": "PISAN3", "cuneiform": "𒊿", "unicode": "122bf" }],
   "pu": [
-    { "value": "PU", "cuneiform": "𒁍" },
-    { "value": "PU2", "cuneiform": "𒇥" },
-    { "value": "PU3", "cuneiform": "𒅤" }
+    { "value": "PU", "cuneiform": "𒁍", "unicode": "1204d" },
+    { "value": "PU2", "cuneiform": "𒇥", "unicode": "121e5" },
+    { "value": "PU3", "cuneiform": "𒅤", "unicode": "12164" }
   ],
   "qa": [
-    { "value": "QA", "cuneiform": "𒋡" },
-    { "value": "QA2", "cuneiform": "𒂵" }
+    { "value": "QA", "cuneiform": "𒋡", "unicode": "122e1" },
+    { "value": "QA2", "cuneiform": "𒂵", "unicode": "120b5" }
   ],
-  "qar": [{ "value": "QAR", "cuneiform": "𒃼" }],
+  "qar": [{ "value": "QAR", "cuneiform": "𒃼", "unicode": "120fc" }],
   "qi": [
-    { "value": "QI2", "cuneiform": "𒆠" },
-    { "value": "QI4", "cuneiform": "𒄄" }
+    { "value": "QI2", "cuneiform": "𒆠", "unicode": "121a0" },
+    { "value": "QI4", "cuneiform": "𒄄", "unicode": "12104" }
   ],
-  "qum": [{ "value": "QUM", "cuneiform": "𒄣" }],
+  "qum": [{ "value": "QUM", "cuneiform": "𒄣", "unicode": "12123" }],
   "ra": [
-    { "value": "RA", "cuneiform": "𒊏" },
-    { "value": "RA2", "cuneiform": "𒁺" }
+    { "value": "RA", "cuneiform": "𒊏", "unicode": "1228f" },
+    { "value": "RA2", "cuneiform": "𒁺", "unicode": "1207a" }
   ],
-  "rab": [{ "value": "RAB", "cuneiform": "𒊐" }],
-  "rak": [{ "value": "RAK", "cuneiform": "𒊩" }],
+  "rab": [{ "value": "RAB", "cuneiform": "𒊐", "unicode": "12290" }],
+  "rak": [{ "value": "RAK", "cuneiform": "𒊩", "unicode": "122a9" }],
   "re": [
-    { "value": "RE", "cuneiform": "𒊑" },
-    { "value": "RE2", "cuneiform": "𒌷" },
-    { "value": "RE6", "cuneiform": "𒁺" },
-    { "value": "RE7", "cuneiform": "𒁻" }
+    { "value": "RE", "cuneiform": "𒊑", "unicode": "12291" },
+    { "value": "RE2", "cuneiform": "𒌷", "unicode": "12337" },
+    { "value": "RE6", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "RE7", "cuneiform": "𒁻", "unicode": "1207b" }
   ],
   "ri": [
-    { "value": "RI", "cuneiform": "𒊑" },
-    { "value": "RI2", "cuneiform": "𒌷" },
-    { "value": "RI8", "cuneiform": "𒈶" }
+    { "value": "RI", "cuneiform": "𒊑", "unicode": "12291" },
+    { "value": "RI2", "cuneiform": "𒌷", "unicode": "12337" },
+    { "value": "RI8", "cuneiform": "𒈶", "unicode": "12236" }
   ],
-  "rib": [{ "value": "RIB", "cuneiform": "𒆗" }],
-  "rid": [{ "value": "RID", "cuneiform": "𒈩" }],
-  "rig": [{ "value": "RIG2", "cuneiform": "𒍮" }],
-  "rim": [{ "value": "RIM4", "cuneiform": "𒁽" }],
-  "rin": [{ "value": "RIN", "cuneiform": "𒆸" }],
+  "rib": [{ "value": "RIB", "cuneiform": "𒆗", "unicode": "12197" }],
+  "rid": [{ "value": "RID", "cuneiform": "𒈩", "unicode": "12229" }],
+  "rig": [{ "value": "RIG2", "cuneiform": "𒍮", "unicode": "1236e" }],
+  "rim": [{ "value": "RIM4", "cuneiform": "𒁽", "unicode": "1207d" }],
+  "rin": [{ "value": "RIN", "cuneiform": "𒆸", "unicode": "121b8" }],
   "ru": [
-    { "value": "RU", "cuneiform": "𒊒" },
-    { "value": "RU6", "cuneiform": "𒂔" },
-    { "value": "RU12", "cuneiform": "𒂗" }
+    { "value": "RU", "cuneiform": "𒊒", "unicode": "12292" },
+    { "value": "RU6", "cuneiform": "𒂔", "unicode": "12094" },
+    { "value": "RU12", "cuneiform": "𒂗", "unicode": "12097" }
   ],
   "sa": [
-    { "value": "SA", "cuneiform": "𒊓" },
-    { "value": "SA2", "cuneiform": "𒁲" },
-    { "value": "SA6", "cuneiform": "𒊷" },
-    { "value": "SA11", "cuneiform": "𒋜" },
-    { "value": "SA12", "cuneiform": "𒊕" }
+    { "value": "SA", "cuneiform": "𒊓", "unicode": "12293" },
+    { "value": "SA2", "cuneiform": "𒁲", "unicode": "12072" },
+    { "value": "SA6", "cuneiform": "𒊷", "unicode": "122b7" },
+    { "value": "SA11", "cuneiform": "𒋜", "unicode": "122dc" },
+    { "value": "SA12", "cuneiform": "𒊕", "unicode": "12295" }
   ],
   "sag": [
-    { "value": "SAG", "cuneiform": "𒊕" },
-    { "value": "SAG3", "cuneiform": "𒉺" },
-    { "value": "SAG9", "cuneiform": "𒊷" }
+    { "value": "SAG", "cuneiform": "𒊕", "unicode": "12295" },
+    { "value": "SAG3", "cuneiform": "𒉺", "unicode": "1227a" },
+    { "value": "SAG9", "cuneiform": "𒊷", "unicode": "122b7" }
   ],
-  "saga": [{ "value": "SAGA11", "cuneiform": "𒆥" }],
-  "sagšu": [{ "value": "SAGŠU", "cuneiform": "𒌋𒊕" }],
-  "saĝ": [{ "value": "SAĜ", "cuneiform": "𒊕" }],
-  "saĝšu": [{ "value": "SAĜŠU", "cuneiform": "𒌋𒊕" }],
-  "saḫarx": [{ "value": "SAḪARX", "cuneiform": "𒉈" }],
+  "saga": [{ "value": "SAGA11", "cuneiform": "𒆥", "unicode": "121a5" }],
+  "sagšu": [{ "value": "SAGŠU", "cuneiform": "𒌋𒊕", "unicode": "1230b-12295" }],
+  "saĝ": [{ "value": "SAĜ", "cuneiform": "𒊕", "unicode": "12295" }],
+  "saĝšu": [{ "value": "SAĜŠU", "cuneiform": "𒌋𒊕", "unicode": "1230b-12295" }],
+  "saḫarx": [{ "value": "SAḪARX", "cuneiform": "𒉈", "unicode": "12248" }],
   "sal": [
-    { "value": "SAL", "cuneiform": "𒊩" },
-    { "value": "SAL4", "cuneiform": "𒋡" }
+    { "value": "SAL", "cuneiform": "𒊩", "unicode": "122a9" },
+    { "value": "SAL4", "cuneiform": "𒋡", "unicode": "122e1" }
   ],
-  "samanx": [{ "value": "SAMANX", "cuneiform": "𒂠𒁍𒂠𒉣𒂠𒌅" }],
-  "sanga": [{ "value": "SANGA2", "cuneiform": "𒊫" }],
-  "sar": [{ "value": "SAR", "cuneiform": "𒊬" }],
+  "samanx": [
+    {
+      "value": "SAMANX",
+      "cuneiform": "𒂠𒁍𒂠𒉣𒂠𒌅",
+      "unicode": "120a0-1204d-120a0-12263-120a0-12305"
+    }
+  ],
+  "sanga": [{ "value": "SANGA2", "cuneiform": "𒊫", "unicode": "122ab" }],
+  "sar": [{ "value": "SAR", "cuneiform": "𒊬", "unicode": "122ac" }],
   "se": [
-    { "value": "SE2", "cuneiform": "𒍣" },
-    { "value": "SE3", "cuneiform": "𒋧" },
-    { "value": "SE12", "cuneiform": "𒅊" }
+    { "value": "SE2", "cuneiform": "𒍣", "unicode": "12363" },
+    { "value": "SE3", "cuneiform": "𒋧", "unicode": "122e7" },
+    { "value": "SE12", "cuneiform": "𒅊", "unicode": "1214a" }
   ],
-  "sed": [{ "value": "SED", "cuneiform": "𒈻" }],
+  "sed": [{ "value": "SED", "cuneiform": "𒈻", "unicode": "1223b" }],
   "si": [
-    { "value": "SI", "cuneiform": "𒋛" },
-    { "value": "SI2", "cuneiform": "𒍣" },
-    { "value": "SI11", "cuneiform": "𒋝" },
-    { "value": "SI19", "cuneiform": "𒆉" },
-    { "value": "SI23", "cuneiform": "𒄢" }
+    { "value": "SI", "cuneiform": "𒋛", "unicode": "122db" },
+    { "value": "SI2", "cuneiform": "𒍣", "unicode": "12363" },
+    { "value": "SI11", "cuneiform": "𒋝", "unicode": "122dd" },
+    { "value": "SI19", "cuneiform": "𒆉", "unicode": "12189" },
+    { "value": "SI23", "cuneiform": "𒄢", "unicode": "12122" }
   ],
   "sig": [
-    { "value": "SIG", "cuneiform": "𒋝" },
-    { "value": "SIG2", "cuneiform": "𒋠" },
-    { "value": "SIG3", "cuneiform": "𒉺" },
-    { "value": "SIG4", "cuneiform": "𒋞" },
-    { "value": "SIG7", "cuneiform": "𒅊" },
-    { "value": "SIG9", "cuneiform": "𒋛" },
-    { "value": "SIG10", "cuneiform": "𒋧" },
-    { "value": "SIG17", "cuneiform": "𒄀" }
+    { "value": "SIG", "cuneiform": "𒋝", "unicode": "122dd" },
+    { "value": "SIG2", "cuneiform": "𒋠", "unicode": "122e0" },
+    { "value": "SIG3", "cuneiform": "𒉺", "unicode": "1227a" },
+    { "value": "SIG4", "cuneiform": "𒋞", "unicode": "122de" },
+    { "value": "SIG7", "cuneiform": "𒅊", "unicode": "1214a" },
+    { "value": "SIG9", "cuneiform": "𒋛", "unicode": "122db" },
+    { "value": "SIG10", "cuneiform": "𒋧", "unicode": "122e7" },
+    { "value": "SIG17", "cuneiform": "𒄀", "unicode": "12100" }
   ],
   "sik": [
-    { "value": "SIK", "cuneiform": "𒋝" },
-    { "value": "SIK2", "cuneiform": "𒋠" }
+    { "value": "SIK", "cuneiform": "𒋝", "unicode": "122dd" },
+    { "value": "SIK2", "cuneiform": "𒋠", "unicode": "122e0" }
   ],
-  "siki": [{ "value": "SIKI", "cuneiform": "𒋠" }],
-  "sikil": [{ "value": "SIKIL", "cuneiform": "𒂖" }],
-  "sil": [{ "value": "SIL7", "cuneiform": "𒂣" }],
+  "siki": [{ "value": "SIKI", "cuneiform": "𒋠", "unicode": "122e0" }],
+  "sikil": [{ "value": "SIKIL", "cuneiform": "𒂖", "unicode": "12096" }],
+  "sil": [{ "value": "SIL7", "cuneiform": "𒂣", "unicode": "120a3" }],
   "sila": [
-    { "value": "SILA", "cuneiform": "𒋻" },
-    { "value": "SILA3", "cuneiform": "𒋡" },
-    { "value": "SILA4", "cuneiform": "𒃢" }
+    { "value": "SILA", "cuneiform": "𒋻", "unicode": "122fb" },
+    { "value": "SILA3", "cuneiform": "𒋡", "unicode": "122e1" },
+    { "value": "SILA4", "cuneiform": "𒃢", "unicode": "120e2" }
   ],
-  "silig": [{ "value": "SILIG", "cuneiform": "𒍂" }],
-  "sim": [{ "value": "SIM", "cuneiform": "𒉆" }],
-  "simx": [{ "value": "SIMX", "cuneiform": "𒍼" }],
-  "simug": [{ "value": "SIMUG", "cuneiform": "𒌣" }],
-  "sin": [{ "value": "SIN2", "cuneiform": "𒉆" }],
-  "sipad": [{ "value": "SIPAD", "cuneiform": "𒉺𒇻" }],
-  "sir": [{ "value": "SIR2", "cuneiform": "𒁍" }],
+  "silig": [{ "value": "SILIG", "cuneiform": "𒍂", "unicode": "12342" }],
+  "sim": [{ "value": "SIM", "cuneiform": "𒉆", "unicode": "12246" }],
+  "simx": [{ "value": "SIMX", "cuneiform": "𒍼", "unicode": "1237c" }],
+  "simug": [{ "value": "SIMUG", "cuneiform": "𒌣", "unicode": "12323" }],
+  "sin": [{ "value": "SIN2", "cuneiform": "𒉆", "unicode": "12246" }],
+  "sipad": [{ "value": "SIPAD", "cuneiform": "𒉺𒇻", "unicode": "1227a-121fb" }],
+  "sir": [{ "value": "SIR2", "cuneiform": "𒁍", "unicode": "1204d" }],
   "sirara": [
-    { "value": "SIRARA", "cuneiform": "𒀏" },
-    { "value": "SIRARA2", "cuneiform": "𒌓𒈣𒀏𒋓" },
-    { "value": "SIRARA6", "cuneiform": "𒌓𒈣𒀏𒆠𒋳" }
+    { "value": "SIRARA", "cuneiform": "𒀏", "unicode": "1200f" },
+    {
+      "value": "SIRARA2",
+      "cuneiform": "𒌓𒈣𒀏𒋓",
+      "unicode": "12313-12223-1200f-122d3"
+    },
+    {
+      "value": "SIRARA6",
+      "cuneiform": "𒌓𒈣𒀏𒆠𒋳",
+      "unicode": "12313-12223-1200f-121a0-122f3"
+    }
   ],
-  "sirsir": [{ "value": "SIRSIR", "cuneiform": "𒁎" }],
-  "sis": [{ "value": "SIS", "cuneiform": "𒋀" }],
-  "siskur": [{ "value": "SISKUR", "cuneiform": "𒀬" }],
+  "sirsir": [{ "value": "SIRSIR", "cuneiform": "𒁎", "unicode": "1204e" }],
+  "sis": [{ "value": "SIS", "cuneiform": "𒋀", "unicode": "122c0" }],
+  "siskur": [{ "value": "SISKUR", "cuneiform": "𒀬", "unicode": "1202c" }],
   "su": [
-    { "value": "SU", "cuneiform": "𒋢" },
-    { "value": "SU3", "cuneiform": "𒋤" },
-    { "value": "SU4", "cuneiform": "𒋜" },
-    { "value": "SU6", "cuneiform": "𒅾" },
-    { "value": "SU7", "cuneiform": "𒇭" },
-    { "value": "SU11", "cuneiform": "𒅗" },
-    { "value": "SU13", "cuneiform": "𒁍" }
+    { "value": "SU", "cuneiform": "𒋢", "unicode": "122e2" },
+    { "value": "SU3", "cuneiform": "𒋤", "unicode": "122e4" },
+    { "value": "SU4", "cuneiform": "𒋜", "unicode": "122dc" },
+    { "value": "SU6", "cuneiform": "𒅾", "unicode": "1217e" },
+    { "value": "SU7", "cuneiform": "𒇭", "unicode": "121ed" },
+    { "value": "SU11", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "SU13", "cuneiform": "𒁍", "unicode": "1204d" }
   ],
   "sub": [
-    { "value": "SUB", "cuneiform": "𒅢" },
-    { "value": "SUB6", "cuneiform": "𒋳" }
+    { "value": "SUB", "cuneiform": "𒅢", "unicode": "12162" },
+    { "value": "SUB6", "cuneiform": "𒋳", "unicode": "122f3" }
   ],
   "sud": [
-    { "value": "SUD", "cuneiform": "𒋤" },
-    { "value": "SUD2", "cuneiform": "𒋥" },
-    { "value": "SUD4", "cuneiform": "𒁍" }
+    { "value": "SUD", "cuneiform": "𒋤", "unicode": "122e4" },
+    { "value": "SUD2", "cuneiform": "𒋥", "unicode": "122e5" },
+    { "value": "SUD4", "cuneiform": "𒁍", "unicode": "1204d" }
   ],
-  "suen": [{ "value": "SUEN", "cuneiform": "𒂗𒍪" }],
+  "suen": [{ "value": "SUEN", "cuneiform": "𒂗𒍪", "unicode": "12097-1236a" }],
   "sug": [
-    { "value": "SUG", "cuneiform": "𒆹" },
-    { "value": "SUG4", "cuneiform": "𒋤" }
+    { "value": "SUG", "cuneiform": "𒆹", "unicode": "121b9" },
+    { "value": "SUG4", "cuneiform": "𒋤", "unicode": "122e4" }
   ],
-  "suḫ": [{ "value": "SUḪ3", "cuneiform": "𒄗" }],
+  "suḫ": [{ "value": "SUḪ3", "cuneiform": "𒄗", "unicode": "12117" }],
   "suḫub": [
-    { "value": "SUḪUB3", "cuneiform": "𒋗𒁹" },
-    { "value": "SUḪUB4", "cuneiform": "𒋗𒁲𒌍" },
-    { "value": "SUḪUB5", "cuneiform": "𒋗𒂵" }
+    { "value": "SUḪUB3", "cuneiform": "𒋗𒁹", "unicode": "122d7-12079" },
+    { "value": "SUḪUB4", "cuneiform": "𒋗𒁲𒌍", "unicode": "122d7-12072-1230d" },
+    { "value": "SUḪUB5", "cuneiform": "𒋗𒂵", "unicode": "122d7-120b5" }
   ],
-  "suḫubx": [{ "value": "SUḪUBX", "cuneiform": "𒀯𒁇" }],
-  "suḫur": [{ "value": "SUḪUR", "cuneiform": "𒋦" }],
-  "suḫuš": [{ "value": "SUḪUŠ", "cuneiform": "𒁼" }],
-  "sukkal": [{ "value": "SUKKAL", "cuneiform": "𒈛" }],
-  "sukud": [{ "value": "SUKUD", "cuneiform": "𒃴" }],
+  "suḫubx": [
+    { "value": "SUḪUBX", "cuneiform": "𒀯𒁇", "unicode": "1202f-12047" }
+  ],
+  "suḫur": [{ "value": "SUḪUR", "cuneiform": "𒋦", "unicode": "122e6" }],
+  "suḫuš": [{ "value": "SUḪUŠ", "cuneiform": "𒁼", "unicode": "1207c" }],
+  "sukkal": [{ "value": "SUKKAL", "cuneiform": "𒈛", "unicode": "1221b" }],
+  "sukud": [{ "value": "SUKUD", "cuneiform": "𒃴", "unicode": "120f4" }],
   "sum": [
-    { "value": "SUM", "cuneiform": "𒋧" },
-    { "value": "SUM2", "cuneiform": "𒍮" }
+    { "value": "SUM", "cuneiform": "𒋧", "unicode": "122e7" },
+    { "value": "SUM2", "cuneiform": "𒍮", "unicode": "1236e" }
   ],
-  "sumaš": [{ "value": "SUMAŠ", "cuneiform": "𒋨" }],
-  "sumunx": [{ "value": "SUMUNX", "cuneiform": "𒂠" }],
+  "sumaš": [{ "value": "SUMAŠ", "cuneiform": "𒋨", "unicode": "122e8" }],
+  "sumunx": [{ "value": "SUMUNX", "cuneiform": "𒂠", "unicode": "120a0" }],
   "sumur": [
-    { "value": "SUMUR", "cuneiform": "𒊨" },
-    { "value": "SUMUR2", "cuneiform": "𒋦" },
-    { "value": "SUMUR3", "cuneiform": "𒈰" }
+    { "value": "SUMUR", "cuneiform": "𒊨", "unicode": "122a8" },
+    { "value": "SUMUR2", "cuneiform": "𒋦", "unicode": "122e6" },
+    { "value": "SUMUR3", "cuneiform": "𒈰", "unicode": "12230" }
   ],
   "sun": [
-    { "value": "SUN2", "cuneiform": "𒄢" },
-    { "value": "SUN5", "cuneiform": "𒁔" },
-    { "value": "SUN7", "cuneiform": "𒆗" }
+    { "value": "SUN2", "cuneiform": "𒄢", "unicode": "12122" },
+    { "value": "SUN5", "cuneiform": "𒁔", "unicode": "12054" },
+    { "value": "SUN7", "cuneiform": "𒆗", "unicode": "12197" }
   ],
   "sur": [
-    { "value": "SUR", "cuneiform": "𒋩" },
-    { "value": "SUR2", "cuneiform": "𒊨" },
-    { "value": "SUR3", "cuneiform": "𒄮" },
-    { "value": "SUR9", "cuneiform": "𒋪" },
-    { "value": "SUR12", "cuneiform": "𒇭" }
+    { "value": "SUR", "cuneiform": "𒋩", "unicode": "122e9" },
+    { "value": "SUR2", "cuneiform": "𒊨", "unicode": "122a8" },
+    { "value": "SUR3", "cuneiform": "𒄮", "unicode": "1212e" },
+    { "value": "SUR9", "cuneiform": "𒋪", "unicode": "122ea" },
+    { "value": "SUR12", "cuneiform": "𒇭", "unicode": "121ed" }
   ],
-  "surungal": [{ "value": "SURUNGAL", "cuneiform": "𒌓𒉣" }],
+  "surungal": [
+    { "value": "SURUNGAL", "cuneiform": "𒌓𒉣", "unicode": "12313-12263" }
+  ],
   "susbu": [
-    { "value": "SUSBU2", "cuneiform": "𒈽" },
-    { "value": "SUSBU3", "cuneiform": "𒈹𒁍" }
+    { "value": "SUSBU2", "cuneiform": "𒈽", "unicode": "1223d" },
+    { "value": "SUSBU3", "cuneiform": "𒈹𒁍", "unicode": "12239-1204d" }
   ],
-  "suš": [{ "value": "SUŠ2", "cuneiform": "𒉌" }],
+  "suš": [{ "value": "SUŠ2", "cuneiform": "𒉌", "unicode": "1224c" }],
   "ša": [
-    { "value": "ŠA", "cuneiform": "𒊭" },
-    { "value": "ŠA3", "cuneiform": "𒊮" },
-    { "value": "ŠA4", "cuneiform": "𒁺" },
-    { "value": "ŠA6", "cuneiform": "𒊷" }
+    { "value": "ŠA", "cuneiform": "𒊭", "unicode": "122ad" },
+    { "value": "ŠA3", "cuneiform": "𒊮", "unicode": "122ae" },
+    { "value": "ŠA4", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "ŠA6", "cuneiform": "𒊷", "unicode": "122b7" }
   ],
-  "šab": [{ "value": "ŠAB6", "cuneiform": "𒊸" }],
-  "šabra": [{ "value": "ŠABRA", "cuneiform": "𒉺𒀠" }],
-  "šag": [{ "value": "ŠAG4", "cuneiform": "𒊮" }],
-  "šagan": [{ "value": "ŠAGAN", "cuneiform": "𒌋𒃶" }],
-  "šaĝan": [{ "value": "ŠAĜAN", "cuneiform": "𒌋𒃶" }],
-  "šak": [{ "value": "ŠAK", "cuneiform": "𒊕" }],
-  "šakan": [{ "value": "ŠAKAN", "cuneiform": "𒌋𒃶" }],
-  "šakir": [{ "value": "ŠAKIR", "cuneiform": "𒍀" }],
-  "šalambi": [{ "value": "ŠALAMBI", "cuneiform": "𒊮" }],
-  "šam": [{ "value": "ŠAM2", "cuneiform": "𒉛" }],
+  "šab": [{ "value": "ŠAB6", "cuneiform": "𒊸", "unicode": "122b8" }],
+  "šabra": [{ "value": "ŠABRA", "cuneiform": "𒉺𒀠", "unicode": "1227a-12020" }],
+  "šag": [{ "value": "ŠAG4", "cuneiform": "𒊮", "unicode": "122ae" }],
+  "šagan": [{ "value": "ŠAGAN", "cuneiform": "𒌋𒃶", "unicode": "1230b-120f6" }],
+  "šaĝan": [{ "value": "ŠAĜAN", "cuneiform": "𒌋𒃶", "unicode": "1230b-120f6" }],
+  "šak": [{ "value": "ŠAK", "cuneiform": "𒊕", "unicode": "12295" }],
+  "šakan": [{ "value": "ŠAKAN", "cuneiform": "𒌋𒃶", "unicode": "1230b-120f6" }],
+  "šakir": [{ "value": "ŠAKIR", "cuneiform": "𒍀", "unicode": "12340" }],
+  "šalambi": [{ "value": "ŠALAMBI", "cuneiform": "𒊮", "unicode": "122ae" }],
+  "šam": [{ "value": "ŠAM2", "cuneiform": "𒉛", "unicode": "1225b" }],
   "šar": [
-    { "value": "ŠAR", "cuneiform": "𒊬" },
-    { "value": "ŠAR2", "cuneiform": "𒊹" }
+    { "value": "ŠAR", "cuneiform": "𒊬", "unicode": "122ac" },
+    { "value": "ŠAR2", "cuneiform": "𒊹", "unicode": "122b9" }
   ],
-  "šarx": [{ "value": "ŠARX", "cuneiform": "𒉈" }],
-  "šara": [{ "value": "ŠARA2", "cuneiform": "𒇋" }],
+  "šarx": [{ "value": "ŠARX", "cuneiform": "𒉈", "unicode": "12248" }],
+  "šara": [{ "value": "ŠARA2", "cuneiform": "𒇋", "unicode": "121cb" }],
   "še": [
-    { "value": "ŠE", "cuneiform": "𒊺" },
-    { "value": "ŠE3", "cuneiform": "𒂠" },
-    { "value": "ŠE10", "cuneiform": "𒆪" },
-    { "value": "ŠE22", "cuneiform": "𒂞" }
+    { "value": "ŠE", "cuneiform": "𒊺", "unicode": "122ba" },
+    { "value": "ŠE3", "cuneiform": "𒂠", "unicode": "120a0" },
+    { "value": "ŠE10", "cuneiform": "𒆪", "unicode": "121aa" },
+    { "value": "ŠE22", "cuneiform": "𒂞", "unicode": "1209e" }
   ],
   "šex": [
-    { "value": "ŠEX", "cuneiform": "𒅊" },
-    { "value": "ŠEX", "cuneiform": "𒀀𒅆" }
+    { "value": "ŠEX", "cuneiform": "𒅊", "unicode": "1214a" },
+    { "value": "ŠEX", "cuneiform": "𒀀𒅆", "unicode": "12000-12146" }
   ],
-  "šed": [{ "value": "ŠED6", "cuneiform": "𒆪" }],
+  "šed": [{ "value": "ŠED6", "cuneiform": "𒆪", "unicode": "121aa" }],
   "šeg": [
-    { "value": "ŠEG5", "cuneiform": "𒍋" },
-    { "value": "ŠEG9", "cuneiform": "𒊾" },
-    { "value": "ŠEG11", "cuneiform": "𒅝" }
+    { "value": "ŠEG5", "cuneiform": "𒍋", "unicode": "1234b" },
+    { "value": "ŠEG9", "cuneiform": "𒊾", "unicode": "122be" },
+    { "value": "ŠEG11", "cuneiform": "𒅝", "unicode": "1215d" }
   ],
-  "šegx": [{ "value": "ŠEGX", "cuneiform": "𒍀" }],
+  "šegx": [{ "value": "ŠEGX", "cuneiform": "𒍀", "unicode": "12340" }],
   "šeĝ": [
-    { "value": "ŠEĜ3", "cuneiform": "𒀀𒀭" },
-    { "value": "ŠEĜ6", "cuneiform": "𒉈" }
+    { "value": "ŠEĜ3", "cuneiform": "𒀀𒀭", "unicode": "12000-1202d" },
+    { "value": "ŠEĜ6", "cuneiform": "𒉈", "unicode": "12248" }
   ],
   "šem": [
-    { "value": "ŠEM3", "cuneiform": "𒀚" },
-    { "value": "ŠEM5", "cuneiform": "𒀎" }
+    { "value": "ŠEM3", "cuneiform": "𒀚", "unicode": "1201a" },
+    { "value": "ŠEM5", "cuneiform": "𒀎", "unicode": "1200e" }
   ],
-  "šembi": [{ "value": "ŠEMBI", "cuneiform": "𒋍" }],
-  "šembulugx": [{ "value": "ŠEMBULUGX", "cuneiform": "𒋎" }],
-  "šen": [{ "value": "ŠEN", "cuneiform": "𒊿" }],
-  "šennu": [{ "value": "ŠENNU", "cuneiform": "𒂗𒈨𒀜𒆬" }],
+  "šembi": [{ "value": "ŠEMBI", "cuneiform": "𒋍", "unicode": "122cd" }],
+  "šembulugx": [{ "value": "ŠEMBULUGX", "cuneiform": "𒋎", "unicode": "122ce" }],
+  "šen": [{ "value": "ŠEN", "cuneiform": "𒊿", "unicode": "122bf" }],
+  "šennu": [
+    {
+      "value": "ŠENNU",
+      "cuneiform": "𒂗𒈨𒀜𒆬",
+      "unicode": "12097-12228-1201c-121ac"
+    }
+  ],
   "šer": [
-    { "value": "ŠER7", "cuneiform": "𒉪" },
-    { "value": "ŠER11", "cuneiform": "𒄊𒁇" }
+    { "value": "ŠER7", "cuneiform": "𒉪", "unicode": "1226a" },
+    { "value": "ŠER11", "cuneiform": "𒄊𒁇", "unicode": "1210a-12047" }
   ],
   "šeš": [
-    { "value": "ŠEŠ", "cuneiform": "𒋀" },
-    { "value": "ŠEŠ2", "cuneiform": "𒋁" },
-    { "value": "ŠEŠ4", "cuneiform": "𒂞" }
+    { "value": "ŠEŠ", "cuneiform": "𒋀", "unicode": "122c0" },
+    { "value": "ŠEŠ2", "cuneiform": "𒋁", "unicode": "122c1" },
+    { "value": "ŠEŠ4", "cuneiform": "𒂞", "unicode": "1209e" }
   ],
-  "šešlam": [{ "value": "ŠEŠLAM", "cuneiform": "𒋂" }],
-  "ši": [{ "value": "ŠI", "cuneiform": "𒅆" }],
-  "šid": [{ "value": "ŠID", "cuneiform": "𒋃" }],
-  "šika": [{ "value": "ŠIKA", "cuneiform": "𒆷" }],
-  "šim": [{ "value": "ŠIM", "cuneiform": "𒋆" }],
-  "šin": [{ "value": "ŠIN", "cuneiform": "𒊿" }],
-  "šinx": [{ "value": "ŠINX", "cuneiform": "𒋋" }],
-  "šinig": [{ "value": "ŠINIG", "cuneiform": "𒋒" }],
-  "šir": [{ "value": "ŠIR", "cuneiform": "𒋓" }],
+  "šešlam": [{ "value": "ŠEŠLAM", "cuneiform": "𒋂", "unicode": "122c2" }],
+  "ši": [{ "value": "ŠI", "cuneiform": "𒅆", "unicode": "12146" }],
+  "šid": [{ "value": "ŠID", "cuneiform": "𒋃", "unicode": "122c3" }],
+  "šika": [{ "value": "ŠIKA", "cuneiform": "𒆷", "unicode": "121b7" }],
+  "šim": [{ "value": "ŠIM", "cuneiform": "𒋆", "unicode": "122c6" }],
+  "šin": [{ "value": "ŠIN", "cuneiform": "𒊿", "unicode": "122bf" }],
+  "šinx": [{ "value": "ŠINX", "cuneiform": "𒋋", "unicode": "122cb" }],
+  "šinig": [{ "value": "ŠINIG", "cuneiform": "𒋒", "unicode": "122d2" }],
+  "šir": [{ "value": "ŠIR", "cuneiform": "𒋓", "unicode": "122d3" }],
   "šita": [
-    { "value": "ŠITA", "cuneiform": "𒋖" },
-    { "value": "ŠITA3", "cuneiform": "𒋥" },
-    { "value": "ŠITA4", "cuneiform": "𒌋𒆤" }
+    { "value": "ŠITA", "cuneiform": "𒋖", "unicode": "122d6" },
+    { "value": "ŠITA3", "cuneiform": "𒋥", "unicode": "122e5" },
+    { "value": "ŠITA4", "cuneiform": "𒌋𒆤", "unicode": "1230b-121a4" }
   ],
   "šu": [
-    { "value": "ŠU", "cuneiform": "𒋗" },
-    { "value": "ŠU2", "cuneiform": "𒋙" },
-    { "value": "ŠU4", "cuneiform": "𒌋" }
+    { "value": "ŠU", "cuneiform": "𒋗", "unicode": "122d7" },
+    { "value": "ŠU2", "cuneiform": "𒋙", "unicode": "122d9" },
+    { "value": "ŠU4", "cuneiform": "𒌋", "unicode": "1230b" }
   ],
-  "šub": [{ "value": "ŠUB", "cuneiform": "𒊒" }],
-  "šuba": [{ "value": "ŠUBA", "cuneiform": "𒍝𒈽" }],
+  "šub": [{ "value": "ŠUB", "cuneiform": "𒊒", "unicode": "12292" }],
+  "šuba": [{ "value": "ŠUBA", "cuneiform": "𒍝𒈽", "unicode": "1235d-1223d" }],
   "šubtu": [
-    { "value": "ŠUBTU6", "cuneiform": "𒆝" },
-    { "value": "ŠUBTU7", "cuneiform": "𒆞" }
+    { "value": "ŠUBTU6", "cuneiform": "𒆝", "unicode": "1219d" },
+    { "value": "ŠUBTU7", "cuneiform": "𒆞", "unicode": "1219e" }
   ],
-  "šubtum": [{ "value": "ŠUBTUM3", "cuneiform": "𒆜𒆸" }],
-  "šubur": [{ "value": "ŠUBUR", "cuneiform": "𒋚" }],
-  "šudx": [{ "value": "ŠUDX", "cuneiform": "𒅗" }],
-  "šudu": [{ "value": "ŠUDU2", "cuneiform": "𒆃" }],
-  "šudul": [{ "value": "ŠUDUL2", "cuneiform": "𒌋𒌆" }],
-  "šudum": [{ "value": "ŠUDUM", "cuneiform": "𒋃" }],
-  "šuḫubx": [{ "value": "ŠUḪUBX", "cuneiform": "𒁇𒀭" }],
-  "šuk": [{ "value": "ŠUK", "cuneiform": "𒉻" }],
-  "šul": [{ "value": "ŠUL", "cuneiform": "𒂄" }],
+  "šubtum": [
+    { "value": "ŠUBTUM3", "cuneiform": "𒆜𒆸", "unicode": "1219c-121b8" }
+  ],
+  "šubur": [{ "value": "ŠUBUR", "cuneiform": "𒋚", "unicode": "122da" }],
+  "šudx": [{ "value": "ŠUDX", "cuneiform": "𒅗", "unicode": "12157" }],
+  "šudu": [{ "value": "ŠUDU2", "cuneiform": "𒆃", "unicode": "12183" }],
+  "šudul": [{ "value": "ŠUDUL2", "cuneiform": "𒌋𒌆", "unicode": "1230b-12306" }],
+  "šudum": [{ "value": "ŠUDUM", "cuneiform": "𒋃", "unicode": "122c3" }],
+  "šuḫubx": [
+    { "value": "ŠUḪUBX", "cuneiform": "𒁇𒀭", "unicode": "12047-1202d" }
+  ],
+  "šuk": [{ "value": "ŠUK", "cuneiform": "𒉻", "unicode": "1227b" }],
+  "šul": [{ "value": "ŠUL", "cuneiform": "𒂄", "unicode": "12084" }],
   "šum": [
-    { "value": "ŠUM", "cuneiform": "𒋳" },
-    { "value": "ŠUM2", "cuneiform": "𒋧" }
+    { "value": "ŠUM", "cuneiform": "𒋳", "unicode": "122f3" },
+    { "value": "ŠUM2", "cuneiform": "𒋧", "unicode": "122e7" }
   ],
-  "šuš": [{ "value": "ŠUŠ2", "cuneiform": "𒋙" }],
-  "šušur": [{ "value": "ŠUŠUR2", "cuneiform": "𒀽" }],
-  "šutum": [{ "value": "ŠUTUM", "cuneiform": "𒄀𒈾𒀊𒌋𒄞" }],
-  "ṣi": [{ "value": "ṢI2", "cuneiform": "𒍣" }],
-  "ta": [{ "value": "TA", "cuneiform": "𒋫" }],
-  "tab": [{ "value": "TAB", "cuneiform": "𒋰" }],
-  "tag": [{ "value": "TAG", "cuneiform": "𒋳" }],
-  "taḫ": [{ "value": "TAḪ", "cuneiform": "𒈭" }],
-  "tak": [{ "value": "TAK4", "cuneiform": "𒋺" }],
+  "šuš": [{ "value": "ŠUŠ2", "cuneiform": "𒋙", "unicode": "122d9" }],
+  "šušur": [{ "value": "ŠUŠUR2", "cuneiform": "𒀽", "unicode": "1203d" }],
+  "šutum": [
+    {
+      "value": "ŠUTUM",
+      "cuneiform": "𒄀𒈾𒀊𒌋𒄞",
+      "unicode": "12100-1223e-1200a-1230b-1211e"
+    }
+  ],
+  "ṣi": [{ "value": "ṢI2", "cuneiform": "𒍣", "unicode": "12363" }],
+  "ta": [{ "value": "TA", "cuneiform": "𒋫", "unicode": "122eb" }],
+  "tab": [{ "value": "TAB", "cuneiform": "𒋰", "unicode": "122f0" }],
+  "tag": [{ "value": "TAG", "cuneiform": "𒋳", "unicode": "122f3" }],
+  "taḫ": [{ "value": "TAḪ", "cuneiform": "𒈭", "unicode": "1222d" }],
+  "tak": [{ "value": "TAK4", "cuneiform": "𒋺", "unicode": "122fa" }],
   "tal": [
-    { "value": "TAL", "cuneiform": "𒊑" },
-    { "value": "TAL2", "cuneiform": "𒉿" }
+    { "value": "TAL", "cuneiform": "𒊑", "unicode": "12291" },
+    { "value": "TAL2", "cuneiform": "𒉿", "unicode": "1227f" }
   ],
   "tar": [
-    { "value": "TAR", "cuneiform": "𒋻" },
-    { "value": "TAR2", "cuneiform": "𒁯" }
+    { "value": "TAR", "cuneiform": "𒋻", "unicode": "122fb" },
+    { "value": "TAR2", "cuneiform": "𒁯", "unicode": "1206f" }
   ],
   "te": [
-    { "value": "TE", "cuneiform": "𒋼" },
-    { "value": "TE8", "cuneiform": "𒀉" }
+    { "value": "TE", "cuneiform": "𒋼", "unicode": "122fc" },
+    { "value": "TE8", "cuneiform": "𒀉", "unicode": "12009" }
   ],
-  "ter": [{ "value": "TER", "cuneiform": "𒌁" }],
+  "ter": [{ "value": "TER", "cuneiform": "𒌁", "unicode": "12301" }],
   "ti": [
-    { "value": "TI", "cuneiform": "𒋾" },
-    { "value": "TI2", "cuneiform": "𒎗" }
+    { "value": "TI", "cuneiform": "𒋾", "unicode": "122fe" },
+    { "value": "TI2", "cuneiform": "𒎗", "unicode": "12397" }
   ],
-  "tibir": [{ "value": "TIBIR", "cuneiform": "𒋳" }],
-  "tidnim": [{ "value": "TIDNIM", "cuneiform": "𒊎" }],
-  "tidnum": [{ "value": "TIDNUM", "cuneiform": "𒊎" }],
-  "tigi": [{ "value": "TIGI2", "cuneiform": "𒈜𒁆" }],
-  "til": [{ "value": "TIL", "cuneiform": "𒌀" }],
-  "tir": [{ "value": "TIR", "cuneiform": "𒌁" }],
-  "tiru": [{ "value": "TIRU", "cuneiform": "𒃲𒋼" }],
+  "tibir": [{ "value": "TIBIR", "cuneiform": "𒋳", "unicode": "122f3" }],
+  "tidnim": [{ "value": "TIDNIM", "cuneiform": "𒊎", "unicode": "1228e" }],
+  "tidnum": [{ "value": "TIDNUM", "cuneiform": "𒊎", "unicode": "1228e" }],
+  "tigi": [{ "value": "TIGI2", "cuneiform": "𒈜𒁆", "unicode": "1221c-12046" }],
+  "til": [{ "value": "TIL", "cuneiform": "𒌀", "unicode": "12300" }],
+  "tir": [{ "value": "TIR", "cuneiform": "𒌁", "unicode": "12301" }],
+  "tiru": [{ "value": "TIRU", "cuneiform": "𒃲𒋼", "unicode": "120f2-122fc" }],
   "tu": [
-    { "value": "TU", "cuneiform": "𒌅" },
-    { "value": "TU5", "cuneiform": "𒋗𒉀" },
-    { "value": "TU11", "cuneiform": "𒄸" },
-    { "value": "TU15", "cuneiform": "𒅎" },
-    { "value": "TU17", "cuneiform": "𒀀𒋗𒉀" }
+    { "value": "TU", "cuneiform": "𒌅", "unicode": "12305" },
+    { "value": "TU5", "cuneiform": "𒋗𒉀", "unicode": "122d7-12240" },
+    { "value": "TU11", "cuneiform": "𒄸", "unicode": "12138" },
+    { "value": "TU15", "cuneiform": "𒅎", "unicode": "1214e" },
+    { "value": "TU17", "cuneiform": "𒀀𒋗𒉀", "unicode": "12000-122d7-12240" }
   ],
-  "tubax": [{ "value": "TUBAX", "cuneiform": "𒌆" }],
-  "tud": [{ "value": "TUD", "cuneiform": "𒌅" }],
+  "tubax": [{ "value": "TUBAX", "cuneiform": "𒌆", "unicode": "12306" }],
+  "tud": [{ "value": "TUD", "cuneiform": "𒌅", "unicode": "12305" }],
   "tug": [
-    { "value": "TUG", "cuneiform": "𒌇" },
-    { "value": "TUG2", "cuneiform": "𒌆" }
+    { "value": "TUG", "cuneiform": "𒌇", "unicode": "12307" },
+    { "value": "TUG2", "cuneiform": "𒌆", "unicode": "12306" }
   ],
-  "tugx": [{ "value": "TUGX", "cuneiform": "(LAK483)" }],
-  "tuḫ": [{ "value": "TUḪ", "cuneiform": "𒂃" }],
-  "tuk": [{ "value": "TUK", "cuneiform": "𒌇" }],
+  "tuḫ": [{ "value": "TUḪ", "cuneiform": "𒂃", "unicode": "12083" }],
+  "tuk": [{ "value": "TUK", "cuneiform": "𒌇", "unicode": "12307" }],
   "tuku": [
-    { "value": "TUKU", "cuneiform": "𒌇" },
-    { "value": "TUKU4", "cuneiform": "𒇧" },
-    { "value": "TUKU5", "cuneiform": "𒋳" }
+    { "value": "TUKU", "cuneiform": "𒌇", "unicode": "12307" },
+    { "value": "TUKU4", "cuneiform": "𒇧", "unicode": "121e7" },
+    { "value": "TUKU5", "cuneiform": "𒋳", "unicode": "122f3" }
   ],
-  "tukul": [{ "value": "TUKUL", "cuneiform": "𒆪" }],
-  "tukum": [{ "value": "TUKUM", "cuneiform": "𒈜𒁆𒋗𒃻𒌉𒇲" }],
+  "tukul": [{ "value": "TUKUL", "cuneiform": "𒆪", "unicode": "121aa" }],
+  "tukum": [
+    {
+      "value": "TUKUM",
+      "cuneiform": "𒈜𒁆𒋗𒃻𒌉𒇲",
+      "unicode": "1221c-12046-122d7-120fb-12309-121f2"
+    }
+  ],
   "tukur": [
-    { "value": "TUKUR", "cuneiform": "𒆸" },
-    { "value": "TUKUR2", "cuneiform": "𒆁" },
-    { "value": "TUKUR3", "cuneiform": "𒆈" }
+    { "value": "TUKUR", "cuneiform": "𒆸", "unicode": "121b8" },
+    { "value": "TUKUR2", "cuneiform": "𒆁", "unicode": "12181" },
+    { "value": "TUKUR3", "cuneiform": "𒆈", "unicode": "12188" }
   ],
   "tum": [
-    { "value": "TUM", "cuneiform": "𒌈" },
-    { "value": "TUM2", "cuneiform": "𒁺" },
-    { "value": "TUM3", "cuneiform": "𒉐" },
-    { "value": "TUM9", "cuneiform": "𒅎" },
-    { "value": "TUM12", "cuneiform": "𒌅" }
+    { "value": "TUM", "cuneiform": "𒌈", "unicode": "12308" },
+    { "value": "TUM2", "cuneiform": "𒁺", "unicode": "1207a" },
+    { "value": "TUM3", "cuneiform": "𒉐", "unicode": "12250" },
+    { "value": "TUM9", "cuneiform": "𒅎", "unicode": "1214e" },
+    { "value": "TUM12", "cuneiform": "𒌅", "unicode": "12305" }
   ],
-  "tumu": [{ "value": "TUMU", "cuneiform": "𒅎" }],
-  "tun": [{ "value": "TUN3", "cuneiform": "𒂅" }],
+  "tumu": [{ "value": "TUMU", "cuneiform": "𒅎", "unicode": "1214e" }],
+  "tun": [{ "value": "TUN3", "cuneiform": "𒂅", "unicode": "12085" }],
   "tur": [
-    { "value": "TUR", "cuneiform": "𒌉" },
-    { "value": "TUR3", "cuneiform": "𒉣𒇬" },
-    { "value": "TUR8", "cuneiform": "𒁍" }
+    { "value": "TUR", "cuneiform": "𒌉", "unicode": "12309" },
+    { "value": "TUR3", "cuneiform": "𒉣𒇬", "unicode": "12263-121ec" },
+    { "value": "TUR8", "cuneiform": "𒁍", "unicode": "1204d" }
   ],
-  "tuš": [{ "value": "TUŠ", "cuneiform": "𒆪" }],
-  "tuše": [{ "value": "TUŠE", "cuneiform": "𒀀𒁺" }],
+  "tuš": [{ "value": "TUŠ", "cuneiform": "𒆪", "unicode": "121aa" }],
+  "tuše": [{ "value": "TUŠE", "cuneiform": "𒀀𒁺", "unicode": "12000-1207a" }],
   "u": [
-    { "value": "U", "cuneiform": "𒌋" },
-    { "value": "U2", "cuneiform": "𒌑" },
-    { "value": "U3", "cuneiform": "𒅇" },
-    { "value": "U4", "cuneiform": "𒌓" },
-    { "value": "U5", "cuneiform": "𒄷𒋛" },
-    { "value": "U6", "cuneiform": "𒅆𒂍" },
-    { "value": "U8", "cuneiform": "𒇇" },
-    { "value": "U11", "cuneiform": "𒄷" },
-    { "value": "U18", "cuneiform": "𒍇" },
-    { "value": "U19", "cuneiform": "𒌷" }
+    { "value": "U", "cuneiform": "𒌋", "unicode": "1230b" },
+    { "value": "U2", "cuneiform": "𒌑", "unicode": "12311" },
+    { "value": "U3", "cuneiform": "𒅇", "unicode": "12147" },
+    { "value": "U4", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "U5", "cuneiform": "𒄷𒋛", "unicode": "12137-122db" },
+    { "value": "U6", "cuneiform": "𒅆𒂍", "unicode": "12146-1208d" },
+    { "value": "U8", "cuneiform": "𒇇", "unicode": "121c7" },
+    { "value": "U11", "cuneiform": "𒄷", "unicode": "12137" },
+    { "value": "U18", "cuneiform": "𒍇", "unicode": "12347" },
+    { "value": "U19", "cuneiform": "𒌷", "unicode": "12337" }
   ],
   "ub": [
-    { "value": "UB", "cuneiform": "𒌒" },
-    { "value": "UB2", "cuneiform": "𒂠" }
+    { "value": "UB", "cuneiform": "𒌒", "unicode": "12312" },
+    { "value": "UB2", "cuneiform": "𒂠", "unicode": "120a0" }
   ],
-  "ubara": [{ "value": "UBARA", "cuneiform": "𒂬" }],
+  "ubara": [{ "value": "UBARA", "cuneiform": "𒂬", "unicode": "120ac" }],
   "ubur": [
-    { "value": "UBUR", "cuneiform": "𒁛" },
-    { "value": "UBUR2", "cuneiform": "𒁥" },
-    { "value": "UBUR3", "cuneiform": "𒁡" },
-    { "value": "UBUR4", "cuneiform": "𒁢" }
+    { "value": "UBUR", "cuneiform": "𒁛", "unicode": "1205b" },
+    { "value": "UBUR2", "cuneiform": "𒁥", "unicode": "12065" },
+    { "value": "UBUR3", "cuneiform": "𒁡", "unicode": "12061" },
+    { "value": "UBUR4", "cuneiform": "𒁢", "unicode": "12062" }
   ],
   "ud": [
-    { "value": "UD", "cuneiform": "𒌓" },
-    { "value": "UD5", "cuneiform": "𒍚" }
+    { "value": "UD", "cuneiform": "𒌓", "unicode": "12313" },
+    { "value": "UD5", "cuneiform": "𒍚", "unicode": "1235a" }
   ],
-  "udu": [{ "value": "UDU", "cuneiform": "𒇻" }],
-  "udub": [{ "value": "UDUB", "cuneiform": "𒇛" }],
-  "udug": [{ "value": "UDUG", "cuneiform": "𒌜" }],
+  "udu": [{ "value": "UDU", "cuneiform": "𒇻", "unicode": "121fb" }],
+  "udub": [{ "value": "UDUB", "cuneiform": "𒇛", "unicode": "121db" }],
+  "udug": [{ "value": "UDUG", "cuneiform": "𒌜", "unicode": "1231c" }],
   "ug": [
-    { "value": "UG", "cuneiform": "𒊌" },
-    { "value": "UG5", "cuneiform": "𒂦" }
+    { "value": "UG", "cuneiform": "𒊌", "unicode": "1228c" },
+    { "value": "UG5", "cuneiform": "𒂦", "unicode": "120a6" }
   ],
-  "ugax": [{ "value": "UGAX", "cuneiform": "𒌑𒉀" }],
-  "ugarx": [{ "value": "UGARX", "cuneiform": "𒅊" }],
-  "ugnim": [{ "value": "UGNIM", "cuneiform": "𒆠𒋢𒇻𒂠𒃻" }],
-  "ugu": [{ "value": "UGU", "cuneiform": "𒌋𒅗" }],
-  "ugula": [{ "value": "UGULA", "cuneiform": "𒉺" }],
-  "ugur": [{ "value": "UGUR2", "cuneiform": "𒅊" }],
-  "uĝ": [{ "value": "UĜ3", "cuneiform": "𒌦" }],
+  "ugax": [{ "value": "UGAX", "cuneiform": "𒌑𒉀", "unicode": "12311-12240" }],
+  "ugarx": [{ "value": "UGARX", "cuneiform": "𒅊", "unicode": "1214a" }],
+  "ugnim": [
+    {
+      "value": "UGNIM",
+      "cuneiform": "𒆠𒋢𒇻𒂠𒃻",
+      "unicode": "121a0-122e2-121fb-120a0-120fb"
+    }
+  ],
+  "ugu": [{ "value": "UGU", "cuneiform": "𒌋𒅗", "unicode": "1230b-12157" }],
+  "ugula": [{ "value": "UGULA", "cuneiform": "𒉺", "unicode": "1227a" }],
+  "ugur": [{ "value": "UGUR2", "cuneiform": "𒅊", "unicode": "1214a" }],
+  "uĝ": [{ "value": "UĜ3", "cuneiform": "𒌦", "unicode": "12326" }],
   "uḫ": [
-    { "value": "UḪ", "cuneiform": "𒄴" },
-    { "value": "UḪ2", "cuneiform": "𒌔" },
-    { "value": "UḪ3", "cuneiform": "𒆵" }
+    { "value": "UḪ", "cuneiform": "𒄴", "unicode": "12134" },
+    { "value": "UḪ2", "cuneiform": "𒌔", "unicode": "12314" },
+    { "value": "UḪ3", "cuneiform": "𒆵", "unicode": "121b5" }
   ],
-  "ukkin": [{ "value": "UKKIN", "cuneiform": "𒌺" }],
-  "uku": [{ "value": "UKU3", "cuneiform": "𒌦" }],
-  "ukur": [{ "value": "UKUR3", "cuneiform": "𒇳𒁺" }],
-  "ul": [{ "value": "UL", "cuneiform": "𒌌" }],
-  "ulu": [{ "value": "ULU3", "cuneiform": "𒍇" }],
-  "ulušin": [{ "value": "ULUŠIN3", "cuneiform": "𒀾𒀭" }],
-  "um": [{ "value": "UM", "cuneiform": "𒌝" }],
-  "umaḫ": [{ "value": "UMAḪ", "cuneiform": "𒇦" }],
-  "umbin": [{ "value": "UMBIN", "cuneiform": "𒌢" }],
+  "ukkin": [{ "value": "UKKIN", "cuneiform": "𒌺", "unicode": "1233a" }],
+  "uku": [{ "value": "UKU3", "cuneiform": "𒌦", "unicode": "12326" }],
+  "ukur": [{ "value": "UKUR3", "cuneiform": "𒇳𒁺", "unicode": "121f3-1207a" }],
+  "ul": [{ "value": "UL", "cuneiform": "𒌌", "unicode": "1230c" }],
+  "ulu": [{ "value": "ULU3", "cuneiform": "𒍇", "unicode": "12347" }],
+  "ulušin": [
+    { "value": "ULUŠIN3", "cuneiform": "𒀾𒀭", "unicode": "1203e-1202d" }
+  ],
+  "um": [{ "value": "UM", "cuneiform": "𒌝", "unicode": "1231d" }],
+  "umaḫ": [{ "value": "UMAḪ", "cuneiform": "𒇦", "unicode": "121e6" }],
+  "umbin": [{ "value": "UMBIN", "cuneiform": "𒌢", "unicode": "12322" }],
   "umbisaĝ": [
-    { "value": "UMBISAĜ", "cuneiform": "𒋃" },
-    { "value": "UMBISAĜ2", "cuneiform": "𒋄" }
+    { "value": "UMBISAĜ", "cuneiform": "𒋃", "unicode": "122c3" },
+    { "value": "UMBISAĜ2", "cuneiform": "𒋄", "unicode": "122c4" }
   ],
-  "ummux": [{ "value": "UMMUX", "cuneiform": "𒂔𒇲𒀀" }],
-  "ummud": [{ "value": "UMMUD", "cuneiform": "𒀀𒂔𒇲" }],
-  "umum": [{ "value": "UMUM", "cuneiform": "𒌣" }],
+  "ummux": [
+    { "value": "UMMUX", "cuneiform": "𒂔𒇲𒀀", "unicode": "12094-121f2-12000" }
+  ],
+  "ummud": [
+    { "value": "UMMUD", "cuneiform": "𒀀𒂔𒇲", "unicode": "12000-12094-121f2" }
+  ],
+  "umum": [{ "value": "UMUM", "cuneiform": "𒌣", "unicode": "12323" }],
   "umun": [
-    { "value": "UMUN2", "cuneiform": "𒌣" },
-    { "value": "UMUN3", "cuneiform": "𒄴" }
+    { "value": "UMUN2", "cuneiform": "𒌣", "unicode": "12323" },
+    { "value": "UMUN3", "cuneiform": "𒄴", "unicode": "12134" }
   ],
   "un": [
-    { "value": "UN", "cuneiform": "𒌦" },
-    { "value": "UN4", "cuneiform": "𒂬" }
+    { "value": "UN", "cuneiform": "𒌦", "unicode": "12326" },
+    { "value": "UN4", "cuneiform": "𒂬", "unicode": "120ac" }
   ],
-  "unken": [{ "value": "UNKEN", "cuneiform": "𒌺" }],
+  "unken": [{ "value": "UNKEN", "cuneiform": "𒌺", "unicode": "1233a" }],
   "unu": [
-    { "value": "UNU2", "cuneiform": "𒋼𒀕" },
-    { "value": "UNU6", "cuneiform": "𒋼𒀊" }
+    { "value": "UNU2", "cuneiform": "𒋼𒀕", "unicode": "122fc-12015" },
+    { "value": "UNU6", "cuneiform": "𒋼𒀊", "unicode": "122fc-1200a" }
   ],
-  "unug": [{ "value": "UNUG", "cuneiform": "𒀕" }],
-  "uq": [{ "value": "UQ", "cuneiform": "𒊌" }],
+  "unug": [{ "value": "UNUG", "cuneiform": "𒀕", "unicode": "12015" }],
+  "uq": [{ "value": "UQ", "cuneiform": "𒊌", "unicode": "1228c" }],
   "ur": [
-    { "value": "UR", "cuneiform": "𒌨" },
-    { "value": "UR2", "cuneiform": "𒌫" },
-    { "value": "UR3", "cuneiform": "𒃡" },
-    { "value": "UR4", "cuneiform": "𒌴" },
-    { "value": "UR5", "cuneiform": "𒄯" },
-    { "value": "UR11", "cuneiform": "𒀳" }
+    { "value": "UR", "cuneiform": "𒌨", "unicode": "12328" },
+    { "value": "UR2", "cuneiform": "𒌫", "unicode": "1232b" },
+    { "value": "UR3", "cuneiform": "𒃡", "unicode": "120e1" },
+    { "value": "UR4", "cuneiform": "𒌴", "unicode": "12334" },
+    { "value": "UR5", "cuneiform": "𒄯", "unicode": "1212f" },
+    { "value": "UR11", "cuneiform": "𒀳", "unicode": "12033" }
   ],
   "uri": [
-    { "value": "URI", "cuneiform": "𒌵" },
-    { "value": "URI3", "cuneiform": "𒌶" },
-    { "value": "URI4", "cuneiform": "𒅂" }
+    { "value": "URI", "cuneiform": "𒌵", "unicode": "12335" },
+    { "value": "URI3", "cuneiform": "𒌶", "unicode": "12336" },
+    { "value": "URI4", "cuneiform": "𒅂", "unicode": "12142" }
   ],
-  "urin": [{ "value": "URIN", "cuneiform": "𒌶" }],
+  "urin": [{ "value": "URIN", "cuneiform": "𒌶", "unicode": "12336" }],
   "uru": [
-    { "value": "URU", "cuneiform": "𒌷" },
-    { "value": "URU3", "cuneiform": "𒌶" },
-    { "value": "URU4", "cuneiform": "𒀳" },
-    { "value": "URU5", "cuneiform": "𒋽" },
-    { "value": "URU17", "cuneiform": "𒍇" }
+    { "value": "URU", "cuneiform": "𒌷", "unicode": "12337" },
+    { "value": "URU3", "cuneiform": "𒌶", "unicode": "12336" },
+    { "value": "URU4", "cuneiform": "𒀳", "unicode": "12033" },
+    { "value": "URU5", "cuneiform": "𒋽", "unicode": "122fd" },
+    { "value": "URU17", "cuneiform": "𒍇", "unicode": "12347" }
   ],
-  "urud": [{ "value": "URUD", "cuneiform": "𒍏" }],
-  "uruda": [{ "value": "URUDA", "cuneiform": "𒍏" }],
-  "urudu": [{ "value": "URUDU", "cuneiform": "𒍏" }],
+  "urud": [{ "value": "URUD", "cuneiform": "𒍏", "unicode": "1234f" }],
+  "uruda": [{ "value": "URUDA", "cuneiform": "𒍏", "unicode": "1234f" }],
+  "urudu": [{ "value": "URUDU", "cuneiform": "𒍏", "unicode": "1234f" }],
   "us": [
-    { "value": "US", "cuneiform": "𒊻" },
-    { "value": "US2", "cuneiform": "𒍑" }
+    { "value": "US", "cuneiform": "𒊻", "unicode": "122bb" },
+    { "value": "US2", "cuneiform": "𒍑", "unicode": "12351" }
   ],
-  "usagx": [{ "value": "USAGX", "cuneiform": "𒉭𒀖𒆷" }],
+  "usagx": [
+    { "value": "USAGX", "cuneiform": "𒉭𒀖𒆷", "unicode": "1226d-12016-121b7" }
+  ],
   "usan": [
-    { "value": "USAN2", "cuneiform": "𒄝" },
-    { "value": "USAN3", "cuneiform": "𒉮" }
+    { "value": "USAN2", "cuneiform": "𒄝", "unicode": "1211d" },
+    { "value": "USAN3", "cuneiform": "𒉮", "unicode": "1226e" }
   ],
-  "usanx": [{ "value": "USANX", "cuneiform": "𒄙" }],
+  "usanx": [{ "value": "USANX", "cuneiform": "𒄙", "unicode": "12119" }],
   "uš": [
-    { "value": "UŠ", "cuneiform": "𒍑" },
-    { "value": "UŠ2", "cuneiform": "𒍗" },
-    { "value": "UŠ8", "cuneiform": "𒀳" },
-    { "value": "UŠ11", "cuneiform": "𒅜" }
+    { "value": "UŠ", "cuneiform": "𒍑", "unicode": "12351" },
+    { "value": "UŠ2", "cuneiform": "𒍗", "unicode": "12357" },
+    { "value": "UŠ8", "cuneiform": "𒀳", "unicode": "12033" },
+    { "value": "UŠ11", "cuneiform": "𒅜", "unicode": "1215c" }
   ],
-  "ušx": [{ "value": "UŠX", "cuneiform": "𒍖" }],
-  "ušumx": [{ "value": "UŠUMX", "cuneiform": "𒍘" }],
-  "ut": [{ "value": "UT", "cuneiform": "𒌓" }],
-  "uttu": [{ "value": "UTTU", "cuneiform": "𒋸" }],
+  "ušx": [{ "value": "UŠX", "cuneiform": "𒍖", "unicode": "12356" }],
+  "ušumx": [{ "value": "UŠUMX", "cuneiform": "𒍘", "unicode": "12358" }],
+  "ut": [{ "value": "UT", "cuneiform": "𒌓", "unicode": "12313" }],
+  "uttu": [{ "value": "UTTU", "cuneiform": "𒋸", "unicode": "122f8" }],
   "utua": [
-    { "value": "UTUA", "cuneiform": "𒁭" },
-    { "value": "UTUA2", "cuneiform": "𒁦" }
+    { "value": "UTUA", "cuneiform": "𒁭", "unicode": "1206d" },
+    { "value": "UTUA2", "cuneiform": "𒁦", "unicode": "12066" }
   ],
-  "utuki": [{ "value": "UTUKI", "cuneiform": "𒍙" }],
+  "utuki": [{ "value": "UTUKI", "cuneiform": "𒍙", "unicode": "12359" }],
   "utul": [
-    { "value": "UTUL5", "cuneiform": "𒁟" },
-    { "value": "UTUL10", "cuneiform": "𒀖𒇻" }
+    { "value": "UTUL5", "cuneiform": "𒁟", "unicode": "1205f" },
+    { "value": "UTUL10", "cuneiform": "𒀖𒇻", "unicode": "12016-121fb" }
   ],
   "uz": [
-    { "value": "UZ", "cuneiform": "𒊻" },
-    { "value": "UZ3", "cuneiform": "𒍚" }
+    { "value": "UZ", "cuneiform": "𒊻", "unicode": "122bb" },
+    { "value": "UZ3", "cuneiform": "𒍚", "unicode": "1235a" }
   ],
-  "uzu": [{ "value": "UZU", "cuneiform": "𒍜" }],
-  "uzugx": [{ "value": "UZUGX", "cuneiform": "𒅗𒌑" }],
-  "wa": [{ "value": "WA", "cuneiform": "𒉿" }],
-  "we": [{ "value": "WE", "cuneiform": "𒉿" }],
-  "wi": [{ "value": "WI", "cuneiform": "𒉿" }],
+  "uzu": [{ "value": "UZU", "cuneiform": "𒍜", "unicode": "1235c" }],
+  "uzugx": [{ "value": "UZUGX", "cuneiform": "𒅗𒌑", "unicode": "12157-12311" }],
+  "wa": [{ "value": "WA", "cuneiform": "𒉿", "unicode": "1227f" }],
+  "we": [{ "value": "WE", "cuneiform": "𒉿", "unicode": "1227f" }],
+  "wi": [{ "value": "WI", "cuneiform": "𒉿", "unicode": "1227f" }],
   "za": [
-    { "value": "ZA", "cuneiform": "𒍝" },
-    { "value": "ZA3", "cuneiform": "𒍠" }
+    { "value": "ZA", "cuneiform": "𒍝", "unicode": "1235d" },
+    { "value": "ZA3", "cuneiform": "𒍠", "unicode": "12360" }
   ],
-  "zabalam": [{ "value": "ZABALAM", "cuneiform": "𒍝𒈽𒀕" }],
-  "zabar": [{ "value": "ZABAR", "cuneiform": "𒌓𒅗𒁇" }],
-  "zadim": [{ "value": "ZADIM", "cuneiform": "𒈯" }],
-  "zag": [{ "value": "ZAG", "cuneiform": "𒍠" }],
+  "zabalam": [
+    { "value": "ZABALAM", "cuneiform": "𒍝𒈽𒀕", "unicode": "1235d-1223d-12015" }
+  ],
+  "zabar": [
+    { "value": "ZABAR", "cuneiform": "𒌓𒅗𒁇", "unicode": "12313-12157-12047" }
+  ],
+  "zadim": [{ "value": "ZADIM", "cuneiform": "𒈯", "unicode": "1222f" }],
+  "zag": [{ "value": "ZAG", "cuneiform": "𒍠", "unicode": "12360" }],
   "zaḫ": [
-    { "value": "ZAḪ", "cuneiform": "𒉈" },
-    { "value": "ZAḪ3", "cuneiform": "𒀄" }
+    { "value": "ZAḪ", "cuneiform": "𒉈", "unicode": "12248" },
+    { "value": "ZAḪ3", "cuneiform": "𒀄", "unicode": "12004" }
   ],
-  "zak": [{ "value": "ZAK", "cuneiform": "𒍠" }],
-  "zal": [{ "value": "ZAL", "cuneiform": "𒉌" }],
-  "zalag": [{ "value": "ZALAG2", "cuneiform": "𒂟" }],
-  "zamx": [{ "value": "ZAMX", "cuneiform": "𒍡" }],
-  "zamug": [{ "value": "ZAMUG", "cuneiform": "𒁾" }],
+  "zak": [{ "value": "ZAK", "cuneiform": "𒍠", "unicode": "12360" }],
+  "zal": [{ "value": "ZAL", "cuneiform": "𒉌", "unicode": "1224c" }],
+  "zalag": [{ "value": "ZALAG2", "cuneiform": "𒂟", "unicode": "1209f" }],
+  "zamx": [{ "value": "ZAMX", "cuneiform": "𒍡", "unicode": "12361" }],
+  "zamug": [{ "value": "ZAMUG", "cuneiform": "𒁾", "unicode": "1207e" }],
   "zar": [
-    { "value": "ZAR", "cuneiform": "𒇡" },
-    { "value": "ZAR2", "cuneiform": "𒉌" }
+    { "value": "ZAR", "cuneiform": "𒇡", "unicode": "121e1" },
+    { "value": "ZAR2", "cuneiform": "𒉌", "unicode": "1224c" }
   ],
   "ze": [
-    { "value": "ZE", "cuneiform": "𒍣" },
-    { "value": "ZE2", "cuneiform": "𒍢" }
+    { "value": "ZE", "cuneiform": "𒍣", "unicode": "12363" },
+    { "value": "ZE2", "cuneiform": "𒍢", "unicode": "12362" }
   ],
   "zi": [
-    { "value": "ZI", "cuneiform": "𒍣" },
-    { "value": "ZI2", "cuneiform": "𒍢" },
-    { "value": "ZI3", "cuneiform": "𒍥" },
-    { "value": "ZI8", "cuneiform": "𒆗" }
+    { "value": "ZI", "cuneiform": "𒍣", "unicode": "12363" },
+    { "value": "ZI2", "cuneiform": "𒍢", "unicode": "12362" },
+    { "value": "ZI3", "cuneiform": "𒍥", "unicode": "12365" },
+    { "value": "ZI8", "cuneiform": "𒆗", "unicode": "12197" }
   ],
   "zib": [
-    { "value": "ZIB", "cuneiform": "𒍦" },
-    { "value": "ZIB2", "cuneiform": "𒍨" }
+    { "value": "ZIB", "cuneiform": "𒍦", "unicode": "12366" },
+    { "value": "ZIB2", "cuneiform": "𒍨", "unicode": "12368" }
   ],
-  "zid": [{ "value": "ZID", "cuneiform": "𒍣" }],
+  "zid": [{ "value": "ZID", "cuneiform": "𒍣", "unicode": "12363" }],
   "zig": [
-    { "value": "ZIG", "cuneiform": "𒍨" },
-    { "value": "ZIG3", "cuneiform": "𒍣" }
+    { "value": "ZIG", "cuneiform": "𒍨", "unicode": "12368" },
+    { "value": "ZIG3", "cuneiform": "𒍣", "unicode": "12363" }
   ],
-  "zik": [{ "value": "ZIK", "cuneiform": "𒍨" }],
+  "zik": [{ "value": "ZIK", "cuneiform": "𒍨", "unicode": "12368" }],
   "zil": [
-    { "value": "ZIL", "cuneiform": "𒉣" },
-    { "value": "ZIL2", "cuneiform": "𒋳" }
+    { "value": "ZIL", "cuneiform": "𒉣", "unicode": "12263" },
+    { "value": "ZIL2", "cuneiform": "𒋳", "unicode": "122f3" }
   ],
-  "zimbir": [{ "value": "ZIMBIR", "cuneiform": "𒌓𒄒𒉣" }],
-  "ziz": [{ "value": "ZIZ2", "cuneiform": "𒍩" }],
+  "zimbir": [
+    { "value": "ZIMBIR", "cuneiform": "𒌓𒄒𒉣", "unicode": "12313-12112-12263" }
+  ],
+  "ziz": [{ "value": "ZIZ2", "cuneiform": "𒍩", "unicode": "12369" }],
   "zu": [
-    { "value": "ZU", "cuneiform": "𒍪" },
-    { "value": "ZU2", "cuneiform": "𒅗" },
-    { "value": "ZU5", "cuneiform": "𒍫" }
+    { "value": "ZU", "cuneiform": "𒍪", "unicode": "1236a" },
+    { "value": "ZU2", "cuneiform": "𒅗", "unicode": "12157" },
+    { "value": "ZU5", "cuneiform": "𒍫", "unicode": "1236b" }
   ],
-  "zub": [{ "value": "ZUB", "cuneiform": "𒉽𒈿" }],
-  "zubi": [{ "value": "ZUBI", "cuneiform": "𒉽𒈿" }],
-  "zubud": [{ "value": "ZUBUD", "cuneiform": "𒄪" }],
-  "zubur": [{ "value": "ZUBUR", "cuneiform": "𒍭" }],
-  "zuḫ": [{ "value": "ZUḪ", "cuneiform": "𒅗" }],
-  "zulumḫi": [{ "value": "ZULUMḪI", "cuneiform": "𒋠𒋤" }],
-  "zum": [{ "value": "ZUM", "cuneiform": "𒍮" }],
-  "zur": [{ "value": "ZUR", "cuneiform": "𒀫" }]
+  "zub": [{ "value": "ZUB", "cuneiform": "𒉽𒈿", "unicode": "1227d-1223f" }],
+  "zubi": [{ "value": "ZUBI", "cuneiform": "𒉽𒈿", "unicode": "1227d-1223f" }],
+  "zubud": [{ "value": "ZUBUD", "cuneiform": "𒄪", "unicode": "1212a" }],
+  "zubur": [{ "value": "ZUBUR", "cuneiform": "𒍭", "unicode": "1236d" }],
+  "zuḫ": [{ "value": "ZUḪ", "cuneiform": "𒅗", "unicode": "12157" }],
+  "zulumḫi": [
+    { "value": "ZULUMḪI", "cuneiform": "𒋠𒋤", "unicode": "122e0-122e4" }
+  ],
+  "zum": [{ "value": "ZUM", "cuneiform": "𒍮", "unicode": "1236e" }],
+  "zur": [{ "value": "ZUR", "cuneiform": "𒀫", "unicode": "1202b" }]
 }
