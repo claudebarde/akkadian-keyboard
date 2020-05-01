@@ -90,6 +90,11 @@
   };
 
   const makeTranscription = value => {
+    if (!value) {
+      transcription = [];
+      return;
+    }
+
     const cuneiforms = Array.from(value);
     // gets unicode points of every character in the textarea
     const unicodePoints = cuneiforms.map(el => el.codePointAt(0).toString(16));
@@ -107,6 +112,8 @@
           }
         }
       });
+    } else {
+      transcription = [];
     }
   };
 

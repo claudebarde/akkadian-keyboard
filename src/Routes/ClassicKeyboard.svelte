@@ -382,7 +382,7 @@ itti ṭuppātim šaṭrātim šuati
     <div class="box syllabary">
       <h3 class="subtitle">Syllabary</h3>
       <div class="table-container">
-        <table class="table is-narrow is-striped">
+        <table class="table is-narrow is-striped is-fullwidth">
           <thead>
             <tr>
               <td />
