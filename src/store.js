@@ -43,7 +43,7 @@ const store = () => {
       { char: "û", corr: "8" },
       { char: "ĝ", corr: "gh" },
     ],
-    version: "2.0.0",
+    version: "3.0.0",
   });
 
   return {

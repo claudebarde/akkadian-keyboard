@@ -1,6 +1,7 @@
 <script>
   import insertTextAtCursor from "insert-text-at-cursor";
   import { onMount } from "svelte";
+  import { push } from "svelte-spa-router";
   import syllableParser from "../utils/syllableParser.js";
   import cuneiformsGenerator from "../utils/cuneiformsGenerator.js";
   import dictionarySearch from "../utils/dictionarySearch.js";
@@ -214,15 +215,16 @@ itti ṭuppātim šaṭrātim šuati
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
-    <div class="information">
-      <div class="tags has-addons">
-        <span class="tag is-dark">Logograms</span>
-        <span class="tag is-info">
-          {Object.keys(dictionary)
-            .map(letter => Object.keys(dictionary[letter]).length)
-            .reduce((a, b) => a + b)}
-        </span>
-      </div>
+    <h3 class="subtitle">Classic</h3>
+    <div class="buttons navigation">
+      <button class="button is-link is-light" on:click={() => push('/')}>
+        Classic
+      </button>
+      <button
+        class="button is-warning is-light"
+        on:click={() => push('/advanced')}>
+        Advanced
+      </button>
     </div>
     <textarea
       class="input"
@@ -379,54 +381,68 @@ itti ṭuppātim šaṭrātim šuati
     </div>
     <div class="box syllabary">
       <h3 class="subtitle">Syllabary</h3>
-      <table class="table is-narrow is-striped">
-        <thead>
-          <tr>
-            <td />
-            <td>-a</td>
-            <td>-e</td>
-            <td>-i</td>
-            <td>-u</td>
-            <td>a-</td>
-            <td>e-</td>
-            <td>i-</td>
-            <td>u-</td>
-          </tr>
-        </thead>
-        <tbody>
-          {@html $store.consonants
-            .map((cons, i) => {
-              let vowels = '';
-              if (i === 0) {
-                vowels = `<tr>
+      <div class="table-container">
+        <table class="table is-narrow is-striped">
+          <thead>
+            <tr>
+              <td />
+              <td>-a</td>
+              <td>-e</td>
+              <td>-i</td>
+              <td>-u</td>
+              <td>a-</td>
+              <td>e-</td>
+              <td>i-</td>
+              <td>u-</td>
+            </tr>
+          </thead>
+          <tbody>
+            {@html $store.consonants
+              .map((cons, i) => {
+                let vowels = '';
+                if (i === 0) {
+                  vowels = `<tr>
                   <td style="vertical-align:middle" />
-                  <td class="is-size-4 cuneiform-sign">${syllabary['a'].sign}</td>
-                  <td class="is-size-4 cuneiform-sign">${syllabary['e'].sign}</td>
-                  <td class="is-size-4 cuneiform-sign">${syllabary['i'].sign}</td>
-                  <td class="is-size-4 cuneiform-sign">${syllabary['u'].sign}</td>
+                  <td class="is-size-4-desktop is-size-5-touch cuneiform-sign">${syllabary['a'].sign}</td>
+                  <td class="is-size-4-desktop is-size-5-touch cuneiform-sign">${syllabary['e'].sign}</td>
+                  <td class="is-size-4-desktop is-size-5-touch cuneiform-sign">${syllabary['i'].sign}</td>
+                  <td class="is-size-4-desktop is-size-5-touch cuneiform-sign">${syllabary['u'].sign}</td>
                   <td />
                   <td />
                   <td />
                   <td />
                 </tr>`;
-              }
-              return `${vowels}<tr><td style="vertical-align:middle">${cons}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'a'].unique ? 'has-text-dark' : ''}" title="${cons + 'a'}">${syllabary[cons + 'a'].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'e'].unique ? 'has-text-dark' : ''}" title="${cons + 'e'}">${syllabary[cons + 'e'].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'i'].unique ? 'has-text-dark' : ''}" title="${cons + 'i'}">${syllabary[cons + 'i'].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary[cons + 'u'].unique ? 'has-text-dark' : ''}" title="${cons + 'u'}">${syllabary[cons + 'u'].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary['a' + cons].unique ? 'has-text-dark' : ''}" title="${'a' + cons}">${syllabary['a' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary['e' + cons].unique ? 'has-text-dark' : ''}" title="${'e' + cons}">${syllabary['e' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary['i' + cons].unique ? 'has-text-dark' : ''}" title="${'i' + cons}">${syllabary['i' + cons].sign || 'Ø'}</td>
-                        <td class="is-size-4 cuneiform-sign ${!syllabary['u' + cons].unique ? 'has-text-dark' : ''}" title="${'u' + cons}">${syllabary['u' + cons].sign || 'Ø'}</td>
+                }
+                return `${vowels}<tr><td style="vertical-align:middle">${cons}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary[cons + 'a'].unique ? 'has-text-dark' : ''}" title="${cons + 'a'}">${syllabary[cons + 'a'].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary[cons + 'e'].unique ? 'has-text-dark' : ''}" title="${cons + 'e'}">${syllabary[cons + 'e'].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary[cons + 'i'].unique ? 'has-text-dark' : ''}" title="${cons + 'i'}">${syllabary[cons + 'i'].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary[cons + 'u'].unique ? 'has-text-dark' : ''}" title="${cons + 'u'}">${syllabary[cons + 'u'].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary['a' + cons].unique ? 'has-text-dark' : ''}" title="${'a' + cons}">${syllabary['a' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary['e' + cons].unique ? 'has-text-dark' : ''}" title="${'e' + cons}">${syllabary['e' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary['i' + cons].unique ? 'has-text-dark' : ''}" title="${'i' + cons}">${syllabary['i' + cons].sign || 'Ø'}</td>
+                        <td class="is-size-4-desktop is-size-5-touch cuneiform-sign ${!syllabary['u' + cons].unique ? 'has-text-dark' : ''}" title="${'u' + cons}">${syllabary['u' + cons].sign || 'Ø'}</td>
                     </tr>`;
-            })
-            .join('')}
-        </tbody>
-      </table>
+              })
+              .join('')}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
+<footer>
+  <div class="information">
+    <div class="tags has-addons">
+      <span class="tag is-dark">Logograms</span>
+      <span class="tag is-info">
+        {Object.keys(dictionary)
+          .map(letter => Object.keys(dictionary[letter]).length)
+          .reduce((a, b) => a + b)}
+      </span>
+    </div>
+  </div>
+</footer>
 <!-- ONLY VISIBLE ON MOBILE-->
 <div
   class="columns is-vcentered is-hidden-desktop is-mobile"

@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { push } from "svelte-spa-router";
   import store from "../store.js";
   import { monoconsonants as syllabary } from "../databases/syllabary.json";
   import { biconsonants } from "../databases/syllabary.json";
@@ -172,7 +173,17 @@
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
     <h1 class="title">Akkadian Keyboard</h1>
-    <h3 class="subtitle">Prototype</h3>
+    <h3 class="subtitle">Advanced</h3>
+    <div class="buttons navigation">
+      <button class="button is-link is-light" on:click={() => push('/')}>
+        Classic
+      </button>
+      <button
+        class="button is-warning is-light"
+        on:click={() => push('/advanced')}>
+        Advanced
+      </button>
+    </div>
     <div class="box cuneiform-box">
       <h4 class="title is-4">Cuneiforms</h4>
       <textarea
